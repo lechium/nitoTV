@@ -1,0 +1,13 @@
+Architecture: iphoneos-arm
+Name: nitoTV
+Package: com.nito.nitotv
+Provides: com.nito.gs
+Conflicts: com.nito.gs(<=0.1-4)
+Replaces: com.nito.gs(<=0.1-4)
+Version: 0.8.3
+Website: nitosoft.com
+Maintainer: nito
+Author: nito
+Description: New and improved installer including package queues, weather, RSS, featured packages, revamped search, package deletion, automatically checks for essential updates now too!
+Section: Utilities
+Depends: beigelist, mobilesubstrate, org.tomcool.smframework(>=0.7.8-5), cydia(>=1.1.1), com.nito.tssagent(>=0.1-30), com.firecore.freemem-watcher

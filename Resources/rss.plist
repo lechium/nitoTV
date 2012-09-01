@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Feeds</key>
+	<dict>
+		<key>Digg</key>
+		<dict>
+			<key>location</key>
+			<string>http://feeds.digg.com/digg/popular.rss</string>
+			<key>name</key>
+			<string>Digg</string>
+		</dict>
+		<key>ESPN</key>
+		<dict>
+			<key>location</key>
+			<string>http://sports.espn.go.com/espn/rss/news</string>
+			<key>name</key>
+			<string>ESPN</string>
+		</dict>
+		<key>Engadget</key>
+		<dict>
+			<key>location</key>
+			<string>http://feeds.feedburner.com/weblogsinc/engadget</string>
+			<key>name</key>
+			<string>Engadget</string>
+		</dict>
+		<key>TUAW</key>
+		<dict>
+			<key>location</key>
+			<string>http://www.tuaw.com/rss.xml</string>
+			<key>name</key>
+			<string>TUAW</string>
+		</dict>
+		<key>Gadgetoid</key>
+		<dict>
+			<key>location</key>
+			<string>http://www.gadgetoid.com/feed/rss/</string>
+			<key>name</key>
+			<string>Gadgetoid</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

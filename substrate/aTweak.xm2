@@ -1,0 +1,178 @@
+/* 
+How to Hook with Logos
+Hooks are written with syntax similar to that of an Objective-C @implementation.
+You don't need to #include , it will be done automatically, as will
+the generation of a class list and an automatic constructor.
+*/
+
+%hook BRMediaMenuController
+
+- (id)focusedControlForEvent:(id)event focusPoint:(CGPoint *)point
+{
+	//NSLog(@"%@ %s", self, _cmd);
+	//NSLog(@"EVENT: %@",  event);
+	//%log;
+	return %orig;
+}
+
+- (id)actionItemAtIndex:(long)index
+{
+	//NSLog(@"%@ %s", self, _cmd);
+	//%log;
+	return %orig;
+}
+
+
+%end
+
+%hook BRFocusableImageControl
+
+
+ -(id)focusedImage
+{
+	%log;
+	return %orig;
+}
+
+- (id)unfocusedImage
+{
+
+	%log;
+	return %orig;
+}
+%end
+
+%hook RUIYTSearchController
+
+@class BRImageControl, BRTextEntryControl;
+
+-(void)_hideEditor
+{
+	%log;
+	%orig;
+}
+
+-(id)latestQuery
+{
+	//NSLog(@"queryClass: %@", NSStringFromClass([%orig class]));
+	//%log;
+	return %orig;
+}
+
+-(void)layoutSubcontrols
+
+{	
+	
+	BRImageControl *arrowImage(MSHookIvar<BRImageControl *>(self, "_arrow"));
+	BRTextEntryControl *editor (MSHookIvar<BRTextEntryControl *>(self, "_editor"));
+	CGRect theFrame = [editor frame];
+	NSString *stringFromFrame = NSStringFromCGRect(theFrame);
+	//NSLog(@"stringFromFrame: %@", stringFromFrame);
+	//%log;
+	%orig;
+}
+
+
+
+%end
+
+%hook BRTextEntryControl
+
+- (void)setInitialText:(id)text
+{
+	//NSString *textClass = NSStringFromClass([text class]);
+	//NSLog(@"textClass; %@", textClass);
+	//%log;
+	%orig;
+}
+
+- (void)setFocusToGlyphNamed:(id)glyphNamed
+{
+	NSLog(@"glyphNamed: %@", glyphNamed);
+	%log;
+	%orig;
+}
+
+%end
+
+%hook BRLocalizedStringManager
+
++ (id)appliance:(id)appliance localizedStringForKey:(id)key inFile:(id)file
+{
+	//%log;
+	return %orig;
+}
+
+- (BOOL)_keyboardFocusIsAtEdge:(int)edge
+{
+	%log;
+	return %orig;
+}
+
+%end
+
+%hook BRKeyboardCandidates
+
+- (void)setRawKeyboardDataStrings:(id)strings
+{
+	%log;
+	%orig;
+}
+
+%end
+
+%hook BRKeyboard
+
+
+- (void)setConstrainCursorToPopupKeyboard:(BOOL)popupKeyboard
+{
+	%log;
+	%orig;
+}
+
+- (id)_glyphDataForStrings:(id)strings attributes:(id)attributes
+{
+	NSString *textClass = NSStringFromClass([strings class]);
+	NSLog(@"_glyphDataForStrings: %@ class: %@", strings, textClass);
+	//%log;
+	return %orig;
+}
+
+- (id)_glyphDataForTextString:(id)textString attributes:(id)attributes
+{
+	//%log;
+	return %orig;
+}
+
+- (id)_keyboardDataFileName
+{
+	%log;
+	return %orig;
+}
+
+- (id)name
+{
+	%log;
+	return %orig;
+}
+
+- (void)setFocusedControlWithVisualIndex:(int)visualIndex forRow:(id)row
+{
+	%log;
+	%orig;
+}
+
+- (int)visualIndexOfControlWithName:(id)name forRow:(id)row
+{
+	%log;
+	return %orig;
+}
+
+- (int)visualIndexOfFocusedControlForRow:(id)row
+{
+	%log;
+	return %orig;
+}
+
+
+%end

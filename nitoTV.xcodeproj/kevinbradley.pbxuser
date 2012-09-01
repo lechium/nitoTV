@@ -1,0 +1,3126 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D5B49AC048680CD000E48DA /* atvTwo */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* atvTwo */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 32678A5212BC2CD9002ED5CC /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1135,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					731,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1095,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337301597;
+			PBXWorkspaceStateSaveDate = 337301597;
+		};
+		perUserProjectItems = {
+			3212589E1304928C00A1403A = 3212589E1304928C00A1403A /* PBXTextBookmark */;
+			32125E2C130635A500A1403A = 32125E2C130635A500A1403A /* PBXTextBookmark */;
+			321A047912EED72E00CF742F = 321A047912EED72E00CF742F /* PBXTextBookmark */;
+			321A047A12EED72E00CF742F = 321A047A12EED72E00CF742F /* PBXTextBookmark */;
+			321A047C12EED72E00CF742F = 321A047C12EED72E00CF742F /* PBXTextBookmark */;
+			321A05F112EF7FD800CF742F = 321A05F112EF7FD800CF742F /* PBXTextBookmark */;
+			321A05F212EF7FD800CF742F = 321A05F212EF7FD800CF742F /* PBXTextBookmark */;
+			321A05F412EF7FD800CF742F = 321A05F412EF7FD800CF742F /* PBXTextBookmark */;
+			321A05F612EF7FD800CF742F = 321A05F612EF7FD800CF742F /* PBXTextBookmark */;
+			321A05F812EF7FD800CF742F = 321A05F812EF7FD800CF742F /* PBXTextBookmark */;
+			321A05FA12EF7FD800CF742F = 321A05FA12EF7FD800CF742F /* PBXTextBookmark */;
+			321A05FC12EF7FD800CF742F = 321A05FC12EF7FD800CF742F /* PBXTextBookmark */;
+			321A05FE12EF7FD800CF742F = 321A05FE12EF7FD800CF742F /* PBXTextBookmark */;
+			321A080712F1694A00CF742F = 321A080712F1694A00CF742F /* PBXTextBookmark */;
+			321DBAE6135900660063757E = 321DBAE6135900660063757E /* PBXTextBookmark */;
+			3220B56312F6008700D08CF2 = 3220B56312F6008700D08CF2 /* PBXTextBookmark */;
+			322A547D1321C5550002365B = 322A547D1321C5550002365B /* PBXTextBookmark */;
+			322A58F713237CA00002365B = 322A58F713237CA00002365B /* PBXTextBookmark */;
+			322A58F913237CA00002365B = 322A58F913237CA00002365B /* PBXTextBookmark */;
+			322A58FA13237CA00002365B = 322A58FA13237CA00002365B /* PBXTextBookmark */;
+			322A58FB13237CA00002365B = 322A58FB13237CA00002365B /* PBXTextBookmark */;
+			322A58FC13237CA00002365B = 322A58FC13237CA00002365B /* PBXTextBookmark */;
+			322A58FE13237CA00002365B = 322A58FE13237CA00002365B /* PBXTextBookmark */;
+			322A58FF13237CA00002365B = 322A58FF13237CA00002365B /* PBXTextBookmark */;
+			322A590113237CA00002365B = 322A590113237CA00002365B /* PBXTextBookmark */;
+			322A590313237CA00002365B = 322A590313237CA00002365B /* PBXTextBookmark */;
+			322A590413237CA00002365B = 322A590413237CA00002365B /* PBXTextBookmark */;
+			322A590513237CA00002365B = 322A590513237CA00002365B /* PBXTextBookmark */;
+			322A590713237CA00002365B = 322A590713237CA00002365B /* PBXTextBookmark */;
+			322A590813237CA00002365B = 322A590813237CA00002365B /* PBXTextBookmark */;
+			322A590B13237CA00002365B = 322A590B13237CA00002365B /* PBXTextBookmark */;
+			322A590C13237CA00002365B = 322A590C13237CA00002365B /* PBXTextBookmark */;
+			322A590D13237CA00002365B = 322A590D13237CA00002365B /* PBXTextBookmark */;
+			322A590E13237CA00002365B = 322A590E13237CA00002365B /* PBXTextBookmark */;
+			322A590F13237CA00002365B = 322A590F13237CA00002365B /* PBXTextBookmark */;
+			322A591113237CA00002365B = 322A591113237CA00002365B /* PBXTextBookmark */;
+			322A591213237CA00002365B = 322A591213237CA00002365B /* PBXTextBookmark */;
+			322A591313237CA00002365B = 322A591313237CA00002365B /* PBXTextBookmark */;
+			322A591413237CA00002365B = 322A591413237CA00002365B /* PBXTextBookmark */;
+			322A591513237CA00002365B = 322A591513237CA00002365B /* PBXTextBookmark */;
+			322A591613237CA00002365B = 322A591613237CA00002365B /* PBXTextBookmark */;
+			322A591713237CA00002365B = 322A591713237CA00002365B /* PBXTextBookmark */;
+			322A5961132614070002365B = 322A5961132614070002365B /* PBXTextBookmark */;
+			322A5962132614070002365B = 322A5962132614070002365B /* PBXTextBookmark */;
+			322A5E5B1328CC250002365B = 322A5E5B1328CC250002365B /* PBXTextBookmark */;
+			322A5E5F1328CC250002365B = 322A5E5F1328CC250002365B /* PBXTextBookmark */;
+			322A5E611328CC250002365B = 322A5E611328CC250002365B /* PBXTextBookmark */;
+			322A5E631328CC250002365B = 322A5E631328CC250002365B /* PBXTextBookmark */;
+			322A6B56132B7FA00002365B = 322A6B56132B7FA00002365B /* PBXTextBookmark */;
+			3234DCAA135EDFA90038AE07 = 3234DCAA135EDFA90038AE07 /* PBXTextBookmark */;
+			323A21EF131FA205003BDB0A = 323A21EF131FA205003BDB0A /* PBXTextBookmark */;
+			323A2210131FA3A3003BDB0A = 323A2210131FA3A3003BDB0A /* PBXTextBookmark */;
+			32542A421309DF61002E7C34 = 32542A421309DF61002E7C34 /* PBXTextBookmark */;
+			32542A461309DF7E002E7C34 = 32542A461309DF7E002E7C34 /* nitoSettingsController.mm */;
+			32651E751418BC43009EBE63 = 32651E751418BC43009EBE63 /* PlistBookmark */;
+			32678A6C12BC4978002ED5CC = 32678A6C12BC4978002ED5CC /* PBXTextBookmark */;
+			32678A6F12BC4978002ED5CC = 32678A6F12BC4978002ED5CC /* PBXTextBookmark */;
+			327B03DC1415FEBB0078BB20 = 327B03DC1415FEBB0078BB20 /* PBXTextBookmark */;
+			327B03DD1415FEBB0078BB20 = 327B03DD1415FEBB0078BB20 /* PBXTextBookmark */;
+			327B03DE1415FEBB0078BB20 = 327B03DE1415FEBB0078BB20 /* PBXTextBookmark */;
+			327B03DF1415FEBB0078BB20 = 327B03DF1415FEBB0078BB20 /* PBXTextBookmark */;
+			327B04C5141604330078BB20 = 327B04C5141604330078BB20 /* PBXTextBookmark */;
+			327B0578141606B70078BB20 = 327B0578141606B70078BB20 /* PBXTextBookmark */;
+			327B0579141606B70078BB20 = 327B0579141606B70078BB20 /* PBXTextBookmark */;
+			327B05A01416074C0078BB20 = 327B05A01416074C0078BB20 /* PBXTextBookmark */;
+			327B0611141608950078BB20 = 327B0611141608950078BB20 /* PBXTextBookmark */;
+			327B06441416098D0078BB20 = 327B06441416098D0078BB20 /* PBXTextBookmark */;
+			327B0A1A14160AFC0078BB20 = 327B0A1A14160AFC0078BB20 /* PBXTextBookmark */;
+			327BF2D2141432750078BB20 = 327BF2D2141432750078BB20 /* PBXTextBookmark */;
+			327BF2D3141432750078BB20 = 327BF2D3141432750078BB20 /* PBXTextBookmark */;
+			327BF5DB141439E00078BB20 = 327BF5DB141439E00078BB20 /* PBXTextBookmark */;
+			327BF5DC141439E00078BB20 = 327BF5DC141439E00078BB20 /* PBXTextBookmark */;
+			327BF6C31414B2680078BB20 = 327BF6C31414B2680078BB20 /* PBXTextBookmark */;
+			327BF6C41414B2680078BB20 = 327BF6C41414B2680078BB20 /* PBXTextBookmark */;
+			327BF8D51414ED020078BB20 = 327BF8D51414ED020078BB20 /* PBXTextBookmark */;
+			328E53E713615E7400F4E9E3 = 328E53E713615E7400F4E9E3 /* PBXTextBookmark */;
+			328E53E913615E7400F4E9E3 = 328E53E913615E7400F4E9E3 /* PBXTextBookmark */;
+			328E53EB13615E7400F4E9E3 = 328E53EB13615E7400F4E9E3 /* PBXTextBookmark */;
+			328E577413616DF200F4E9E3 = 328E577413616DF200F4E9E3 /* PBXTextBookmark */;
+			32900AC913F90DB300A42BF2 = 32900AC913F90DB300A42BF2 /* PBXTextBookmark */;
+			3290BB39134EC2730098DBB6 = 3290BB39134EC2730098DBB6 /* PBXTextBookmark */;
+			3296FC3313C6C37500921ED0 = 3296FC3313C6C37500921ED0 /* PBXTextBookmark */;
+			3296FC3413C6C37500921ED0 = 3296FC3413C6C37500921ED0 /* PBXTextBookmark */;
+			3296FC3513C6C37500921ED0 = 3296FC3513C6C37500921ED0 /* PBXTextBookmark */;
+			3296FC3613C6C37500921ED0 = 3296FC3613C6C37500921ED0 /* PBXTextBookmark */;
+			3296FCC613CAC42500921ED0 = 3296FCC613CAC42500921ED0 /* PBXTextBookmark */;
+			329F45DB13CC259300CA53FD = 329F45DB13CC259300CA53FD /* PBXTextBookmark */;
+			329F45DC13CC259300CA53FD = 329F45DC13CC259300CA53FD /* PBXTextBookmark */;
+			329F45DE13CC259300CA53FD = 329F45DE13CC259300CA53FD /* PBXTextBookmark */;
+			329F579413CEAAA700CA53FD = 329F579413CEAAA700CA53FD /* PBXTextBookmark */;
+			329F579513CEAAA700CA53FD = 329F579513CEAAA700CA53FD /* PBXTextBookmark */;
+			32A364A913315C2F00454E39 = 32A364A913315C2F00454E39 /* PBXTextBookmark */;
+			32A364AB13315C2F00454E39 = 32A364AB13315C2F00454E39 /* PBXTextBookmark */;
+			32A3E00E134C5227002BD9F7 = 32A3E00E134C5227002BD9F7 /* PBXTextBookmark */;
+			32A69BD0141AD061009186F7 /* PBXBookmark */ = 32A69BD0141AD061009186F7 /* PBXBookmark */;
+			32A69BD1141AD079009186F7 /* PlistBookmark */ = 32A69BD1141AD079009186F7 /* PlistBookmark */;
+			32A69BD7141AD079009186F7 /* PBXTextBookmark */ = 32A69BD7141AD079009186F7 /* PBXTextBookmark */;
+			32A69BD8141AD215009186F7 /* PlistBookmark */ = 32A69BD8141AD215009186F7 /* PlistBookmark */;
+			32A69BD9141AD215009186F7 /* PBXTextBookmark */ = 32A69BD9141AD215009186F7 /* PBXTextBookmark */;
+			32A69C46141AEBF5009186F7 /* PlistBookmark */ = 32A69C46141AEBF5009186F7 /* PlistBookmark */;
+			32A69C47141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C47141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C4A141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C4A141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C4C141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C4C141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C50141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C50141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C52141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C52141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C56141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C56141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C58141AEBF5009186F7 /* PBXTextBookmark */ = 32A69C58141AEBF5009186F7 /* PBXTextBookmark */;
+			32A69C5D141AED40009186F7 /* PBXTextBookmark */ = 32A69C5D141AED40009186F7 /* PBXTextBookmark */;
+			32A69C60141AED40009186F7 /* PBXTextBookmark */ = 32A69C60141AED40009186F7 /* PBXTextBookmark */;
+			32A69C61141AED40009186F7 /* PBXTextBookmark */ = 32A69C61141AED40009186F7 /* PBXTextBookmark */;
+			32A69C62141AED40009186F7 /* PBXTextBookmark */ = 32A69C62141AED40009186F7 /* PBXTextBookmark */;
+			32A69C63141AED40009186F7 /* PBXTextBookmark */ = 32A69C63141AED40009186F7 /* PBXTextBookmark */;
+			32A69C64141AED40009186F7 /* PBXTextBookmark */ = 32A69C64141AED40009186F7 /* PBXTextBookmark */;
+			32A69C66141AEDA2009186F7 /* PBXTextBookmark */ = 32A69C66141AEDA2009186F7 /* PBXTextBookmark */;
+			32A69C67141AEDA2009186F7 /* PBXTextBookmark */ = 32A69C67141AEDA2009186F7 /* PBXTextBookmark */;
+			32A69C68141AEDA2009186F7 /* PBXTextBookmark */ = 32A69C68141AEDA2009186F7 /* PBXTextBookmark */;
+			32A69C69141AEDA2009186F7 /* PBXTextBookmark */ = 32A69C69141AEDA2009186F7 /* PBXTextBookmark */;
+			32A69C6A141AEDA2009186F7 /* PBXTextBookmark */ = 32A69C6A141AEDA2009186F7 /* PBXTextBookmark */;
+			32AAE43E14197D9300AB0E70 = 32AAE43E14197D9300AB0E70 /* PlistBookmark */;
+			32B99BCB14137097001D95EB = 32B99BCB14137097001D95EB /* PBXTextBookmark */;
+			32B99BEB141370E3001D95EB = 32B99BEB141370E3001D95EB /* PBXTextBookmark */;
+			32D954A21311D1FA007B5BE3 = 32D954A21311D1FA007B5BE3 /* PBXTextBookmark */;
+			32D96212131A4B59007B5BE3 = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+			32D9625C131A5E85007B5BE3 = 32D9625C131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D96262131A5E85007B5BE3 = 32D96262131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D96264131A5E85007B5BE3 = 32D96264131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D96265131A5E85007B5BE3 = 32D96265131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D96267131A5E85007B5BE3 = 32D96267131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D96269131A5E85007B5BE3 = 32D96269131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D9626D131A5E85007B5BE3 = 32D9626D131A5E85007B5BE3 /* PBXTextBookmark */;
+			32D965D7131B7148007B5BE3 = 32D965D7131B7148007B5BE3 /* PBXTextBookmark */;
+			32D96785131B8819007B5BE3 = 32D96785131B8819007B5BE3 /* PBXTextBookmark */;
+			32D967AD131B90A2007B5BE3 = 32D967AD131B90A2007B5BE3 /* PBXTextBookmark */;
+			32D970CA131DB922007B5BE3 = 32D970CA131DB922007B5BE3 /* PBXTextBookmark */;
+			32D975E8131E1044007B5BE3 = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+			32DF5AF112DDA37E002916D5 = 32DF5AF112DDA37E002916D5 /* PBXTextBookmark */;
+			32DF5AF212DDA37E002916D5 = 32DF5AF212DDA37E002916D5 /* PBXTextBookmark */;
+			32DF5AF512DDA37E002916D5 = 32DF5AF512DDA37E002916D5 /* PBXTextBookmark */;
+			32DF5AF612DDA37E002916D5 = 32DF5AF612DDA37E002916D5 /* PBXTextBookmark */;
+			32DF5AF812DDA37E002916D5 = 32DF5AF812DDA37E002916D5 /* PBXTextBookmark */;
+			32F8B13D133800CD00BFA0E1 = 32F8B13D133800CD00BFA0E1 /* PBXTextBookmark */;
+			32F8B13E133800CD00BFA0E1 = 32F8B13E133800CD00BFA0E1 /* PBXTextBookmark */;
+			32F8B140133800CD00BFA0E1 = 32F8B140133800CD00BFA0E1 /* PBXTextBookmark */;
+			32F8B142133800CD00BFA0E1 = 32F8B142133800CD00BFA0E1 /* PBXTextBookmark */;
+			32F8D1FB133EF81F00BFA0E1 = 32F8D1FB133EF81F00BFA0E1 /* PBXTextBookmark */;
+			32F8D1FD133EF81F00BFA0E1 = 32F8D1FD133EF81F00BFA0E1 /* PBXTextBookmark */;
+			87188B8E1279815B001861D7 = 87188B8E1279815B001861D7 /* nitoMediaMenuController.m */;
+			87188B961279815B001861D7 = 87188B961279815B001861D7 /* NitoTheme.m */;
+			87188B971279815B001861D7 = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+			87188BD7127981E5001861D7 = 87188BD7127981E5001861D7 /* Extensions.h */;
+			8726BE23128BD3FD00D84785 = 8726BE23128BD3FD00D84785 /* nitoInstallManager.m */;
+			8726D1BC128D113600D84785 = 8726D1BC128D113600D84785 /* nitoHelperClass.m */;
+			8726DF52128E86D400D84785 = 8726DF52128E86D400D84785 /* queryMenu.m */;
+		};
+		sourceControlManager = 32678A5112BC2CD9002ED5CC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 413}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	320016FF13205EFA00C73618 /* control */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = control;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/DEBIAN/control;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 765}}";
+			sepNavSelRange = "{400, 0}";
+			sepNavVisRange = "{0, 492}";
+			sepNavWindowFrame = "{{692, 112}, {1555, 878}}";
+		};
+	};
+	321255F11303FAA700A1403A /* upgrade.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = upgrade.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/upgrade.sh;
+		sourceTree = "<absolute>";
+	};
+	3212589E1304928C00A1403A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3212589F1304928C00A1403A /* build.sh */;
+		name = "build.sh: 1";
+		rLen = 45;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	3212589F1304928C00A1403A /* build.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = build.sh;
+		path = /Users/kevinbradley/Projects/awkRepo2/build.sh;
+		sourceTree = "<absolute>";
+	};
+	32125B4A1304BA9800A1403A /* addnitorepo.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = addnitorepo.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/addnitorepo.sh;
+		sourceTree = "<absolute>";
+	};
+	32125E2C130635A500A1403A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1D1128D113600D84785 /* Base.pm */;
+		name = "Base.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	321A002112EE9DDF00CF742F /* ATVSedonaController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ATVSedonaController.h;
+		path = /Users/kevinbradley/magic/Jasper8C154.K66OS/System/Library/PrivateFrameworks/AppleTV.framework/Headers/ATVSedonaController.h;
+		sourceTree = "<absolute>";
+	};
+	321A047912EED72E00CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A002112EE9DDF00CF742F /* ATVSedonaController.h */;
+		name = "ATVSedonaController.h: 26";
+		rLen = 7;
+		rLoc = 881;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 0;
+	};
+	321A047A12EED72E00CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A047B12EED72E00CF742F /* BRSettingsFacade.h */;
+		name = "BRSettingsFacade.h: 122";
+		rLen = 8;
+		rLoc = 8881;
+		rType = 0;
+		vrLen = 2577;
+		vrLoc = 6581;
+	};
+	321A047B12EED72E00CF742F /* BRSettingsFacade.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRSettingsFacade.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/BackRow.framework/Headers/BRSettingsFacade.h;
+		sourceTree = "<absolute>";
+	};
+	321A047C12EED72E00CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A047D12EED72E00CF742F /* CPNetworkObserver.h */;
+		name = "CPNetworkObserver.h: 37";
+		rLen = 8;
+		rLoc = 1499;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 320;
+	};
+	321A047D12EED72E00CF742F /* CPNetworkObserver.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CPNetworkObserver.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/AppSupport.framework/Headers/CPNetworkObserver.h;
+		sourceTree = "<absolute>";
+	};
+	321A048112EED72E00CF742F /* ATVSettingsFacade.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ATVSettingsFacade.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/AppleTV.framework/Headers/ATVSettingsFacade.h;
+		sourceTree = "<absolute>";
+	};
+	321A05F112EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A048112EED72E00CF742F /* ATVSettingsFacade.h */;
+		name = "ATVSettingsFacade.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2524;
+		vrLoc = 2318;
+	};
+	321A05F212EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05F312EF7FD800CF742F /* AYTimer.h */;
+		name = "AYTimer.h: 15";
+		rLen = 5;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	321A05F312EF7FD800CF742F /* AYTimer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AYTimer.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/DAVKit.framework/Headers/AYTimer.h;
+		sourceTree = "<absolute>";
+	};
+	321A05F412EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05F512EF7FD800CF742F /* CalNetworkChangeNotifier.h */;
+		name = "CalNetworkChangeNotifier.h: 13";
+		rLen = 24;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 0;
+	};
+	321A05F512EF7FD800CF742F /* CalNetworkChangeNotifier.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CalNetworkChangeNotifier.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DACalDAV.framework/Headers/CalNetworkChangeNotifier.h;
+		sourceTree = "<absolute>";
+	};
+	321A05F612EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05F712EF7FD800CF742F /* IMNetworkConnectionMonitor.h */;
+		name = "IMNetworkConnectionMonitor.h: 14";
+		rLen = 26;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 0;
+	};
+	321A05F712EF7FD800CF742F /* IMNetworkConnectionMonitor.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IMNetworkConnectionMonitor.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/IMCore.framework/Frameworks/IMFoundation.framework/Headers/IMNetworkConnectionMonitor.h;
+		sourceTree = "<absolute>";
+	};
+	321A05F812EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05F912EF7FD800CF742F /* IMSystemMonitor.h */;
+		name = "IMSystemMonitor.h: 22";
+		rLen = 5;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 1860;
+		vrLoc = 239;
+	};
+	321A05F912EF7FD800CF742F /* IMSystemMonitor.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IMSystemMonitor.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/IMCore.framework/Frameworks/IMFoundation.framework/Headers/IMSystemMonitor.h;
+		sourceTree = "<absolute>";
+	};
+	321A05FA12EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05FB12EF7FD800CF742F /* IMSystemMonitorListener.h */;
+		name = "IMSystemMonitorListener.h: 29";
+		rLen = 5;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 0;
+	};
+	321A05FB12EF7FD800CF742F /* IMSystemMonitorListener.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IMSystemMonitorListener.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/IMCore.framework/Frameworks/IMDaemonCore.framework/Headers/IMSystemMonitorListener.h;
+		sourceTree = "<absolute>";
+	};
+	321A05FC12EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05FD12EF7FD800CF742F /* IMSystemMonitorListener.h */;
+		name = "IMSystemMonitorListener.h: 29";
+		rLen = 5;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 0;
+	};
+	321A05FD12EF7FD800CF742F /* IMSystemMonitorListener.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IMSystemMonitorListener.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/IMCore.framework/Frameworks/IMFoundation.framework/Headers/IMSystemMonitorListener.h;
+		sourceTree = "<absolute>";
+	};
+	321A05FE12EF7FD800CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A05FF12EF7FD800CF742F /* IMSystemMonitorListener.h */;
+		name = "IMSystemMonitorListener.h: 29";
+		rLen = 5;
+		rLoc = 801;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	321A05FF12EF7FD800CF742F /* IMSystemMonitorListener.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IMSystemMonitorListener.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/PrivateFrameworks/IMCore.framework/Headers/IMSystemMonitorListener.h;
+		sourceTree = "<absolute>";
+	};
+	321A071D12F017F600CF742F /* MEPowerManagement.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MEPowerManagement.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/Applications/AppleTV/MEPowerManagement.h;
+		sourceTree = "<absolute>";
+	};
+	321A080712F1694A00CF742F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A071D12F017F600CF742F /* MEPowerManagement.h */;
+		name = "MEPowerManagement.h: 7";
+		rLen = 1;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 0;
+	};
+	321A08C112F23BC800CF742F /* tweak.xm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = tweak.xm;
+		path = /Users/kevinbradley/Projects/networkAutoJoin/tweak.xm;
+		sourceTree = "<absolute>";
+	};
+	321DBAE6135900660063757E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	3220B56312F6008700D08CF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321A08C112F23BC800CF742F /* tweak.xm */;
+		name = "tweak.xm: 147";
+		rLen = 28;
+		rLoc = 4513;
+		rType = 0;
+		vrLen = 1102;
+		vrLoc = 3057;
+	};
+	3220B56612F6008700D08CF2 /* install_ntv.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = install_ntv.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/install_ntv.sh;
+		sourceTree = "<absolute>";
+	};
+	3220B56A12F6008700D08CF2 /* updaterepo.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = updaterepo.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/updaterepo.sh;
+		sourceTree = "<absolute>";
+	};
+	3226D89B12A9DDE1005E2456 /* untitled */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 18880}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{156149, 6347}";
+		};
+	};
+	3226E71212AA20FD005E2456 /* nitoDefaultManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1437, 821}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 794}";
+			sepNavWindowFrame = "{{748, 480}, {1496, 878}}";
+		};
+	};
+	3226E71312AA20FD005E2456 /* nitoDefaultManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1437, 1488}}";
+			sepNavSelRange = "{307, 30}";
+			sepNavVisRange = "{42, 1473}";
+			sepNavWindowFrame = "{{748, 480}, {1496, 878}}";
+		};
+	};
+	322A547D1321C5550002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1BA128D113600D84785 /* nitoHelper.m */;
+		name = "nitoHelper.m: 115";
+		rLen = 6;
+		rLoc = 3207;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 1822;
+	};
+	322A58F713237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226D89B12A9DDE1005E2456 /* untitled */;
+		name = "untitled: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 6347;
+		vrLoc = 156149;
+	};
+	322A58F913237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 874194E712867FAD000F7910 /* VideoPlaybackSnippets.m */;
+		name = "VideoPlaybackSnippets.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	322A58FA13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 874194E612867FAD000F7910 /* VideoPlaybackSnippets.h */;
+		name = "VideoPlaybackSnippets.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 0;
+	};
+	322A58FB13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B831279815B001861D7 /* APAttribute.h */;
+		name = "APAttribute.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	322A58FC13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8A1279815B001861D7 /* CPlusFunctions.mm */;
+		name = "CPlusFunctions.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
+	322A58FE13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B951279815B001861D7 /* NitoTheme.h */;
+		name = "NitoTheme.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	322A58FF13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96211131A4B59007B5BE3 /* PackageDataSource.h */;
+		name = "PackageDataSource.h: 47";
+		rLen = 0;
+		rLoc = 1135;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	322A590113237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726DF51128E86D400D84785 /* queryMenu.h */;
+		name = "queryMenu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 332;
+	};
+	322A590313237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87107BCF128FBEEC002A4B73 /* kbScrollingTextControl.h */;
+		name = "kbScrollingTextControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 99;
+		vrLoc = 0;
+	};
+	322A590413237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87107BD0128FBEEC002A4B73 /* kbScrollingTextControl.m */;
+		name = "kbScrollingTextControl.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 0;
+	};
+	322A590513237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188C131279843F001861D7 /* awkScreenShot.h */;
+		name = "awkScreenShot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	322A590713237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726C4C9128CA19400D84785 /* BRTask.h */;
+		name = "BRTask.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	322A590813237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726C4CA128CA19400D84785 /* BRTask.m */;
+		name = "BRTask.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 244;
+		vrLoc = 0;
+	};
+	322A590B13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8D1279815B001861D7 /* nitoMediaMenuController.h */;
+		name = "nitoMediaMenuController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	322A590C13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32125B4A1304BA9800A1403A /* addnitorepo.sh */;
+		name = "addnitorepo.sh: 3";
+		rLen = 41;
+		rLoc = 60;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	322A590D13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954A61311D1FA007B5BE3 /* blockUpdate.sh */;
+		name = "blockUpdate.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 225;
+		vrLoc = 0;
+	};
+	322A590E13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 320016FF13205EFA00C73618 /* control */;
+		name = "control: 8";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	322A590F13237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954A91311D1FA007B5BE3 /* dpkg_list.sh */;
+		name = "dpkg_list.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 110;
+		vrLoc = 0;
+	};
+	322A591113237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954AC1311D1FA007B5BE3 /* package_info.sh */;
+		name = "package_info.sh: 3";
+		rLen = 14;
+		rLoc = 72;
+		rType = 0;
+		vrLen = 113;
+		vrLoc = 0;
+	};
+	322A591213237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954AE1311D1FA007B5BE3 /* package_list.sh */;
+		name = "package_list.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 128;
+		vrLoc = 0;
+	};
+	322A591313237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954B01311D1FA007B5BE3 /* pkgsearch.sh */;
+		name = "pkgsearch.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 0;
+	};
+	322A591413237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954B21311D1FA007B5BE3 /* reboot.sh */;
+		name = "reboot.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 60;
+		vrLoc = 0;
+	};
+	322A591513237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954B41311D1FA007B5BE3 /* uninstall_dpkg.sh */;
+		name = "uninstall_dpkg.sh: 3";
+		rLen = 66;
+		rLoc = 54;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	322A591613237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3220B56A12F6008700D08CF2 /* updaterepo.sh */;
+		name = "updaterepo.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	322A591713237CA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 321255F11303FAA700A1403A /* upgrade.sh */;
+		name = "upgrade.sh: 3";
+		rLen = 75;
+		rLoc = 54;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	322A5961132614070002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.m */;
+		name = "nitoMediaMenuController.m: 15";
+		rLen = 4;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 2901;
+	};
+	322A5962132614070002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 322A5963132614070002365B /* animate.mm */;
+		name = "animate.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 237;
+	};
+	322A5963132614070002365B /* animate.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = animate.mm;
+		path = /Users/kevinbradley/Projects/gprc5/medicine/animate/animate.mm;
+		sourceTree = "<absolute>";
+	};
+	322A5965132614070002365B /* setup.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = setup.sh;
+		path = /Users/kevinbradley/Projects/gprc5/medicine/setup.sh;
+		sourceTree = "<absolute>";
+	};
+	322A5E5B1328CC250002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 322A5965132614070002365B /* setup.sh */;
+		name = "setup.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 72;
+		vrLoc = 0;
+	};
+	322A5E5F1328CC250002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 322A5E601328CC250002365B /* grabkbag.c */;
+		name = "grabkbag.c: 41";
+		rLen = 1;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 1075;
+	};
+	322A5E601328CC250002365B /* grabkbag.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = grabkbag.c;
+		path = /Users/kevinbradley/Projects/grabkbag/grabkbag.c;
+		sourceTree = "<absolute>";
+	};
+	322A5E611328CC250002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 322A5E621328CC250002365B /* updateBGone.xm */;
+		name = "updateBGone.xm: 3";
+		rLen = 19;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 84;
+		vrLoc = 0;
+	};
+	322A5E621328CC250002365B /* updateBGone.xm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = updateBGone.xm;
+		path = /Users/kevinbradley/Projects/updateBGone/updateBGone.xm;
+		sourceTree = "<absolute>";
+	};
+	322A5E631328CC250002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D3C3128D113600D84785 /* .keep */;
+		name = ".keep: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	322A6B56132B7FA00002365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D202128D113600D84785 /* BRApplianceCategory.h */;
+		name = "BRApplianceCategory.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2349;
+		vrLoc = 4;
+	};
+	3234DCAA135EDFA90038AE07 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3264FFA61359148A00F81C5A /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 238;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	323A21EF131FA205003BDB0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 323A21F0131FA205003BDB0A /* poc.c */;
+		name = "poc.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 0;
+	};
+	323A21F0131FA205003BDB0A /* poc.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = poc.c;
+		path = /Users/kevinbradley/Projects/cdev/Exploits/BootROM/SHAtter/poc.c;
+		sourceTree = "<absolute>";
+	};
+	323A21F4131FA205003BDB0A /* payload2.S */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.asm;
+		name = payload2.S;
+		path = /Users/kevinbradley/Projects/cdev/Exploits/BootROM/SHAtter/payload2.S;
+		sourceTree = "<absolute>";
+	};
+	323A2210131FA3A3003BDB0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 323A21F4131FA205003BDB0A /* payload2.S */;
+		name = "payload2.S: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 841;
+	};
+	32542A421309DF61002E7C34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1E2128D113600D84785 /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 141;
+		vrLoc = 0;
+	};
+	32542A461309DF7E002E7C34 /* nitoSettingsController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 9824}}";
+			sepNavSelRange = "{3292, 0}";
+			sepNavVisRange = "{2772, 1382}";
+			sepNavWindowFrame = "{{763, 163}, {1572, 1144}}";
+		};
+	};
+	3264FFA61359148A00F81C5A /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+	};
+	32651E751418BC43009EBE63 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	32678A5112BC2CD9002ED5CC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "nitoTV ATV2 Repo";
+			};
+		};
+	};
+	32678A5212BC2CD9002ED5CC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	32678A6C12BC4978002ED5CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B991279815B001861D7 /* nitoWeather.m */;
+		name = "nitoWeather.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	32678A6F12BC4978002ED5CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1C6128D113600D84785 /* install.copyFile */;
+		name = "install.copyFile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 114;
+		vrLoc = 0;
+	};
+	32720E3312CC528D0054F4B0 /* CADisplayMode.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CADisplayMode.h;
+		path = /Users/kevinbradley/magic/Jasper8C150.K66OS/System/Library/Frameworks/QuartzCore.framework/Headers/CADisplayMode.h;
+		sourceTree = "<absolute>";
+	};
+	32720E4712CC528D0054F4B0 /* aTweak.xm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = aTweak.xm;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/substrate/aTweak.xm;
+		sourceTree = "<absolute>";
+	};
+	327B03DC1415FEBB0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8425126FFF6500ECADC2 /* build.sh */;
+		name = "build.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 0;
+	};
+	327B03DD1415FEBB0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B961279815B001861D7 /* NitoTheme.m */;
+		name = "NitoTheme.m: 81";
+		rLen = 17;
+		rLoc = 2115;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 1795;
+	};
+	327B03DE1415FEBB0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAB1279815B001861D7 /* ntvWeatherManager.m */;
+		name = "ntvWeatherManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 109;
+	};
+	327B03DF1415FEBB0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B881279815B001861D7 /* APElement.m */;
+		name = "APElement.m: 123";
+		rLen = 25;
+		rLoc = 3056;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 2788;
+	};
+	327B04C5141604330078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B871279815B001861D7 /* APElement.h */;
+		name = "APElement.h: 47";
+		rLen = 25;
+		rLoc = 1538;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 928;
+	};
+	327B0578141606B70078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE22128BD3FD00D84785 /* nitoInstallManager.h */;
+		name = "nitoInstallManager.h: 38";
+		rLen = 0;
+		rLoc = 1003;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 616;
+	};
+	327B0579141606B70078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 327B057A141606B70078BB20 /* nitoFilesController.m */;
+		name = "nitoFilesController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 0;
+	};
+	327B057A141606B70078BB20 /* nitoFilesController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = nitoFilesController.m;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Classes/nitoFilesController.m;
+		sourceTree = "<absolute>";
+	};
+	327B05A01416074C0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32542A461309DF7E002E7C34 /* nitoSettingsController.mm */;
+		name = "nitoSettingsController.mm: 12";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 3;
+	};
+	327B0611141608950078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+		name = "PackageDataSource.m: 452";
+		rLen = 11;
+		rLoc = 11669;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 11518;
+	};
+	327B06441416098D0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 24";
+		rLen = 25;
+		rLoc = 1106;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	327B0A1A14160AFC0078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA41279815B001861D7 /* ntvRssBrowser.h */;
+		name = "ntvRssBrowser.h: 25";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 243;
+	};
+	327BF2D2141432750078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1BC128D113600D84785 /* nitoHelperClass.m */;
+		name = "nitoHelperClass.m: 126";
+		rLen = 0;
+		rLoc = 3222;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 2620;
+	};
+	327BF2D3141432750078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1BB128D113600D84785 /* nitoHelperClass.h */;
+		name = "nitoHelperClass.h: 25";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 0;
+	};
+	327BF5D3141438EA0078BB20 /* SynthesizeSingleton.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SynthesizeSingleton.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/SMFramework/SynthesizeSingleton.h;
+		sourceTree = "<absolute>";
+	};
+	327BF5DB141439E00078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.m */;
+		name = "nitoInstallManager.m: 1085";
+		rLen = 0;
+		rLoc = 21853;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 29662;
+	};
+	327BF5DC141439E00078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 327BF5D3141438EA0078BB20 /* SynthesizeSingleton.h */;
+		name = "SynthesizeSingleton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	327BF6C31414B2680078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226E71312AA20FD005E2456 /* nitoDefaultManager.m */;
+		name = "nitoDefaultManager.m: 16";
+		rLen = 40;
+		rLoc = 537;
+		rType = 0;
+		vrLen = 96;
+		vrLoc = 230;
+	};
+	327BF6C41414B2680078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D371128D113600D84785 /* BRTextEntryControl.h */;
+		name = "BRTextEntryControl.h: 10";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 205;
+	};
+	327BF8D51414ED020078BB20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 171";
+		rLen = 23;
+		rLoc = 9082;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 1257;
+	};
+	328E53E713615E7400F4E9E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA91279815B001861D7 /* ntvRSSViewer.m */;
+		name = "ntvRSSViewer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	328E53E913615E7400F4E9E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 328E53EA13615E7400F4E9E3 /* SPHelper.m */;
+		name = "SPHelper.m: 18";
+		rLen = 1;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 223;
+		vrLoc = 457;
+	};
+	328E53EA13615E7400F4E9E3 /* SPHelper.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SPHelper.m;
+		path = /Users/kevinbradley/Projects/Seas0nPass/SPAppliance/SPHelper/SPHelper.m;
+		sourceTree = "<absolute>";
+	};
+	328E53EB13615E7400F4E9E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 328E53EC13615E7400F4E9E3 /* SPHelperClass.h */;
+		name = "SPHelperClass.h: 7";
+		rLen = 1;
+		rLoc = 46;
+		rType = 0;
+		vrLen = 123;
+		vrLoc = 0;
+	};
+	328E53EC13615E7400F4E9E3 /* SPHelperClass.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SPHelperClass.h;
+		path = /Users/kevinbradley/Projects/Seas0nPass/SPAppliance/SPHelper/SPHelperClass.h;
+		sourceTree = "<absolute>";
+	};
+	328E53F013615E7400F4E9E3 /* SPHelperClass.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SPHelperClass.m;
+		path = /Users/kevinbradley/Projects/Seas0nPass/SPAppliance/SPHelper/SPHelperClass.m;
+		sourceTree = "<absolute>";
+	};
+	328E577413616DF200F4E9E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 328E53F013615E7400F4E9E3 /* SPHelperClass.m */;
+		name = "SPHelperClass.m: 8";
+		rLen = 0;
+		rLoc = 61;
+		rType = 0;
+		vrLen = 64;
+		vrLoc = 0;
+	};
+	32900AC913F90DB300A42BF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8718960D127AADD6001861D7 /* About.txt */;
+		name = "About.txt: 75";
+		rLen = 0;
+		rLoc = 5327;
+		rType = 0;
+		vrLen = 1091;
+		vrLoc = 33;
+	};
+	3290BB39134EC2730098DBB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1B9128D113600D84785 /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	3296003E13CBC81300921ED0 /* BRScrollingTextPlane.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRScrollingTextPlane.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5248d_Restore/PrivateFrameworks/AppleTV.framework/Headers/BRScrollingTextPlane.h";
+		sourceTree = "<absolute>";
+	};
+	3296F7CF13C590F300921ED0 /* RUIYTDocumentLoader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1015}";
+			sepNavWindowFrame = "{{882, 103}, {1419, 1002}}";
+		};
+	};
+	3296F7D013C590F300921ED0 /* RUIYTDocumentLoaderDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 305}";
+			sepNavWindowFrame = "{{750, 237}, {1419, 1002}}";
+		};
+	};
+	3296F7F013C590F300921ED0 /* RUIYTSearchController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{731, 26}";
+			sepNavVisRange = "{0, 1365}";
+			sepNavWindowFrame = "{{800, 221}, {1419, 1002}}";
+		};
+	};
+	3296F7F113C590F300921ED0 /* RUIYTSearchResultsLoader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{835, 47}";
+			sepNavVisRange = "{0, 1014}";
+			sepNavWindowFrame = "{{441, 265}, {1419, 1002}}";
+		};
+	};
+	3296F7F213C590F300921ED0 /* RUIYTSearchTermInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1035}";
+			sepNavWindowFrame = "{{199, 243}, {1419, 1002}}";
+		};
+	};
+	3296F80413C590F300921ED0 /* XXUnknownSuperclass.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1011}";
+			sepNavWindowFrame = "{{84, 348}, {1419, 1002}}";
+		};
+	};
+	3296F80713C590F400921ED0 /* Internet.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 1.29875e+06}}";
+			sepNavSelRange = "{540, 13}";
+			sepNavVisRange = "{0, 1603}";
+			sepNavWindowFrame = "{{921, 258}, {1419, 1002}}";
+		};
+	};
+	3296FC3313C6C37500921ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.mm */;
+		name = "ntvRssBrowser.mm: 398";
+		rLen = 4;
+		rLoc = 10071;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3296FC3413C6C37500921ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3296F7F113C590F300921ED0 /* RUIYTSearchResultsLoader.h */;
+		name = "RUIYTSearchResultsLoader.h: 1";
+		rLen = 1;
+		rLoc = 3;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	3296FC3513C6C37500921ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3296F80713C590F400921ED0 /* Internet.txt */;
+		name = "Internet.txt: 11";
+		rLen = 13;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 0;
+	};
+	3296FC3613C6C37500921ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3296FC3713C6C37500921ED0 /* ATVSearchView.h */;
+		name = "ATVSearchView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1227;
+		vrLoc = 0;
+	};
+	3296FC3713C6C37500921ED0 /* ATVSearchView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ATVSearchView.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5248d_Restore/PrivateFrameworks/AppleTV.framework/Headers/ATVSearchView.h";
+		sourceTree = "<absolute>";
+	};
+	3296FC3B13C6C37500921ED0 /* BRTextEntryControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRTextEntryControl.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5248d_Restore/PrivateFrameworks/AppleTV.framework/Headers/BRTextEntryControl.h";
+		sourceTree = "<absolute>";
+	};
+	3296FCC613CAC42500921ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3296FC3B13C6C37500921ED0 /* BRTextEntryControl.h */;
+		name = "BRTextEntryControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 0;
+	};
+	329F45C013CC118200CA53FD /* NccpCommunicator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NccpCommunicator.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5248d_Restore/PrivateFrameworks/AppleTV.framework/Headers/NccpCommunicator.h";
+		sourceTree = "<absolute>";
+	};
+	329F45DB13CC259300CA53FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3296003E13CBC81300921ED0 /* BRScrollingTextPlane.h */;
+		name = "BRScrollingTextPlane.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 0;
+	};
+	329F45DC13CC259300CA53FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 329F45DD13CC259300CA53FD /* UIDevice.h */;
+		name = "UIDevice.h: 42";
+		rLen = 16;
+		rLoc = 2230;
+		rType = 0;
+		vrLen = 1992;
+		vrLoc = 1409;
+	};
+	329F45DD13CC259300CA53FD /* UIDevice.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIDevice.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5259f_Restore/TellurideVail9A5259f/Frameworks/UIKit.framework/Headers/UIDevice.h";
+		sourceTree = "<absolute>";
+	};
+	329F45DE13CC259300CA53FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 329F45C013CC118200CA53FD /* NccpCommunicator.h */;
+		name = "NccpCommunicator.h: 4";
+		rLen = 0;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 1726;
+		vrLoc = 506;
+	};
+	329F45E213CC259300CA53FD /* config.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = config.h;
+		path = /Users/kevinbradley/Projects/cdev/libimobiledevice/config.h;
+		sourceTree = "<absolute>";
+	};
+	329F579413CEAAA700CA53FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 329F45E213CC259300CA53FD /* config.h */;
+		name = "config.h: 8";
+		rLen = 0;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 4164;
+	};
+	329F579513CEAAA700CA53FD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 329F579613CEAAA700CA53FD /* UIDevice.h */;
+		name = "UIDevice.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1880;
+		vrLoc = 2702;
+	};
+	329F579613CEAAA700CA53FD /* UIDevice.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIDevice.h;
+		path = "/Users/kevinbradley/Library/Application Support/FWAmbrosia/Firmware/AppleTV2,1_4.4_9A5248d_Restore/Frameworks/UIKit.framework/Headers/UIDevice.h";
+		sourceTree = "<absolute>";
+	};
+	32A364A913315C2F00454E39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A364AA13315C2F00454E39 /* ScrollHack.xm */;
+		name = "ScrollHack.xm: 5";
+		rLen = 947;
+		rLoc = 68;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 0;
+	};
+	32A364AA13315C2F00454E39 /* ScrollHack.xm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = ScrollHack.xm;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/substrate/ScrollHack.xm;
+		sourceTree = "<absolute>";
+	};
+	32A364AB13315C2F00454E39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A364AC13315C2F00454E39 /* updateBeGone.xm */;
+		name = "updateBeGone.xm: 1";
+		rLen = 84;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 84;
+		vrLoc = 0;
+	};
+	32A364AC13315C2F00454E39 /* updateBeGone.xm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = updateBeGone.xm;
+		path = /Users/kevinbradley/Projects/substrate/updateBeGone.xm;
+		sourceTree = "<absolute>";
+	};
+	32A3E00E134C5227002BD9F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B9D1279815B001861D7 /* ntvDownloadController.m */;
+		name = "ntvDownloadController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 1226;
+	};
+	32A69BD0141AD061009186F7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+	};
+	32A69BD1141AD079009186F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	32A69BD7141AD079009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 300";
+		rLen = 0;
+		rLoc = 9933;
+		rType = 0;
+		vrLen = 2239;
+		vrLoc = 1587;
+	};
+	32A69BD8141AD215009186F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	32A69BD9141AD215009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 643";
+		rLen = 0;
+		rLoc = 21297;
+		rType = 0;
+		vrLen = 1795;
+		vrLoc = 962;
+	};
+	32A69C46141AEBF5009186F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	32A69C47141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		name = "nitoTVAppliance.mm: 183";
+		rLen = 0;
+		rLoc = 5825;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 5167;
+	};
+	32A69C4A141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C4B141AEBF5009186F7 /* SMFPreferences.m */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	32A69C4B141AEBF5009186F7 /* SMFPreferences.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMFPreferences.m;
+		path = /Users/kevinbradley/DVLP/SMFramework/SMFPreferences.m;
+		sourceTree = "<absolute>";
+	};
+	32A69C4C141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C4D141AEBF5009186F7 /* SMFPreferences.m */;
+		name = "SMFPreferences.m: 76";
+		rLen = 41;
+		rLoc = 2295;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 1692;
+	};
+	32A69C4D141AEBF5009186F7 /* SMFPreferences.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SMFPreferences.m;
+		path = /Users/kevinbradley/DVLP/SMFramework/SMFPreferences.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 1856}}";
+			sepNavSelRange = "{2295, 41}";
+			sepNavVisRange = "{1692, 1993}";
+		};
+	};
+	32A69C50141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C51141AEBF5009186F7 /* SMFPreferences.h */;
+		rLen = 1;
+		rLoc = 17;
+		rType = 1;
+	};
+	32A69C51141AEBF5009186F7 /* SMFPreferences.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMFPreferences.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Frameworks/SMFramework.framework/Headers/SMFPreferences.h;
+		sourceTree = "<absolute>";
+	};
+	32A69C52141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C53141AEBF5009186F7 /* SMFPreferences.h */;
+		name = "SMFPreferences.h: 18";
+		rLen = 32;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	32A69C53141AEBF5009186F7 /* SMFPreferences.h */ = {
+		isa = PBXFileReference;
+		name = SMFPreferences.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Frameworks/SMFramework.framework/Headers/SMFPreferences.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 765}}";
+			sepNavSelRange = "{344, 32}";
+			sepNavVisRange = "{0, 382}";
+		};
+	};
+	32A69C56141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C57141AEBF5009186F7 /* appletv_setup.sh */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	32A69C57141AEBF5009186F7 /* appletv_setup.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = appletv_setup.sh;
+		path = /Users/kevinbradley/appletv_setup.sh;
+		sourceTree = "<absolute>";
+	};
+	32A69C58141AEBF5009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C59141AEBF5009186F7 /* appletv_setup.sh */;
+		name = "appletv_setup.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 0;
+	};
+	32A69C59141AEBF5009186F7 /* appletv_setup.sh */ = {
+		isa = PBXFileReference;
+		name = appletv_setup.sh;
+		path = /Users/kevinbradley/appletv_setup.sh;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 765}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1911}";
+		};
+	};
+	32A69C5D141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		name = "nitoTVAppliance.mm: 183";
+		rLen = 0;
+		rLoc = 5825;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 5167;
+	};
+	32A69C60141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		rLen = 1;
+		rLoc = 366;
+		rType = 1;
+	};
+	32A69C61141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		name = "nitoTVAppliance.mm: 393";
+		rLen = 0;
+		rLoc = 13713;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 13159;
+	};
+	32A69C62141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C4D141AEBF5009186F7 /* SMFPreferences.m */;
+		name = "SMFPreferences.m: 76";
+		rLen = 41;
+		rLoc = 2295;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 1692;
+	};
+	32A69C63141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C53141AEBF5009186F7 /* SMFPreferences.h */;
+		name = "SMFPreferences.h: 18";
+		rLen = 32;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	32A69C64141AED40009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C59141AEBF5009186F7 /* appletv_setup.sh */;
+		name = "appletv_setup.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 0;
+	};
+	32A69C66141AEDA2009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		name = "nitoTVAppliance.mm: 183";
+		rLen = 0;
+		rLoc = 5825;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 5167;
+	};
+	32A69C67141AEDA2009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 240";
+		rLen = 23;
+		rLoc = 9082;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 1027;
+	};
+	32A69C68141AEDA2009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C4D141AEBF5009186F7 /* SMFPreferences.m */;
+		name = "SMFPreferences.m: 76";
+		rLen = 41;
+		rLoc = 2295;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 1692;
+	};
+	32A69C69141AEDA2009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C53141AEBF5009186F7 /* SMFPreferences.h */;
+		name = "SMFPreferences.h: 18";
+		rLen = 32;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	32A69C6A141AEDA2009186F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A69C59141AEBF5009186F7 /* appletv_setup.sh */;
+		name = "appletv_setup.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 0;
+	};
+	32AAE43E14197D9300AB0E70 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	32B99BCB14137097001D95EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+		name = "nitoTVAppliance.mm: 209";
+		rLen = 0;
+		rLoc = 5825;
+		rType = 0;
+		vrLen = 36;
+		vrLoc = 5489;
+	};
+	32B99BEB141370E3001D95EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3220B56612F6008700D08CF2 /* install_ntv.sh */;
+		name = "install_ntv.sh: 4";
+		rLen = 33;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 0;
+	};
+	32D954861310E752007B5BE3 /* afc2add.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = afc2add.mm;
+		path = /Users/kevinbradley/Projects/gprc5/medicine/afc2add/afc2add.mm;
+		sourceTree = "<absolute>";
+	};
+	32D954A21311D1FA007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D954861310E752007B5BE3 /* afc2add.mm */;
+		name = "afc2add.mm: 13";
+		rLen = 10;
+		rLoc = 555;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 0;
+	};
+	32D954A61311D1FA007B5BE3 /* blockUpdate.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = blockUpdate.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/blockUpdate.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954A91311D1FA007B5BE3 /* dpkg_list.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = dpkg_list.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/dpkg_list.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954AC1311D1FA007B5BE3 /* package_info.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = package_info.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/package_info.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954AE1311D1FA007B5BE3 /* package_list.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = package_list.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/package_list.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954B01311D1FA007B5BE3 /* pkgsearch.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = pkgsearch.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/pkgsearch.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954B21311D1FA007B5BE3 /* reboot.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = reboot.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/reboot.sh;
+		sourceTree = "<absolute>";
+	};
+	32D954B41311D1FA007B5BE3 /* uninstall_dpkg.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = uninstall_dpkg.sh;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/uninstall_dpkg.sh;
+		sourceTree = "<absolute>";
+	};
+	32D961AF131A2596007B5BE3 /* SampleDataSource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SampleDataSource.m;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Classes/SampleDataSource.m;
+		sourceTree = "<absolute>";
+	};
+	32D96211131A4B59007B5BE3 /* PackageDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1218}}";
+			sepNavSelRange = "{1607, 0}";
+			sepNavVisRange = "{0, 1847}";
+			sepNavWindowFrame = "{{811, 67}, {1533, 1300}}";
+		};
+	};
+	32D96212131A4B59007B5BE3 /* PackageDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 8560}}";
+			sepNavSelRange = "{11669, 11}";
+			sepNavVisRange = "{11518, 564}";
+			sepNavWindowFrame = "{{811, 67}, {1533, 1300}}";
+		};
+	};
+	32D9625C131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B861279815B001861D7 /* APDocument.m */;
+		name = "APDocument.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1252;
+		vrLoc = 0;
+	};
+	32D96262131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96263131A5E85007B5BE3 /* Prefix.pch */;
+		name = "Prefix.pch: 6";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 0;
+	};
+	32D96263131A5E85007B5BE3 /* Prefix.pch */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Prefix.pch;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/Prefix.pch;
+		sourceTree = "<absolute>";
+	};
+	32D96264131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BD6127981DF001861D7 /* BackRowDefines.h */;
+		name = "BackRowDefines.h: 1";
+		rLen = 882;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 882;
+		vrLoc = 0;
+	};
+	32D96265131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96266131A5E85007B5BE3 /* AppController.m */;
+		name = "AppController.m: 463";
+		rLen = 18;
+		rLoc = 11308;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 10619;
+	};
+	32D96266131A5E85007B5BE3 /* AppController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AppController.m;
+		path = "/Users/kevinbradley/Projects/resourceviewer-read-only/Source/AppController.m";
+		sourceTree = "<absolute>";
+	};
+	32D96267131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96268131A5E85007B5BE3 /* AQGridViewCell.m */;
+		name = "AQGridViewCell.m: 253";
+		rLen = 18;
+		rLoc = 7674;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 7217;
+	};
+	32D96268131A5E85007B5BE3 /* AQGridViewCell.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AQGridViewCell.m;
+		path = "/Users/kevinbradley/Projects/AlanQuatermain-AQGridView-672a56d/Classes/AQGridViewCell.m";
+		sourceTree = "<absolute>";
+	};
+	32D96269131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D9626A131A5E85007B5BE3 /* NSObject.h */;
+		name = "NSObject.h: 33";
+		rLen = 43;
+		rLoc = 752;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	32D9626A131A5E85007B5BE3 /* NSObject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObject.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSObject.h;
+		sourceTree = "<absolute>";
+	};
+	32D9626D131A5E85007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D961AF131A2596007B5BE3 /* SampleDataSource.m */;
+		name = "SampleDataSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 0;
+	};
+	32D965D7131B7148007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D965D8131B7148007B5BE3 /* SMFramework.h */;
+		name = "SMFramework.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	32D965D8131B7148007B5BE3 /* SMFramework.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMFramework.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Frameworks/SMFramework.framework/Headers/SMFramework.h;
+		sourceTree = "<absolute>";
+	};
+	32D96785131B8819007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */;
+		name = "atvTwo_Prefix.pch: 9";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 223;
+		vrLoc = 0;
+	};
+	32D967AD131B90A2007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D215128D113600D84785 /* BRAuthenticationResources.h */;
+		name = "BRAuthenticationResources.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 0;
+	};
+	32D9702B131DA4EA007B5BE3 /* MobileCydia.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = MobileCydia.mm;
+		path = /Users/kevinbradley/Projects/cydia/MobileCydia.mm;
+		sourceTree = "<absolute>";
+	};
+	32D970CA131DB922007B5BE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D9702B131DA4EA007B5BE3 /* MobileCydia.mm */;
+		name = "MobileCydia.mm: 11";
+		rLen = 1;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 1758;
+		vrLoc = 0;
+	};
+	32D975E7131E1044007B5BE3 /* packageManagement.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1072}}";
+			sepNavSelRange = "{1284, 0}";
+			sepNavVisRange = "{239, 1803}";
+			sepNavWindowFrame = "{{889, 540}, {1533, 878}}";
+		};
+	};
+	32D975E8131E1044007B5BE3 /* packageManagement.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 10576}}";
+			sepNavSelRange = "{9082, 23}";
+			sepNavVisRange = "{1027, 551}";
+			sepNavWindowFrame = "{{889, 484}, {1533, 934}}";
+		};
+	};
+	32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1077, 671}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 223}";
+			sepNavWindowFrame = "{{38, 92}, {1533, 1300}}";
+		};
+	};
+	32DF5AF112DDA37E002916D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32720E3312CC528D0054F4B0 /* CADisplayMode.h */;
+		name = "CADisplayMode.h: 12";
+		rLen = 13;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 0;
+	};
+	32DF5AF212DDA37E002916D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DF5AF312DDA37E002916D5 /* pastie-1451356.rb */;
+		name = "pastie-1451356.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	32DF5AF312DDA37E002916D5 /* pastie-1451356.rb */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.ruby;
+		name = "pastie-1451356.rb";
+		path = "/Users/kevinbradley/Downloads/pastie-1451356.rb";
+		sourceTree = "<absolute>";
+	};
+	32DF5AF512DDA37E002916D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32720E4712CC528D0054F4B0 /* aTweak.xm */;
+		name = "aTweak.xm: 1";
+		rLen = 90;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 90;
+		vrLoc = 0;
+	};
+	32DF5AF612DDA37E002916D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DF5AF712DDA37E002916D5 /* LTAppDelegate.h */;
+		name = "LTAppDelegate.h: 19";
+		rLen = 52;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 148;
+	};
+	32DF5AF712DDA37E002916D5 /* LTAppDelegate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = LTAppDelegate.h;
+		path = /Users/kevinbradley/magic/Jasper8C154.K66OS/Applications/AppleTV/Headers/LTAppDelegate.h;
+		sourceTree = "<absolute>";
+	};
+	32DF5AF812DDA37E002916D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DF5AF912DDA37E002916D5 /* BRAccount.h */;
+		name = "BRAccount.h: 13";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 0;
+	};
+	32DF5AF912DDA37E002916D5 /* BRAccount.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRAccount.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRAccount.h;
+		sourceTree = "<absolute>";
+	};
+	32F8B13D133800CD00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B9B1279815B001861D7 /* nitoWeatherController.m */;
+		name = "nitoWeatherController.m: 345";
+		rLen = 429;
+		rLoc = 7552;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 7333;
+	};
+	32F8B13E133800CD00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32F8B13F133800CD00BFA0E1 /* BRMainMenuShelfControl.h */;
+		name = "BRMainMenuShelfControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	32F8B13F133800CD00BFA0E1 /* BRMainMenuShelfControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRMainMenuShelfControl.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRMainMenuShelfControl.h;
+		sourceTree = "<absolute>";
+	};
+	32F8B140133800CD00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32F8B141133800CD00BFA0E1 /* BRSeriesMainMenuShelfSelectionHandler.h */;
+		name = "BRSeriesMainMenuShelfSelectionHandler.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	32F8B141133800CD00BFA0E1 /* BRSeriesMainMenuShelfSelectionHandler.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRSeriesMainMenuShelfSelectionHandler.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRSeriesMainMenuShelfSelectionHandler.h;
+		sourceTree = "<absolute>";
+	};
+	32F8B142133800CD00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32F8B143133800CD00BFA0E1 /* BRAppliance.h */;
+		name = "BRAppliance.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	32F8B143133800CD00BFA0E1 /* BRAppliance.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRAppliance.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRAppliance.h;
+		sourceTree = "<absolute>";
+	};
+	32F8B146133800CD00BFA0E1 /* BRApplianceManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRApplianceManager.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRApplianceManager.h;
+		sourceTree = "<absolute>";
+	};
+	32F8D1FB133EF81F00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32F8B146133800CD00BFA0E1 /* BRApplianceManager.h */;
+		name = "BRApplianceManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 127;
+	};
+	32F8D1FD133EF81F00BFA0E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32F8D1FE133EF81F00BFA0E1 /* BRScrollControl.h */;
+		name = "BRScrollControl.h: 3";
+		rLen = 2;
+		rLoc = 92;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 0;
+	};
+	32F8D1FE133EF81F00BFA0E1 /* BRScrollControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRScrollControl.h;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/theos/include/BackRow/BRScrollControl.h;
+		sourceTree = "<absolute>";
+	};
+	87107BCF128FBEEC002A4B73 /* kbScrollingTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 99}";
+		};
+	};
+	87107BD0128FBEEC002A4B73 /* kbScrollingTextControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 593}";
+		};
+	};
+	87188B831279815B001861D7 /* APAttribute.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1097}";
+		};
+	};
+	87188B861279815B001861D7 /* APDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 3504}}";
+			sepNavSelRange = "{4003, 25}";
+			sepNavVisRange = "{3496, 1226}";
+			sepNavWindowFrame = "{{498, 94}, {1555, 878}}";
+		};
+	};
+	87188B871279815B001861D7 /* APElement.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 928}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{155, 1736}";
+			sepNavWindowFrame = "{{521, 73}, {1555, 878}}";
+		};
+	};
+	87188B881279815B001861D7 /* APElement.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 5184}}";
+			sepNavSelRange = "{3056, 25}";
+			sepNavVisRange = "{2788, 519}";
+		};
+	};
+	87188B8A1279815B001861D7 /* CPlusFunctions.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 643}";
+		};
+	};
+	87188B8D1279815B001861D7 /* nitoMediaMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1062}}";
+			sepNavSelRange = "{486, 0}";
+			sepNavVisRange = "{0, 492}";
+			sepNavWindowFrame = "{{312, 121}, {1572, 1144}}";
+		};
+	};
+	87188B8E1279815B001861D7 /* nitoMediaMenuController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 3584}}";
+			sepNavSelRange = "{4060, 0}";
+			sepNavVisRange = "{2905, 1162}";
+			sepNavWindowFrame = "{{176, 122}, {1572, 1144}}";
+		};
+	};
+	87188B8F1279815B001861D7 /* nitoRss.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 821}}";
+			sepNavSelRange = "{301, 0}";
+			sepNavVisRange = "{0, 519}";
+			sepNavWindowFrame = "{{939, 182}, {1555, 878}}";
+		};
+	};
+	87188B901279815B001861D7 /* nitoRss.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 1776}}";
+			sepNavSelRange = "{780, 47}";
+			sepNavVisRange = "{505, 1049}";
+			sepNavWindowFrame = "{{939, 182}, {1555, 878}}";
+		};
+	};
+	87188B911279815B001861D7 /* nitoRssController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 880}}";
+			sepNavSelRange = "{716, 0}";
+			sepNavVisRange = "{67, 1013}";
+			sepNavWindowFrame = "{{38, 514}, {1555, 878}}";
+		};
+	};
+	87188B921279815B001861D7 /* nitoRssController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 8304}}";
+			sepNavSelRange = "{11595, 17}";
+			sepNavVisRange = "{10322, 1482}";
+			sepNavWindowFrame = "{{719, 249}, {1555, 878}}";
+		};
+	};
+	87188B931279815B001861D7 /* nitoSettingsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 369}";
+		};
+	};
+	87188B951279815B001861D7 /* NitoTheme.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1563, 2208}}";
+			sepNavSelRange = "{2334, 0}";
+			sepNavVisRange = "{1592, 748}";
+			sepNavWindowFrame = "{{892, 540}, {1622, 878}}";
+		};
+	};
+	87188B961279815B001861D7 /* NitoTheme.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1563, 6512}}";
+			sepNavSelRange = "{4263, 21}";
+			sepNavVisRange = "{3533, 1446}";
+			sepNavWindowFrame = "{{892, 540}, {1622, 878}}";
+		};
+	};
+	87188B971279815B001861D7 /* nitoTVAppliance.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 11872}}";
+			sepNavSelRange = "{5825, 0}";
+			sepNavVisRange = "{5167, 460}";
+			sepNavWindowFrame = "{{856, 333}, {1533, 878}}";
+		};
+	};
+	87188B991279815B001861D7 /* nitoWeather.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1784, 2112}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 974}";
+			sepNavWindowFrame = "{{452, 3}, {1843, 1011}}";
+		};
+	};
+	87188B9A1279815B001861D7 /* nitoWeatherController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 1292}}";
+			sepNavSelRange = "{823, 0}";
+			sepNavVisRange = "{0, 1104}";
+			sepNavWindowFrame = "{{543, 45}, {1555, 1349}}";
+		};
+	};
+	87188B9B1279815B001861D7 /* nitoWeatherController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 7952}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRange = "{34, 1629}";
+			sepNavWindowFrame = "{{543, 45}, {1555, 1349}}";
+		};
+	};
+	87188B9D1279815B001861D7 /* ntvDownloadController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ntvDownloadController.m;
+		path = /Users/kevinbradley/Projects/ATV2/nitoTV/trunk/Classes/ntvDownloadController.m;
+		sourceTree = "<absolute>";
+	};
+	87188BA11279815B001861D7 /* ntvMediaPreview.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 2560}}";
+			sepNavSelRange = "{2062, 18}";
+			sepNavVisRange = "{1379, 1709}";
+			sepNavWindowFrame = "{{130, 8}, {1533, 1300}}";
+		};
+	};
+	87188BA41279815B001861D7 /* ntvRssBrowser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 672}}";
+			sepNavSelRange = "{594, 0}";
+			sepNavVisRange = "{243, 773}";
+			sepNavWindowFrame = "{{61, 493}, {1555, 878}}";
+		};
+	};
+	87188BA51279815B001861D7 /* ntvRssBrowser.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 11104}}";
+			sepNavSelRange = "{11633, 0}";
+			sepNavVisRange = "{10406, 1976}";
+			sepNavWindowFrame = "{{512, 85}, {1533, 1300}}";
+		};
+	};
+	87188BA71279815B001861D7 /* ntvRssDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {728, 2960}}";
+			sepNavSelRange = "{1115, 4}";
+			sepNavVisRange = "{721, 999}";
+			sepNavWindowFrame = "{{638, 648}, {787, 622}}";
+		};
+	};
+	87188BA81279815B001861D7 /* ntvRSSViewer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 1102}}";
+			sepNavSelRange = "{856, 0}";
+			sepNavVisRange = "{0, 877}";
+			sepNavWindowFrame = "{{466, 45}, {965, 1184}}";
+		};
+	};
+	87188BA91279815B001861D7 /* ntvRSSViewer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 5440}}";
+			sepNavSelRange = "{8461, 534}";
+			sepNavVisRange = "{7320, 1682}";
+			sepNavWindowFrame = "{{130, 124}, {965, 1184}}";
+		};
+	};
+	87188BAA1279815B001861D7 /* ntvWeatherManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 821}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRange = "{0, 1367}";
+			sepNavWindowFrame = "{{406, 178}, {1555, 878}}";
+		};
+	};
+	87188BAB1279815B001861D7 /* ntvWeatherManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 18864}}";
+			sepNavSelRange = "{23139, 57}";
+			sepNavVisRange = "{22122, 1133}";
+			sepNavWindowFrame = "{{710, 3}, {1555, 1349}}";
+		};
+	};
+	87188BAC1279815B001861D7 /* ntvWeatherViewer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 796}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 214}";
+			sepNavWindowFrame = "{{759, 279}, {1555, 878}}";
+		};
+	};
+	87188BAD1279815B001861D7 /* ntvWeatherViewer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 8336}}";
+			sepNavSelRange = "{15132, 0}";
+			sepNavVisRange = "{14201, 938}";
+		};
+	};
+	87188BD6127981DF001861D7 /* BackRowDefines.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1077, 688}}";
+			sepNavSelRange = "{0, 882}";
+			sepNavVisRange = "{0, 882}";
+		};
+	};
+	87188BD7127981E5001861D7 /* Extensions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 4624}}";
+			sepNavSelRange = "{756, 24}";
+			sepNavVisRange = "{0, 1099}";
+			sepNavWindowFrame = "{{517, 540}, {1555, 878}}";
+		};
+	};
+	87188C131279843F001861D7 /* awkScreenShot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+		};
+	};
+	87188C141279843F001861D7 /* awkScreenShot.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{1051, 73}";
+			sepNavVisRange = "{0, 1326}";
+			sepNavWindowFrame = "{{642, 211}, {1419, 1002}}";
+		};
+	};
+	8718960D127AADD6001861D7 /* About.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 1872}}";
+			sepNavSelRange = "{5327, 0}";
+			sepNavVisRange = "{31, 1377}";
+			sepNavWindowFrame = "{{238, 81}, {2236, 1219}}";
+		};
+	};
+	8726BE22128BD3FD00D84785 /* nitoInstallManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1494, 944}}";
+			sepNavSelRange = "{808, 0}";
+			sepNavVisRange = "{0, 1545}";
+			sepNavWindowFrame = "{{845, 305}, {1553, 878}}";
+		};
+	};
+	8726BE23128BD3FD00D84785 /* nitoInstallManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1494, 15456}}";
+			sepNavSelRange = "{20913, 0}";
+			sepNavVisRange = "{20398, 1333}";
+			sepNavWindowFrame = "{{744, 540}, {1553, 878}}";
+		};
+	};
+	8726C4C9128CA19400D84785 /* BRTask.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 183}";
+		};
+	};
+	8726C4CA128CA19400D84785 /* BRTask.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 244}";
+		};
+	};
+	8726D1B9128D113600D84785 /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 518}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 529}";
+			sepNavWindowFrame = "{{741, 10}, {1533, 1300}}";
+		};
+	};
+	8726D1BA128D113600D84785 /* nitoHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 2288}}";
+			sepNavSelRange = "{3028, 10}";
+			sepNavVisRange = "{1189, 1939}";
+			sepNavWindowFrame = "{{38, 173}, {2236, 1219}}";
+		};
+	};
+	8726D1BB128D113600D84785 /* nitoHelperClass.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1445, 725}}";
+			sepNavSelRange = "{503, 0}";
+			sepNavVisRange = "{0, 509}";
+			sepNavWindowFrame = "{{233, 101}, {2236, 1219}}";
+		};
+	};
+	8726D1BC128D113600D84785 /* nitoHelperClass.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2177, 6304}}";
+			sepNavSelRange = "{3222, 0}";
+			sepNavVisRange = "{2044, 1917}";
+			sepNavWindowFrame = "{{233, 101}, {2236, 1219}}";
+		};
+	};
+	8726D1C6128D113600D84785 /* install.copyFile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 369}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 114}";
+		};
+	};
+	8726D1D1128D113600D84785 /* Base.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1304, 440}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	8726D1E2128D113600D84785 /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1290, 644}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 141}";
+			sepNavWindowFrame = "{{38, 248}, {1572, 1144}}";
+		};
+	};
+	8726D1FD128D113600D84785 /* BRAlertController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{1323, 2}";
+			sepNavVisRange = "{0, 2184}";
+			sepNavWindowFrame = "{{337, 117}, {1419, 1002}}";
+		};
+	};
+	8726D202128D113600D84785 /* BRApplianceCategory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4, 2349}";
+		};
+	};
+	8726D20B128D113600D84785 /* BRApplicationStackManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 877}}";
+			sepNavSelRange = "{268, 53}";
+			sepNavVisRange = "{0, 830}";
+			sepNavWindowFrame = "{{199, 255}, {1219, 990}}";
+		};
+	};
+	8726D215128D113600D84785 /* BRAuthenticationResources.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1077, 671}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1396}";
+		};
+	};
+	8726D21C128D113600D84785 /* BRBaseAppliance.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 903}}";
+			sepNavSelRange = "{248, 54}";
+			sepNavVisRange = "{0, 1728}";
+			sepNavWindowFrame = "{{224, 308}, {687, 1016}}";
+		};
+	};
+	8726D227128D113600D84785 /* BRButtonControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1296}}";
+			sepNavSelRange = "{1355, 91}";
+			sepNavVisRange = "{201, 3775}";
+			sepNavWindowFrame = "{{38, 92}, {1533, 1300}}";
+		};
+	};
+	8726D231128D113600D84785 /* BRControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 3264}}";
+			sepNavSelRange = "{321, 66}";
+			sepNavVisRange = "{7241, 4748}";
+			sepNavWindowFrame = "{{187, 97}, {1533, 1300}}";
+		};
+	};
+	8726D235128D113600D84785 /* BRController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1218}}";
+			sepNavSelRange = "{1226, 21}";
+			sepNavVisRange = "{0, 2254}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D236128D113600D84785 /* BRControllerStack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 976}}";
+			sepNavSelRange = "{2117, 17}";
+			sepNavVisRange = "{296, 2526}";
+			sepNavWindowFrame = "{{406, 182}, {930, 874}}";
+		};
+	};
+	8726D241128D113600D84785 /* BRDataStore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{254, 36}";
+			sepNavVisRange = "{0, 2533}";
+			sepNavWindowFrame = "{{130, 8}, {1533, 1300}}";
+		};
+	};
+	8726D242128D113600D84785 /* BRDataStoreProvider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{396, 11}";
+			sepNavVisRange = "{0, 1658}";
+			sepNavWindowFrame = "{{84, 50}, {1533, 1300}}";
+		};
+	};
+	8726D24E128D113600D84785 /* BRDisplayManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1437, 1216}}";
+			sepNavSelRange = "{595, 45}";
+			sepNavVisRange = "{0, 1232}";
+			sepNavWindowFrame = "{{61, 42}, {1496, 1329}}";
+		};
+	};
+	8726D24F128D113600D84785 /* BRDisplayMode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1437, 1216}}";
+			sepNavSelRange = "{278, 13}";
+			sepNavVisRange = "{0, 903}";
+			sepNavWindowFrame = "{{84, 21}, {1496, 1329}}";
+		};
+	};
+	8726D269128D113600D84785 /* BRHeaderControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 1008}}";
+			sepNavSelRange = "{325, 9}";
+			sepNavVisRange = "{130, 3028}";
+			sepNavWindowFrame = "{{544, 52}, {1555, 878}}";
+		};
+	};
+	8726D270128D113600D84785 /* BRImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{1822, 36}";
+			sepNavVisRange = "{0, 2314}";
+			sepNavWindowFrame = "{{285, 83}, {1533, 1300}}";
+		};
+	};
+	8726D272128D113600D84785 /* BRImageControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{284, 40}";
+			sepNavVisRange = "{0, 1540}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D27E128D113600D84785 /* BRIPConfiguration.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1663, 1056}}";
+			sepNavSelRange = "{1584, 36}";
+			sepNavVisRange = "{205, 2971}";
+			sepNavWindowFrame = "{{314, 150}, {1722, 990}}";
+		};
+	};
+	8726D282128D113600D84785 /* BRKeyboard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 2064}}";
+			sepNavSelRange = "{333, 35}";
+			sepNavVisRange = "{201, 3246}";
+			sepNavWindowFrame = "{{383, 75}, {1419, 1002}}";
+		};
+	};
+	8726D299128D113600D84785 /* BRLegacyProvider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{681, 10}";
+			sepNavVisRange = "{0, 1761}";
+			sepNavWindowFrame = "{{623, 86}, {1572, 1144}}";
+		};
+	};
+	8726D29A128D113600D84785 /* BRListControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 2256}}";
+			sepNavSelRange = "{363, 39}";
+			sepNavVisRange = "{206, 3578}";
+			sepNavWindowFrame = "{{84, 206}, {1572, 1144}}";
+		};
+	};
+	8726D29C128D113600D84785 /* BRListView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 1808}}";
+			sepNavSelRange = "{335, 37}";
+			sepNavVisRange = "{2603, 3136}";
+			sepNavWindowFrame = "{{217, 277}, {1450, 1000}}";
+		};
+	};
+	8726D29E128D113600D84785 /* BRMainMenuControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 1792}}";
+			sepNavSelRange = "{553, 72}";
+			sepNavVisRange = "{2805, 2319}";
+			sepNavWindowFrame = "{{452, 140}, {930, 874}}";
+		};
+	};
+	8726D2A0128D113600D84785 /* BRMainMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 761}}";
+			sepNavSelRange = "{364, 12}";
+			sepNavVisRange = "{0, 1678}";
+			sepNavWindowFrame = "{{429, 161}, {930, 874}}";
+		};
+	};
+	8726D2C4128D113600D84785 /* BRMediaMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1494, 1349}}";
+			sepNavSelRange = "{364, 54}";
+			sepNavVisRange = "{0, 2628}";
+			sepNavWindowFrame = "{{15, 7}, {1553, 1406}}";
+		};
+	};
+	8726D2CB128D113600D84785 /* BRMediaParadeLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{537, 81}";
+			sepNavVisRange = "{0, 1352}";
+			sepNavWindowFrame = "{{130, 8}, {1533, 1300}}";
+		};
+	};
+	8726D2D6128D113600D84785 /* BRMediaShelfControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 2320}}";
+			sepNavSelRange = "{5980, 37}";
+			sepNavVisRange = "{3312, 4488}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D2DB128D113600D84785 /* BRMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 1632}}";
+			sepNavSelRange = "{1108, 13}";
+			sepNavVisRange = "{0, 2947}";
+			sepNavWindowFrame = "{{429, 33}, {1419, 1002}}";
+		};
+	};
+	8726D2DC128D113600D84785 /* BRMenuItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 2592}}";
+			sepNavSelRange = "{3227, 108}";
+			sepNavVisRange = "{0, 4128}";
+			sepNavWindowFrame = "{{38, 92}, {1533, 1300}}";
+		};
+	};
+	8726D306128D113600D84785 /* BROptionDialog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {906, 1071}}";
+			sepNavSelRange = "{820, 939}";
+			sepNavVisRange = "{0, 1766}";
+			sepNavWindowFrame = "{{107, 145}, {965, 1184}}";
+		};
+	};
+	8726D30A128D113600D84785 /* BRPanelControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 887}}";
+			sepNavSelRange = "{2557, 41}";
+			sepNavVisRange = "{0, 2810}";
+			sepNavWindowFrame = "{{291, 161}, {1450, 1000}}";
+		};
+	};
+	8726D319128D113600D84785 /* BRPhotoDataStoreProvider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{278, 19}";
+			sepNavVisRange = "{0, 559}";
+			sepNavWindowFrame = "{{61, 71}, {1533, 1300}}";
+		};
+	};
+	8726D329128D113600D84785 /* BRPosterControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 3344}}";
+			sepNavSelRange = "{5437, 13}";
+			sepNavVisRange = "{433, 3967}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D32A128D113600D84785 /* BRPosterControlFactory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{288, 90}";
+			sepNavVisRange = "{0, 1030}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D32F128D113600D84785 /* BRPreferences.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1663, 877}}";
+			sepNavSelRange = "{1110, 42}";
+			sepNavVisRange = "{0, 1535}";
+			sepNavWindowFrame = "{{360, 108}, {1722, 990}}";
+		};
+	};
+	8726D343128D113600D84785 /* BRScrollControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 1616}}";
+			sepNavSelRange = "{3666, 0}";
+			sepNavVisRange = "{0, 1907}";
+			sepNavWindowFrame = "{{503, 201}, {930, 874}}";
+		};
+	};
+	8726D344128D113600D84785 /* BRScrollingTextBoxControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{652, 18}";
+			sepNavVisRange = "{0, 1501}";
+			sepNavWindowFrame = "{{393, 220}, {1572, 1144}}";
+		};
+	};
+	8726D345128D113600D84785 /* BRScrollingTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{453, 25}";
+			sepNavVisRange = "{0, 2245}";
+			sepNavWindowFrame = "{{307, 205}, {1572, 1144}}";
+		};
+	};
+	8726D349128D113600D84785 /* BRScrollingTextTextProvider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{981, 9}";
+			sepNavVisRange = "{0, 1230}";
+			sepNavWindowFrame = "{{153, 143}, {1572, 1144}}";
+		};
+	};
+	8726D359128D113600D84785 /* BRSingleton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{236, 36}";
+			sepNavVisRange = "{0, 546}";
+			sepNavWindowFrame = "{{38, 248}, {1572, 1144}}";
+		};
+	};
+	8726D35E128D113600D84785 /* BRSoundHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1187}}";
+			sepNavSelRange = "{355, 44}";
+			sepNavVisRange = "{0, 789}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D370128D113600D84785 /* BRTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 1243}}";
+			sepNavSelRange = "{321, 65}";
+			sepNavVisRange = "{0, 1232}";
+			sepNavWindowFrame = "{{96, -5}, {1533, 1300}}";
+		};
+	};
+	8726D371128D113600D84785 /* BRTextEntryControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 2000}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{205, 294}";
+			sepNavWindowFrame = "{{256, 12}, {1553, 1406}}";
+		};
+	};
+	8726D372128D113600D84785 /* BRTextEntryController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1461, 864}}";
+			sepNavSelRange = "{461, 92}";
+			sepNavVisRange = "{0, 1354}";
+			sepNavWindowFrame = "{{176, 289}, {1520, 977}}";
+		};
+	};
+	8726D377128D113600D84785 /* BRTextFieldControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1360, 945}}";
+			sepNavSelRange = "{342, 58}";
+			sepNavVisRange = "{0, 2444}";
+			sepNavWindowFrame = "{{291, 159}, {1419, 1002}}";
+		};
+	};
+	8726D37C128D113600D84785 /* BRThemeInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1474, 3168}}";
+			sepNavSelRange = "{6232, 13}";
+			sepNavVisRange = "{5262, 3332}";
+			sepNavWindowFrame = "{{107, 29}, {1533, 1300}}";
+		};
+	};
+	8726D398128D113600D84785 /* BRVerticalScrollBarControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1031}}";
+			sepNavSelRange = "{319, 52}";
+			sepNavVisRange = "{0, 832}";
+			sepNavWindowFrame = "{{499, 90}, {1572, 1144}}";
+		};
+	};
+	8726D3A8128D113600D84785 /* BRWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1494, 1293}}";
+			sepNavSelRange = "{1004, 40}";
+			sepNavVisRange = "{0, 2548}";
+			sepNavWindowFrame = "{{15, 7}, {1553, 1406}}";
+		};
+	};
+	8726D3C3128D113600D84785 /* .keep */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 621}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	8726DF51128E86D400D84785 /* queryMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1663, 1152}}";
+			sepNavSelRange = "{2026, 0}";
+			sepNavVisRange = "{290, 1744}";
+			sepNavWindowFrame = "{{668, 337}, {1722, 878}}";
+		};
+	};
+	8726DF52128E86D400D84785 /* queryMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1663, 21296}}";
+			sepNavSelRange = "{33321, 0}";
+			sepNavVisRange = "{2466, 995}";
+			sepNavWindowFrame = "{{668, 337}, {1722, 878}}";
+		};
+	};
+	874194E612867FAD000F7910 /* VideoPlaybackSnippets.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 681}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 660}";
+		};
+	};
+	874194E712867FAD000F7910 /* VideoPlaybackSnippets.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1660, 681}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	875A8234126FFBA400ECADC2 /* thePlugin */ = {
+		activeExec = 0;
+	};
+	875A8425126FFF6500ECADC2 /* build.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 342}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 89}";
+			sepNavWindowFrame = "{{658, 0}, {1555, 1349}}";
+		};
+	};
+	875A8427126FFF6D00ECADC2 /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 544}}";
+			sepNavSelRange = "{1106, 25}";
+			sepNavVisRange = "{0, 1053}";
+			sepNavWindowFrame = "{{916, 14}, {1300, 1335}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* atvTwo */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{168, 397}, {1555, 878}}";
+		};
+	};
+}

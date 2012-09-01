@@ -1,0 +1,136 @@
+nitoTV version 0.8.3 AppleTV2,1 
+March 29th, 2012
+
+0.8.3 
+
+Added support for the new stop-gap beigelist for 5.1 AppIcon.png for new main menu button icons, added sorting support for featured packages to filter out unsupported packages.
+
+0.8.2
+
+Added the ability to re-add default repos after they have been deleted (regardless if deleted through nitoTV or manually through the terminal) Also added automated reconfiguration of awkwardtv repo if it is deleted automatically by upredictable cydia updates. (if the repo is missing nitoTV automatically re-adds it, if you are deleting this repo on your own, STOP IT!! its a requirement) Added major update all bug where --force-yes flag was missing.
+
+0.8.1
+
+Added tentative support for 5.1 betas, fixed some minor bugs.
+
+0.8
+
+No major changes, minor bug fixes, didnt really get a lot of reports so probably won't do another public beta test, updated dependencies to check for latest SMF with 5.0 GM bug fixes.
+(large sources are still truncated to 1000 for the time being)
+
+0.8b1
+
+More tweaks on the last beta, some bug fixes, and for now large sources are truncated to 1000 items.
+
+0.8b
+
+Bringing things up to speed slowly but surely, added a new Manage section to the main menu where you can manage your sources, installed packages, browse packages by individual source/repo and the ability to add additional sources!
+
+This is a public beta that needs to be installed manually.
+
+
+0.7.1
+
+There are only aesthetic changes in this release, it leverages some changes I made in tom cool's SMFramework regarding the SMFDropShadow* classes. There are also visual glitches that are fixed in SMFramework also relating to the popovers (the weird blue focus ring).
+
+0.7
+
+Not a super major update, but a nice enough addition I felt it was worthy of a .3 jump. When entering Install Software an essential update check will be initiated as often as specified inside nitoTV Settings (Hourly/Daily/Weekly). I also finally got around to adding the notification hook to the settings section as well, most people (including developers) probably don't even know about it (or know how to do it themselves manually). This setting is for developers only!!! it makes the syslog incredibly verbose and almost impossible to use (i say almost because if you are good enough at parsing it, its incredibly helpful) Various minor bug fixes are in this release as well. This update check was spurred by the new saffron that comex put together for 8f455 that I briefly released and then pulled after it was causing reboot loops, I am still working diligently on figuring out what that issue is, but I figured what good would this update check code do if no one was running this nitoTV when I released the saffron update. That is why this release will be rolled out and left out for a few days before I even consider trying to update saffron (still running into problems.. not quite sure why)
+
+
+0.6.7 
+
+Includes a cydia_postinst from saurik that fixes the repository issues with PwnageTool for 4.3.1 untether magic (thanks i0n1c!!!)
+
+0.6.6-25
+
+More minor bug fixes, added short-cut to "more" menu in main software installation section.
+
+0.6.6 
+
+Minor bug fixes mainly 4.3 related. fixed the search text entry, added a bit of a hacky/temporary fix for the scrolling issue in the installer. added popover console for update all, also fixed a major queue bug.
+
+0.6.5 
+
+Major overhaul on the installer setup thanks to tomcool's epic SMFramework (all the new pretty UI features are thanks to his work). Now possible to queue from the featured list, remove packages from the new installer view, and run common functions from any installer view using the "More" button which includes the options: dpkg configure (which runs the notorious "dpkg --configure -a"), APT autoremove (which runs "apt-get autoremove") and Restart Lowtide (self explanatory). And as always, various bug fixes.
+
+Extra special thanks to tomcool for writing the most epic AppleTV framework EVER!!
+
+0.6.4
+
+Minor update, auto install XBMC repo so it can be featured. Congrats to davilla and his team :). More to come in the next update, promise! (few minor incremental updates in 0.6.4, nothing of major mention)
+
+0.6.3
+
+Added section and author keys to featured meta information. Added update all option. Fixed bug that made notificationHooks continually crash, other minor bug fixes.
+
+0.6.2
+
+Added a mobile substrate tweak to autopop "waiting for network time..." notification and added a nito specific repo.
+
+0.6.1
+
+Added refresh to fix 4.2 crash. Added advanced developer preference to hook notifications, warning this is VERY verbose and will flood the syslog with ALOT of extra text. It requires syslogd package be installed, and erica saduns command line utilties (com.ericasadun.utilities)  
+
+use plutil -setvalue 1 -key notificationHooks /var/mobile/Library/Preferences/com.nito.nitoTV.plist to turn notifificationHooks on (will require a Lowtide.app/AppleTV.app reboot)
+
+to turn the hooks off
+
+plutil -setvalue 0 -key notificationHooks /var/mobile/Library/Preferences/com.nito.nitoTV.plist
+
+
+0.6v2 
+
+Forgot to add the Dutch Translation.
+
+0.6 
+
+Updated the search view to mimic (mostly) the query view in YouTube. HEAVILY based on tomcools SMFQueryView (changes from our view will be merged into SMF at some point) Load generic package icon locally for featured view (should speed things up) Package deletion is implemented, but only for the featured section. NitoTV is now localized in the following languages: Danish, German, Russian, Turkish, im not sure if Turkish is a language choice on the new AppleTV2 but if it is, its an available option now. Cleaned up the Update Enabled/Disable option in settings. Added symbolic link into /Applications/AppleTV.app/Appliances/ for stop-gap 4.2 support.
+
+0.5 
+
+Moved installation to a main menu category, added some featured packages to find popular packages easily, fixed awkwardtv repo to reflect recent updates + download the repo signing key.
+
+0.4
+
+Another bug fix release. HDMI unplug/replug is no longer necessary on boot, we also attempt to force the AppleTV to join the top most item in the wifi settings plist.
+
+0.3
+
+Some UI tweaks in weather, settings section added. Added update nitoTV option, and a deb package search engine/installer.
+
+0.2
+
+The RSS and Weather bugs should be fixed, nothing new in this version, just a maintenance release so to speak.
+
+0.1
+
+Hello there! We've missed ya :) This first version is as bare bones as it gets, RSS, Weather, About. Just wanted to get the first version out of the gate to give people a little something extra to tide them over. There are ALOT of changes in the new AppleTV so it's going to be some long arduous work to port the old nitoTV in its entirety to this environment. Some features may fall by the wayside, but we'll do our best to deliver the same nitoTV enjoyed by AppleTV 1G owners. Thats all for now, short on features, short on intro :) stay tuned.
+	
+
+
+special thanks (alphabetical order, mostly)
+
+#awkwardtv
+
+alanQuatermain
+
+bholland
+
+chronic-dev (DHowett, posixninja, chronic, westbaer, AriX, OPK, lilstevie, ius, Jaywalker, NerveGas)
+
+iphone-dev (asap18, bgm, Bugout, bushing, c1de0x, chris, dinopio, drudge, Fred_, ghost_000, gray, iZsh, jim–, MuscleNerd, netkas, np101137, penisbird, planetbeing, pr3d4t0r, pumpkin, pytey, roxfan, sam, saurik, Turbo, w___, wizdaz, Zf)
+
+mactijn
+
+tomcool
+
+Sergey Ilinsky (SAIlinsky) Russian Translation
+Patrick Sommers (icystorm123) German Translation
+Lasse (lbmikkelsen) Danish Translation
+Erhan Ege (e_ege) Turkish Translation
+Jeroen Bosman (Bomans) Dutch Translation
+ 
+
+sorry if i forgot anyone!
+

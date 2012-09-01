@@ -1,0 +1,1404 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = armv7;
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 32A6A334141B6B5A009186F7 /* nitoTV */;
+		addToTargets = (
+			32A6A334141B6B5A009186F7 /* nitoTV */,
+		);
+		codeSenseManager = 89276BB9148D59E500C30A57 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					851,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					791.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					811,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 368154042;
+			PBXWorkspaceStateSaveDate = 368154042;
+		};
+		perUserProjectItems = {
+			32D96212131A4B59007B5BE3 = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+			32D975E8131E1044007B5BE3 = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+			87188B971279815B001861D7 = 87188B971279815B001861D7 /* nitoTVAppliance.mm */;
+			87188B9F1279815B001861D7 = 87188B9F1279815B001861D7 /* ntvMedia.m */;
+			87188BA11279815B001861D7 = 87188BA11279815B001861D7 /* ntvMediaPreview.mm */;
+			8726BE23128BD3FD00D84785 = 8726BE23128BD3FD00D84785 /* nitoInstallManager.m */;
+			8726DF52128E86D400D84785 = 8726DF52128E86D400D84785 /* queryMenu.m */;
+			89081F461555E78D004C54F4 = 89081F461555E78D004C54F4 /* PBXTextBookmark */;
+			8948EBA214FF408700E46BAD = 8948EBA214FF408700E46BAD /* PBXTextBookmark */;
+			8957A3E915217DDD00B3CDF2 = 8957A3E915217DDD00B3CDF2 /* PBXTextBookmark */;
+			8957A3EA15217DDD00B3CDF2 = 8957A3EA15217DDD00B3CDF2 /* PBXTextBookmark */;
+			8957A76315218DBC00B3CDF2 = 8957A76315218DBC00B3CDF2 /* PBXTextBookmark */;
+			8957A76415218DBC00B3CDF2 = 8957A76415218DBC00B3CDF2 /* PBXTextBookmark */;
+			8957A76515218DBC00B3CDF2 = 8957A76515218DBC00B3CDF2 /* PBXTextBookmark */;
+			8957BF541524E47800B3CDF2 = 8957BF541524E47800B3CDF2 /* PBXTextBookmark */;
+			8957BF551524E47800B3CDF2 = 8957BF551524E47800B3CDF2 /* PBXTextBookmark */;
+			8957BF581524E47800B3CDF2 = 8957BF581524E47800B3CDF2 /* PBXTextBookmark */;
+			8957C53C15252D3400B3CDF2 = 8957C53C15252D3400B3CDF2 /* PBXTextBookmark */;
+			89684BD215DA468600A7E24E = 89684BD215DA468600A7E24E /* PBXTextBookmark */;
+			89684BD315DA468600A7E24E = 89684BD315DA468600A7E24E /* PBXTextBookmark */;
+			89684BD415DA468600A7E24E = 89684BD415DA468600A7E24E /* PBXTextBookmark */;
+			89684BD515DA468600A7E24E = 89684BD515DA468600A7E24E /* PBXTextBookmark */;
+			89684BD915DA468600A7E24E = 89684BD915DA468600A7E24E /* PBXTextBookmark */;
+			896B2DDB15F194AA0049FA2E = 896B2DDB15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DDC15F194AA0049FA2E = 896B2DDC15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DDD15F194AA0049FA2E = 896B2DDD15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DDE15F194AA0049FA2E = 896B2DDE15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DDF15F194AA0049FA2E = 896B2DDF15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE015F194AA0049FA2E = 896B2DE015F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE115F194AA0049FA2E = 896B2DE115F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE215F194AA0049FA2E = 896B2DE215F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE315F194AA0049FA2E = 896B2DE315F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE415F194AA0049FA2E = 896B2DE415F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE515F194AA0049FA2E = 896B2DE515F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE615F194AA0049FA2E = 896B2DE615F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE715F194AA0049FA2E = 896B2DE715F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE815F194AA0049FA2E = 896B2DE815F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DE915F194AA0049FA2E = 896B2DE915F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DEA15F194AA0049FA2E = 896B2DEA15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DEB15F194AA0049FA2E = 896B2DEB15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DF115F194AA0049FA2E = 896B2DF115F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DF215F194AA0049FA2E = 896B2DF215F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DF515F194AA0049FA2E = 896B2DF515F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DF715F194AA0049FA2E = 896B2DF715F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DFB15F194AA0049FA2E = 896B2DFB15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DFC15F194AA0049FA2E = 896B2DFC15F194AA0049FA2E /* PBXTextBookmark */;
+			896B2DFD15F194AA0049FA2E = 896B2DFD15F194AA0049FA2E /* PBXTextBookmark */;
+			896B315315F196480049FA2E /* PBXTextBookmark */ = 896B315315F196480049FA2E /* PBXTextBookmark */;
+			896B315715F196480049FA2E /* PBXTextBookmark */ = 896B315715F196480049FA2E /* PBXTextBookmark */;
+			896B315815F196480049FA2E /* PBXTextBookmark */ = 896B315815F196480049FA2E /* PBXTextBookmark */;
+			897F442C15E783CB00BFD639 = 897F442C15E783CB00BFD639 /* PBXTextBookmark */;
+			897F4F0915E8E7C700BFD639 = 897F4F0915E8E7C700BFD639 /* PBXTextBookmark */;
+			897F4F0A15E8E7C700BFD639 = 897F4F0A15E8E7C700BFD639 /* PBXTextBookmark */;
+			897F4F0B15E8E7C700BFD639 = 897F4F0B15E8E7C700BFD639 /* PBXTextBookmark */;
+			898CDF81150A06CF001EB85B = 898CDF81150A06CF001EB85B /* PBXTextBookmark */;
+			898CE010150AA9F8001EB85B = 898CE010150AA9F8001EB85B /* PBXBookmark */;
+			898CE02F150AB272001EB85B = 898CE02F150AB272001EB85B /* PBXTextBookmark */;
+			899F3FCA1576E75600BEC0A9 = 899F3FCA1576E75600BEC0A9 /* PlistBookmark */;
+			899F3FDA1576E7EF00BEC0A9 = 899F3FDA1576E7EF00BEC0A9 /* PBXTextBookmark */;
+			89B570A014D865FA0079B86C = 89B570A014D865FA0079B86C /* PBXTextBookmark */;
+			89EA5A2214BBDAF600BB6A65 = 89EA5A2214BBDAF600BB6A65 /* PBXTextBookmark */;
+			89EA5A2314BBDAF600BB6A65 = 89EA5A2314BBDAF600BB6A65 /* PBXTextBookmark */;
+			89EA5A2414BBDAF600BB6A65 = 89EA5A2414BBDAF600BB6A65 /* PBXTextBookmark */;
+			89EA5A2614BBDAF600BB6A65 = 89EA5A2614BBDAF600BB6A65 /* PBXTextBookmark */;
+			89EA60E114C2C73F00BB6A65 = 89EA60E114C2C73F00BB6A65 /* PBXBookmark */;
+			89EA62F014C3FCD500BB6A65 = 89EA62F014C3FCD500BB6A65 /* PBXTextBookmark */;
+			89EBA67F1525706F0068E41F = 89EBA67F1525706F0068E41F /* PBXTextBookmark */;
+			89EBAC41152637690068E41F = 89EBAC41152637690068E41F /* PBXTextBookmark */;
+			89FE36BB151665CA00077E39 = 89FE36BB151665CA00077E39 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3226ACEB142481720014943B /* nitoMockMenuItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 344}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	3226ACEC142481720014943B /* nitoMockMenuItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 344}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 237}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	3226D89B12A9DDE1005E2456 /* untitled */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 13650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1165}";
+		};
+	};
+	3226E71212AA20FD005E2456 /* nitoDefaultManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 322}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 269}";
+		};
+	};
+	3226E71312AA20FD005E2456 /* nitoDefaultManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1261}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1383}";
+			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
+		};
+	};
+	32542A461309DF7E002E7C34 /* nitoSettingsController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1143, 8463}}";
+			sepNavSelRange = "{456, 8}";
+			sepNavVisRange = "{0, 1545}";
+			sepNavWindowFrame = "{{15, 0}, {1202, 878}}";
+		};
+	};
+	32A6A334141B6B5A009186F7 /* nitoTV */ = {
+		activeExec = 0;
+	};
+	32A6A416141B6FF1009186F7 /* Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 750}}";
+			sepNavSelRange = "{1092, 123}";
+			sepNavVisRange = "{0, 1569}";
+			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
+		};
+	};
+	32A6A44D141B71FC009186F7 /* About.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {8405, 1625}}";
+			sepNavSelRange = "{51, 5736}";
+			sepNavVisRange = "{0, 3978}";
+			sepNavWindowFrame = "{{15, 0}, {1354, 878}}";
+		};
+	};
+	32A6A46D141B71FC009186F7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{10, 0}, {1387, 878}}";
+		};
+	};
+	32D96211131A4B59007B5BE3 /* PackageDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 1300}}";
+			sepNavSelRange = "{554, 33}";
+			sepNavVisRange = "{0, 1176}";
+			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
+		};
+	};
+	32D96212131A4B59007B5BE3 /* PackageDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 10205}}";
+			sepNavSelRange = "{18824, 18}";
+			sepNavVisRange = "{17683, 1911}";
+			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
+		};
+	};
+	32D975E7131E1044007B5BE3 /* packageManagement.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1323, 1391}}";
+			sepNavSelRange = "{1386, 0}";
+			sepNavVisRange = "{0, 1501}";
+			sepNavWindowFrame = "{{15, 4}, {1382, 872}}";
+		};
+	};
+	32D975E8131E1044007B5BE3 /* packageManagement.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1323, 18343}}";
+			sepNavSelRange = "{837, 19}";
+			sepNavVisRange = "{0, 1424}";
+			sepNavWindowFrame = "{{15, 4}, {1382, 872}}";
+		};
+	};
+	32E4FA6D1429AF5B004B6EA2 /* nitoSourceController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{151, 1984}";
+			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
+		};
+	};
+	32E4FA6E1429AF5B004B6EA2 /* nitoSourceController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 11245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 252}";
+			sepNavWindowFrame = "{{15, 0}, {1333, 878}}";
+		};
+	};
+	87107BCF128FBEEC002A4B73 /* kbScrollingTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 104}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 99}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	87107BD0128FBEEC002A4B73 /* kbScrollingTextControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 195}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	87188B831279815B001861D7 /* APAttribute.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 867}";
+		};
+	};
+	87188B881279815B001861D7 /* APElement.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1143, 4303}}";
+			sepNavSelRange = "{7373, 26}";
+			sepNavVisRange = "{6599, 1592}";
+			sepNavWindowFrame = "{{15, 0}, {1202, 878}}";
+		};
+	};
+	87188B8A1279815B001861D7 /* CPlusFunctions.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 390}}";
+			sepNavSelRange = "{114, 304}";
+			sepNavVisRange = "{0, 87}";
+			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
+		};
+	};
+	87188B8D1279815B001861D7 /* nitoMediaMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 325}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+			sepNavWindowFrame = "{{15, 0}, {1382, 875}}";
+		};
+	};
+	87188B8E1279815B001861D7 /* nitoMediaMenuController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 3081}}";
+			sepNavSelRange = "{816, 0}";
+			sepNavVisRange = "{591, 712}";
+			sepNavWindowFrame = "{{15, 0}, {1382, 875}}";
+		};
+	};
+	87188B921279815B001861D7 /* nitoRssController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 7293}}";
+			sepNavSelRange = "{1363, 147}";
+			sepNavVisRange = "{702, 2238}";
+			sepNavWindowFrame = "{{15, 0}, {1374, 878}}";
+		};
+	};
+	87188B951279815B001861D7 /* NitoTheme.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 1846}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1438, 411}";
+		};
+	};
+	87188B961279815B001861D7 /* NitoTheme.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 5304}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{10919, 1766}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	87188B971279815B001861D7 /* nitoTVAppliance.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {6123, 10556}}";
+			sepNavSelRange = "{26292, 170}";
+			sepNavVisRange = "{0, 2885}";
+			sepNavWindowFrame = "{{195, 0}, {1202, 878}}";
+		};
+	};
+	87188B981279815B001861D7 /* nitoWeather.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 546}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 117}";
+		};
+	};
+	87188B9E1279815B001861D7 /* ntvMedia.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 748}}";
+			sepNavSelRange = "{22, 15}";
+			sepNavVisRange = "{0, 816}";
+		};
+	};
+	87188B9F1279815B001861D7 /* ntvMedia.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 2418}}";
+			sepNavSelRange = "{1548, 38}";
+			sepNavVisRange = "{2602, 1010}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	87188BA01279815B001861D7 /* ntvMediaPreview.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 748}}";
+			sepNavSelRange = "{369, 24}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	87188BA11279815B001861D7 /* ntvMediaPreview.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 2262}}";
+			sepNavSelRange = "{1054, 17}";
+			sepNavVisRange = "{481, 1012}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	87188BA51279815B001861D7 /* ntvRssBrowser.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 8437}}";
+			sepNavSelRange = "{11085, 71}";
+			sepNavVisRange = "{9839, 1943}";
+			sepNavWindowFrame = "{{15, 0}, {1202, 878}}";
+		};
+	};
+	87188BA91279815B001861D7 /* ntvRSSViewer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 4693}}";
+			sepNavSelRange = "{1300, 7}";
+			sepNavVisRange = "{1119, 834}";
+			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
+		};
+	};
+	87188BAD1279815B001861D7 /* ntvWeatherViewer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1356, 6721}}";
+			sepNavSelRange = "{11576, 1}";
+			sepNavVisRange = "{11465, 367}";
+			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
+		};
+	};
+	87188BD6127981DF001861D7 /* BackRowDefines.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 403}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 453}";
+		};
+	};
+	87188BD7127981E5001861D7 /* Extensions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 4407}}";
+			sepNavSelRange = "{283, 44}";
+			sepNavVisRange = "{1214, 349}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	87188C131279843F001861D7 /* awkScreenShot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 208}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+		};
+	};
+	8726BE22128BD3FD00D84785 /* nitoInstallManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 806}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1895}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	8726BE23128BD3FD00D84785 /* nitoInstallManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 14950}}";
+			sepNavSelRange = "{2487, 0}";
+			sepNavVisRange = "{2343, 351}";
+			sepNavWindowFrame = "{{202, 2}, {1049, 876}}";
+		};
+	};
+	8726C4C9128CA19400D84785 /* BRTask.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 234}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 118}";
+		};
+	};
+	8726C4CA128CA19400D84785 /* BRTask.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 273}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{140, 99}";
+		};
+	};
+	8726D1BA128D113600D84785 /* nitoHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 2301}}";
+			sepNavSelRange = "{3904, 7}";
+			sepNavVisRange = "{2458, 1566}";
+			sepNavWindowFrame = "{{11, 0}, {1387, 878}}";
+		};
+	};
+	8726D1BB128D113600D84785 /* nitoHelperClass.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1061, 663}}";
+			sepNavSelRange = "{858, 0}";
+			sepNavVisRange = "{0, 1206}";
+			sepNavWindowFrame = "{{181, 4}, {1120, 764}}";
+		};
+	};
+	8726D1BC128D113600D84785 /* nitoHelperClass.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 7488}}";
+			sepNavSelRange = "{5819, 26}";
+			sepNavVisRange = "{3098, 981}";
+			sepNavWindowFrame = "{{181, 4}, {1120, 764}}";
+		};
+	};
+	8726D206128D113600D84785 /* BRApplianceInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {902, 871}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{201, 3806}";
+			sepNavWindowFrame = "{{15, 5}, {961, 868}}";
+		};
+	};
+	8726D21C128D113600D84785 /* BRBaseAppliance.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {902, 740}}";
+			sepNavSelRange = "{248, 54}";
+			sepNavVisRange = "{0, 1728}";
+			sepNavWindowFrame = "{{15, 5}, {961, 868}}";
+		};
+	};
+	8726D21D128D113600D84785 /* BRBaseMediaAsset.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1690}}";
+			sepNavSelRange = "{300, 12}";
+			sepNavVisRange = "{0, 2331}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	8726D231128D113600D84785 /* BRControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 2652}}";
+			sepNavSelRange = "{3969, 6}";
+			sepNavVisRange = "{3247, 1530}";
+			sepNavWindowFrame = "{{15, 7}, {1303, 866}}";
+		};
+	};
+	8726D238128D113600D84785 /* BRCoverArtImageLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 748}}";
+			sepNavSelRange = "{952, 51}";
+			sepNavVisRange = "{0, 1648}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	8726D269128D113600D84785 /* BRHeaderControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 819}}";
+			sepNavSelRange = "{325, 9}";
+			sepNavVisRange = "{205, 3143}";
+			sepNavWindowFrame = "{{15, 7}, {1303, 866}}";
+		};
+	};
+	8726D271128D113600D84785 /* BRImageAndSyncingPreviewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 748}}";
+			sepNavSelRange = "{410, 14}";
+			sepNavVisRange = "{0, 1389}";
+			sepNavWindowFrame = "{{218, 2}, {1049, 876}}";
+		};
+	};
+	8726D272128D113600D84785 /* BRImageControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 748}}";
+			sepNavSelRange = "{284, 40}";
+			sepNavVisRange = "{0, 1540}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	8726D2AC128D113600D84785 /* BRMediaAsset.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1482}}";
+			sepNavSelRange = "{234, 39}";
+			sepNavVisRange = "{0, 1706}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	8726D2C4128D113600D84785 /* BRMediaMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 767}}";
+			sepNavSelRange = "{399, 16}";
+			sepNavVisRange = "{0, 2575}";
+			sepNavWindowFrame = "{{15, 7}, {1303, 866}}";
+		};
+	};
+	8726D2DB128D113600D84785 /* BRMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 1235}}";
+			sepNavSelRange = "{926, 15}";
+			sepNavVisRange = "{4, 2748}";
+			sepNavWindowFrame = "{{15, 7}, {1303, 866}}";
+		};
+	};
+	8726D2EC128D113600D84785 /* BRMetadataPreviewControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 767}}";
+			sepNavSelRange = "{405, 79}";
+			sepNavVisRange = "{0, 2857}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	8726D370128D113600D84785 /* BRTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 750}}";
+			sepNavSelRange = "{871, 38}";
+			sepNavVisRange = "{0, 1232}";
+			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
+		};
+	};
+	8726D3AC128D113600D84785 /* BRXMLMediaAsset.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 806}}";
+			sepNavSelRange = "{294, 16}";
+			sepNavVisRange = "{0, 2001}";
+			sepNavWindowFrame = "{{24, -25}, {1049, 876}}";
+		};
+	};
+	8726D3C7128D113600D84785 /* application.mk */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 269}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 165}";
+		};
+	};
+	8726DF52128E86D400D84785 /* queryMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 17069}}";
+			sepNavSelRange = "{1439, 340}";
+			sepNavVisRange = "{816, 1260}";
+			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
+		};
+	};
+	89081F461555E78D004C54F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32542A461309DF7E002E7C34 /* nitoSettingsController.mm */;
+		name = "nitoSettingsController.mm: 147";
+		rLen = 0;
+		rLoc = 3607;
+		rType = 0;
+		vrLen = 112;
+		vrLoc = 3594;
+	};
+	892226C71592ED1C000C2098 /* nitoDeadController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1315, 750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 204}";
+			sepNavWindowFrame = "{{15, 0}, {1374, 878}}";
+		};
+	};
+	892226C81592ED1C000C2098 /* nitoDeadController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 286}}";
+			sepNavSelRange = "{208, 50}";
+			sepNavVisRange = "{170, 95}";
+			sepNavWindowFrame = "{{15, 0}, {1354, 878}}";
+		};
+	};
+	8924AD6A142C9996004FF49C /* nitoInstalledPackageManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 325}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 146}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	8924AD6B142C9996004FF49C /* nitoInstalledPackageManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 3094}}";
+			sepNavSelRange = "{2891, 35}";
+			sepNavVisRange = "{2136, 1527}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	8924ADBF142C9F8D004FF49C /* nitoManageMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 233}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	8924ADC0142C9F8D004FF49C /* nitoManageMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 1924}}";
+			sepNavSelRange = "{484, 12}";
+			sepNavVisRange = "{234, 1350}";
+			sepNavWindowFrame = "{{15, 0}, {1110, 878}}";
+		};
+	};
+	89276BB8148D59E500C30A57 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	89276BB9148D59E500C30A57 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	89276C1A148D86FA00C30A57 /* control */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = control;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/layout/DEBIAN/control;
+		sourceTree = "<absolute>";
+	};
+	8945D59D1432E2CB00B752DD /* MobileCydia.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 142636}}";
+			sepNavSelRange = "{115590, 7}";
+			sepNavVisRange = "{321804, 2246}";
+		};
+	};
+	8948EBA214FF408700E46BAD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32E4FA6E1429AF5B004B6EA2 /* nitoSourceController.m */;
+		name = "nitoSourceController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	8957A3E915217DDD00B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA91279815B001861D7 /* ntvRSSViewer.m */;
+		name = "ntvRSSViewer.m: 63";
+		rLen = 7;
+		rLoc = 1300;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 1119;
+	};
+	8957A3EA15217DDD00B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8957A3EB15217DDD00B3CDF2 /* BRMediaObject.h */;
+		name = "BRMediaObject.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 127;
+	};
+	8957A3EB15217DDD00B3CDF2 /* BRMediaObject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRMediaObject.h;
+		path = /Users/kbradley/Dropbox/ATV/Hoodoo9B179b.K66OS/PrivateFrameworks/AppleTV.framework/Headers/BRMediaObject.h;
+		sourceTree = "<absolute>";
+	};
+	8957A3EF15217DDD00B3CDF2 /* BRMediaType.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BRMediaType.h;
+		path = /Users/kbradley/Dropbox/ATV/Hoodoo9B179b.K66OS/PrivateFrameworks/AppleTV.framework/Headers/BRMediaType.h;
+		sourceTree = "<absolute>";
+	};
+	8957A73815218CD800B3CDF2 /* nitoApplianceInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 750}}";
+			sepNavSelRange = "{212, 15}";
+			sepNavVisRange = "{0, 285}";
+			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
+		};
+	};
+	8957A73915218CD800B3CDF2 /* nitoApplianceInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 325}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{27, 261}";
+			sepNavWindowFrame = "{{11, 0}, {1387, 878}}";
+		};
+	};
+	8957A76315218DBC00B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8957A3EF15217DDD00B3CDF2 /* BRMediaType.h */;
+		name = "BRMediaType.h: 8";
+		rLen = 1;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	8957A76415218DBC00B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B831279815B001861D7 /* APAttribute.h */;
+		name = "APAttribute.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	8957A76515218DBC00B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8957A73815218CD800B3CDF2 /* nitoApplianceInfo.h */;
+		name = "nitoApplianceInfo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 0;
+	};
+	8957BF541524E47800B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89276C1A148D86FA00C30A57 /* control */;
+		name = "control: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	8957BF551524E47800B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8957BF561524E47800B3CDF2 /* postinst */;
+		name = "postinst: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	8957BF561524E47800B3CDF2 /* postinst */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = postinst;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/layout/DEBIAN/postinst;
+		sourceTree = "<absolute>";
+	};
+	8957BF581524E47800B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D206128D113600D84785 /* BRApplianceInfo.h */;
+		name = "BRApplianceInfo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 0;
+	};
+	8957C53C15252D3400B3CDF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D3C7128D113600D84785 /* application.mk */;
+		name = "application.mk: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 165;
+		vrLoc = 0;
+	};
+	89684BD215DA468600A7E24E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 892226C71592ED1C000C2098 /* nitoDeadController.h */;
+		name = "nitoDeadController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	89684BD315DA468600A7E24E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D1BC128D113600D84785 /* nitoHelperClass.m */;
+		name = "nitoHelperClass.m: 241";
+		rLen = 26;
+		rLoc = 5819;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 5097;
+	};
+	89684BD415DA468600A7E24E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188C131279843F001861D7 /* awkScreenShot.h */;
+		name = "awkScreenShot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	89684BD515DA468600A7E24E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BD6127981DF001861D7 /* BackRowDefines.h */;
+		name = "BackRowDefines.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	89684BD915DA468600A7E24E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89684BDA15DA468600A7E24E /* UIView.h */;
+		name = "UIView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 3419;
+	};
+	89684BDA15DA468600A7E24E /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer_Old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	89684BDE15DA468600A7E24E /* UIResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIResponder.h;
+		path = /Developer_Old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h;
+		sourceTree = "<absolute>";
+	};
+	896B2DDB15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899A8809143B0157007D23BE /* nitoMoreMenu.m */;
+		name = "nitoMoreMenu.m: 21";
+		rLen = 64;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 103;
+		vrLoc = 639;
+	};
+	896B2DDC15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.m */;
+		name = "nitoInstallManager.m: 91";
+		rLen = 0;
+		rLoc = 2487;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 2343;
+	};
+	896B2DDD15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8924AD6A142C9996004FF49C /* nitoInstalledPackageManager.h */;
+		name = "nitoInstalledPackageManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	896B2DDE15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726C4C9128CA19400D84785 /* BRTask.h */;
+		name = "BRTask.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 118;
+		vrLoc = 3;
+	};
+	896B2DDF15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726C4CA128CA19400D84785 /* BRTask.m */;
+		name = "BRTask.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 99;
+		vrLoc = 140;
+	};
+	896B2DE015F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8A1279815B001861D7 /* CPlusFunctions.mm */;
+		name = "CPlusFunctions.mm: 12";
+		rLen = 304;
+		rLoc = 114;
+		rType = 0;
+		vrLen = 87;
+		vrLoc = 0;
+	};
+	896B2DE115F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BD7127981E5001861D7 /* Extensions.h */;
+		name = "Extensions.h: 15";
+		rLen = 44;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 1214;
+	};
+	896B2DE215F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87107BCF128FBEEC002A4B73 /* kbScrollingTextControl.h */;
+		name = "kbScrollingTextControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 99;
+		vrLoc = 0;
+	};
+	896B2DE315F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87107BD0128FBEEC002A4B73 /* kbScrollingTextControl.m */;
+		name = "kbScrollingTextControl.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	896B2DE415F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8D1279815B001861D7 /* nitoMediaMenuController.h */;
+		name = "nitoMediaMenuController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	896B2DE515F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.m */;
+		name = "nitoMediaMenuController.m: 34";
+		rLen = 0;
+		rLoc = 816;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 591;
+	};
+	896B2DE615F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226ACEB142481720014943B /* nitoMockMenuItem.h */;
+		name = "nitoMockMenuItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	896B2DE715F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226ACEC142481720014943B /* nitoMockMenuItem.m */;
+		name = "nitoMockMenuItem.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	896B2DE815F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B951279815B001861D7 /* NitoTheme.h */;
+		name = "NitoTheme.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 1438;
+	};
+	896B2DE915F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+		name = "PackageDataSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
+	896B2DEA15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226E71212AA20FD005E2456 /* nitoDefaultManager.h */;
+		name = "nitoDefaultManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	896B2DEB15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226E71212AA20FD005E2456 /* nitoDefaultManager.h */;
+		name = "nitoDefaultManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	896B2DF115F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+		rLen = 1;
+		rLoc = 649;
+		rType = 1;
+	};
+	896B2DF215F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+		name = "PackageDataSource.m: 668";
+		rLen = 18;
+		rLoc = 18824;
+		rType = 0;
+		vrLen = 1905;
+		vrLoc = 17687;
+	};
+	896B2DF515F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B2DF615F194AA0049FA2E /* SMFMoviePreviewController.h */;
+		rLen = 1;
+		rLoc = 29;
+		rType = 1;
+	};
+	896B2DF615F194AA0049FA2E /* SMFMoviePreviewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMFMoviePreviewController.h;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/theos/include/SMFramework/SMFMoviePreviewController.h;
+		sourceTree = "<absolute>";
+	};
+	896B2DF715F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B2DF815F194AA0049FA2E /* SMFMoviePreviewController.h */;
+		name = "SMFMoviePreviewController.h: 34";
+		rLen = 15;
+		rLoc = 842;
+		rType = 0;
+		vrLen = 2107;
+		vrLoc = 493;
+	};
+	896B2DF815F194AA0049FA2E /* SMFMoviePreviewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SMFMoviePreviewController.h;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/theos/include/SMFramework/SMFMoviePreviewController.h;
+		sourceTree = "<absolute>";
+	};
+	896B2DFB15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899A8809143B0157007D23BE /* nitoMoreMenu.m */;
+		name = "nitoMoreMenu.m: 13";
+		rLen = 29;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+	896B2DFC15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899A8808143B0157007D23BE /* nitoMoreMenu.h */;
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+	};
+	896B2DFD15F194AA0049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899A8808143B0157007D23BE /* nitoMoreMenu.h */;
+		name = "nitoMoreMenu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	896B315315F196480049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226E71212AA20FD005E2456 /* nitoDefaultManager.h */;
+		name = "nitoDefaultManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	896B315715F196480049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.m */;
+		name = "PackageDataSource.m: 668";
+		rLen = 18;
+		rLoc = 18824;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 17683;
+	};
+	896B315815F196480049FA2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899A8808143B0157007D23BE /* nitoMoreMenu.h */;
+		name = "nitoMoreMenu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	897F442C15E783CB00BFD639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89684BDE15DA468600A7E24E /* UIResponder.h */;
+		name = "UIResponder.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 159;
+	};
+	897F4F0915E8E7C700BFD639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 892226C81592ED1C000C2098 /* nitoDeadController.m */;
+		name = "nitoDeadController.m: 15";
+		rLen = 50;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 170;
+	};
+	897F4F0A15E8E7C700BFD639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8924AD6B142C9996004FF49C /* nitoInstalledPackageManager.m */;
+		name = "nitoInstalledPackageManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	897F4F0B15E8E7C700BFD639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96211131A4B59007B5BE3 /* PackageDataSource.h */;
+		name = "PackageDataSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 204;
+		vrLoc = 82;
+	};
+	898CDF81150A06CF001EB85B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.m */;
+		name = "ntvWeatherViewer.m: 432";
+		rLen = 1;
+		rLoc = 11576;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 11465;
+	};
+	898CE010150AA9F8001EB85B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 898CDF8D150A1604001EB85B /* AppIcon.png */;
+	};
+	898CE02F150AB272001EB85B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A6A44D141B71FC009186F7 /* About.txt */;
+		name = "About.txt: 6";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 0;
+	};
+	899A8808143B0157007D23BE /* nitoMoreMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 353}";
+			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
+		};
+	};
+	899A8809143B0157007D23BE /* nitoMoreMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 1209}}";
+			sepNavSelRange = "{269, 64}";
+			sepNavVisRange = "{639, 103}";
+			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
+		};
+	};
+	899F3FCA1576E75600BEC0A9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A6A46D141B71FC009186F7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			BLMerchantPreferedOrderValue,
+		);
+		name = /Users/kbradley/Projects/ATV2/nitoTV/trunk/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	899F3FDA1576E7EF00BEC0A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726D231128D113600D84785 /* BRControl.h */;
+		name = "BRControl.h: 70";
+		rLen = 6;
+		rLoc = 3969;
+		rType = 0;
+		vrLen = 1530;
+		vrLoc = 3247;
+	};
+	89B570A014D865FA0079B86C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EA62F314C3FCD500BB6A65 /* dpkg_list.sh */;
+		name = "dpkg_list.sh: 3";
+		rLen = 21;
+		rLoc = 62;
+		rType = 0;
+		vrLen = 54;
+		vrLoc = 0;
+	};
+	89EA5A2214BBDAF600BB6A65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3226D89B12A9DDE1005E2456 /* untitled */;
+		name = "untitled: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 0;
+	};
+	89EA5A2314BBDAF600BB6A65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA11279815B001861D7 /* ntvMediaPreview.mm */;
+		name = "ntvMediaPreview.mm: 60";
+		rLen = 0;
+		rLoc = 1079;
+		rType = 0;
+		vrLen = 149;
+		vrLoc = 982;
+	};
+	89EA5A2414BBDAF600BB6A65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B981279815B001861D7 /* nitoWeather.h */;
+		name = "nitoWeather.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 0;
+	};
+	89EA5A2614BBDAF600BB6A65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B961279815B001861D7 /* NitoTheme.m */;
+		name = "NitoTheme.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 129;
+		vrLoc = 0;
+	};
+	89EA60E114C2C73F00BB6A65 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 89EA60E214C2C74000BB6A65 /* MobileCydia.mm */;
+	};
+	89EA60E214C2C74000BB6A65 /* MobileCydia.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = MobileCydia.mm;
+		path = /Users/kbradley/Projects/cydia/MobileCydia.mm;
+		sourceTree = "<absolute>";
+	};
+	89EA62F014C3FCD500BB6A65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EA62F114C3FCD500BB6A65 /* blockUpdate.sh */;
+		name = "blockUpdate.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 225;
+		vrLoc = 0;
+	};
+	89EA62F114C3FCD500BB6A65 /* blockUpdate.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = blockUpdate.sh;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/blockUpdate.sh;
+		sourceTree = "<absolute>";
+	};
+	89EA62F314C3FCD500BB6A65 /* dpkg_list.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = dpkg_list.sh;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/dpkg_list.sh;
+		sourceTree = "<absolute>";
+	};
+	89EBA67F1525706F0068E41F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8957A73915218CD800B3CDF2 /* nitoApplianceInfo.m */;
+		name = "nitoApplianceInfo.m: 17";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 27;
+	};
+	89EBAC41152637690068E41F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EBAC42152637690068E41F /* updaterepo.sh */;
+		name = "updaterepo.sh: 3";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	89EBAC42152637690068E41F /* updaterepo.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = updaterepo.sh;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/trunk/layout/usr/libexec/nitotv/updaterepo.sh;
+		sourceTree = "<absolute>";
+	};
+	89FE36BB151665CA00077E39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 591";
+		rLen = 11;
+		rLoc = 20283;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 19390;
+	};
+}

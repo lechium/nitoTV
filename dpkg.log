@@ -1,0 +1,4 @@
+warning, `/Users/kevinbradley/Projects/ATV2/nitoTV/trunk/_/DEBIAN/control' contains user-defined field `Name'
+warning, `/Users/kevinbradley/Projects/ATV2/nitoTV/trunk/_/DEBIAN/control' contains user-defined field `Website'
+warning, `/Users/kevinbradley/Projects/ATV2/nitoTV/trunk/_/DEBIAN/control' contains user-defined field `Author'
+dpkg-deb: ignoring 3 warnings about the control file(s)

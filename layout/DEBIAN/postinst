@@ -1,0 +1,47 @@
+#! /bin/sh
+FILE2=/var/mobile/Media/Photos/seas0nTV.png
+FILE3=/var/mobile/Media/Photos/spicon.png
+FILE4=/Library/MobileSubstrate/DynamicLibraries/apocalypsePony
+FILE4FULL=$FILE4.dylib
+
+if [ -f $FILE2 ];
+then
+   echo "File $FILE2 exists. removing..."
+   rm $FILE2
+fi
+
+if [ -f $FILE3 ];
+then
+   echo "File $FILE3 exists. removing..."
+   rm $FILE3
+fi
+
+if [ -f $FILE4FULL ];
+then
+   echo "File $FILE3 exists. removing..."
+   rm $FILE4*
+fi
+
+# remove ultra snow repo, it is useless on appletv
+
+currentDir=`pwd`
+sources=/etc/apt/sources.list.d
+
+cd $sources
+sed '/deb http:\/\/repo666.ultrasn0w.com\/ .\//d' cydia.list > tmp
+mv tmp cydia.list
+cd $currentDir
+
+while read line    
+do    
+	if [[ $line == *127.0.0.1*mesu.apple.com* ]]; then
+		echo "no need to edit hosts!";
+		exit 0;
+	fi
+done < /etc/hosts
+
+echo "127.0.0.1	mesu.apple.com" >> /etc/hosts
+echo "127.0.0.1	appldnld.apple.com" >> /etc/hosts
+echo "127.0.0.1	appldnld.apple.com.edgesuite.net" >> /etc/hosts
+
+exit 0;

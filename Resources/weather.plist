@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>location</key>
+		<string>85048</string>
+		<key>name</key>
+		<string>Phoenix</string>
+		<key>units</key>
+		<string>f</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>location</key>
+		<string>19085</string>
+		<key>name</key>
+		<string>Philadelphia</string>
+		<key>units</key>
+		<string>f</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>location</key>
+		<string>NLXX0002</string>
+		<key>name</key>
+		<string>Amsterdam</string>
+		<key>units</key>
+		<string>c</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>location</key>
+		<string>AUXX0025</string>
+		<key>name</key>
+		<string>Vienna</string>
+		<key>units</key>
+		<string>c</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1045 @@
+
+Dec  3 18:14:29 Apple-TV /Applications/AppleTV.app/AppleTV[320]: Received external URL for playback: http://192.168.1.20:7001/1/91ad979a-55e9-55da-abd8-75c7a9a8ee69.mp4
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPCurrentPlaylistChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:29 Apple-TV com.apple.frontrow[320]: 2010-12-03 06:14:29.277981 PM [MediaControlServer] Play http://192.168.1.20:7001/1/91ad979a-55e9-55da-abd8-75c7a9a8ee69.mp4 @ 0.030554 (non-DRM)
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPStateChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x4bbde0> class: BRControl superclass: NSObject
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x4bbde0> class: BRControl superclass: NSObject
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControllerStack: 0x4bbee0> class: BRControllerStack superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControllerStack: 0x4bbee0> class: BRControllerStack superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRMainMenuController: 0x4ae0d0> class: BRMainMenuController superclass: BRController
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRMainMenuController: 0x4ae0d0> class: BRMainMenuController superclass: BRController
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRMainMenuControl: 0x5825c00> class: BRMainMenuControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRMainMenuControl: 0x5825c00> class: BRMainMenuControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRScrollControl: 0x4a4480> class: BRScrollControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRScrollControl: 0x4a4480> class: BRScrollControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRPanelControl: 0x5820910> class: BRPanelControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV com.apple.frontrow[320]: 2010-12-03 06:14:29.301709 PM [MediaControlServer] Set Rate to 1.000000
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRListView: 0x4be2c0> class: BRListView superclass: BRGridView
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRListView: 0x4be2c0> class: BRListView superclass: BRGridView
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRPanelControl: 0x5820910> class: BRPanelControl superclass: BRControl
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:29: 
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRMediaPlayerVisualControlChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPStateChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:29 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:30: 
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x581ec30> class: BRControl superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x581ec30> class: BRControl superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControllerStack: 0x584ef40> class: BRControllerStack superclass: BRControl
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControllerStack: 0x584ef40> class: BRControllerStack superclass: BRControl
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ab960 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b2c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b330 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheMiss object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <3>\n		# in-memory cache blocks <2>\n		# referenced cache blocks <1>\n		# on disk <0>\n		# in state Backfill <0>\n		# in state Follows Hints <3>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828a40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4019b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b4b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <3>\n		# in-memory cache blocks <2>\n		# referenced cache blocks <1>\n		# on disk <0>\n		# in state Backfill <0>\n		# in state Follows Hints <3>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4eaba0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58253e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5815b10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheMiss object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <3>\n		# referenced cache blocks <1>\n		# on disk <11>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ced30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ec360 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583c910 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <3>\n		# referenced cache blocks <1>\n		# on disk <11>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:30: 
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4a4b20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x585b470 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5815240 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheMiss object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <4>\n		# referenced cache blocks <1>\n		# on disk <12>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x585b450 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839900 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583b430 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:30 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <4>\n		# referenced cache blocks <1>\n		# on disk <12>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839330 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5826c50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5815cf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheMiss object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <6>\n		# referenced cache blocks <2>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x580d840 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58463e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5836410 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <6>\n		# referenced cache blocks <2>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5835980 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x402670 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5838050 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <6>\n		# referenced cache blocks <2>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c05d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58208f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5838390 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <6>\n		# referenced cache blocks <2>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5846520 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x402630 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58386d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <6>\n		# referenced cache blocks <2>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x580d740 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58392f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834330 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheMiss object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <7>\n		# referenced cache blocks <3>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834530 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b210 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834590 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <14>\n		# in-memory cache blocks <7>\n		# referenced cache blocks <3>\n		# on disk <13>\n		# in state Backfill <0>\n		# in state Follows Hints <14>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b1f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58344f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834af0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <15>\n		# in-memory cache blocks <8>\n		# referenced cache blocks <3>\n		# on disk <14>\n		# in state Backfill <0>\n		# in state Follows Hints <15>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828690 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5836640 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834c80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <15>\n		# in-memory cache blocks <8>\n		# referenced cache blocks <3>\n		# on disk <14>\n		# in state Backfill <0>\n		# in state Follows Hints <15>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828e90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c1060 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58354b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <16>\n		# in-memory cache blocks <9>\n		# referenced cache blocks <3>\n		# on disk <15>\n		# in state Backfill <0>\n		# in state Follows Hints <16>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834e80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b1c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5835e30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <17>\n		# in-memory cache blocks <10>\n		# referenced cache blocks <3>\n		# on disk <16>\n		# in state Backfill <0>\n		# in state Follows Hints <17>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58351b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b2e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5840fc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <17>\n		# in-memory cache blocks <10>\n		# referenced cache blocks <3>\n		# on disk <16>\n		# in state Backfill <0>\n		# in state Follows Hints <17>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5835810 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582a750 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5836750 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <17>\n		# in-memory cache blocks <10>\n		# referenced cache blocks <3>\n		# on disk <16>\n		# in state Backfill <0>\n		# in state Follows Hints <17>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31: 
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x485de0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839d60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5837910 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58393a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0xbd2e00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583bee0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: LyricsScanDidComplete object: <FigBaseObject: instance<0x583fd10> storage<0x583fd20> class<0x3e4ba9fc> allocator<0x3e7639fc>>{\n	MovieFormatReader: 0x583fd10 stream<<FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <18>\n		# in-memory cache blocks <11>\n		# referenced cache blocks <2>\n		# on disk <17>\n		# in state Backfill <0>\n		# in state Follows Hints <18>\n}> trackCount<2>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CRABS_CacheChange object: <FigBaseObject: instance<0x5828380> storage<0x5828390> class<0x3e4b6e84> allocator<0x3e7639fc>>{\n	FigByteStream_CRABS: \n		# active cache blocks <18>\n		# in-memory cache blocks <11>\n		# referenced cache blocks <2>\n		# on disk <17>\n		# in state Backfill <0>\n		# in state Follows Hints <18>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x402650 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58371b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834720 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000000 time: {38159166/1000000000 = 0.038} = 0.038159 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5834510 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c1080 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5852690 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {0/1 = 0.000} = 0.000000 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b230 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ce5f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583b070 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5822d50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828050 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828b00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: loader_ReadyForInspection object: <FigBaseObject: instance<0x5865040> storage<0x5865050> class<0x3e4bbc2c> allocator<0x3e7639fc>>{\n<FigFormatReaderLoaderRemote 0x5865040 retainCount: 2 allocator: 0x3e7639fc>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31: 
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV mediaserverd[37]: +[CATransaction synchronize] called within transaction
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ac530 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5840790 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5826c70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000041 time: {350127204/1000000000 = 0.350} = 0.350127 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58423a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5829910 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583ad90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {0/1 = 0.000} = 0.000000 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4a6cc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583eb00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5835740 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5842350 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x40a980 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4a75b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x471490 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583fd60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5853220 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {0/1 = 0.000} = 0.000000 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5837e80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828ef0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58287d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583f310 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583fda0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828890 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForPlayback object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForPlayback object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CurrentItemDidChange object: <FigBaseObject: instance<0x47ee00> storage<0x47ee10> class<0x3e4b8248> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: CurrentItemDidChange object: <FigBaseObject: instance<0x58297b0> storage<0x58297c0> class<0x3e4b713c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamBufferFull object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamBufferFull object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FirstVideoFrameEnqueued object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FirstVideoFrameEnqueued object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPStateChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlayerBufferingProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5826de0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58294f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5852de0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {118500/2997 = 39.540} = 39.539540 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583ab60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5816d50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5852ca0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828a20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4afe30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58360e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRMediaPlayerTimeSkipped object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:31 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlaybackInitiatedNotification object: {\n    forceHDCP = 1;\n    hasVideoContent = 1;\n    id = "D5DBD1FF-E33A-4E3B-9BBC-65246E86AEDF-320-0000000C5371508A";\n    mediaURL = "http://192.168.1.20:7001/1/91ad979a-55e9-55da-abd8-75c7a9a8ee69.mp4";\n    mediatype = "<BRMediaType: Movie>";\n    playbackMetadata =     {\n        BRMediaAssetMetadataIsAirplay = 1;\n    };\n} class: BRXMLMediaAsset superclass: BRBaseMediaAsset
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPStateChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlayerMediaCued object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5853ec0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583bb40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869fb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000041 time: {763592160/1000000000 = 0.764} = 0.763592 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58467b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583da20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586a210 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {39527023381/1000000000 = 39.527} = 39.527023 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584c3b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586a480 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {39536803119/1000000000 = 39.537} = 39.536803 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d810 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x470280 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584dda0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {39555176149/1000000000 = 39.555} = 39.555176 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4018d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5844fa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ea640 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d340 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58695b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586a660 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: loader_ReadyForInspection object: <FigBaseObject: instance<0x5865040> storage<0x5865050> class<0x3e4bbc2c> allocator<0x3e7639fc>>{\n<FigFormatReaderLoaderRemote 0x5865040 retainCount: 2 allocator: 0x3e7639fc>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: loader_ChapterGroupInfoAvailable object: <FigBaseObject: instance<0x5865040> storage<0x5865050> class<0x3e4bbc2c> allocator<0x3e7639fc>>{\n<FigFormatReaderLoaderRemote 0x5865040 retainCount: 2 allocator: 0x3e7639fc>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: loader_ReadyForInspection object: <FigBaseObject: instance<0x5865040> storage<0x5865050> class<0x3e4bbc2c> allocator<0x3e7639fc>>{\n<FigFormatReaderLoaderRemote 0x5865040 retainCount: 2 allocator: 0x3e7639fc>\n} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: ReadyForInspection object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: RateDidChange object: <FigBaseObject: instance<0x47ee00> storage<0x47ee10> class<0x3e4b8248> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: RateDidChange object: <FigBaseObject: instance<0x58297b0> storage<0x58297c0> class<0x3e4b713c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: SynchronousFrameEnqueued object: <FigBaseObject: instance<0x47ee00> storage<0x47ee10> class<0x3e4b8248> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: SynchronousFrameEnqueued object: <FigBaseObject: instance<0x58297b0> storage<0x58297c0> class<0x3e4b713c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlayerBufferingProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlayerBufferingProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:32 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5852fc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839c30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582f440 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {40518639702/1000000000 = 40.519} = 40.518640 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c7730 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58244f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5829800 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000041 time: {1763886067/1000000000 = 1.764} = 1.763886 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4b1c10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583ab40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5826b00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:33 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {40525788577/1000000000 = 40.526} = 40.525789 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:33 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:33 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:34: 
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5832110 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x47d8d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58397c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {41516098822/1000000000 = 41.516} = 41.516099 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582b850 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5838860 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5837bc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000041 time: {2763989592/1000000000 = 2.764} = 2.763990 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5840650 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58398e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583a180 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:34 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {41527564316/1000000000 = 41.528} = 41.527564 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:34 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:34 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:35: 
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5837eb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5840d60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d1b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {42517770218/1000000000 = 42.518} = 42.517770 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583fb00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5852200 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {3764076095/1000000000 = 3.764} = 3.764076 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5868060 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5846450 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583e1f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:35 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {42527528611/1000000000 = 42.528} = 42.527529 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:35 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:35 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:36: 
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d060 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5848470 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d360 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {43517800032/1000000000 = 43.518} = 43.517800 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582cbf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4bf910 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583d480 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {4763511951/1000000000 = 4.764} = 4.763512 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58414c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5842bf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828380 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:36 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {43527739201/1000000000 = 43.528} = 43.527739 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:36 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:36 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:37: 
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x479c40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5846280 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5828490 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {44517179464/1000000000 = 44.517} = 44.517179 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x46f4e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58285b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586a870 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {5763347238/1000000000 = 5.763} = 5.763347 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58528c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584f3b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586aad0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:37 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {44527946918/1000000000 = 44.528} = 44.527947 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:37 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:37 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:38: 
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4a4560 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5851510 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ad30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {45517107628/1000000000 = 45.517} = 45.517108 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x41dae0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4d0f70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ae50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {6763200983/1000000000 = 6.763} = 6.763201 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x49be10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x49cd00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586b0b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:38 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {45526771333/1000000000 = 45.527} = 45.526771 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:38 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:38 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:39: 
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58439a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ab650 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586b310 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {46517133423/1000000000 = 46.517} = 46.517133 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5844b50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58454d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586b580 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {7763208902/1000000000 = 7.763} = 7.763209 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x43f8a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5842aa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586b7e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:39 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {46525953760/1000000000 = 46.526} = 46.525954 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:39 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:39 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:40: 
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5825fb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582f2d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ba40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {47517117507/1000000000 = 47.517} = 47.517118 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x582f2b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4abcd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586bcb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {8763432829/1000000000 = 8.763} = 8.763433 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583b830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583dd50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586bf10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:40 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {47526014761/1000000000 = 47.526} = 47.526015 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:40 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:40 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:41: 
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869590 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c5d30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586c170 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {48517730945/1000000000 = 48.518} = 48.517731 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x471f70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4c5d10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586c3e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {9764123983/1000000000 = 9.764} = 9.764124 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58103a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4521c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586c640 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:41 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {48527273689/1000000000 = 48.527} = 48.527274 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:41 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:41 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:42: 
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x481810 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58403e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586c8a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {49517704116/1000000000 = 49.518} = 49.517704 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4521a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5840400 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586cb10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {10764330993/1000000000 = 10.764} = 10.764331 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x481830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5855950 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586cd70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:42 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {49526966175/1000000000 = 49.527} = 49.526966 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:42 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:42 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:43: 
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5868500 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5829070 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586cfd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {50517234095/1000000000 = 50.517} = 50.517234 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5855930 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5829090 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586d240 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {11764550169/1000000000 = 11.765} = 11.764550 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5868520 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4018b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586d4a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:43 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {50526993217/1000000000 = 50.527} = 50.526993 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 270, DecodeFrame failed with error: 6 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 271, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 272, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 273, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 274, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 275, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 276, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 277, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 278, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 279, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 280, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 281, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 282, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 283, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 284, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 285, DecodeFrame failed with error: 305 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 286, DecodeFrame failed with error: 6 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 287, DecodeFrame failed with error: 6 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 288, DecodeFrame failed with error: 6 
+Dec  3 18:14:43 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 289, DecodeFrame failed with error: 6 
+Dec  3 18:14:43 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:43 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:44: 
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584b6e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583e300 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586d700 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {51516866121/1000000000 = 51.517} = 51.516866 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x401890 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584b700 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586d970 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {12763109365/1000000000 = 12.763} = 12.763109 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583e320 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5830b10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586dbd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:44 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {51526987967/1000000000 = 51.527} = 51.526988 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:44 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:44 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:45: 
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583dd30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58293e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586de30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {52517255637/1000000000 = 52.517} = 52.517256 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x491940 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584b720 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e0a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {13764233284/1000000000 = 13.764} = 13.764233 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x491910 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4b0fd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e300 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:45 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {52529388684/1000000000 = 52.529} = 52.529389 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:45 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:45 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:46: 
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4b0ff0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ec320 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e560 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {53517061672/1000000000 = 53.517} = 53.517062 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5815180 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ec340 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e7d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {14763764643/1000000000 = 14.764} = 14.763765 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5829400 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584e470 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ea30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:46 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {53526122725/1000000000 = 53.526} = 53.526123 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:46 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:46 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:47: 
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869570 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584e490 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ec90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {54517031878/1000000000 = 54.517} = 54.517032 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x466dd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ebf60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ef00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {15763319168/1000000000 = 15.763} = 15.763319 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x466da0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ebfa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f160 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:47 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {54528662572/1000000000 = 54.529} = 54.528663 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:47 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:47 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:48: 
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ebf80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ec20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f3c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {55517180382/1000000000 = 55.517} = 55.517180 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5830af0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ec40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f630 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {16764147993/1000000000 = 16.764} = 16.764148 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869d80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869dc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f890 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:48 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {55528778867/1000000000 = 55.529} = 55.528779 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:48 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:48 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:49: 
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839b70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839bb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586faf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {56517709027/1000000000 = 56.518} = 56.517709 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584e450 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869810 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fd60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {17764193244/1000000000 = 17.764} = 17.764193 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ec60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869850 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ffc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:49 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {56528994082/1000000000 = 56.529} = 56.528994 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:49 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:49 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:50: 
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e4f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e530 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870220 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {57516171216/1000000000 = 57.516} = 57.516171 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e510 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870490 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {18764343458/1000000000 = 18.764} = 18.764343 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ee90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586eed0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58706f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:50 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {57526727494/1000000000 = 57.527} = 57.526727 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:50 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:50 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:51: 
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fa80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fac0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870950 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {58517152878/1000000000 = 58.517} = 58.517153 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586eeb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586faa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870bc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {19778854098/1000000000 = 19.779} = 19.778854 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ff50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ff90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870e20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:51 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {58551911046/1000000000 = 58.552} = 58.551911 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:51 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:51 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:52: 
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58706c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e9c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871080 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {59517075502/1000000000 = 59.517} = 59.517076 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ec300 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870450 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58712f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {20763314795/1000000000 = 20.763} = 20.763315 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870420 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58706a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871550 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:52 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {59526802081/1000000000 = 59.527} = 59.526802 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:52 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:52 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:53: 
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5869da0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f5c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58717b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {60517166211/1000000000 = 60.517} = 60.517166 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ea10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f5e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871a20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {21763534178/1000000000 = 21.764} = 21.763534 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586e9e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871280 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871c80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:53 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {60526693913/1000000000 = 60.527} = 60.526694 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:53 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:53 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:54: 
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58701b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58701f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871ee0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {61517094462/1000000000 = 61.517} = 61.517094 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870470 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870680 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872150 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {22763448175/1000000000 = 22.763} = 22.763448 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f600 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58712c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58723b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:54 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {61525568369/1000000000 = 61.526} = 61.525568 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:54 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:54 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:55: 
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f0f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f130 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872610 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {62517104502/1000000000 = 62.517} = 62.517105 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58712a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f110 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872880 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {23763556888/1000000000 = 23.764} = 23.763557 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871740 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871780 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872ae0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:55 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {62525732545/1000000000 = 62.526} = 62.525733 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:55 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:55 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:56: 
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58720e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872120 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872d40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {63517055879/1000000000 = 63.517} = 63.517056 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871760 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872100 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872fb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000038 time: {24763484635/1000000000 = 24.763} = 24.763485 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871e70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871eb0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873210 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:56 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {63525591038/1000000000 = 63.526} = 63.525591 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:56 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:56 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:57: 
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fcf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fd30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873470 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {64517955112/1000000000 = 64.518} = 64.517955 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871e90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586fd10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58736e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {25764433185/1000000000 = 25.764} = 25.764433 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872a70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872ab0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873940 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:57 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {64526134700/1000000000 = 64.526} = 64.526135 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:57 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:57 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:58: 
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58725e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872f40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873ba0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {65516364033/1000000000 = 65.516} = 65.516364 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872a90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870b80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873e10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {26764498431/1000000000 = 26.764} = 26.764498 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870b50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58725c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874070 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:58 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {65527113578/1000000000 = 65.527} = 65.527114 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:58 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:58 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:59: 
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5839b90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58719f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58742d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {66517454581/1000000000 = 66.517} = 66.517455 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872f90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586ff70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874540 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {27769890230/1000000000 = 27.770} = 27.769890 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872f60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58719d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58747a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {66534385824/1000000000 = 66.534} = 66.534386 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 651, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 652, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 653, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 654, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 655, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 656, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 657, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 658, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 659, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 660, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV com.apple.mediaserverd[37]: vxdDec - Frame# 661, DecodeFrame failed with error: 305 
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:14:59 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:00: 
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58701d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873420 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874a00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {67517584506/1000000000 = 67.518} = 67.517585 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58719b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873440 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874c70 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {28764708759/1000000000 = 28.765} = 28.764709 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584f4f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871c10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874ed0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:00 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {67528454985/1000000000 = 67.528} = 67.528455 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:00 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:00 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:01: 
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5870ba0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872cd0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875130 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {68517375774/1000000000 = 68.517} = 68.517376 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583a2c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872cf0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58753a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {29763674467/1000000000 = 29.764} = 29.763674 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583a290 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874990 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875600 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:01 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {68527640220/1000000000 = 68.528} = 68.527640 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:01 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:01 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:02: 
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874020 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58744d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875860 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {69517042109/1000000000 = 69.517} = 69.517042 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58725a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874040 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875ad0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {30763576249/1000000000 = 30.764} = 30.763576 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5872d10 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58749d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875d30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:02 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {69525515233/1000000000 = 69.526} = 69.525515 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:02 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:02 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:03: 
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x584f510 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874e60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875f90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {70517058734/1000000000 = 70.517} = 70.517059 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874520 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874e80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876200 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {31763602493/1000000000 = 31.764} = 31.763602 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58744f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875a60 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876460 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:03 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {70525667405/1000000000 = 70.526} = 70.525667 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:03 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:03 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:04: 
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58755b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875330 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58766c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {71516947439/1000000000 = 71.517} = 71.516947 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58749b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58755d0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876930 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {32763522107/1000000000 = 32.764} = 32.763522 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874ea0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875aa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876b90 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:04 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {71526014917/1000000000 = 71.526} = 71.526015 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:04 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:04 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:05: 
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5874000 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875cc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876df0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {72518395697/1000000000 = 72.518} = 72.518396 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875380 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875ce0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877060 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {33764621845/1000000000 = 33.765} = 33.764622 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875350 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58768c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58772c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:05 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {72525640196/1000000000 = 72.526} = 72.525640 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:05 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:05 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:06: 
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875810 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876190 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877520 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {73516195664/1000000000 = 73.516} = 73.516196 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875a80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875830 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877790 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {34764933389/1000000000 = 34.765} = 34.764933 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875d00 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876900 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58779f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:06 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {73526782859/1000000000 = 73.527} = 73.526783 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:06 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:06 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:07: 
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5875590 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876b20 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877c50 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {74517093111/1000000000 = 74.517} = 74.517093 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58761e0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876b40 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877ec0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {35764773710/1000000000 = 35.765} = 35.764774 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58761b0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877720 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878120 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {74526704732/1000000000 = 74.527} = 74.526705 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPPlaybackProgressChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: PMWakeNotification object: <LTAirVideoAgent: 0x4cc140> class: LTAirVideoAgent superclass: BRSingleton
+Dec  3 18:15:07: 
+Dec  3 18:15:07 Apple-TV com.apple.frontrow[320]: 2010-12-03 06:15:07.642288 PM [MediaControlServer] Stop
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877250 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877290 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878380 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 1.000000 time: {75056238029/1000000000 = 75.056} = 75.056238 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x580d8a0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x44cfc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58785f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {36305310875/1000000000 = 36.305} = 36.305311 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58103c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876d80 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878850 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {6755844/90000 = 75.065} = 75.064933 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x44baa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876dc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878aa0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {6755844/90000 = 75.065} = 75.064933 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876da0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873dc0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878ce0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {6755844/90000 = 75.065} = 75.064933 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5877270 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x58750c0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878de0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5876410 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878a30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5878ea0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x581ec30> class: BRControl superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x581ec30> class: BRControl superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControllerStack: 0x584ef40> class: BRControllerStack superclass: BRControl
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControllerStack: 0x584ef40> class: BRControllerStack superclass: BRControl
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControllerStackBankruptNotification object: <BRControllerStack: 0x584ef40> class: BRControllerStack superclass: BRControl
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMPStateChanged object: <LTAVPlayer: 0x4b22d0> class: LTAVPlayer superclass: BRMediaPlayer
+Dec  3 18:15:07 Apple-TV /Applications/AppleTV.app/AppleTV[320]: AudioSessionSetActive: status is kAudioSessionNotActiveError
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: RateDidChange object: <FigBaseObject: instance<0x47ee00> storage<0x47ee10> class<0x3e4b8248> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: RateDidChange object: <FigBaseObject: instance<0x58297b0> storage<0x58297c0> class<0x3e4b713c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: PlayableRangeChanged object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: StreamLikelyToKeepUp object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x583f180 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5871010 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5879530 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseEffectiveRateChanged object: FigTimebase: 0x5837f00 retainCount: 3 allocator: 0x3e7639fc master clock: 0x4c1160 rate: 1.000033 time: {36448504666/1000000000 = 36.449} = 36.448505 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4ab890 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4cd6f0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5879780 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: FigTimebaseTimeJumped object: FigTimebase: 0x583c070 retainCount: 2 allocator: 0x3e7639fc master timebase: 0x5837f00 rate: 0.000000 time: {6755844/90000 = 75.065} = 75.064933 seconds\n class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5873b30 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x586f820 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5879880 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x5852620> storage<0x5852630> class<0x3e4b825c> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x3e750d38 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x585f410 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x4abca0 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: *** __NSAutoreleaseNoPool(): Object 0x5879940 of class NSCFString autoreleased with no pool in place - just leaking
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: TimeJumped object: <FigBaseObject: instance<0x582a920> storage<0x582a930> class<0x3e4b7150> allocator<0x3e7639fc>>{} class: __NSCFType superclass: NSObject
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: BRApplianceChangedNotification object: <MOVAppliance: 0x5821c40> Movies class: MOVAppliance superclass: ATVMusicStoreBaseAppliance
+Dec  3 18:15:07: 
+Dec  3 18:15:07 Apple-TV AppleTV[320]: NOTIFICATION: name: BRMediaPlayerControllerWasPopped object: <BRMediaPlayerController: 0x4c5e80> class: BRMediaPlayerController superclass: BRController
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x44cd70> class: BRControl superclass: NSObject
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControl: 0x4bbde0> class: BRControl superclass: NSObject
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControl: 0x4bbde0> class: BRControl superclass: NSObject
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRControllerStack: 0x4bbee0> class: BRControllerStack superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRControllerStack: 0x4bbee0> class: BRControllerStack superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRMainMenuController: 0x4ae0d0> class: BRMainMenuController superclass: BRController
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRMainMenuController: 0x4ae0d0> class: BRMainMenuController superclass: BRController
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRMainMenuControl: 0x5825c00> class: BRMainMenuControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRMainMenuControl: 0x5825c00> class: BRMainMenuControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRScrollControl: 0x5829420> class: BRScrollControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRScrollControl: 0x5829420> class: BRScrollControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRPanelControl: 0x584beb0> class: BRPanelControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRPanelControl: 0x584beb0> class: BRPanelControl superclass: BRControl
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusWillChangeNotification object: <BRListView: 0x584f8b0> class: BRListView superclass: BRGridView
+Dec  3 18:15:08 Apple-TV AppleTV[320]: NOTIFICATION: name: kBRControlFocusChangedNotification object: <BRListView: 0x584f8b0> class: BRListView superclass: BRGridView
+

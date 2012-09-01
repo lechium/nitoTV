@@ -1,0 +1,242 @@
+/* second day forecast
+   third day forecast */
+"%@ - %@, High: %@¬∞%@, Low: %@¬∞%@" = "%1$@ - %2$@, Yüksek: %3$@¬∞%4$@, Düşük: %5$@¬∞%6$@";
+
+/* About */
+"About" = "Hakkında";
+
+/* Add RSS Location */
+"Add RSS Location" = "RSS Yer Bilgisi Ekle";
+
+/* Add Weather Location */
+"Add Weather Location" = "Have Yer Bilgisi Ekle";
+
+/* Block updates menu item */
+"Block Updates" = "Güncelleştirmeleri Blokla";
+
+/* cancel button */
+"Cancel Delete" = "Silme İptal";
+
+/* Current Conditions */
+"Current Conditions" = "Mevcut Durum";
+
+/* current conditions of the current day for weather */
+"Current Conditions: %@, %@¬∞%@" = "Mevcut Durum: %1$@, %2$@¬∞%3$@";
+
+/* Custom Package Install */
+"Custom Package Install" = "Özel Paket Yükle";
+
+/* Custom Package Search */
+"Custom Package Search" = "Özel Paket Ara";
+
+/* Date */
+"Date" = "Tarih";
+
+/* cancel delete */
+"Delete" = "Sil";
+
+/* alert dialog for deleting playlist */
+"Delete %@?" = "Silinsin mi %@?";
+
+/* Dew Point */
+"Dew Point" = "Dew Noktası";
+
+/* Downloading %@... */
+"Downloading %@..." = "Yükleniyor %@...";
+
+/* title of textentry controller for entering RSS url */
+"Enter RSS feed URL" = "RSS içerik adresi girin";
+
+/* title of textentry controller for entering rss location name */
+"Enter RSS location name" = "RSS içerik ismi girin";
+
+/* title of textentry controller for entering weather location name */
+"Enter weather location name" = "Hava konum ismi girin";
+
+/* title of textentry controller for entering weather zip code or location id */
+"Enter zip code or location ID" = "Zip kodu ve yada konum kimlik bilgisi girin";
+
+/* Featured menu item divider in software section */
+"Featured" = "Özellikler";
+
+/* Files */
+"Files" = "Dosyalar";
+
+/* Humidity */
+"Humidity" = "Nem";
+
+/* the text to the left of the text field while entering a weather location name */
+"ID:" = "Kimlik";
+
+/* Install Software */
+"Install Software" = "Yazılım Yükleme";
+
+/* Installation Failed! */
+"Installation Failed!" = "Yükleme Başarısız!";
+
+/* Installation Successful / Up to Date */
+"Installation Successful / Up to Date" = "Yükleme Başarılı / Up to Date";
+
+/* Internet Unavailable */
+"Internet Unavailable" = "İnternet erişimi yok ";
+
+/* Location */
+"Location" = "Yer";
+
+/* the text to the left of the text field while entering a rss location name
+   the text to the left of the text field while entering a weather location name */
+"Name:" = "İsim:";
+
+/* Network */
+"Network" = "Ağ";
+
+/* options in menu divider
+   Options menu item divider in software section */
+"Options" = "Seçenekler";
+
+/* Package Containing: */
+"Package Containing:" = "Paket İçeriği:";
+
+/* Package ID: */
+"Package ID:" = "Paket Kimliği:";
+
+/* Package Removal Failed! */
+"Package Removal Failed!" = "Paket Kaldırma İşlemi Başarısız!";
+
+/* Package Removal Successful */
+"Package Removal Successful" = "Paket Kaldırma İşlemi Başarılı";
+
+/* Package Removal Successful / Up to Date */
+"Package Removal Successful / Up to Date" = "Paket Kaldırma İşlemi Başarılı / Belirtilen Tarihe Kadar";
+
+/* Playlists */
+"Playlists" = "Çalma Listeleri";
+
+/* Please enter a partial name of the custom .deb you would like to search for */
+"Please enter a partial name of the custom .deb you would like to search for" = "Lütfen aramak istediğiniz özel .deb dosya ismini girin";
+
+/* Please enter the name of the custom .deb you would like to install */
+"Please enter the name of the custom .deb you would like to install" = "Lütfen yüklemek istediğiniz özel .deb dosya ismini girin";
+
+/* secondary text for bad zip alert */
+"Popping in 3 Seconds" = "3 saniye içinde görüntüleniyor";
+
+/* press menu to exit */
+"press menu to exit" = "Çıkış için Menu düğmesine basın";
+
+/* Reboot AppleTV menu item */
+"Reboot AppleTV" = "AppleTV yeniden başlat";
+
+/* Recent Files */
+"Recent Files" = "En Son Dosyalar";
+
+/* the menu item to remove the current rss location */
+"Remove RSS Location" = "RSS Yer Bilgisi Kaldır ";
+
+/* the menu item to remove the current weather location */
+"Remove Weather Location" = "Hava Yer Bilgisi Kaldır";
+
+/* removing %@
+   Removing %@ */
+"removing %@" = "kaldırılıyor %@";
+
+/* Restart Lowtide menu item */
+"Restart Lowtide" = "Lowtide Yeniden Başlat";
+
+/* Restart options menu divider in settings */
+"Restart Options" = "Seçenekleri Yeniden Başlat";
+
+/* RSS Feeds
+   Title of RSS menu */
+"RSS Feeds" = "RSS Bilgileri";
+
+/* the url of the rss location point
+   title of menu for editing/saving rss location points */
+"RSS Location" = "RSS Yeri";
+
+/* the name of the rss location point as its displayed in the weather menu */
+"RSS Name" = "RSS Adı";
+
+/* the menu item to save changes to a rss location
+   the menu item to save changes to a weather location */
+"Save Changes" = "Değişikleri Kaydet";
+
+/* the menu item to save a new rss location to the rss.plist file */
+"Save RSS Location" = "RSS Yer Kaydet";
+
+/* the menu item to save a new weather location to the weather.plist file */
+"Save Weather Location" = "Hava Yer Bilgisini Kaydet";
+
+/* Search for Packages */
+"Search for Packages" = "Paket Ara";
+
+/* searching for %@... */
+"searching for %@..." = "Aranıyor %@...";
+
+/* Settings */
+"Settings" = "Ayarlar";
+
+/* update blocker alert main text for success */
+"Software Update Blocked Successfully!" = "Yazılım Güncelleme Engelleme Başarılı!";
+
+/* No comment provided by engineer. */
+"Software Updates Blocking Failed!" = "Yazılım Güncelleme Engelleme Başarısız!";
+
+/* Streams */
+"Streams" = "Akış";
+
+/* celcius / fahrenheit of weather point */
+"Units" = "Birim";
+
+/* No comment provided by engineer. */
+"Update Block Failed" = "Güncelleme Engelleme Başarısız";
+
+/* Update nitoTV menu item */
+"Update nitoTV" = "nitoTV'yi güncelle";
+
+/* update blocker alert title for success */
+"Updates Blocked Successfully" = "Güncelleme Engelleme Başarılı";
+
+/* main text for Spinner text control while updating nitoTV */
+"Updating nitoTV, please wait..." = "nitoTV güncelleniyor, lütfen bekleyin...";
+
+/* title for Spinner text control while updating nitoTV */
+"Updating, Please wait..." = "Güncelleniyor, Lütfen bekleyin...";
+
+/* the text to the left of the text field while entering a RSS url */
+"URL:" = "URL Adres:";
+
+/* the menu item responsible for viewing rss location */
+"View Feed" = "Bilgi Görüntüle";
+
+/* the menu item responsible for viewing weather location */
+"View Weather" = "Hava Durumu Göster";
+
+/* Weather */
+"Weather" = "Hava";
+
+/* the zip code/location id of the weather location point
+   title of menu for editing/saving weather location points */
+"Weather Location" = "Hava Konum";
+
+/* Title of weather menu */
+"Weather Manager" = "Hava Yöneticisi";
+
+/* the name of the weather location point as its displayed in the weather menu */
+"Weather Name" = "Hava Konum Adı";
+
+/* alert for when weather retrieve failed */
+"Weather Retrieval Failed" = "Hava Durum Bilgisine Erişilemedi";
+
+/* primary text for bad zip */
+"Weather retrieval failed, possibly a bad or incomplete zip code." = "Hava durum bilgisine erişilemedi, yanlış veya eksik zip kodu. ";
+
+/* Wind */
+"Wind" = "Rüzgar";
+
+Note: I could not translate "lowtide" and "dew point" because I did not understand it. Just left words and translated the words next to them.
+If you can explain it or If I see the menu I can translate them. I have only 1st generation AppleTV only not have 2g AppleTV.
+
+If you can send me screenshot of each menu, I can translate better.
+Please contact me ege.erhan at gmail com if you need it.
+

@@ -52,6 +52,20 @@
 		892226C91592ED1C000C2098 /* nitoDeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892226C81592ED1C000C2098 /* nitoDeadController.m */; };
 		8924AD6C142C9996004FF49C /* nitoInstalledPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8924AD6B142C9996004FF49C /* nitoInstalledPackageManager.m */; };
 		8924ADC1142C9F8D004FF49C /* nitoManageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8924ADC0142C9F8D004FF49C /* nitoManageMenu.m */; };
+		896B31A515F19AA20049FA2E /* BRMediaShelfView_SMF.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B318E15F19AA20049FA2E /* BRMediaShelfView_SMF.m */; };
+		896B31A615F19AA20049FA2E /* SMFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B319015F19AA20049FA2E /* SMFAnimation.m */; };
+		896B31A715F19AA20049FA2E /* SMFComplexDropShadowControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */; };
+		896B31A815F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */; };
+		896B31A915F19AA20049FA2E /* SMFDropShadowControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */; };
+		896B31AA15F19AA20049FA2E /* SMFListDropShadowControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */; };
+		896B31AB15F19AA20049FA2E /* SMFMockMenuItem.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319A15F19AA20049FA2E /* SMFMockMenuItem.xm */; };
+		896B31AC15F19AA20049FA2E /* SMFMoviePreviewController.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */; };
+		896B31AD15F19AA20049FA2E /* SMFPhotoMediaAsset.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B319E15F19AA20049FA2E /* SMFPhotoMediaAsset.xm */; };
+		896B31AE15F19AA20049FA2E /* SMFPopup.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B31A015F19AA20049FA2E /* SMFPopup.xm */; };
+		896B31AF15F19AA20049FA2E /* SMFPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B31A215F19AA20049FA2E /* SMFPreferences.m */; };
+		896B31B015F19AA20049FA2E /* SMFTextDropShadowControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B31A415F19AA20049FA2E /* SMFTextDropShadowControl.xm */; };
+		896B322215F1CD680049FA2E /* SMFProgressBarControl.xm in Resources */ = {isa = PBXBuildFile; fileRef = 896B322115F1CD680049FA2E /* SMFProgressBarControl.xm */; };
+		896B323115F1CDAE0049FA2E /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */; };
 		898CDF8E150A1604001EB85B /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 898CDF8D150A1604001EB85B /* AppIcon.png */; };
 		899A880A143B0157007D23BE /* nitoMoreMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A8809143B0157007D23BE /* nitoMoreMenu.m */; };
 		89C7EBCD142F3AAC009C8FD8 /* ntvSettingsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7EBCC142F3AAC009C8FD8 /* ntvSettingsArrayController.m */; };
@@ -718,9 +732,36 @@
 		8924AD6B142C9996004FF49C /* nitoInstalledPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nitoInstalledPackageManager.m; path = Classes/nitoInstalledPackageManager.m; sourceTree = "<group>"; };
 		8924ADBF142C9F8D004FF49C /* nitoManageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nitoManageMenu.h; path = Classes/nitoManageMenu.h; sourceTree = "<group>"; };
 		8924ADC0142C9F8D004FF49C /* nitoManageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nitoManageMenu.m; path = Classes/nitoManageMenu.m; sourceTree = "<group>"; };
-		8945D59D1432E2CB00B752DD /* MobileCydia.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MobileCydia.mm; path = ../../../cydia/MobileCydia.mm; sourceTree = SOURCE_ROOT; };
 		8957A73815218CD800B3CDF2 /* nitoApplianceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nitoApplianceInfo.h; sourceTree = "<group>"; };
 		8957A73915218CD800B3CDF2 /* nitoApplianceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nitoApplianceInfo.m; sourceTree = "<group>"; };
+		896B318D15F19AA20049FA2E /* BRMediaShelfView_SMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMediaShelfView_SMF.h; path = SMFClasses/BRMediaShelfView_SMF.h; sourceTree = "<group>"; };
+		896B318E15F19AA20049FA2E /* BRMediaShelfView_SMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMediaShelfView_SMF.m; path = SMFClasses/BRMediaShelfView_SMF.m; sourceTree = "<group>"; };
+		896B318F15F19AA20049FA2E /* SMFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFAnimation.h; path = SMFClasses/SMFAnimation.h; sourceTree = "<group>"; };
+		896B319015F19AA20049FA2E /* SMFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMFAnimation.m; path = SMFClasses/SMFAnimation.m; sourceTree = "<group>"; };
+		896B319115F19AA20049FA2E /* SMFComplexDropShadowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFComplexDropShadowControl.h; path = SMFClasses/SMFComplexDropShadowControl.h; sourceTree = "<group>"; };
+		896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFComplexDropShadowControl.xm; path = SMFClasses/SMFComplexDropShadowControl.xm; sourceTree = "<group>"; };
+		896B319315F19AA20049FA2E /* SMFComplexProcessDropShadowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFComplexProcessDropShadowControl.h; path = SMFClasses/SMFComplexProcessDropShadowControl.h; sourceTree = "<group>"; };
+		896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFComplexProcessDropShadowControl.xm; path = SMFClasses/SMFComplexProcessDropShadowControl.xm; sourceTree = "<group>"; };
+		896B319515F19AA20049FA2E /* SMFDropShadowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFDropShadowControl.h; path = SMFClasses/SMFDropShadowControl.h; sourceTree = "<group>"; };
+		896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFDropShadowControl.xm; path = SMFClasses/SMFDropShadowControl.xm; sourceTree = "<group>"; };
+		896B319715F19AA20049FA2E /* SMFListDropShadowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFListDropShadowControl.h; path = SMFClasses/SMFListDropShadowControl.h; sourceTree = "<group>"; };
+		896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFListDropShadowControl.xm; path = SMFClasses/SMFListDropShadowControl.xm; sourceTree = "<group>"; };
+		896B319915F19AA20049FA2E /* SMFMockMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFMockMenuItem.h; path = SMFClasses/SMFMockMenuItem.h; sourceTree = "<group>"; };
+		896B319A15F19AA20049FA2E /* SMFMockMenuItem.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFMockMenuItem.xm; path = SMFClasses/SMFMockMenuItem.xm; sourceTree = "<group>"; };
+		896B319B15F19AA20049FA2E /* SMFMoviePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFMoviePreviewController.h; path = SMFClasses/SMFMoviePreviewController.h; sourceTree = "<group>"; };
+		896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFMoviePreviewController.xm; path = SMFClasses/SMFMoviePreviewController.xm; sourceTree = "<group>"; };
+		896B319D15F19AA20049FA2E /* SMFPhotoMediaAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFPhotoMediaAsset.h; path = SMFClasses/SMFPhotoMediaAsset.h; sourceTree = "<group>"; };
+		896B319E15F19AA20049FA2E /* SMFPhotoMediaAsset.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFPhotoMediaAsset.xm; path = SMFClasses/SMFPhotoMediaAsset.xm; sourceTree = "<group>"; };
+		896B319F15F19AA20049FA2E /* SMFPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFPopup.h; path = SMFClasses/SMFPopup.h; sourceTree = "<group>"; };
+		896B31A015F19AA20049FA2E /* SMFPopup.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFPopup.xm; path = SMFClasses/SMFPopup.xm; sourceTree = "<group>"; };
+		896B31A115F19AA20049FA2E /* SMFPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFPreferences.h; path = SMFClasses/SMFPreferences.h; sourceTree = "<group>"; };
+		896B31A215F19AA20049FA2E /* SMFPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMFPreferences.m; path = SMFClasses/SMFPreferences.m; sourceTree = "<group>"; };
+		896B31A315F19AA20049FA2E /* SMFTextDropShadowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFTextDropShadowControl.h; path = SMFClasses/SMFTextDropShadowControl.h; sourceTree = "<group>"; };
+		896B31A415F19AA20049FA2E /* SMFTextDropShadowControl.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SMFTextDropShadowControl.xm; path = SMFClasses/SMFTextDropShadowControl.xm; sourceTree = "<group>"; };
+		896B322015F1CD680049FA2E /* SMFProgressBarControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMFProgressBarControl.h; path = SMFClasses/SMFProgressBarControl.h; sourceTree = "<group>"; };
+		896B322115F1CD680049FA2E /* SMFProgressBarControl.xm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SMFProgressBarControl.xm; path = SMFClasses/SMFProgressBarControl.xm; sourceTree = "<group>"; };
+		896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedObjects.h"; path = "Classes/NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedObjects.m"; path = "Classes/NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
 		898CDF8D150A1604001EB85B /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		899A8808143B0157007D23BE /* nitoMoreMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nitoMoreMenu.h; path = Classes/nitoMoreMenu.h; sourceTree = "<group>"; };
 		899A8809143B0157007D23BE /* nitoMoreMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nitoMoreMenu.m; path = Classes/nitoMoreMenu.m; sourceTree = "<group>"; };
@@ -745,7 +786,6 @@
 		089C166AFE841209C02AAC07 /* atvTwo */ = {
 			isa = PBXGroup;
 			children = (
-				8945D59D1432E2CB00B752DD /* MobileCydia.mm */,
 				32A6A416141B6FF1009186F7 /* Prefix.pch */,
 				875A8427126FFF6D00ECADC2 /* Makefile */,
 				8718960D127AADD6001861D7 /* About.txt */,
@@ -803,6 +843,9 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */,
+				896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */,
+				896B318515F19A4C0049FA2E /* SMF Classes */,
 				87188BFD12798343001861D7 /* Downloads and Installs */,
 				87188BFC1279832F001861D7 /* Settings */,
 				87188BFA127982EF001861D7 /* Weather */,
@@ -1765,6 +1808,39 @@
 			path = iphone;
 			sourceTree = "<group>";
 		};
+		896B318515F19A4C0049FA2E /* SMF Classes */ = {
+			isa = PBXGroup;
+			children = (
+				896B322015F1CD680049FA2E /* SMFProgressBarControl.h */,
+				896B322115F1CD680049FA2E /* SMFProgressBarControl.xm */,
+				896B318D15F19AA20049FA2E /* BRMediaShelfView_SMF.h */,
+				896B318E15F19AA20049FA2E /* BRMediaShelfView_SMF.m */,
+				896B318F15F19AA20049FA2E /* SMFAnimation.h */,
+				896B319015F19AA20049FA2E /* SMFAnimation.m */,
+				896B319115F19AA20049FA2E /* SMFComplexDropShadowControl.h */,
+				896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */,
+				896B319315F19AA20049FA2E /* SMFComplexProcessDropShadowControl.h */,
+				896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */,
+				896B319515F19AA20049FA2E /* SMFDropShadowControl.h */,
+				896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */,
+				896B319715F19AA20049FA2E /* SMFListDropShadowControl.h */,
+				896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */,
+				896B319915F19AA20049FA2E /* SMFMockMenuItem.h */,
+				896B319A15F19AA20049FA2E /* SMFMockMenuItem.xm */,
+				896B319B15F19AA20049FA2E /* SMFMoviePreviewController.h */,
+				896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */,
+				896B319D15F19AA20049FA2E /* SMFPhotoMediaAsset.h */,
+				896B319E15F19AA20049FA2E /* SMFPhotoMediaAsset.xm */,
+				896B319F15F19AA20049FA2E /* SMFPopup.h */,
+				896B31A015F19AA20049FA2E /* SMFPopup.xm */,
+				896B31A115F19AA20049FA2E /* SMFPreferences.h */,
+				896B31A215F19AA20049FA2E /* SMFPreferences.m */,
+				896B31A315F19AA20049FA2E /* SMFTextDropShadowControl.h */,
+				896B31A415F19AA20049FA2E /* SMFTextDropShadowControl.xm */,
+			);
+			name = "SMF Classes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1834,6 +1910,16 @@
 				32A6A5B0141B7B14009186F7 /* Images in Resources */,
 				32A6A5F3141B7BBC009186F7 /* InfoPlist.strings in Resources */,
 				898CDF8E150A1604001EB85B /* AppIcon.png in Resources */,
+				896B31A715F19AA20049FA2E /* SMFComplexDropShadowControl.xm in Resources */,
+				896B31A815F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm in Resources */,
+				896B31A915F19AA20049FA2E /* SMFDropShadowControl.xm in Resources */,
+				896B31AA15F19AA20049FA2E /* SMFListDropShadowControl.xm in Resources */,
+				896B31AB15F19AA20049FA2E /* SMFMockMenuItem.xm in Resources */,
+				896B31AC15F19AA20049FA2E /* SMFMoviePreviewController.xm in Resources */,
+				896B31AD15F19AA20049FA2E /* SMFPhotoMediaAsset.xm in Resources */,
+				896B31AE15F19AA20049FA2E /* SMFPopup.xm in Resources */,
+				896B31B015F19AA20049FA2E /* SMFTextDropShadowControl.xm in Resources */,
+				896B322215F1CD680049FA2E /* SMFProgressBarControl.xm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1907,6 +1993,10 @@
 				89C7EBCD142F3AAC009C8FD8 /* ntvSettingsArrayController.m in Sources */,
 				899A880A143B0157007D23BE /* nitoMoreMenu.m in Sources */,
 				892226C91592ED1C000C2098 /* nitoDeadController.m in Sources */,
+				896B31A515F19AA20049FA2E /* BRMediaShelfView_SMF.m in Sources */,
+				896B31A615F19AA20049FA2E /* SMFAnimation.m in Sources */,
+				896B31AF15F19AA20049FA2E /* SMFPreferences.m in Sources */,
+				896B323115F1CDAE0049FA2E /* NSObject+AssociatedObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

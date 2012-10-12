@@ -167,7 +167,7 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 %new - (void)drawSelf
 {
 
-	NSLog(@"rssDict: %@", [self rssDict]);
+		//	NSLog(@"rssDict: %@", [self rssDict]);
 	float previousPageAlpha = 0;
 	float nextPageAlpha = 0;
 	float labelTextAlpha = 1;
@@ -260,7 +260,7 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 	NSString *pubDate = [[self rssDict] valueForKey:@"pubDate"];
 
 	id _secondInfoText = [[objc_getClass("BRTextControl") alloc] init];
-	NSLog(@"_secondInfoText: %@", _secondInfoText);
+		//	NSLog(@"_secondInfoText: %@", _secondInfoText);
 	id _primaryInfoText = [[[objc_getClass("BRTextControl") alloc] init] autorelease];
 	id _labelTextControl = [[objc_getClass("BRTextControl") alloc] init];
 	id _nextPageImage = [[%c(BRImageControl) alloc] init];

@@ -13,6 +13,12 @@ static char const * const kNitoRBGlobalDictKey = "nRBGlobalDict";
 static char const * const kNitoRBMaintTitleKey = "nRBMaintTitle";
 static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 
+@interface ntvRssBrowser : NSObject
+
+- (CGRect)listRectWithSize:(CGRect)listFrame inMaster:(CGRect)master inListMode:(int)listState;
+- (CGRect)frame;
+@end
+
 
 %subclass ntvRssBrowser : nitoMediaMenuController
 
@@ -578,32 +584,32 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 	
 }
 
-//%new - (CGRect)listRectWithSize:(CGRect)listFrame inMaster:(CGRect)master inListMode:(int)listState
-//{
-//	listFrame.size.height -= 2.5f*listFrame.origin.y;
-//	if (listState == 0)
-//		listFrame.size.width*=1.5f;
-//	else
-//		listFrame.size.width*=2.0f;
-//	
-//	listFrame.origin.x = (master.size.width - listFrame.size.width) * 0.5f;
-//	listFrame.origin.y *= 2.0f;
-//	//NSLog(@"listFrame: %@", NSStringFromRect(listFrame));
-//	return listFrame;
-//}
-//
-//- (void)layoutSubcontrols
-//{
-//	
-//	%orig;
-//	CGRect master = [self frame];
-//	id listLayer = [self list];
-//	
-//	CGRect listFrame = [listLayer frame];
-//	listFrame = [self listRectWithSize:listFrame inMaster:master inListMode:_listState];
-//	[listLayer setFrame:listFrame];
-//	
-//}
+%new - (CGRect)listRectWithSize:(CGRect)listFrame inMaster:(CGRect)master inListMode:(int)listState
+{
+	listFrame.size.height -= 2.5f*listFrame.origin.y;
+	if (listState == 0)
+		listFrame.size.width*=1.5f;
+	else
+		listFrame.size.width*=2.0f;
+	
+	listFrame.origin.x = (master.size.width - listFrame.size.width) * 0.5f;
+	listFrame.origin.y *= 2.0f;
+	//NSLog(@"listFrame: %@", NSStringFromRect(listFrame));
+	return listFrame;
+}
+
+- (void)layoutSubcontrols
+{
+	
+	%orig;
+	CGRect master = [self frame];
+	id listLayer = [self list];
+	
+	CGRect listFrame = [listLayer frame];
+	listFrame = [self listRectWithSize:listFrame inMaster:master inListMode:_listState];
+	[listLayer setFrame:listFrame];
+	
+}
 
 - (void) itemSelected: (long) row
 {

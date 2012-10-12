@@ -9,7 +9,6 @@
 {
 	int _stackPosition;
 	id	_parentController;
-	//NSMutableArray		*_names;
 	NSMutableArray		*_locations;
 	NSMutableArray		*_units;
 	NSMutableArray      *_locationDicts;

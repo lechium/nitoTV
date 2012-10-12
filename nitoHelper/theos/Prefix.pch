@@ -32,10 +32,10 @@
 	#define UD [NSUserDefaults standardUserDefaults]
 	#define FM [NSFileManager defaultManager]
 	#define BRLocalizedString(key, comment) \
-	[BRLocalizedStringManager appliance:self localizedStringForKey:(key) inFile:nil]
+	[objc_getClass("BRLocalizedStringManager") appliance:self localizedStringForKey:(key) inFile:nil]
 	#define BRLocalizedStringFromTable(key, tbl, comment) \
-	[BRLocalizedStringManager appliance:self localizedStringForKey:(key) inFile:(tbl)]
+	[objc_getClass("BRLocalizedStringManager") appliance:self localizedStringForKey:(key) inFile:(tbl)]
 	#define BRLocalizedStringFromTableInBundle(key, tbl, obj, comment) \
-	[BRLocalizedStringManager appliance:(obj) localizedStringForKey:(key) inFile:(tbl)]
+	[objc_getClass("BRLocalizedStringManager") appliance:(obj) localizedStringForKey:(key) inFile:(tbl)]
 
 #endif

@@ -31,7 +31,6 @@ enum buttons {
 	kNitoMoreButton,
 };
 
-#define PM [packageManagement sharedManager]
 
 @interface PackageDataSource : SMFMoviePreviewController <SMFMoviePreviewControllerDelegate, SMFMoviePreviewControllerDatasource> {
 

@@ -6,8 +6,9 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#include <SMFramework/SMFramework.h>
+	//#include <SMFramework/SMFramework.h>
 
+#import "../SMFClasses/SMFPreferences.h"
 
 @interface nitoDefaultManager : NSObject {
 

@@ -1,0 +1,6 @@
+.svn
+build
+obj
+_
+com.*
+

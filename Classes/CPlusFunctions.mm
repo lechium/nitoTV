@@ -6,7 +6,6 @@
 
  */
 
-#import <objc/runtime.h>
 
 
 template <typename Type_>
@@ -16,14 +15,4 @@ static inline Type_ &MSHookIvar(id self, const char *name) {
     return *reinterpret_cast<Type_ *>(pointer);
 }
 
-@interface BRMenuController (privateFunctions)
-- (BRListControl *)_getList;
-@end
 
-@implementation BRMenuController (privateFunctions)
-
-- (BRListControl *)_getList
-{
-	return MSHookIvar<BRListControl *>(self, "_list");
-}
-@end

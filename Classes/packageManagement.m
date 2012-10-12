@@ -358,7 +358,7 @@ enum {
 		return;
 	}
 	
-	BOOL internetAvailable = [BRIPConfiguration internetAvailable];
+	BOOL internetAvailable = [objc_getClass("BRIPConfiguration") internetAvailable];
 	if (internetAvailable == TRUE)
 	{
 		NSArray *updateArray = [packageManagement basicEssentialUpdatesAvailable];

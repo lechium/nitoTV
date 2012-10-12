@@ -48,9 +48,9 @@ static float _minValue = 0.0f;
     return self;
 }
 
-- (id)widget { return [self associatedValueForKey:(void*)kSMFWidgetKey]; }
+%new - (id)widget { return [self associatedValueForKey:(void*)kSMFWidgetKey]; }
 
-- (void)setWidget:(id)theWidget { [self associateValue:theWidget withKey:(void*)kSMFWidgetKey]; }
+%new - (void)setWidget:(id)theWidget { [self associateValue:theWidget withKey:(void*)kSMFWidgetKey]; }
 
 - (void) dealloc
 {
@@ -77,7 +77,7 @@ static float _minValue = 0.0f;
 
 
 
-- (void) setMaxValue: (float) maxValue
+%new - (void) setMaxValue: (float) maxValue
 {
     @synchronized(self)
     {
@@ -85,12 +85,12 @@ static float _minValue = 0.0f;
     }
 }
 
-- (float) maxValue
+%new - (float) maxValue
 {
     return ( _maxValue );
 }
 
-- (void) setMinValue: (float) minValue
+%new - (void) setMinValue: (float) minValue
 {
     @synchronized(self)
     {
@@ -98,12 +98,12 @@ static float _minValue = 0.0f;
     }
 }
 
-- (float) minValue
+%new - (float) minValue
 {
     return ( _minValue );
 }
 
-- (void) setCurrentValue: (float) currentValue
+%new - (void) setCurrentValue: (float) currentValue
 {
     @synchronized(self)
     {
@@ -114,7 +114,7 @@ static float _minValue = 0.0f;
     }
 }
 
-- (float) currentValue
+%new - (float) currentValue
 {
     float result = 0.0f;
 
@@ -128,12 +128,12 @@ static float _minValue = 0.0f;
     return ( result );
 }
 
-- (void) setPercentage: (float) percentage
+%new - (void) setPercentage: (float) percentage
 {
     [[self widget] setPercentage: percentage];
 }
 
-- (float) percentage
+%new - (float) percentage
 {
     return ( [[self widget] percentage] );
 }

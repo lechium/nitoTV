@@ -1028,16 +1028,23 @@ void checkNil(NSObject *ctrl)
         [self delegate]!=nil && 
         (int)[action value]==1 && 
         [[self delegate] respondsToSelector:@selector(controller:buttonSelectedAtIndex:)]) {
-		NSLog(@"play and all that shit is true");
+			//NSLog(@"play and all that shit is true");
         id selectedC = [self focusedControl];
-		NSLog(@"selectedC subtitle: %@", [[selectedC subtitle] string]);
-		NSLog(@"buttons: %@", [self buttons]);
+			//NSLog(@"selectedC subtitle: %@", [[selectedC subtitle] string]);
+			//NSLog(@"buttons: %@", [self buttons]);
         for (int j=0;j<[[self buttons] count];j++) {
-			if ([[[[[self buttons] objectAtIndex:j] subtitle]string] isEqualToString:[[selectedC subtitle]string]])
+		
+			id subtitle = [[[self buttons] objectAtIndex:j] subtitle];
+			id subtitle2 = [selectedC subtitle];
+			if ([subtitle respondsToSelector:@selector(string)] && [subtitle2 respondsToSelector:@selector(string)])
 			{
-				NSLog(@"checking subtitles, not so elegant, but it should work for now");
-				[[self delegate] controller:self buttonSelectedAtIndex:j];
+				if ([[[[[self buttons] objectAtIndex:j] subtitle]string] isEqualToString:[[selectedC subtitle]string]])
+				{
+					NSLog(@"checking subtitles, not so elegant, but it should work for now");
+					[[self delegate] controller:self buttonSelectedAtIndex:j];
+				}
 			}
+			
 				// if([[self buttons] objectAtIndex:j]==selectedC)
 //                [[self delegate] controller:self buttonSelectedAtIndex:j];
      }

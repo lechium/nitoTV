@@ -198,8 +198,14 @@ static BOOL _isAnimated = TRUE;
 		
 	}
 	
-    [ctrl addControl:self];
-    [ctrl setFocusedControl:self]; //FIXME: now private ivar GRRR
+		// [ctrl addControl:self];
+    if ([self respondsToSelector:@selector(addControl)])
+	{
+		[ctrl addControl:self];
+	} else {
+		[ctrl addSubview:self];
+	}
+	[ctrl setFocusedControl:self]; //FIXME: now private ivar GRRR
 		//[ctrl _setControlFocused:TRUE];
 	[ctrl _setFocus:self];
 }

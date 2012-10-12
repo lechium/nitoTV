@@ -154,6 +154,14 @@ static BOOL _showWaitSpinner = TRUE;
 #define BRMDTC objc_getClass("BRMetadataTitleControl")
 #define BRSTBC objc_getClass("BRScrollingTextBoxControl")
 
+%new -(BOOL)sixtyPlus
+{
+	if ([self respondsToSelector:@selector(controls)])
+	{
+		return (FALSE);
+	}
+	return (TRUE);
+}
 
 -(id)init
 {
@@ -171,9 +179,19 @@ static BOOL _showWaitSpinner = TRUE;
 	[_list setSelectionLozengeStyle:0];
 	[_list setAvoidsCursor:TRUE];
 	[_list setDisplaysSelectionWidget:FALSE];
-	[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-	[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
-	[self setBorderWidth:3.0];
+	NSLog(@"is this where we die?");
+	if ([self sixtyPlus])
+	{
+		[[self layer] setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
+		[[self layer] setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		[[self layer] setBorderWidth:3.0];
+	} else {
+		[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
+		[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		[self setBorderWidth:3.0];
+	}
+	
+	NSLog(@"yep");
 		//self.backgroundColor=[[SMFThemeInfo sharedTheme]blackColor];
 		//self.borderColor=[[SMFThemeInfo sharedTheme] whiteColor];
 		//self.borderWidth=3.0;
@@ -338,16 +356,16 @@ static BOOL _showWaitSpinner = TRUE;
 		
     [self reload];
 }
--(void)setShowsProgressBar:(BOOL)shows
+%new -(void)setShowsProgressBar:(BOOL)shows
 {
     [[self progressBar] setHidden:!shows];
     _pbShows=shows;
 }
--(BOOL)showsProgressBar
+%new -(BOOL)showsProgressBar
 {
     return _pbShows;
 }
--(void)setShowsWaitSpinner:(BOOL)shows
+%new -(void)setShowsWaitSpinner:(BOOL)shows
 {
     [[self spinner] setHidden:!shows];
     _showWaitSpinner=shows;
@@ -386,11 +404,11 @@ static BOOL _showWaitSpinner = TRUE;
     }
     return %orig;
 }
--(BOOL)showsWaitSpinner
+%new -(BOOL)showsWaitSpinner
 {
     return _showWaitSpinner;
 }
--(void)updateHeader
+%new -(void)updateHeader
 {
 	id theTitleControl = [self titleControl];
     [theTitleControl setTitle:[self title]];

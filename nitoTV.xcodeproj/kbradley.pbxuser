@@ -427,6 +427,31 @@
 			894485151627FC6000FEF401 /* PBXTextBookmark */ = 894485151627FC6000FEF401 /* PBXTextBookmark */;
 			894485161627FC6000FEF401 /* PBXTextBookmark */ = 894485161627FC6000FEF401 /* PBXTextBookmark */;
 			894485171627FC6000FEF401 /* PBXTextBookmark */ = 894485171627FC6000FEF401 /* PBXTextBookmark */;
+			8944851D1627FD2E00FEF401 /* PBXTextBookmark */ = 8944851D1627FD2E00FEF401 /* PBXTextBookmark */;
+			894485201627FD2E00FEF401 /* PBXTextBookmark */ = 894485201627FD2E00FEF401 /* PBXTextBookmark */;
+			894485211627FD2E00FEF401 /* PBXTextBookmark */ = 894485211627FD2E00FEF401 /* PBXTextBookmark */;
+			894485221627FD2E00FEF401 /* PBXTextBookmark */ = 894485221627FD2E00FEF401 /* PBXTextBookmark */;
+			894485231627FD2E00FEF401 /* PBXTextBookmark */ = 894485231627FD2E00FEF401 /* PBXTextBookmark */;
+			8944852D1627FEB800FEF401 /* PBXBookmark */ = 8944852D1627FEB800FEF401 /* PBXBookmark */;
+			8944852E1627FEEC00FEF401 /* PBXTextBookmark */ = 8944852E1627FEEC00FEF401 /* PBXTextBookmark */;
+			8944852F1627FEEC00FEF401 /* PBXTextBookmark */ = 8944852F1627FEEC00FEF401 /* PBXTextBookmark */;
+			894485321627FEEC00FEF401 /* PBXTextBookmark */ = 894485321627FEEC00FEF401 /* PBXTextBookmark */;
+			894485331627FEEC00FEF401 /* PBXTextBookmark */ = 894485331627FEEC00FEF401 /* PBXTextBookmark */;
+			894485341627FEEC00FEF401 /* PBXTextBookmark */ = 894485341627FEEC00FEF401 /* PBXTextBookmark */;
+			894485351628000700FEF401 /* PBXTextBookmark */ = 894485351628000700FEF401 /* PBXTextBookmark */;
+			894485361628000700FEF401 /* PBXTextBookmark */ = 894485361628000700FEF401 /* PBXTextBookmark */;
+			894485371628000700FEF401 /* PBXTextBookmark */ = 894485371628000700FEF401 /* PBXTextBookmark */;
+			894485381628000700FEF401 /* PBXTextBookmark */ = 894485381628000700FEF401 /* PBXTextBookmark */;
+			894485421628020000FEF401 /* PBXBookmark */ = 894485421628020000FEF401 /* PBXBookmark */;
+			894485431628024B00FEF401 /* PBXTextBookmark */ = 894485431628024B00FEF401 /* PBXTextBookmark */;
+			894485441628024B00FEF401 /* PBXTextBookmark */ = 894485441628024B00FEF401 /* PBXTextBookmark */;
+			894485451628024B00FEF401 /* PBXTextBookmark */ = 894485451628024B00FEF401 /* PBXTextBookmark */;
+			894485461628024B00FEF401 /* PBXTextBookmark */ = 894485461628024B00FEF401 /* PBXTextBookmark */;
+			894485491628024B00FEF401 /* PBXTextBookmark */ = 894485491628024B00FEF401 /* PBXTextBookmark */;
+			8944854A1628024B00FEF401 /* PBXTextBookmark */ = 8944854A1628024B00FEF401 /* PBXTextBookmark */;
+			8944854B1628029400FEF401 /* PBXTextBookmark */ = 8944854B1628029400FEF401 /* PBXTextBookmark */;
+			8944854C1628029400FEF401 /* PBXTextBookmark */ = 8944854C1628029400FEF401 /* PBXTextBookmark */;
+			8944854D1628029400FEF401 /* PBXTextBookmark */ = 8944854D1628029400FEF401 /* PBXTextBookmark */;
 			896B319C15F19AA20049FA2E = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
@@ -528,9 +553,9 @@
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 11271}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 11232}}";
 			sepNavSelRange = "{1123, 0}";
-			sepNavVisRange = "{334, 1137}";
+			sepNavVisRange = "{240, 1231}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -853,10 +878,10 @@
 	};
 	8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1839, 16159}}";
-			sepNavSelRange = "{8409, 0}";
-			sepNavVisRange = "{7928, 1619}";
-			sepNavWindowFrame = "{{202, 2}, {1049, 876}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1839, 16601}}";
+			sepNavSelRange = "{19359, 15}";
+			sepNavVisRange = "{18009, 1863}";
+			sepNavWindowFrame = "{{503, 2}, {1049, 876}}";
 		};
 	};
 	8726C4C9128CA19400D84785 /* BRTask.h */ = {
@@ -1114,7 +1139,7 @@
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1321, 718}}";
-			sepNavSelRange = "{65, 0}";
+			sepNavSelRange = "{1167, 0}";
 			sepNavVisRange = "{0, 2294}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
@@ -1314,7 +1339,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 221";
 		rLen = 125;
-		rLoc = 5566;
+		rLoc = 5689;
 		rType = 0;
 		vrLen = 412;
 		vrLoc = 5333;
@@ -1344,7 +1369,7 @@
 		fRef = 896B322115F1CD680049FA2E /* SMFProgressBarControl.xm */;
 		name = "SMFProgressBarControl.xm: 51";
 		rLen = 0;
-		rLoc = 1037;
+		rLoc = 1042;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 813;
@@ -1364,7 +1389,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 176";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4206;
@@ -2003,7 +2028,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 176";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4206;
@@ -2013,7 +2038,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2043,7 +2068,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2063,7 +2088,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2083,7 +2108,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2103,7 +2128,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2127,7 +2152,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2151,7 +2176,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2179,7 +2204,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2189,7 +2214,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2219,7 +2244,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2253,7 +2278,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2263,7 +2288,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2283,7 +2308,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2307,7 +2332,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2327,7 +2352,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2351,7 +2376,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2375,7 +2400,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -2395,7 +2420,7 @@
 		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
 		name = "SMFComplexDropShadowControl.xm: 183";
 		rLen = 0;
-		rLoc = 4558;
+		rLoc = 4956;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4298;
@@ -4021,7 +4046,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1029";
 		rLen = 0;
-		rLoc = 35833;
+		rLoc = 35836;
 		rType = 0;
 		vrLen = 2272;
 		vrLoc = 34306;
@@ -4061,7 +4086,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1032";
 		rLen = 0;
-		rLoc = 35987;
+		rLoc = 35996;
 		rType = 0;
 		vrLen = 2598;
 		vrLoc = 21820;
@@ -4153,7 +4178,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1037";
 		rLen = 0;
-		rLoc = 36303;
+		rLoc = 36544;
 		rType = 0;
 		vrLen = 2202;
 		vrLoc = 34706;
@@ -4203,7 +4228,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1039";
 		rLen = 0;
-		rLoc = 36293;
+		rLoc = 36539;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 34706;
@@ -4253,7 +4278,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1044";
 		rLen = 4;
-		rLoc = 36438;
+		rLoc = 36679;
 		rType = 0;
 		vrLen = 2319;
 		vrLoc = 34754;
@@ -4303,7 +4328,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1036";
 		rLen = 0;
-		rLoc = 36100;
+		rLoc = 36539;
 		rType = 0;
 		vrLen = 2335;
 		vrLoc = 34754;
@@ -4353,7 +4378,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1033";
 		rLen = 0;
-		rLoc = 35943;
+		rLoc = 35949;
 		rType = 0;
 		vrLen = 2344;
 		vrLoc = 34754;
@@ -4432,6 +4457,244 @@
 		vrLen = 2614;
 		vrLoc = 0;
 	};
+	8944851D1627FD2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 725";
+		rLen = 17;
+		rLoc = 25367;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	894485201627FD2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 3";
+		rLen = 0;
+		rLoc = 65;
+		rType = 0;
+		vrLen = 2294;
+		vrLoc = 0;
+	};
+	894485211627FD2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 20";
+		rLen = 0;
+		rLoc = 1167;
+		rType = 0;
+		vrLen = 2294;
+		vrLoc = 0;
+	};
+	894485221627FD2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 302";
+		rLen = 0;
+		rLoc = 8409;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 7928;
+	};
+	894485231627FD2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944852D1627FEB800FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+	};
+	8944852E1627FEEC00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 725";
+		rLen = 17;
+		rLoc = 25367;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	8944852F1627FEEC00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 185";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 4201;
+	};
+	894485321627FEEC00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 175";
+		rLen = 0;
+		rLoc = 4707;
+		rType = 0;
+		vrLen = 1875;
+		vrLoc = 3468;
+	};
+	894485331627FEEC00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 302";
+		rLen = 0;
+		rLoc = 8409;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 7928;
+	};
+	894485341627FEEC00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894485351628000700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894485361628000700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 187";
+		rLen = 0;
+		rLoc = 4509;
+		rType = 0;
+		vrLen = 1590;
+		vrLoc = 3345;
+	};
+	894485371628000700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 302";
+		rLen = 0;
+		rLoc = 8409;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 7928;
+	};
+	894485381628000700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894485421628020000FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+	};
+	894485431628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894485441628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B376715F1D5750049FA2E /* SMFThemeInfo.h */;
+		name = "SMFThemeInfo.h: 8";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 0;
+	};
+	894485451628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 221";
+		rLen = 125;
+		rLoc = 5689;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 5331;
+	};
+	894485461628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 227";
+		rLen = 125;
+		rLoc = 5689;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 5152;
+	};
+	894485491628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1038";
+		rLen = 0;
+		rLoc = 36154;
+		rType = 0;
+		vrLen = 2131;
+		vrLoc = 34754;
+	};
+	8944854A1628024B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944854B1628029400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 227";
+		rLen = 125;
+		rLoc = 5689;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 5152;
+	};
+	8944854C1628029400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1039";
+		rLen = 0;
+		rLoc = 36223;
+		rType = 0;
+		vrLen = 2247;
+		vrLoc = 34754;
+	};
+	8944854D1628029400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
 	896B318D15F19AA20049FA2E /* BRMediaShelfView_SMF.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1311, 750}}";
@@ -4465,9 +4728,9 @@
 	};
 	896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 5291}}";
-			sepNavSelRange = "{4558, 0}";
-			sepNavVisRange = "{4298, 625}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 5759}}";
+			sepNavSelRange = "{4956, 0}";
+			sepNavVisRange = "{0, 1543}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4497,9 +4760,9 @@
 	};
 	896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 4160}}";
-			sepNavSelRange = "{6841, 0}";
-			sepNavVisRange = "{2916, 1348}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 4303}}";
+			sepNavSelRange = "{5689, 125}";
+			sepNavVisRange = "{5152, 347}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4545,9 +4808,9 @@
 	};
 	896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 14495}}";
-			sepNavSelRange = "{25367, 17}";
-			sepNavVisRange = "{1222, 383}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 14456}}";
+			sepNavSelRange = "{36223, 0}";
+			sepNavVisRange = "{34754, 2247}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4624,9 +4887,9 @@
 	};
 	896B322115F1CD680049FA2E /* SMFProgressBarControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 1846}}";
-			sepNavSelRange = "{1037, 0}";
-			sepNavVisRange = "{813, 342}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1872}}";
+			sepNavSelRange = "{2711, 0}";
+			sepNavVisRange = "{1848, 945}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4680,17 +4943,17 @@
 	};
 	896B376715F1D5750049FA2E /* SMFThemeInfo.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 2665}}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 2678}}";
 			sepNavSelRange = "{139, 0}";
-			sepNavVisRange = "{0, 1679}";
+			sepNavVisRange = "{0, 442}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B376815F1D5750049FA2E /* SMFThemeInfo.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 2340}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 2366}}";
 			sepNavSelRange = "{3899, 24}";
-			sepNavVisRange = "{3485, 1891}";
+			sepNavVisRange = "{912, 2007}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};

@@ -332,7 +332,7 @@ void checkNil(NSObject *ctrl)
 
 %new -(void)reload
 {
-	NSLog(@"reload");
+	
     Class __BRProxyManager=NSClassFromString(@"BRProxyManager");
     
 	BOOL is60 = FALSE;
@@ -346,8 +346,8 @@ void checkNil(NSObject *ctrl)
 	//  [_hideList release];
 	//  _hideList=nil;
 	// }
-   NSLog(@"reload2");
-	id _hideList=[[NSMutableArray alloc] init];
+  
+		id _hideList=[[NSMutableArray alloc] init];
 	
 		
 	id myControls = nil;
@@ -1042,6 +1042,7 @@ void checkNil(NSObject *ctrl)
 				{
 					NSLog(@"checking subtitles, not so elegant, but it should work for now");
 					[[self delegate] controller:self buttonSelectedAtIndex:j];
+					return YES;
 				}
 			}
 			

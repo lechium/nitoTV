@@ -17,9 +17,9 @@
  
  BRHeaderControl *       _header;
  NSString		*		_theTitle;
- %c(BRTextControl) *		_primaryInfoText;
- %c(BRTextControl) *		_secondInfoText;
- %c(BRTextControl) *		_labelTextControl;
+ objc_getClass("BRTextControl") *		_primaryInfoText;
+ objc_getClass("BRTextControl") *		_secondInfoText;
+ objc_getClass("BRTextControl") *		_labelTextControl;
  BRImageControl*		_previousPageImage;
  BRImageControl*		_nextPageImage;
  NSString				*_labelText;
@@ -158,9 +158,16 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 	[self associateValue:rssDict withKey:(void*)kNitoRVRssDictKey];
 }
 
+- (void)layoutSubcontrols
+{
+	%orig;
+	[self drawSelf];
+}
+
 %new - (void)drawSelf
 {
 
+	NSLog(@"rssDict: %@", [self rssDict]);
 	float previousPageAlpha = 0;
 	float nextPageAlpha = 0;
 	float labelTextAlpha = 1;
@@ -252,11 +259,17 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 	
 	NSString *pubDate = [[self rssDict] valueForKey:@"pubDate"];
 
-	id _secondInfoText = [[%c(BRTextControl) alloc] init];
-	id _primaryInfoText = [[[%c(BRTextControl) alloc] init] autorelease];
-	id _labelTextControl = [[%c(BRTextControl) alloc] init];
+	id _secondInfoText = [[objc_getClass("BRTextControl") alloc] init];
+	NSLog(@"_secondInfoText: %@", _secondInfoText);
+	id _primaryInfoText = [[[objc_getClass("BRTextControl") alloc] init] autorelease];
+	id _labelTextControl = [[objc_getClass("BRTextControl") alloc] init];
 	id _nextPageImage = [[%c(BRImageControl) alloc] init];
 	id _previousPageImage = [[%c(BRImageControl) alloc] init];
+	
+	
+	id nextPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"NextPage" ofType:@"png"]];
+	id previousPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"PreviousPage" ofType:@"png"]];
+	
 	
 	if ([self respondsToSelector:@selector(controls)])
 	{
@@ -266,9 +279,9 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 		[self addControl:_primaryInfoText];
 		[self addControl:_secondInfoText];
 		[self addControl:_labelTextControl];
-	
+		
 	} else {
-			
+		
 		
 		[self addSubview:_nextPageImage];
 		[self addSubview:_previousPageImage];
@@ -278,10 +291,6 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 		
 		
 	}
-
-	
-	id nextPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"NextPage" ofType:@"png"]];
-	id previousPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"PreviousPage" ofType:@"png"]];
 	
 	[_nextPageImage setImage:nextPageIcon];
 	[_previousPageImage setImage:previousPageIcon];
@@ -291,8 +300,6 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 	[_secondInfoText setText:theString withAttributes:[[%c(BRThemeInfo) sharedTheme] promptTextAttributes]];
 	
 	[_labelTextControl setText:[self labelText] withAttributes:[[%c(BRThemeInfo) sharedTheme] menuItemTextAttributes]];
-	
-	
 	CGRect primaryTextFrame, secondaryTextFrame, labelTextFrame, nextPageFrame, previousPageFrame;
 
 	primaryTextFrame.size = [_primaryInfoText renderedSize];
@@ -368,6 +375,8 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 		[self addSubview: _header];
 	}
 	
+	
+	
 	[self setHeader:_header];
 	[self setSecondInfoText:_secondInfoText];
 	[self setPrimaryInfoText:_primaryInfoText];
@@ -380,7 +389,7 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 
 - (void)controlWasActivated
 {
-	[self drawSelf];
+		//[self drawSelf];
 	
     %orig;
 }

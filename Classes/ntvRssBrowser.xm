@@ -210,13 +210,16 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 %new - (NSArray *) arrayFromRSSFeed : (NSString *)path
 
 {
+		//NSLog(@"path: %@", path);
 	//NSLog(@"%@ %s", self, _cmd);
 	//NSError *error = nil;
 	NSURL *metaURL = [NSURL URLWithString:path];
 	
-	NSString *theString = [NSString stringWithContentsOfURL:metaURL encoding:NSUTF8StringEncoding error:nil];
+		//NSString *theString = [NSString stringWithContentsOfURL:metaURL encoding:NSUTF8StringEncoding error:nil];
+	NSString *theString = [[NSString alloc ] initWithContentsOfURL:metaURL encoding:NSUTF8StringEncoding error:nil];
+		//NSLog(@"theString: %@", theString);
 	APDocument *doc = [APDocument documentWithXMLString:theString];
-	//NSLog(@"doc: %@",[doc prettyXML]);
+		//NSLog(@"doc: %@",[doc prettyXML]);
 	APElement *rootElt = [[[doc rootElement] childElements] objectAtIndex:0];
 	NSMutableArray *fullArray = [[NSMutableArray alloc] init];
 		//APElement *val =[rootElt firstChildElementNamed:@"rss"];
@@ -310,6 +313,7 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 		//NSLog(@"Media node not found, invalid XML file.");
 	}
 
+	[theString release];
 	return [fullArray autorelease];
 }
 
@@ -323,8 +327,8 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 {
 	
 	//NSLog(@"inputDict: %@ main title: %@", inputDict, mainTitle);
-	id cons = [[%c(ntvRSSViewer) alloc] initWithDictionary:inputDict];
-	
+	id cons = [[objc_getClass("ntvRSSViewer") alloc] initWithDictionary:inputDict];
+		//NSLog(@"cons: %@", cons);
 	[cons setLabelText:mainTitle];
 	[[self stack] pushController:cons];
 	[cons release];
@@ -628,7 +632,7 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 		
 			tempObject = [self arrayFromRSSFeed:theLocation];
 			
-			NSLog(@"tempObject: %@", tempObject);
+				//NSLog(@"tempObject: %@", tempObject);
 			
 			
 			if (tempObject == nil)

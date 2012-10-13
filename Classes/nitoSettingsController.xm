@@ -159,14 +159,14 @@ enum {
 		case kNUpdateNitoTVMenuItem: //update nitoTV
 			
 			summary = @"Update nitoTV to the latest version";
-			previewImage = [BRTHEME gearImage];
+			previewImage = [THEME settingsImage];
 			break;
 		
 		case kNUpdateCheckFrequencyMenuItem:
 				//case kNToggleUpdateMenuItem: //block updates
 			
 			summary = @"How frequently to check for essential updates";
-			previewImage = [BRTHEME gearImage];
+			previewImage = [THEME settingsImage];
 			break;
 		
 		//case kNNotificationLogMenuItem: //notification logs

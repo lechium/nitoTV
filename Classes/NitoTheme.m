@@ -36,6 +36,12 @@
 	return [startDict autorelease];
 }
 
+-(id)settingsImage {
+	
+	return [BRIMAGECLASS imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"settings" ofType:@"png"]];
+	
+}
+
 
 -(id)clockImage {
 	

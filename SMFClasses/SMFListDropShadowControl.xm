@@ -52,6 +52,16 @@ static BOOL _isAnimated = TRUE;
  
  */
 
+%new - (id)list
+{
+	return [self associatedValueForKey:(void*)kSMFLDSCListKey];
+}
+
+%new - (void)setList:(id)value
+{
+	[self associateValue:value withKey:(void*)kSMFLDSCListKey];
+}
+
 %new - (id)cDelegate {
 	
 	return [self associatedValueForKey:(void*)kSMFLDSCDelegateKey];
@@ -92,6 +102,7 @@ static BOOL _isAnimated = TRUE;
 {
 	return _isAnimated;
 }
+
 
 #define BRLC objc_getClass("BRListControl")
 

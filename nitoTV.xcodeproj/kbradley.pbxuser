@@ -480,6 +480,13 @@
 			894485BF1628EEA100FEF401 /* PBXTextBookmark */ = 894485BF1628EEA100FEF401 /* PBXTextBookmark */;
 			894485C21628EEA100FEF401 /* PBXTextBookmark */ = 894485C21628EEA100FEF401 /* PBXTextBookmark */;
 			894485C31628EEA100FEF401 /* PBXTextBookmark */ = 894485C31628EEA100FEF401 /* PBXTextBookmark */;
+			894485CB1628EEE200FEF401 /* PBXBookmark */ = 894485CB1628EEE200FEF401 /* PBXBookmark */;
+			894485CC1628EEEB00FEF401 /* PBXTextBookmark */ = 894485CC1628EEEB00FEF401 /* PBXTextBookmark */;
+			894485CF1628EEEB00FEF401 /* PBXTextBookmark */ = 894485CF1628EEEB00FEF401 /* PBXTextBookmark */;
+			894485D01628EEEB00FEF401 /* PBXTextBookmark */ = 894485D01628EEEB00FEF401 /* PBXTextBookmark */;
+			894485D11628EEEB00FEF401 /* PBXTextBookmark */ = 894485D11628EEEB00FEF401 /* PBXTextBookmark */;
+			894485D21628EEEB00FEF401 /* PBXTextBookmark */ = 894485D21628EEEB00FEF401 /* PBXTextBookmark */;
+			894485D31628EEEB00FEF401 /* PBXTextBookmark */ = 894485D31628EEEB00FEF401 /* PBXTextBookmark */;
 			896B319C15F19AA20049FA2E = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
@@ -1166,8 +1173,8 @@
 	};
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1321, 718}}";
-			sepNavSelRange = "{975, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1454, 743}}";
+			sepNavSelRange = "{1752, 0}";
 			sepNavVisRange = "{0, 2318}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
@@ -4510,7 +4517,7 @@
 		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
 		name = "Makefile: 20";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1167;
 		rType = 0;
 		vrLen = 2294;
 		vrLoc = 0;
@@ -4913,7 +4920,7 @@
 		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
 		name = "Makefile: 18";
 		rLen = 0;
-		rLoc = 975;
+		rLoc = 951;
 		rType = 0;
 		vrLen = 2318;
 		vrLoc = 0;
@@ -4969,6 +4976,70 @@
 		vrLoc = 10601;
 	};
 	894485C31628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894485CB1628EEE200FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+	};
+	894485CC1628EEEB00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894485CF1628EEEB00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 24";
+		rLen = 0;
+		rLoc = 1752;
+		rType = 0;
+		vrLen = 2318;
+		vrLoc = 0;
+	};
+	894485D01628EEEB00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 632";
+		rLen = 13;
+		rLoc = 17915;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 15205;
+	};
+	894485D11628EEEB00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894485D21628EEEB00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894485D31628EEEB00FEF401 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
 		name = "BRPhotoMediaAsset.h: 1";
@@ -5274,9 +5345,9 @@
 	};
 	899A8809143B0157007D23BE /* nitoMoreMenu.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1326}}";
-			sepNavSelRange = "{1501, 11}";
-			sepNavVisRange = "{797, 806}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1287}}";
+			sepNavSelRange = "{411, 0}";
+			sepNavVisRange = "{0, 1006}";
 			sepNavWindowFrame = "{{30, 0}, {1370, 878}}";
 		};
 	};

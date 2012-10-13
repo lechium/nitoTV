@@ -21,7 +21,7 @@
 
 %new - (id)initWithSender:(id)theSender addedTo:(id)parentController
 {
-	self = %orig;
+	self = [self init];
 	[self setCDelegate:self];
 	[self setSender:theSender];
 	[self setCDatasource:self];

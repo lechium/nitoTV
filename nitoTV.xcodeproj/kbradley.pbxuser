@@ -8,6 +8,9 @@
 		addToTargets = (
 			32A6A334141B6B5A009186F7 /* nitoTV */,
 		);
+		breakpoints = (
+			894485A61628EE8D00FEF401 /* nitoInstallManager.xm:530 */,
+		);
 		codeSenseManager = 89276BB9148D59E500C30A57 /* Code sense */;
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -457,6 +460,26 @@
 			89448550162802E400FEF401 /* PBXTextBookmark */ = 89448550162802E400FEF401 /* PBXTextBookmark */;
 			8944855116280B7300FEF401 /* PBXTextBookmark */ = 8944855116280B7300FEF401 /* PBXTextBookmark */;
 			8944855216280B7300FEF401 /* PBXTextBookmark */ = 8944855216280B7300FEF401 /* PBXTextBookmark */;
+			894485681628107A00FEF401 /* PBXBookmark */ = 894485681628107A00FEF401 /* PBXBookmark */;
+			894485A91628EE9000FEF401 /* PBXBookmark */ = 894485A91628EE9000FEF401 /* PBXBookmark */;
+			894485AA1628EEA100FEF401 /* PBXTextBookmark */ = 894485AA1628EEA100FEF401 /* PBXTextBookmark */;
+			894485AB1628EEA100FEF401 /* PBXTextBookmark */ = 894485AB1628EEA100FEF401 /* PBXTextBookmark */;
+			894485AC1628EEA100FEF401 /* PBXTextBookmark */ = 894485AC1628EEA100FEF401 /* PBXTextBookmark */;
+			894485AD1628EEA100FEF401 /* PBXTextBookmark */ = 894485AD1628EEA100FEF401 /* PBXTextBookmark */;
+			894485AE1628EEA100FEF401 /* PBXTextBookmark */ = 894485AE1628EEA100FEF401 /* PBXTextBookmark */;
+			894485AF1628EEA100FEF401 /* PlistBookmark */ = 894485AF1628EEA100FEF401 /* PlistBookmark */;
+			894485B01628EEA100FEF401 /* PBXTextBookmark */ = 894485B01628EEA100FEF401 /* PBXTextBookmark */;
+			894485B11628EEA100FEF401 /* PBXTextBookmark */ = 894485B11628EEA100FEF401 /* PBXTextBookmark */;
+			894485B21628EEA100FEF401 /* PBXTextBookmark */ = 894485B21628EEA100FEF401 /* PBXTextBookmark */;
+			894485B31628EEA100FEF401 /* PBXTextBookmark */ = 894485B31628EEA100FEF401 /* PBXTextBookmark */;
+			894485B41628EEA100FEF401 /* PBXTextBookmark */ = 894485B41628EEA100FEF401 /* PBXTextBookmark */;
+			894485B71628EEA100FEF401 /* PBXTextBookmark */ = 894485B71628EEA100FEF401 /* PBXTextBookmark */;
+			894485BA1628EEA100FEF401 /* PBXTextBookmark */ = 894485BA1628EEA100FEF401 /* PBXTextBookmark */;
+			894485BB1628EEA100FEF401 /* PBXTextBookmark */ = 894485BB1628EEA100FEF401 /* PBXTextBookmark */;
+			894485BE1628EEA100FEF401 /* PBXTextBookmark */ = 894485BE1628EEA100FEF401 /* PBXTextBookmark */;
+			894485BF1628EEA100FEF401 /* PBXTextBookmark */ = 894485BF1628EEA100FEF401 /* PBXTextBookmark */;
+			894485C21628EEA100FEF401 /* PBXTextBookmark */ = 894485C21628EEA100FEF401 /* PBXTextBookmark */;
+			894485C31628EEA100FEF401 /* PBXTextBookmark */ = 894485C31628EEA100FEF401 /* PBXTextBookmark */;
 			896B319C15F19AA20049FA2E = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
@@ -558,9 +581,9 @@
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 11232}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 11427}}";
 			sepNavSelRange = "{1123, 0}";
-			sepNavVisRange = "{240, 1231}";
+			sepNavVisRange = "{2209, 1406}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -805,9 +828,9 @@
 	};
 	87188BA51279815B001861D7 /* ntvRssBrowser.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1143, 8658}}";
-			sepNavSelRange = "{16820, 0}";
-			sepNavVisRange = "{15873, 1502}";
+			sepNavIntBoundsRect = "{{0, 0}, {1143, 8684}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{689, 1207}";
 			sepNavWindowFrame = "{{15, 0}, {1202, 878}}";
 		};
 	};
@@ -820,9 +843,9 @@
 	};
 	87188BA91279815B001861D7 /* ntvRSSViewer.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1306, 5304}}";
-			sepNavSelRange = "{10527, 0}";
-			sepNavVisRange = "{9147, 1565}";
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 5642}}";
+			sepNavSelRange = "{7520, 0}";
+			sepNavVisRange = "{7294, 674}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
@@ -852,9 +875,9 @@
 	};
 	87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 7384}}";
-			sepNavSelRange = "{126, 0}";
-			sepNavVisRange = "{37, 1402}";
+			sepNavIntBoundsRect = "{{0, 0}, {1356, 6786}}";
+			sepNavSelRange = "{15647, 0}";
+			sepNavVisRange = "{10601, 2670}";
 			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
 		};
 	};
@@ -883,9 +906,9 @@
 	};
 	8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1839, 16601}}";
-			sepNavSelRange = "{19359, 15}";
-			sepNavVisRange = "{18009, 1863}";
+			sepNavIntBoundsRect = "{{0, 0}, {3722, 16445}}";
+			sepNavSelRange = "{17915, 13}";
+			sepNavVisRange = "{15205, 1432}";
 			sepNavWindowFrame = "{{503, 2}, {1049, 876}}";
 		};
 	};
@@ -1144,8 +1167,8 @@
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1321, 718}}";
-			sepNavSelRange = "{1167, 0}";
-			sepNavVisRange = "{0, 2294}";
+			sepNavSelRange = "{975, 0}";
+			sepNavVisRange = "{0, 2318}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
@@ -1264,7 +1287,7 @@
 		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
 		name = "ntvRssBrowser.xm: 134";
 		rLen = 0;
-		rLoc = 3060;
+		rLoc = 3216;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 255;
@@ -3306,7 +3329,7 @@
 		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
 		name = "Makefile: 24";
 		rLen = 0;
-		rLoc = 1728;
+		rLoc = 1752;
 		rType = 0;
 		vrLen = 2294;
 		vrLoc = 0;
@@ -4487,7 +4510,7 @@
 		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
 		name = "Makefile: 20";
 		rLen = 0;
-		rLoc = 1167;
+		rLoc = 1191;
 		rType = 0;
 		vrLen = 2294;
 		vrLoc = 0;
@@ -4750,6 +4773,211 @@
 		vrLen = 2614;
 		vrLoc = 0;
 	};
+	894485681628107A00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+	};
+	894485A61628EE8D00FEF401 /* nitoInstallManager.xm:530 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 530;
+		modificationTime = 371781261.744998;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	894485A91628EE9000FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+	};
+	894485AA1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 227";
+		rLen = 125;
+		rLoc = 5689;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 5152;
+	};
+	894485AB1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 16";
+		rLen = 55;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 72;
+	};
+	894485AC1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA91279815B001861D7 /* ntvRSSViewer.xm */;
+		name = "ntvRSSViewer.xm: 302";
+		rLen = 0;
+		rLoc = 7520;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 7294;
+	};
+	894485AD1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 140";
+		rLen = 0;
+		rLoc = 3216;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 534;
+	};
+	894485AE1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B40FBA1621427A00B54315 /* BRControl.h */;
+		name = "BRControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 0;
+	};
+	894485AF1628EEA100FEF401 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A6A46D141B71FC009186F7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kbradley/Projects/ATV2/nitoTV/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	894485B01628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319715F19AA20049FA2E /* SMFListDropShadowControl.h */;
+		name = "SMFListDropShadowControl.h: 31";
+		rLen = 162;
+		rLoc = 627;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 145;
+	};
+	894485B11628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */;
+		name = "SMFComplexProcessDropShadowControl.xm: 24";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 485;
+	};
+	894485B21628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 725";
+		rLen = 17;
+		rLoc = 25332;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	894485B31628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894485B41628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894485B71628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 18";
+		rLen = 0;
+		rLoc = 975;
+		rType = 0;
+		vrLen = 2318;
+		vrLoc = 0;
+	};
+	894485BA1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 632";
+		rLen = 13;
+		rLoc = 17915;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 15205;
+	};
+	894485BB1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 632";
+		rLen = 13;
+		rLoc = 17915;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 15205;
+	};
+	894485BE1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 330";
+		rLen = 13;
+		rLoc = 8954;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 8363;
+	};
+	894485BF1628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894485C21628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894485C31628EEA100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
 	896B318D15F19AA20049FA2E /* BRMediaShelfView_SMF.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1311, 750}}";
@@ -4783,9 +5011,9 @@
 	};
 	896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 5759}}";
-			sepNavSelRange = "{4956, 0}";
-			sepNavVisRange = "{0, 1543}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 5655}}";
+			sepNavSelRange = "{8307, 25}";
+			sepNavVisRange = "{7457, 1554}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4799,9 +5027,9 @@
 	};
 	896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1248}}";
-			sepNavSelRange = "{1758, 0}";
-			sepNavVisRange = "{729, 1046}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 1248}}";
+			sepNavSelRange = "{484, 0}";
+			sepNavVisRange = "{485, 261}";
 			sepNavWindowFrame = "{{19, 0}, {1370, 878}}";
 		};
 	};
@@ -4815,17 +5043,17 @@
 	};
 	896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 4303}}";
-			sepNavSelRange = "{5689, 125}";
-			sepNavVisRange = "{5152, 347}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 4342}}";
+			sepNavSelRange = "{3645, 16}";
+			sepNavVisRange = "{1560, 1354}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319715F19AA20049FA2E /* SMFListDropShadowControl.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 897}}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 1001}}";
 			sepNavSelRange = "{627, 162}";
-			sepNavVisRange = "{0, 476}";
+			sepNavVisRange = "{145, 331}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4863,9 +5091,9 @@
 	};
 	896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1419, 14937}}";
-			sepNavSelRange = "{9894, 0}";
-			sepNavVisRange = "{8622, 1448}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 14872}}";
+			sepNavSelRange = "{25332, 17}";
+			sepNavVisRange = "{1222, 383}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -4950,9 +5178,9 @@
 	};
 	896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1240, 675}}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 390}}";
 			sepNavSelRange = "{238, 53}";
-			sepNavVisRange = "{0, 596}";
+			sepNavVisRange = "{0, 366}";
 			sepNavWindowFrame = "{{38, 49}, {1299, 803}}";
 		};
 	};
@@ -5100,6 +5328,14 @@
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
+	89B40FBA1621427A00B54315 /* BRControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {996, 2600}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 446}";
+			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
+		};
+	};
 	89B40FC21621427A00B54315 /* BRCoverArtPreviewControl.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1240, 675}}";
@@ -5137,6 +5373,14 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1306, 832}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 2614}";
+		};
+	};
+	89B410E91621427B00B54315 /* BRTextControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1306, 743}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1234}";
+			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
 	89B410FC1621427B00B54315 /* BRThemeInfo.h */ = {

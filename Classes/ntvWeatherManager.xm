@@ -1135,7 +1135,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 		NSDictionary *tempDict = [NSDictionary dictionaryWithObjectsAndKeys:@"New Location", @"name", @"94089", @"location", @"f", @"units", nil];
 
 
-		id weatherController = [[%c(nitoWeatherController) alloc] initWithWeather:tempDict withMode:0];
+		id weatherController = [[objc_getClass("nitoWeatherController") alloc] initWithWeather:tempDict withMode:0];
 		
 		[weatherController autorelease];
 		[weatherController setParentController:self];

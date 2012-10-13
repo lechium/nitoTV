@@ -701,6 +701,14 @@
 			89448A1A162960B600FEF401 /* PBXTextBookmark */ = 89448A1A162960B600FEF401 /* PBXTextBookmark */;
 			89448A1B162960B600FEF401 /* PBXTextBookmark */ = 89448A1B162960B600FEF401 /* PBXTextBookmark */;
 			89448A1C162960B600FEF401 /* PBXTextBookmark */ = 89448A1C162960B600FEF401 /* PBXTextBookmark */;
+			89448A1F162961D300FEF401 /* PBXTextBookmark */ = 89448A1F162961D300FEF401 /* PBXTextBookmark */;
+			89448A20162961D300FEF401 /* PBXTextBookmark */ = 89448A20162961D300FEF401 /* PBXTextBookmark */;
+			89448A21162961D300FEF401 /* PBXTextBookmark */ = 89448A21162961D300FEF401 /* PBXTextBookmark */;
+			89448A22162961D300FEF401 /* PBXTextBookmark */ = 89448A22162961D300FEF401 /* PBXTextBookmark */;
+			89448A23162961D300FEF401 /* PBXTextBookmark */ = 89448A23162961D300FEF401 /* PBXTextBookmark */;
+			89448A24162961D300FEF401 /* PBXTextBookmark */ = 89448A24162961D300FEF401 /* PBXTextBookmark */;
+			89448A25162961D300FEF401 /* PBXTextBookmark */ = 89448A25162961D300FEF401 /* PBXTextBookmark */;
+			89448A26162961D300FEF401 /* PBXTextBookmark */ = 89448A26162961D300FEF401 /* PBXTextBookmark */;
 			896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */ = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
 			896B319C15F19AA20049FA2E = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 			899A8809143B0157007D23BE /* nitoMoreMenu.xm */ = 899A8809143B0157007D23BE /* nitoMoreMenu.xm */;
@@ -804,9 +812,9 @@
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 10855}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 10725}}";
 			sepNavSelRange = "{12744, 0}";
-			sepNavVisRange = "{11357, 1672}";
+			sepNavVisRange = "{9630, 1487}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -1003,9 +1011,9 @@
 	};
 	87188B9B1279815B001861D7 /* nitoWeatherController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1240, 6734}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1240, 6643}}";
 			sepNavSelRange = "{432, 25}";
-			sepNavVisRange = "{0, 1240}";
+			sepNavVisRange = "{2279, 1782}";
 			sepNavWindowFrame = "{{101, 48}, {1299, 803}}";
 		};
 	};
@@ -1082,9 +1090,9 @@
 	};
 	87188BAB1279815B001861D7 /* ntvWeatherManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2637, 14924}}";
-			sepNavSelRange = "{30082, 0}";
-			sepNavVisRange = "{28385, 1938}";
+			sepNavIntBoundsRect = "{{0, 0}, {2637, 14937}}";
+			sepNavSelRange = "{29288, 21}";
+			sepNavVisRange = "{28758, 1579}";
 			sepNavWindowFrame = "{{6, 7}, {1365, 871}}";
 		};
 	};
@@ -1098,9 +1106,9 @@
 	};
 	87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1356, 6786}}";
-			sepNavSelRange = "{15647, 0}";
-			sepNavVisRange = "{10601, 2670}";
+			sepNavIntBoundsRect = "{{0, 0}, {1356, 6773}}";
+			sepNavSelRange = "{336, 55}";
+			sepNavVisRange = "{72, 582}";
 			sepNavWindowFrame = "{{12, 0}, {1387, 878}}";
 		};
 	};
@@ -1389,9 +1397,9 @@
 	};
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1454, 718}}";
-			sepNavSelRange = "{1752, 0}";
-			sepNavVisRange = "{0, 2318}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 559}}";
+			sepNavSelRange = "{65, 0}";
+			sepNavVisRange = "{0, 883}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
@@ -3889,7 +3897,7 @@
 		fRef = 87188BAB1279815B001861D7 /* ntvWeatherManager.xm */;
 		name = "ntvWeatherManager.xm: 1161";
 		rLen = 0;
-		rLoc = 30172;
+		rLoc = 30185;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 28360;
@@ -3933,7 +3941,7 @@
 		fRef = 87188BAB1279815B001861D7 /* ntvWeatherManager.xm */;
 		name = "ntvWeatherManager.xm: 1159";
 		rLen = 0;
-		rLoc = 30082;
+		rLoc = 30095;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 28819;
@@ -7285,6 +7293,86 @@
 		vrLoc = 10601;
 	};
 	89448A1C162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	89448A1F162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 726";
+		rLen = 17;
+		rLoc = 25335;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	89448A20162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 16";
+		rLen = 55;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 72;
+	};
+	89448A21162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 16";
+		rLen = 55;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 72;
+	};
+	89448A22162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1034";
+		rLen = 0;
+		rLoc = 35896;
+		rType = 0;
+		vrLen = 2192;
+		vrLoc = 34838;
+	};
+	89448A23162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	89448A24162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	89448A25162961D300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448A26162961D300FEF401 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
 		name = "BRPhotoMediaAsset.h: 1";

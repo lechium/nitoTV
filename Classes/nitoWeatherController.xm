@@ -99,6 +99,8 @@ static char const * const kNitoWCWeatherKeyKey = "nWCWeatherKey";
 {
 		self = [self init];
 	
+	NSLog(@"initWithWeather");
+	
 	//if ( (%orig == nil) )
 //		return ( nil );
 	
@@ -143,14 +145,9 @@ static char const * const kNitoWCWeatherKeyKey = "nWCWeatherKey";
 	[[self list] addDividerAtIndex:3 withLabel:@"Options"];
 	[self setThings:_things];
 	[self setWeatherDictionary:_weatherDictionary];
+	NSLog(@"down here somewhereS?");
 	return ( self );
 }
-
-- (id) init
-{
-	return ( [self initWithWeather:NULL withMode:0] );
-}
-
 
 - (void)editTitle
 {

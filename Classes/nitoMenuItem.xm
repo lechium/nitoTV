@@ -9,7 +9,7 @@ static BOOL centered = FALSE;
 
 %new +(id)ntvMenuItem
 {
-	id object = [[NSClassFromString(@"MMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:0];
 	//NSLog(@"object: %@", object);
 	return [object autorelease];
@@ -18,7 +18,7 @@ static BOOL centered = FALSE;
 %new +(id)ntvFolderMenuItem
 
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRFolderMenuItem];
 	return [object autorelease];
 	
@@ -26,35 +26,35 @@ static BOOL centered = FALSE;
 
 %new +(id)ntvShuffleMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRShuffleMenuItem];
 	return [object autorelease];
 }
 
 %new +(id)ntvRefreshMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRRefreshMenuItem];
 	return [object autorelease];
 }
 
 %new +(id)ntvSyncMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRSyncMenuItem];
 	return [object autorelease];
 }
 
 %new +(id)ntvLockMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRLockMenuItem];
 	return [object autorelease];
 }
 
 %new +(id)ntvProgressMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRProgressMenuItem];
 	[object addAccessoryOfType:kBRFolderMenuItem];
 	return [object autorelease];
@@ -62,14 +62,14 @@ static BOOL centered = FALSE;
 
 %new +(id)ntvDownloadMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRDownloadMenuItem];
 	return [object autorelease];
 }
 
 %new +(id)ntvComputerMenuItem
 {
-	id object = [[NSClassFromString(@"BRMenuItem") alloc] init];
+	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
 	[object addAccessoryOfType:kBRComputerMenuItem];
 	return [object autorelease];
 }

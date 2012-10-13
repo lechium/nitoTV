@@ -9,12 +9,22 @@
 #define ZOOM_TO_POINT CGPointMake(591.5999755859375, 284.39999389648438)
 
 
-	//#import "SMFListDropShadowControl.h"
 #import "SMFThemeInfo.h"
-	//#import "SMFMenuItem.h"
-	//#import "SMFDefines.h"
+
 #import "SMFMockMenuItem.h"
 #import "SMFAnimation.h"
+
+%subclass ntvListControl : BRListControl
+
+-(BOOL)brEventAction:(id)event
+{
+		//LogSelf;
+	return %orig;
+}
+
+
+%end
+
 
 static char const * const kSMFLDSCDelegateKey = "SMFLDSCDelegate";
 static char const * const kSMFLDSCDatasourceKey = "SMFLDSCDatasource";
@@ -40,17 +50,7 @@ static BOOL _isAnimated = TRUE;
  
  */
 
-/*
-@implementation SMFListDropShadowControl
-@synthesize cDelegate, cDatasource, list, isAnimated, sender;
 
- NSObject<SMFListDropShadowDelegate>  * cDelegate;
- NSObject<SMFListDropShadowDatasource>* cDatasource;
- BRListControl *list;
- BOOL isAnimated;
- id sender;
- 
- */
 
 %new - (id)list
 {
@@ -104,7 +104,7 @@ static BOOL _isAnimated = TRUE;
 }
 
 
-#define BRLC objc_getClass("BRListControl")
+#define BRLC objc_getClass("ntvListControl")
 
  -(id)init
 {
@@ -114,15 +114,16 @@ static BOOL _isAnimated = TRUE;
 		[self setList:theList];
         [theList setDatasource:self];
         _isAnimated = FALSE; 
-		
-			//self.backgroundColor=[[SMFThemeInfo sharedTheme]blackColor];
-			//self.borderColor=[[SMFThemeInfo sharedTheme] whiteColor];
-			//  self.borderWidth=3.0;
-			//self.inhibitsFocusForChildren = TRUE;
-			//self.avoidsCursor = TRUE;
         
-		[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-		[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		if ([self respondsToSelector:@selector(controls)])
+		{
+			[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
+			[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		} else {
+			[[self layer] setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
+			[[self layer] setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		}
+		
 		[self setInhibitsFocusForChildren:TRUE];
 		[self setAvoidsCursor:TRUE];
 		[self setContent:theList];
@@ -135,10 +136,21 @@ static BOOL _isAnimated = TRUE;
     [[self list] reload];
 }
 
+%new -(void)logFrame:(CGRect)frame
+{
+	NSLog(@"{{%f, %f},{%f,%f}}",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+}
+
+%new -(void)logSize:(CGSize)size
+{
+	NSLog(@"{%f,%f}}", size.width,size.height);
+}
 
 %new -(void)addToController:(id)ctrl
 {
     CGRect f = [self rectForSize:CGSizeMake(528., 154.)];
+	
+	[self logFrame:f];
 	
     [self setFrame:f];
 	
@@ -149,6 +161,7 @@ static BOOL _isAnimated = TRUE;
 		if (theSender != nil)
 		{
 			[self updateSender];
+			[self logFrame:[theSender bounds]];
 			zoomInAnimation = [SMFAnimation zoomInFadedToRect:[theSender bounds]];
 		} else {
 			zoomInAnimation = [SMFAnimation zoomInFadedToRect:CGRectZero];
@@ -243,7 +256,7 @@ static BOOL _isAnimated = TRUE;
 }
 
 
-- (void)removeFromSuperview
+%new - (void)removeFromSuperviewAnimated
 {
 	if (_isAnimated == TRUE)
 	{
@@ -259,15 +272,19 @@ static BOOL _isAnimated = TRUE;
 		[zoomOutAnimation setDelegate:self];
 		[zoomOutAnimation setValue:@"removeFromParent" forKey:@"Name"];
 		[[self layer] addAnimation:zoomOutAnimation forKey:@"removeFromParent"];
-		
+			//%orig;
+	//} else {
+//		
+//		
+//		%orig;
 	} else {
 		
+		[self removeFromSuperview];
 		
-		%orig;
 	}
 	
 }
-- (void)removeFromParent
+%new - (void)removeFromParentAnimated
 {
 	if (_isAnimated == TRUE)
 	{
@@ -283,13 +300,11 @@ static BOOL _isAnimated = TRUE;
 		[zoomOutAnimation setDelegate:self];
 		[zoomOutAnimation setValue:@"removeFromParent" forKey:@"Name"];
 		[[self layer] addAnimation:zoomOutAnimation forKey:@"removeFromParent"];
-
+		
 	} else {
-		
-		
-		%orig;
-	}
 	
+		[self removeFromParent];
+	}	
 }
 	 
 	//- (void)actuallyRemove //deprecated
@@ -298,11 +313,12 @@ static BOOL _isAnimated = TRUE;
 
 -(BOOL)brEventAction:(id)event
 {
-
+		//LogSelf;
     int remoteAction = (int)[event remoteAction];
     switch (remoteAction)
     {
         case kBREventRemoteActionMenu:
+			NSLog(@"are we getting the menu action?");
 			if ([self respondsToSelector:@selector(removeFromParent)])
 				[self removeFromParent];
 			else
@@ -325,13 +341,19 @@ static BOOL _isAnimated = TRUE;
     r.size.width=s.width;
     id a = [%c(SMFMenuItem) menuItem];
     CGSize ss = [a sizeThatFits:s];
+		//	[self logSize:ss];
 	long it = (long)[self itemCount];
     if (it>6)
         it=6;
-    r.size.height=52.+ss.height*it;
+    r.size.height=52.+52.*it;
     CGSize windowSize = [objc_getClass("ntvWindow") maxBounds];
     r.origin.y=(windowSize.height-r.size.height)/2.0f;
     r.origin.x=(windowSize.width-r.size.width)/2.0f;
+		
+			//NSLog(@"window size");
+			//[self logSize:windowSize];
+	
+		
     return r;
 }
 
@@ -342,6 +364,10 @@ static BOOL _isAnimated = TRUE;
 	
 		//NSLog(@"animationDidStart: %@", anim);
 }
+
+
+	//okay so remove from superview isnt going to work when we ovverride it with animation now, i dont know how this worked before.
+
 
 %new - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
@@ -402,10 +428,10 @@ here are all the functions where i handle what is mentioned at the top (the comm
 		id newSender = [self synthesizeMockItem]; //create our stub menu item that has 2 variables total.
 		if (newSender != nil)
 		{
-				//	NSLog(@"setting new sender to: %@", newSender);
+					NSLog(@"setting new sender to: %@", newSender);
 			
 			[self setSender:newSender];
-				//NSLog(@"sender check: %@", sender);
+				NSLog(@"sender check: %@", [self sender]);
 		}
 		
 	}
@@ -433,8 +459,8 @@ here are all the functions where i handle what is mentioned at the top (the comm
 	
 	SMFMockMenuItem *menuItem = [[SMFMockMenuItem alloc] init];
 	CGPoint newPosition = [theSender position];
-	newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
-	
+		//newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
+	newPosition.x = 948.5;
 	[menuItem setBounds:[theSender bounds]];
 	[menuItem setPosition:newPosition];
 	
@@ -462,6 +488,7 @@ here are all the functions where i handle what is mentioned at the top (the comm
 			id current = nil;
 			while ((current = [controlEnum nextObject]))
 			{
+				NSLog(@"current: %@", current);
 				NSString *currentClass = NSStringFromClass([current class]);
 				if ([currentClass isEqualToString:@"BRBlueGlowSelectionLozengeLayer"])
 				{

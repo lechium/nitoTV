@@ -691,10 +691,11 @@ void checkNil(NSObject *ctrl)
         {
             CGRect f = previewFrame;
             f.origin.x=f.origin.x+ masterFrame.size.height*0.17*(float)button;
-            [b setFrame:f];
+           
             if (!is60)[self addControl:b];
 			else [self addSubview:b];
-            button++;
+            [b setFrame:f];
+			button++;
             [_buttons addObject:b];
 			
 			if (i == 0) {
@@ -1030,7 +1031,7 @@ void checkNil(NSObject *ctrl)
         [[self delegate] respondsToSelector:@selector(controller:buttonSelectedAtIndex:)]) {
 			//NSLog(@"play and all that shit is true");
         id selectedC = [self focusedControl];
-			//NSLog(@"selectedC subtitle: %@", [[selectedC subtitle] string]);
+			NSLog(@"selectedC subtitle: %@", selectedC);
 			//NSLog(@"buttons: %@", [self buttons]);
         for (int j=0;j<[[self buttons] count];j++) {
 		

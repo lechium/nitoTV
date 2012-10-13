@@ -24,6 +24,7 @@
 	self = [self init];
 	[self setCDelegate:self];
 	[self setSender:theSender];
+	NSLog(@"sender: %@", theSender);
 	[self setCDatasource:self];
 	[self setIsAnimated:TRUE];
 	return ( self );

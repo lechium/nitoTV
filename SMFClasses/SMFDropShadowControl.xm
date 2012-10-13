@@ -68,7 +68,7 @@ static BOOL _isAnimated = TRUE;
     self = %orig;
     if (self!=nil) {
 
-        _isAnimated = FALSE; //up to you, can be false by default if you dont like it
+        _isAnimated = TRUE; //up to you, can be false by default if you dont like it
     }
     return self;
 }
@@ -121,10 +121,11 @@ static BOOL _isAnimated = TRUE;
 	return TRUE;
 }
 
-- (void)removeFromSuperview
+%new - (void)removeFromSuperviewAnimated
 {
 	if (_isAnimated == TRUE)
 	{
+		NSLog(@"is animated!");
 			//CATransform3D zoomTransform = CATransform3DMakeScale(0.1, 0.1, 1.0);
 		CAAnimationGroup *zoomOutAnimation = nil;
 		id theSender = [self sender];
@@ -141,12 +142,12 @@ static BOOL _isAnimated = TRUE;
 	} else {
 		
 		
-		%orig;
+		[self removeFromSuperview];
 	}
 	
 }
 
-- (void)removeFromParent
+%new - (void)removeFromParentAnimated
 {
 	if (_isAnimated == TRUE)
 	{
@@ -166,7 +167,7 @@ static BOOL _isAnimated = TRUE;
 	} else {
 		
 		
-		%orig;
+		[self removeFromParent];
 	}
 	
 }
@@ -211,14 +212,15 @@ static BOOL _isAnimated = TRUE;
 }
 
 
-- (void)animationDidStart:(CAAnimation *)anim
+%new - (void)animationDidStart:(CAAnimation *)anim
 {
 	
 		//NSLog(@"animationDidStart: %@", anim);
 }
 
-- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+%new - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
+	
 	
 	NSString *animationName = [anim valueForKey:@"Name"];
 	
@@ -279,8 +281,8 @@ static BOOL _isAnimated = TRUE;
 	
 	SMFMockMenuItem *menuItem = [[SMFMockMenuItem alloc] init];
 	CGPoint newPosition = [theSender position];
-	newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
-	
+		//newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
+	newPosition.x = 948.5;
 	[menuItem setBounds:[theSender bounds]];
 	[menuItem setPosition:newPosition];
 	

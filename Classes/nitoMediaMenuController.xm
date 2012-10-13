@@ -84,22 +84,41 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 
 - (BOOL)brEventAction:(id)fp8
 {
-//	NSLog(@"brEventAction: %@", fp8);
+	
 	int itemCount = (int)[[[self list] datasource] itemCount];
 	long currentRow;
 	int theAction = (int)[fp8 remoteAction];
-	int theValue = (int)[fp8 value];	
+	int theValue = (int)[fp8 value];
+	id myFocusedControl = nil;
 	switch (theAction)
 	{
 		case kBREventRemoteActionMenu:
-			if([[self focusedControl] isKindOfClass:%c(SMFComplexProcessDropShadowControl)])
+			myFocusedControl = [self focusedControl];
+			NSLog(@"myFocusedControl: %@", myFocusedControl);
+			if([myFocusedControl isKindOfClass:objc_getClass("SMFComplexProcessDropShadowControl")])
 			{
-				[[self focusedControl] removeFromParent];
+				if ([self respondsToSelector:@selector(removeFromParent)])
+				{
+					[myFocusedControl removeFromParentAnimated];
+					
+				} else {
+					
+					NSLog(@"remove from superview animated!");
+					[myFocusedControl removeFromSuperviewAnimated];
+					
+				}
+					
+					
 				return YES;
 			}
-			if ([[self focusedControl] isKindOfClass:%c(SMFListDropShadowControl)])
+			if ([[self focusedControl] isKindOfClass:objc_getClass("SMFListDropShadowControl")])
 			{
-				[[self focusedControl] removeFromParent];
+				if ([self respondsToSelector:@selector(removeFromParent)])
+					[[self focusedControl] removeFromParentAnimated];
+				else
+					[[self focusedControl] removeFromSuperviewAnimated];
+					
+					
 				return YES;
 			}
 			

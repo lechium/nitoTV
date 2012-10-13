@@ -9,7 +9,6 @@
 			32A6A334141B6B5A009186F7 /* nitoTV */,
 		);
 		breakpoints = (
-			894485A61628EE8D00FEF401 /* nitoInstallManager.xm:530 */,
 		);
 		codeSenseManager = 89276BB9148D59E500C30A57 /* Code sense */;
 		perUserDictionary = {
@@ -487,7 +486,224 @@
 			894485D11628EEEB00FEF401 /* PBXTextBookmark */ = 894485D11628EEEB00FEF401 /* PBXTextBookmark */;
 			894485D21628EEEB00FEF401 /* PBXTextBookmark */ = 894485D21628EEEB00FEF401 /* PBXTextBookmark */;
 			894485D31628EEEB00FEF401 /* PBXTextBookmark */ = 894485D31628EEEB00FEF401 /* PBXTextBookmark */;
+			894485DD1628F00700FEF401 /* PBXTextBookmark */ = 894485DD1628F00700FEF401 /* PBXTextBookmark */;
+			894485DE1628F01700FEF401 /* PBXTextBookmark */ = 894485DE1628F01700FEF401 /* PBXTextBookmark */;
+			894485E11628F01700FEF401 /* PBXTextBookmark */ = 894485E11628F01700FEF401 /* PBXTextBookmark */;
+			894485E21628F01700FEF401 /* PBXTextBookmark */ = 894485E21628F01700FEF401 /* PBXTextBookmark */;
+			894485E31628F01700FEF401 /* PBXTextBookmark */ = 894485E31628F01700FEF401 /* PBXTextBookmark */;
+			894485E41628F01700FEF401 /* PBXTextBookmark */ = 894485E41628F01700FEF401 /* PBXTextBookmark */;
+			894485E51628F01700FEF401 /* PBXTextBookmark */ = 894485E51628F01700FEF401 /* PBXTextBookmark */;
+			894485E61628F06E00FEF401 /* PBXTextBookmark */ = 894485E61628F06E00FEF401 /* PBXTextBookmark */;
+			894485E71628F06E00FEF401 /* PBXTextBookmark */ = 894485E71628F06E00FEF401 /* PBXTextBookmark */;
+			894485E81628F06E00FEF401 /* PBXTextBookmark */ = 894485E81628F06E00FEF401 /* PBXTextBookmark */;
+			894485E91628F06E00FEF401 /* PBXTextBookmark */ = 894485E91628F06E00FEF401 /* PBXTextBookmark */;
+			894485EA1628F06E00FEF401 /* PBXTextBookmark */ = 894485EA1628F06E00FEF401 /* PBXTextBookmark */;
+			894485EB1628F06E00FEF401 /* PBXTextBookmark */ = 894485EB1628F06E00FEF401 /* PBXTextBookmark */;
+			894486001628F4FF00FEF401 /* PBXBookmark */ = 894486001628F4FF00FEF401 /* PBXBookmark */;
+			894486011628F50600FEF401 /* PBXTextBookmark */ = 894486011628F50600FEF401 /* PBXTextBookmark */;
+			894486041628F50600FEF401 /* PBXTextBookmark */ = 894486041628F50600FEF401 /* PBXTextBookmark */;
+			894486051628F50600FEF401 /* PBXTextBookmark */ = 894486051628F50600FEF401 /* PBXTextBookmark */;
+			894486061628F50600FEF401 /* PBXTextBookmark */ = 894486061628F50600FEF401 /* PBXTextBookmark */;
+			894486071628F50600FEF401 /* PBXTextBookmark */ = 894486071628F50600FEF401 /* PBXTextBookmark */;
+			894486081628F55A00FEF401 /* PBXTextBookmark */ = 894486081628F55A00FEF401 /* PBXTextBookmark */;
+			894486091628F55A00FEF401 /* PBXTextBookmark */ = 894486091628F55A00FEF401 /* PBXTextBookmark */;
+			8944860A1628F55A00FEF401 /* PBXTextBookmark */ = 8944860A1628F55A00FEF401 /* PBXTextBookmark */;
+			8944860B1628F55A00FEF401 /* PBXTextBookmark */ = 8944860B1628F55A00FEF401 /* PBXTextBookmark */;
+			8944860C1628F55A00FEF401 /* PBXTextBookmark */ = 8944860C1628F55A00FEF401 /* PBXTextBookmark */;
+			8944860D1628F57700FEF401 /* PBXTextBookmark */ = 8944860D1628F57700FEF401 /* PBXTextBookmark */;
+			8944860E1628F57700FEF401 /* PBXTextBookmark */ = 8944860E1628F57700FEF401 /* PBXTextBookmark */;
+			8944860F1628F57700FEF401 /* PBXTextBookmark */ = 8944860F1628F57700FEF401 /* PBXTextBookmark */;
+			894486101628F57700FEF401 /* PBXTextBookmark */ = 894486101628F57700FEF401 /* PBXTextBookmark */;
+			894486111628F57700FEF401 /* PBXTextBookmark */ = 894486111628F57700FEF401 /* PBXTextBookmark */;
+			8944861C1628F5D400FEF401 /* PBXBookmark */ = 8944861C1628F5D400FEF401 /* PBXBookmark */;
+			8944861D1628F60400FEF401 /* PBXTextBookmark */ = 8944861D1628F60400FEF401 /* PBXTextBookmark */;
+			894486201628F60400FEF401 /* PBXTextBookmark */ = 894486201628F60400FEF401 /* PBXTextBookmark */;
+			894486211628F60400FEF401 /* PBXTextBookmark */ = 894486211628F60400FEF401 /* PBXTextBookmark */;
+			894486221628F60400FEF401 /* PBXTextBookmark */ = 894486221628F60400FEF401 /* PBXTextBookmark */;
+			894486231628F60400FEF401 /* PBXTextBookmark */ = 894486231628F60400FEF401 /* PBXTextBookmark */;
+			894486271628F82D00FEF401 /* PBXBookmark */ = 894486271628F82D00FEF401 /* PBXBookmark */;
+			894486281628F86000FEF401 /* PBXTextBookmark */ = 894486281628F86000FEF401 /* PBXTextBookmark */;
+			894486291628F86000FEF401 /* PBXTextBookmark */ = 894486291628F86000FEF401 /* PBXTextBookmark */;
+			8944862C1628F86000FEF401 /* PBXTextBookmark */ = 8944862C1628F86000FEF401 /* PBXTextBookmark */;
+			8944862D1628F86000FEF401 /* PBXTextBookmark */ = 8944862D1628F86000FEF401 /* PBXTextBookmark */;
+			8944862E1628F86000FEF401 /* PBXTextBookmark */ = 8944862E1628F86000FEF401 /* PBXTextBookmark */;
+			8944862F1628F86000FEF401 /* PBXTextBookmark */ = 8944862F1628F86000FEF401 /* PBXTextBookmark */;
+			894486311628F8B500FEF401 /* PBXTextBookmark */ = 894486311628F8B500FEF401 /* PBXTextBookmark */;
+			894486321628F8B500FEF401 /* PBXTextBookmark */ = 894486321628F8B500FEF401 /* PBXTextBookmark */;
+			894486331628F8B500FEF401 /* PBXTextBookmark */ = 894486331628F8B500FEF401 /* PBXTextBookmark */;
+			894486341628F8B500FEF401 /* PBXTextBookmark */ = 894486341628F8B500FEF401 /* PBXTextBookmark */;
+			894486351628F8B500FEF401 /* PBXTextBookmark */ = 894486351628F8B500FEF401 /* PBXTextBookmark */;
+			894486361628F8B500FEF401 /* PBXTextBookmark */ = 894486361628F8B500FEF401 /* PBXTextBookmark */;
+			894486371628F8BD00FEF401 /* PBXBookmark */ = 894486371628F8BD00FEF401 /* PBXBookmark */;
+			894486381628F8C900FEF401 /* PBXTextBookmark */ = 894486381628F8C900FEF401 /* PBXTextBookmark */;
+			8944863B1628F8C900FEF401 /* PBXTextBookmark */ = 8944863B1628F8C900FEF401 /* PBXTextBookmark */;
+			8944863C1628F8C900FEF401 /* PBXTextBookmark */ = 8944863C1628F8C900FEF401 /* PBXTextBookmark */;
+			8944863D1628F8C900FEF401 /* PBXTextBookmark */ = 8944863D1628F8C900FEF401 /* PBXTextBookmark */;
+			8944863E1628F8C900FEF401 /* PBXTextBookmark */ = 8944863E1628F8C900FEF401 /* PBXTextBookmark */;
+			8944863F1628F8C900FEF401 /* PBXTextBookmark */ = 8944863F1628F8C900FEF401 /* PBXTextBookmark */;
+			894486511628F9D000FEF401 /* PBXBookmark */ = 894486511628F9D000FEF401 /* PBXBookmark */;
+			894486521628F9EF00FEF401 /* PBXTextBookmark */ = 894486521628F9EF00FEF401 /* PBXTextBookmark */;
+			894486531628F9EF00FEF401 /* PBXTextBookmark */ = 894486531628F9EF00FEF401 /* PBXTextBookmark */;
+			894486561628F9EF00FEF401 /* PBXTextBookmark */ = 894486561628F9EF00FEF401 /* PBXTextBookmark */;
+			894486571628F9EF00FEF401 /* PBXTextBookmark */ = 894486571628F9EF00FEF401 /* PBXTextBookmark */;
+			894486581628F9EF00FEF401 /* PBXTextBookmark */ = 894486581628F9EF00FEF401 /* PBXTextBookmark */;
+			894486591628F9EF00FEF401 /* PBXTextBookmark */ = 894486591628F9EF00FEF401 /* PBXTextBookmark */;
+			8944865A1628FA5100FEF401 /* PBXTextBookmark */ = 8944865A1628FA5100FEF401 /* PBXTextBookmark */;
+			8944865B1628FA5100FEF401 /* PBXTextBookmark */ = 8944865B1628FA5100FEF401 /* PBXTextBookmark */;
+			8944865C1628FA5100FEF401 /* PBXTextBookmark */ = 8944865C1628FA5100FEF401 /* PBXTextBookmark */;
+			8944865D1628FA5100FEF401 /* PBXTextBookmark */ = 8944865D1628FA5100FEF401 /* PBXTextBookmark */;
+			8944865E1628FA5100FEF401 /* PBXTextBookmark */ = 8944865E1628FA5100FEF401 /* PBXTextBookmark */;
+			8944865F16293A0500FEF401 /* PBXTextBookmark */ = 8944865F16293A0500FEF401 /* PBXTextBookmark */;
+			8944866016293A0500FEF401 /* PBXTextBookmark */ = 8944866016293A0500FEF401 /* PBXTextBookmark */;
+			8944866116293A0500FEF401 /* PBXTextBookmark */ = 8944866116293A0500FEF401 /* PBXTextBookmark */;
+			8944866216293A0500FEF401 /* PBXTextBookmark */ = 8944866216293A0500FEF401 /* PBXTextBookmark */;
+			8944866316293A0500FEF401 /* PBXTextBookmark */ = 8944866316293A0500FEF401 /* PBXTextBookmark */;
+			8944866716293C3600FEF401 /* PBXBookmark */ = 8944866716293C3600FEF401 /* PBXBookmark */;
+			8944866816294DC700FEF401 /* PBXTextBookmark */ = 8944866816294DC700FEF401 /* PBXTextBookmark */;
+			8944866B16294DC700FEF401 /* PBXTextBookmark */ = 8944866B16294DC700FEF401 /* PBXTextBookmark */;
+			8944866C16294DC700FEF401 /* PBXTextBookmark */ = 8944866C16294DC700FEF401 /* PBXTextBookmark */;
+			8944866D16294DC700FEF401 /* PBXTextBookmark */ = 8944866D16294DC700FEF401 /* PBXTextBookmark */;
+			8944866E16294DC700FEF401 /* PBXTextBookmark */ = 8944866E16294DC700FEF401 /* PBXTextBookmark */;
+			8944895416294F0900FEF401 /* PBXTextBookmark */ = 8944895416294F0900FEF401 /* PBXTextBookmark */;
+			8944895516294F0900FEF401 /* PBXTextBookmark */ = 8944895516294F0900FEF401 /* PBXTextBookmark */;
+			8944895616294F0900FEF401 /* PBXTextBookmark */ = 8944895616294F0900FEF401 /* PBXTextBookmark */;
+			8944895716294F0900FEF401 /* PBXTextBookmark */ = 8944895716294F0900FEF401 /* PBXTextBookmark */;
+			8944895816294F0900FEF401 /* PBXTextBookmark */ = 8944895816294F0900FEF401 /* PBXTextBookmark */;
+			8944895916294F0900FEF401 /* PBXTextBookmark */ = 8944895916294F0900FEF401 /* PBXTextBookmark */;
+			8944895A16294F0900FEF401 /* PBXTextBookmark */ = 8944895A16294F0900FEF401 /* PBXTextBookmark */;
+			8944895F162957AE00FEF401 /* PBXBookmark */ = 8944895F162957AE00FEF401 /* PBXBookmark */;
+			894489601629583200FEF401 /* PBXTextBookmark */ = 894489601629583200FEF401 /* PBXTextBookmark */;
+			894489631629583200FEF401 /* PBXTextBookmark */ = 894489631629583200FEF401 /* PBXTextBookmark */;
+			894489641629583200FEF401 /* PBXTextBookmark */ = 894489641629583200FEF401 /* PBXTextBookmark */;
+			894489651629583200FEF401 /* PBXTextBookmark */ = 894489651629583200FEF401 /* PBXTextBookmark */;
+			894489661629583200FEF401 /* PBXTextBookmark */ = 894489661629583200FEF401 /* PBXTextBookmark */;
+			894489691629585100FEF401 /* PBXBookmark */ = 894489691629585100FEF401 /* PBXBookmark */;
+			8944896A1629586D00FEF401 /* PBXTextBookmark */ = 8944896A1629586D00FEF401 /* PBXTextBookmark */;
+			8944896B1629586D00FEF401 /* PBXTextBookmark */ = 8944896B1629586D00FEF401 /* PBXTextBookmark */;
+			8944896E1629586D00FEF401 /* PBXTextBookmark */ = 8944896E1629586D00FEF401 /* PBXTextBookmark */;
+			8944896F1629586D00FEF401 /* PBXTextBookmark */ = 8944896F1629586D00FEF401 /* PBXTextBookmark */;
+			894489701629586D00FEF401 /* PBXTextBookmark */ = 894489701629586D00FEF401 /* PBXTextBookmark */;
+			894489711629586D00FEF401 /* PBXTextBookmark */ = 894489711629586D00FEF401 /* PBXTextBookmark */;
+			894489721629586D00FEF401 /* PBXTextBookmark */ = 894489721629586D00FEF401 /* PBXTextBookmark */;
+			894489771629591100FEF401 /* PBXTextBookmark */ = 894489771629591100FEF401 /* PBXTextBookmark */;
+			894489781629591100FEF401 /* PBXTextBookmark */ = 894489781629591100FEF401 /* PBXTextBookmark */;
+			894489791629591100FEF401 /* PBXTextBookmark */ = 894489791629591100FEF401 /* PBXTextBookmark */;
+			8944897A1629591100FEF401 /* PBXTextBookmark */ = 8944897A1629591100FEF401 /* PBXTextBookmark */;
+			8944897B1629591100FEF401 /* PBXTextBookmark */ = 8944897B1629591100FEF401 /* PBXTextBookmark */;
+			8944897C1629593E00FEF401 /* PBXTextBookmark */ = 8944897C1629593E00FEF401 /* PBXTextBookmark */;
+			8944897D1629593E00FEF401 /* PBXTextBookmark */ = 8944897D1629593E00FEF401 /* PBXTextBookmark */;
+			8944897E1629593E00FEF401 /* PBXTextBookmark */ = 8944897E1629593E00FEF401 /* PBXTextBookmark */;
+			8944897F1629593E00FEF401 /* PBXTextBookmark */ = 8944897F1629593E00FEF401 /* PBXTextBookmark */;
+			894489801629593E00FEF401 /* PBXTextBookmark */ = 894489801629593E00FEF401 /* PBXTextBookmark */;
+			894489831629596900FEF401 /* PBXBookmark */ = 894489831629596900FEF401 /* PBXBookmark */;
+			894489841629599000FEF401 /* PBXTextBookmark */ = 894489841629599000FEF401 /* PBXTextBookmark */;
+			894489851629599000FEF401 /* PBXTextBookmark */ = 894489851629599000FEF401 /* PBXTextBookmark */;
+			894489881629599000FEF401 /* PBXTextBookmark */ = 894489881629599000FEF401 /* PBXTextBookmark */;
+			894489891629599000FEF401 /* PBXTextBookmark */ = 894489891629599000FEF401 /* PBXTextBookmark */;
+			8944898A1629599000FEF401 /* PBXTextBookmark */ = 8944898A1629599000FEF401 /* PBXTextBookmark */;
+			8944898B1629599000FEF401 /* PBXTextBookmark */ = 8944898B1629599000FEF401 /* PBXTextBookmark */;
+			8944898C1629599000FEF401 /* PBXTextBookmark */ = 8944898C1629599000FEF401 /* PBXTextBookmark */;
+			8944898F162959F600FEF401 /* PBXTextBookmark */ = 8944898F162959F600FEF401 /* PBXTextBookmark */;
+			89448990162959F600FEF401 /* PBXTextBookmark */ = 89448990162959F600FEF401 /* PBXTextBookmark */;
+			89448991162959F600FEF401 /* PBXTextBookmark */ = 89448991162959F600FEF401 /* PBXTextBookmark */;
+			89448992162959F600FEF401 /* PBXTextBookmark */ = 89448992162959F600FEF401 /* PBXTextBookmark */;
+			89448993162959F600FEF401 /* PBXTextBookmark */ = 89448993162959F600FEF401 /* PBXTextBookmark */;
+			89448994162959F600FEF401 /* PBXTextBookmark */ = 89448994162959F600FEF401 /* PBXTextBookmark */;
+			8944899516295A2E00FEF401 /* PBXTextBookmark */ = 8944899516295A2E00FEF401 /* PBXTextBookmark */;
+			8944899616295A2E00FEF401 /* PBXTextBookmark */ = 8944899616295A2E00FEF401 /* PBXTextBookmark */;
+			8944899716295A2E00FEF401 /* PBXTextBookmark */ = 8944899716295A2E00FEF401 /* PBXTextBookmark */;
+			8944899816295A2E00FEF401 /* PBXTextBookmark */ = 8944899816295A2E00FEF401 /* PBXTextBookmark */;
+			8944899916295A2E00FEF401 /* PBXTextBookmark */ = 8944899916295A2E00FEF401 /* PBXTextBookmark */;
+			8944899A16295A2E00FEF401 /* PBXTextBookmark */ = 8944899A16295A2E00FEF401 /* PBXTextBookmark */;
+			8944899C16295A8900FEF401 /* PBXTextBookmark */ = 8944899C16295A8900FEF401 /* PBXTextBookmark */;
+			8944899D16295A8900FEF401 /* PBXTextBookmark */ = 8944899D16295A8900FEF401 /* PBXTextBookmark */;
+			8944899E16295A8900FEF401 /* PBXTextBookmark */ = 8944899E16295A8900FEF401 /* PBXTextBookmark */;
+			8944899F16295A8900FEF401 /* PBXTextBookmark */ = 8944899F16295A8900FEF401 /* PBXTextBookmark */;
+			894489A016295A8900FEF401 /* PBXTextBookmark */ = 894489A016295A8900FEF401 /* PBXTextBookmark */;
+			894489A116295A8900FEF401 /* PBXTextBookmark */ = 894489A116295A8900FEF401 /* PBXTextBookmark */;
+			894489A216295ACA00FEF401 /* PBXTextBookmark */ = 894489A216295ACA00FEF401 /* PBXTextBookmark */;
+			894489A316295ACA00FEF401 /* PBXTextBookmark */ = 894489A316295ACA00FEF401 /* PBXTextBookmark */;
+			894489A416295ACA00FEF401 /* PBXTextBookmark */ = 894489A416295ACA00FEF401 /* PBXTextBookmark */;
+			894489A516295ACA00FEF401 /* PBXTextBookmark */ = 894489A516295ACA00FEF401 /* PBXTextBookmark */;
+			894489A616295ACA00FEF401 /* PBXTextBookmark */ = 894489A616295ACA00FEF401 /* PBXTextBookmark */;
+			894489AB16295B2900FEF401 /* PBXBookmark */ = 894489AB16295B2900FEF401 /* PBXBookmark */;
+			894489AC16295B3800FEF401 /* PBXTextBookmark */ = 894489AC16295B3800FEF401 /* PBXTextBookmark */;
+			894489AD16295B3800FEF401 /* PBXTextBookmark */ = 894489AD16295B3800FEF401 /* PBXTextBookmark */;
+			894489B016295B3800FEF401 /* PBXTextBookmark */ = 894489B016295B3800FEF401 /* PBXTextBookmark */;
+			894489B116295B3800FEF401 /* PBXTextBookmark */ = 894489B116295B3800FEF401 /* PBXTextBookmark */;
+			894489B216295B3800FEF401 /* PBXTextBookmark */ = 894489B216295B3800FEF401 /* PBXTextBookmark */;
+			894489B316295B3800FEF401 /* PBXTextBookmark */ = 894489B316295B3800FEF401 /* PBXTextBookmark */;
+			894489B416295B3800FEF401 /* PBXTextBookmark */ = 894489B416295B3800FEF401 /* PBXTextBookmark */;
+			894489B516295B6000FEF401 /* PBXBookmark */ = 894489B516295B6000FEF401 /* PBXBookmark */;
+			894489B616295B7B00FEF401 /* PBXTextBookmark */ = 894489B616295B7B00FEF401 /* PBXTextBookmark */;
+			894489B916295B7B00FEF401 /* PBXTextBookmark */ = 894489B916295B7B00FEF401 /* PBXTextBookmark */;
+			894489BA16295B7B00FEF401 /* PBXTextBookmark */ = 894489BA16295B7B00FEF401 /* PBXTextBookmark */;
+			894489BB16295B7B00FEF401 /* PBXTextBookmark */ = 894489BB16295B7B00FEF401 /* PBXTextBookmark */;
+			894489BC16295B7B00FEF401 /* PBXTextBookmark */ = 894489BC16295B7B00FEF401 /* PBXTextBookmark */;
+			894489BD16295B7B00FEF401 /* PBXTextBookmark */ = 894489BD16295B7B00FEF401 /* PBXTextBookmark */;
+			894489C116295BA700FEF401 /* PBXBookmark */ = 894489C116295BA700FEF401 /* PBXBookmark */;
+			894489C216295BE100FEF401 /* PBXTextBookmark */ = 894489C216295BE100FEF401 /* PBXTextBookmark */;
+			894489C516295BE100FEF401 /* PBXTextBookmark */ = 894489C516295BE100FEF401 /* PBXTextBookmark */;
+			894489C616295BE100FEF401 /* PBXTextBookmark */ = 894489C616295BE100FEF401 /* PBXTextBookmark */;
+			894489C716295BE100FEF401 /* PBXTextBookmark */ = 894489C716295BE100FEF401 /* PBXTextBookmark */;
+			894489C816295BE100FEF401 /* PBXTextBookmark */ = 894489C816295BE100FEF401 /* PBXTextBookmark */;
+			894489C916295BE100FEF401 /* PBXTextBookmark */ = 894489C916295BE100FEF401 /* PBXTextBookmark */;
+			894489D816295E5300FEF401 /* PBXBookmark */ = 894489D816295E5300FEF401 /* PBXBookmark */;
+			894489D916295E5F00FEF401 /* PBXTextBookmark */ = 894489D916295E5F00FEF401 /* PBXTextBookmark */;
+			894489DA16295E5F00FEF401 /* PBXTextBookmark */ = 894489DA16295E5F00FEF401 /* PBXTextBookmark */;
+			894489DB16295E5F00FEF401 /* PBXTextBookmark */ = 894489DB16295E5F00FEF401 /* PBXTextBookmark */;
+			894489DE16295E5F00FEF401 /* PBXTextBookmark */ = 894489DE16295E5F00FEF401 /* PBXTextBookmark */;
+			894489DF16295E5F00FEF401 /* PBXTextBookmark */ = 894489DF16295E5F00FEF401 /* PBXTextBookmark */;
+			894489E016295E5F00FEF401 /* PBXTextBookmark */ = 894489E016295E5F00FEF401 /* PBXTextBookmark */;
+			894489E116295E5F00FEF401 /* PBXTextBookmark */ = 894489E116295E5F00FEF401 /* PBXTextBookmark */;
+			894489E216295E5F00FEF401 /* PBXTextBookmark */ = 894489E216295E5F00FEF401 /* PBXTextBookmark */;
+			894489E516295EB900FEF401 /* PBXBookmark */ = 894489E516295EB900FEF401 /* PBXBookmark */;
+			894489E616295EC300FEF401 /* PBXTextBookmark */ = 894489E616295EC300FEF401 /* PBXTextBookmark */;
+			894489E916295EC300FEF401 /* PBXTextBookmark */ = 894489E916295EC300FEF401 /* PBXTextBookmark */;
+			894489EA16295EC300FEF401 /* PBXTextBookmark */ = 894489EA16295EC300FEF401 /* PBXTextBookmark */;
+			894489EB16295EC300FEF401 /* PBXTextBookmark */ = 894489EB16295EC300FEF401 /* PBXTextBookmark */;
+			894489EC16295EC300FEF401 /* PBXTextBookmark */ = 894489EC16295EC300FEF401 /* PBXTextBookmark */;
+			894489ED16295EC300FEF401 /* PBXTextBookmark */ = 894489ED16295EC300FEF401 /* PBXTextBookmark */;
+			894489EF16295F2A00FEF401 /* PBXBookmark */ = 894489EF16295F2A00FEF401 /* PBXBookmark */;
+			894489F016295F5200FEF401 /* PBXTextBookmark */ = 894489F016295F5200FEF401 /* PBXTextBookmark */;
+			894489F316295F5200FEF401 /* PBXTextBookmark */ = 894489F316295F5200FEF401 /* PBXTextBookmark */;
+			894489F416295F5200FEF401 /* PBXTextBookmark */ = 894489F416295F5200FEF401 /* PBXTextBookmark */;
+			894489F516295F5200FEF401 /* PBXTextBookmark */ = 894489F516295F5200FEF401 /* PBXTextBookmark */;
+			894489F616295F5200FEF401 /* PBXTextBookmark */ = 894489F616295F5200FEF401 /* PBXTextBookmark */;
+			894489F716295F5200FEF401 /* PBXTextBookmark */ = 894489F716295F5200FEF401 /* PBXTextBookmark */;
+			894489F816295FA800FEF401 /* PBXBookmark */ = 894489F816295FA800FEF401 /* PBXBookmark */;
+			894489F916295FCA00FEF401 /* PBXTextBookmark */ = 894489F916295FCA00FEF401 /* PBXTextBookmark */;
+			894489FC16295FCA00FEF401 /* PBXTextBookmark */ = 894489FC16295FCA00FEF401 /* PBXTextBookmark */;
+			894489FD16295FCA00FEF401 /* PBXTextBookmark */ = 894489FD16295FCA00FEF401 /* PBXTextBookmark */;
+			894489FE16295FCA00FEF401 /* PBXTextBookmark */ = 894489FE16295FCA00FEF401 /* PBXTextBookmark */;
+			894489FF16295FCA00FEF401 /* PBXTextBookmark */ = 894489FF16295FCA00FEF401 /* PBXTextBookmark */;
+			89448A0016295FCA00FEF401 /* PBXTextBookmark */ = 89448A0016295FCA00FEF401 /* PBXTextBookmark */;
+			89448A041629601800FEF401 /* PBXBookmark */ = 89448A041629601800FEF401 /* PBXBookmark */;
+			89448A051629605400FEF401 /* PBXTextBookmark */ = 89448A051629605400FEF401 /* PBXTextBookmark */;
+			89448A061629605400FEF401 /* PBXTextBookmark */ = 89448A061629605400FEF401 /* PBXTextBookmark */;
+			89448A091629605400FEF401 /* PBXTextBookmark */ = 89448A091629605400FEF401 /* PBXTextBookmark */;
+			89448A0A1629605400FEF401 /* PBXTextBookmark */ = 89448A0A1629605400FEF401 /* PBXTextBookmark */;
+			89448A0B1629605400FEF401 /* PBXTextBookmark */ = 89448A0B1629605400FEF401 /* PBXTextBookmark */;
+			89448A0C1629605400FEF401 /* PBXTextBookmark */ = 89448A0C1629605400FEF401 /* PBXTextBookmark */;
+			89448A0D1629605400FEF401 /* PBXTextBookmark */ = 89448A0D1629605400FEF401 /* PBXTextBookmark */;
+			89448A0E1629605400FEF401 /* PBXTextBookmark */ = 89448A0E1629605400FEF401 /* PBXTextBookmark */;
+			89448A0F1629606200FEF401 /* PBXTextBookmark */ = 89448A0F1629606200FEF401 /* PBXTextBookmark */;
+			89448A101629606200FEF401 /* PBXTextBookmark */ = 89448A101629606200FEF401 /* PBXTextBookmark */;
+			89448A111629606200FEF401 /* PBXTextBookmark */ = 89448A111629606200FEF401 /* PBXTextBookmark */;
+			89448A121629606200FEF401 /* PBXTextBookmark */ = 89448A121629606200FEF401 /* PBXTextBookmark */;
+			89448A131629606200FEF401 /* PBXTextBookmark */ = 89448A131629606200FEF401 /* PBXTextBookmark */;
+			89448A141629606200FEF401 /* PBXTextBookmark */ = 89448A141629606200FEF401 /* PBXTextBookmark */;
+			89448A151629606200FEF401 /* PBXTextBookmark */ = 89448A151629606200FEF401 /* PBXTextBookmark */;
+			89448A16162960B600FEF401 /* PBXTextBookmark */ = 89448A16162960B600FEF401 /* PBXTextBookmark */;
+			89448A17162960B600FEF401 /* PBXTextBookmark */ = 89448A17162960B600FEF401 /* PBXTextBookmark */;
+			89448A18162960B600FEF401 /* PBXTextBookmark */ = 89448A18162960B600FEF401 /* PBXTextBookmark */;
+			89448A19162960B600FEF401 /* PBXTextBookmark */ = 89448A19162960B600FEF401 /* PBXTextBookmark */;
+			89448A1A162960B600FEF401 /* PBXTextBookmark */ = 89448A1A162960B600FEF401 /* PBXTextBookmark */;
+			89448A1B162960B600FEF401 /* PBXTextBookmark */ = 89448A1B162960B600FEF401 /* PBXTextBookmark */;
+			89448A1C162960B600FEF401 /* PBXTextBookmark */ = 89448A1C162960B600FEF401 /* PBXTextBookmark */;
+			896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */ = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
 			896B319C15F19AA20049FA2E = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+			899A8809143B0157007D23BE /* nitoMoreMenu.xm */ = 899A8809143B0157007D23BE /* nitoMoreMenu.xm */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
 		userBuildSettings = {
@@ -588,9 +804,9 @@
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 11427}}";
-			sepNavSelRange = "{1123, 0}";
-			sepNavVisRange = "{2209, 1406}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 10855}}";
+			sepNavSelRange = "{12744, 0}";
+			sepNavVisRange = "{11357, 1672}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -707,9 +923,9 @@
 	};
 	87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1323, 3497}}";
-			sepNavSelRange = "{4186, 0}";
-			sepNavVisRange = "{3495, 1014}";
+			sepNavIntBoundsRect = "{{0, 0}, {1323, 3315}}";
+			sepNavSelRange = "{2138, 0}";
+			sepNavVisRange = "{1881, 1499}";
 			sepNavWindowFrame = "{{15, 0}, {1382, 875}}";
 		};
 	};
@@ -763,9 +979,9 @@
 	};
 	87188B971279815B001861D7 /* nitoTVAppliance.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1143, 9113}}";
-			sepNavSelRange = "{5014, 0}";
-			sepNavVisRange = "{4115, 1319}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 8697}}";
+			sepNavSelRange = "{2825, 24}";
+			sepNavVisRange = "{2614, 464}";
 			sepNavWindowFrame = "{{198, 0}, {1202, 878}}";
 		};
 	};
@@ -913,10 +1129,10 @@
 	};
 	8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3722, 16445}}";
-			sepNavSelRange = "{17915, 13}";
-			sepNavVisRange = "{15205, 1432}";
-			sepNavWindowFrame = "{{503, 2}, {1049, 876}}";
+			sepNavIntBoundsRect = "{{0, 0}, {3722, 16510}}";
+			sepNavSelRange = "{17989, 13}";
+			sepNavVisRange = "{15277, 1360}";
+			sepNavWindowFrame = "{{351, 2}, {1049, 876}}";
 		};
 	};
 	8726C4C9128CA19400D84785 /* BRTask.h */ = {
@@ -1173,7 +1389,7 @@
 	};
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1454, 743}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1454, 718}}";
 			sepNavSelRange = "{1752, 0}";
 			sepNavVisRange = "{0, 2318}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
@@ -1374,7 +1590,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 221";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 412;
 		vrLoc = 5333;
@@ -1454,7 +1670,7 @@
 		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
 		name = "SMFListDropShadowControl.xm: 82";
 		rLen = 15;
-		rLoc = 2186;
+		rLoc = 2119;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 1424;
@@ -1464,7 +1680,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 716";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -1939,7 +2155,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1026";
 		rLen = 0;
-		rLoc = 30340;
+		rLoc = 30414;
 		rType = 0;
 		vrLen = 1793;
 		vrLoc = 29145;
@@ -1959,7 +2175,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1033";
 		rLen = 0;
-		rLoc = 30656;
+		rLoc = 30730;
 		rType = 0;
 		vrLen = 1804;
 		vrLoc = 29160;
@@ -1979,7 +2195,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1067";
 		rLen = 0;
-		rLoc = 32235;
+		rLoc = 32309;
 		rType = 0;
 		vrLen = 2147;
 		vrLoc = 30206;
@@ -2003,7 +2219,7 @@
 		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
 		name = "nitoMenuItem.xm: 77";
 		rLen = 0;
-		rLoc = 1773;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 689;
@@ -2013,7 +2229,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1067";
 		rLen = 0;
-		rLoc = 32235;
+		rLoc = 32309;
 		rType = 0;
 		vrLen = 2147;
 		vrLoc = 30206;
@@ -2033,7 +2249,7 @@
 		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
 		name = "nitoMenuItem.xm: 77";
 		rLen = 0;
-		rLoc = 1773;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 689;
@@ -2053,7 +2269,7 @@
 		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
 		name = "nitoMenuItem.xm: 77";
 		rLen = 0;
-		rLoc = 1773;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 689;
@@ -2173,7 +2389,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1002";
 		rLen = 0;
-		rLoc = 29421;
+		rLoc = 29495;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 29227;
@@ -2333,7 +2549,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 1001";
 		rLen = 0;
-		rLoc = 29421;
+		rLoc = 29495;
 		rType = 0;
 		vrLen = 1956;
 		vrLoc = 28245;
@@ -3373,7 +3589,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 716";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -3417,7 +3633,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 716";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -3447,7 +3663,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3457,7 +3673,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 730";
 		rLen = 0;
-		rLoc = 20885;
+		rLoc = 20952;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 11725;
@@ -3477,7 +3693,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 437";
 		rLen = 0;
-		rLoc = 12677;
+		rLoc = 12744;
 		rType = 0;
 		vrLen = 1737;
 		vrLoc = 11461;
@@ -3487,7 +3703,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3511,7 +3727,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 827";
 		rLen = 0;
-		rLoc = 29335;
+		rLoc = 29338;
 		rType = 0;
 		vrLen = 1582;
 		vrLoc = 28113;
@@ -3521,7 +3737,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3541,7 +3757,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 850";
 		rLen = 0;
-		rLoc = 30085;
+		rLoc = 30088;
 		rType = 0;
 		vrLen = 1810;
 		vrLoc = 28964;
@@ -3551,7 +3767,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3579,7 +3795,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 716";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -3589,7 +3805,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 828";
 		rLen = 0;
-		rLoc = 29316;
+		rLoc = 29319;
 		rType = 0;
 		vrLen = 1284;
 		vrLoc = 28650;
@@ -3609,7 +3825,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3619,7 +3835,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 716";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -3639,7 +3855,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3683,7 +3899,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3727,7 +3943,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3751,7 +3967,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 834";
 		rLen = 0;
-		rLoc = 29270;
+		rLoc = 29273;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 28626;
@@ -3761,7 +3977,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3791,7 +4007,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3815,7 +4031,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 711";
 		rLen = 0;
-		rLoc = 24814;
+		rLoc = 24817;
 		rType = 0;
 		vrLen = 2527;
 		vrLoc = 22774;
@@ -3825,7 +4041,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3845,7 +4061,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 826";
 		rLen = 0;
-		rLoc = 29052;
+		rLoc = 29055;
 		rType = 0;
 		vrLen = 1588;
 		vrLoc = 27762;
@@ -3855,7 +4071,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3879,7 +4095,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 397";
 		rLen = 0;
-		rLoc = 11460;
+		rLoc = 11492;
 		rType = 0;
 		vrLen = 1214;
 		vrLoc = 10637;
@@ -3889,7 +4105,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 17864;
@@ -3913,7 +4129,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -3957,7 +4173,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 17811;
@@ -3987,7 +4203,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 17811;
@@ -4007,7 +4223,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 659";
 		rLen = 0;
-		rLoc = 18741;
+		rLoc = 18815;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 17811;
@@ -4061,7 +4277,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4071,7 +4287,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4081,7 +4297,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1029";
 		rLen = 0;
-		rLoc = 35801;
+		rLoc = 35804;
 		rType = 0;
 		vrLen = 2272;
 		vrLoc = 34306;
@@ -4111,7 +4327,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4121,7 +4337,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1032";
 		rLen = 0;
-		rLoc = 35961;
+		rLoc = 35942;
 		rType = 0;
 		vrLen = 2598;
 		vrLoc = 21820;
@@ -4155,7 +4371,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4165,7 +4381,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 21774;
@@ -4203,7 +4419,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4213,7 +4429,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1037";
 		rLen = 0;
-		rLoc = 36526;
+		rLoc = 36507;
 		rType = 0;
 		vrLen = 2202;
 		vrLoc = 34706;
@@ -4223,7 +4439,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 19812;
@@ -4253,7 +4469,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4263,7 +4479,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1039";
 		rLen = 0;
-		rLoc = 36521;
+		rLoc = 36502;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 34706;
@@ -4273,7 +4489,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 19812;
@@ -4303,7 +4519,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4313,7 +4529,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1044";
 		rLen = 4;
-		rLoc = 36661;
+		rLoc = 36642;
 		rType = 0;
 		vrLen = 2319;
 		vrLoc = 34754;
@@ -4323,7 +4539,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 19812;
@@ -4353,7 +4569,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4363,7 +4579,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1036";
 		rLen = 0;
-		rLoc = 36521;
+		rLoc = 36502;
 		rType = 0;
 		vrLen = 2335;
 		vrLoc = 34754;
@@ -4373,7 +4589,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 19812;
@@ -4403,7 +4619,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4413,7 +4629,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1033";
 		rLen = 0;
-		rLoc = 35914;
+		rLoc = 35887;
 		rType = 0;
 		vrLen = 2344;
 		vrLoc = 34754;
@@ -4423,7 +4639,7 @@
 		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
 		name = "PackageDataSource.xm: 788";
 		rLen = 0;
-		rLoc = 22251;
+		rLoc = 22323;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 19812;
@@ -4457,7 +4673,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4497,7 +4713,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4551,7 +4767,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4665,7 +4881,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 221";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 412;
 		vrLoc = 5331;
@@ -4675,7 +4891,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 227";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 5152;
@@ -4685,7 +4901,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1038";
 		rLen = 0;
-		rLoc = 36119;
+		rLoc = 36100;
 		rType = 0;
 		vrLen = 2131;
 		vrLoc = 34754;
@@ -4705,7 +4921,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 227";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 5152;
@@ -4715,7 +4931,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1039";
 		rLen = 0;
-		rLoc = 36188;
+		rLoc = 36169;
 		rType = 0;
 		vrLen = 2247;
 		vrLoc = 34754;
@@ -4735,7 +4951,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 227";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 5152;
@@ -4745,7 +4961,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 1045";
 		rLen = 0;
-		rLoc = 36506;
+		rLoc = 36487;
 		rType = 0;
 		vrLen = 2244;
 		vrLoc = 34754;
@@ -4765,7 +4981,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 227";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 5152;
@@ -4784,22 +5000,6 @@
 		isa = PBXBookmark;
 		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
 	};
-	894485A61628EE8D00FEF401 /* nitoInstallManager.xm:530 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 530;
-		modificationTime = 371781261.744998;
-		originalNumberOfMultipleMatches = 0;
-		state = 1;
-	};
 	894485A91628EE9000FEF401 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
@@ -4809,7 +5009,7 @@
 		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
 		name = "SMFDropShadowControl.xm: 227";
 		rLen = 125;
-		rLoc = 5689;
+		rLoc = 5791;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 5152;
@@ -4890,7 +5090,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
 		name = "SMFMoviePreviewController.xm: 725";
 		rLen = 17;
-		rLoc = 25332;
+		rLoc = 25335;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 1222;
@@ -4930,7 +5130,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 632";
 		rLen = 13;
-		rLoc = 17915;
+		rLoc = 17989;
 		rType = 0;
 		vrLen = 1432;
 		vrLoc = 15205;
@@ -4940,7 +5140,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 632";
 		rLen = 13;
-		rLoc = 17915;
+		rLoc = 17989;
 		rType = 0;
 		vrLen = 1432;
 		vrLoc = 15205;
@@ -5014,7 +5214,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.xm: 632";
 		rLen = 13;
-		rLoc = 17915;
+		rLoc = 17989;
 		rType = 0;
 		vrLen = 1432;
 		vrLoc = 15205;
@@ -5049,6 +5249,2051 @@
 		vrLen = 2614;
 		vrLoc = 0;
 	};
+	894485DD1628F00700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
+		rLen = 12;
+		rLoc = 183;
+		rType = 0;
+	};
+	894485DE1628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894485E11628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
+		name = "nitoMenuItem.xm: 12";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1169;
+	};
+	894485E21628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 632";
+		rLen = 13;
+		rLoc = 17989;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 15205;
+	};
+	894485E31628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894485E41628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894485E51628F01700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894485E61628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894485E71628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */;
+		name = "nitoMenuItem.xm: 72";
+		rLen = 0;
+		rLoc = 1669;
+		rType = 0;
+		vrLen = 1072;
+		vrLoc = 1181;
+	};
+	894485E81628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 632";
+		rLen = 13;
+		rLoc = 17989;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 15205;
+	};
+	894485E91628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894485EA1628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894485EB1628F06E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486001628F4FF00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+	};
+	894486011628F50600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894486041628F50600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 87";
+		rLen = 0;
+		rLoc = 1801;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 1235;
+	};
+	894486051628F50600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894486061628F50600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894486071628F50600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486081628F55A00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894486091628F55A00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 88";
+		rLen = 0;
+		rLoc = 1802;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 1546;
+	};
+	8944860A1628F55A00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944860B1628F55A00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944860C1628F55A00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944860D1628F57700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	8944860E1628F57700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 101";
+		rLen = 0;
+		rLoc = 2610;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 1546;
+	};
+	8944860F1628F57700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894486101628F57700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894486111628F57700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944861C1628F5D400FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+	};
+	8944861D1628F60400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894486201628F60400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 107";
+		rLen = 0;
+		rLoc = 2681;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 1524;
+	};
+	894486211628F60400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894486221628F60400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894486231628F60400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486271628F82D00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+	};
+	894486281628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 13";
+		rLen = 53;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	894486291628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 104";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 1434;
+	};
+	8944862C1628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 617";
+		rLen = 0;
+		rLoc = 17825;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 16935;
+	};
+	8944862D1628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944862E1628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944862F1628F86000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486311628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 104";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 1434;
+	};
+	894486321628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 617";
+		rLen = 0;
+		rLoc = 17825;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 16935;
+	};
+	894486331628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 614";
+		rLen = 0;
+		rLoc = 17641;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 16935;
+	};
+	894486341628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894486351628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894486361628F8B500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486371628F8BD00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+	};
+	894486381628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 104";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 1434;
+	};
+	8944863B1628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 359";
+		rLen = 0;
+		rLoc = 8557;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 8432;
+	};
+	8944863C1628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 614";
+		rLen = 0;
+		rLoc = 17641;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 16935;
+	};
+	8944863D1628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944863E1628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944863F1628F8C900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894486511628F9D000FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+	};
+	894486521628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 104";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 1434;
+	};
+	894486531628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 2614;
+	};
+	894486561628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 449";
+		rLen = 0;
+		rLoc = 11091;
+		rType = 0;
+		vrLen = 1775;
+		vrLoc = 10477;
+	};
+	894486571628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894486581628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894486591628F9EF00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944865A1628FA5100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 2614;
+	};
+	8944865B1628FA5100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 182";
+		rLen = 8;
+		rLoc = 3610;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 3595;
+	};
+	8944865C1628FA5100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944865D1628FA5100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944865E1628FA5100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944865F16293A0500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 2614;
+	};
+	8944866016293A0500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 507";
+		rLen = 0;
+		rLoc = 12677;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 11940;
+	};
+	8944866116293A0500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944866216293A0500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944866316293A0500FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944866716293C3600FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+	};
+	8944866816294DC700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 2614;
+	};
+	8944866B16294DC700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 116";
+		rLen = 0;
+		rLoc = 2526;
+		rType = 0;
+		vrLen = 1299;
+		vrLoc = 2278;
+	};
+	8944866C16294DC700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944866D16294DC700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944866E16294DC700FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944895416294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 2614;
+	};
+	8944895516294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 92";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 1454;
+	};
+	8944895616294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 116";
+		rLen = 0;
+		rLoc = 2526;
+		rType = 0;
+		vrLen = 1299;
+		vrLoc = 2278;
+	};
+	8944895716294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 461";
+		rLen = 0;
+		rLoc = 12041;
+		rType = 0;
+		vrLen = 1740;
+		vrLoc = 11089;
+	};
+	8944895816294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944895916294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944895A16294F0900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944895F162957AE00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+	};
+	894489601629583200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 92";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 1454;
+	};
+	894489631629583200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 116";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 1582;
+	};
+	894489641629583200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489651629583200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489661629583200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489691629585100FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+	};
+	8944896A1629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 92";
+		rLen = 15;
+		rLoc = 2119;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 1454;
+	};
+	8944896B1629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	8944896E1629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */;
+		name = "SMFListDropShadowControl.xm: 280";
+		rLen = 0;
+		rLoc = 7110;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 6401;
+	};
+	8944896F1629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 98";
+		rLen = 291;
+		rLoc = 2234;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 2008;
+	};
+	894489701629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489711629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489721629586D00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489771629591100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489781629591100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 106";
+		rLen = 0;
+		rLoc = 2480;
+		rType = 0;
+		vrLen = 1375;
+		vrLoc = 1957;
+	};
+	894489791629591100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944897A1629591100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944897B1629591100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944897C1629593E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	8944897D1629593E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 118";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1957;
+	};
+	8944897E1629593E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944897F1629593E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489801629593E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489831629596900FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+	};
+	894489841629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489851629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489881629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 169";
+		rLen = 0;
+		rLoc = 4345;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 2916;
+	};
+	894489891629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 118";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1957;
+	};
+	8944898A1629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944898B1629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944898C1629599000FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944898F162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	89448990162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 71";
+		rLen = 0;
+		rLoc = 1748;
+		rType = 0;
+		vrLen = 1292;
+		vrLoc = 1394;
+	};
+	89448991162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 118";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1957;
+	};
+	89448992162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	89448993162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448994162959F600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944899516295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	8944899616295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 128";
+		rLen = 0;
+		rLoc = 3101;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 2132;
+	};
+	8944899716295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 118";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1957;
+	};
+	8944899816295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	8944899916295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	8944899A16295A2E00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	8944899C16295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	8944899D16295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 118";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1957;
+	};
+	8944899E16295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 105";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 1957;
+	};
+	8944899F16295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489A016295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489A116295A8900FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489A216295ACA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489A316295ACA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 1957;
+	};
+	894489A416295ACA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489A516295ACA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489A616295ACA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489AB16295B2900FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+	};
+	894489AC16295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489AD16295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489B016295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 384";
+		rLen = 0;
+		rLoc = 9677;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 9009;
+	};
+	894489B116295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 1957;
+	};
+	894489B216295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489B316295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489B416295B3800FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489B516295B6000FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+	};
+	894489B616295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489B916295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+		name = "PackageDataSource.xm: 322";
+		rLen = 0;
+		rLoc = 9362;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 8294;
+	};
+	894489BA16295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 1957;
+	};
+	894489BB16295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489BC16295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489BD16295B7B00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489C116295BA700FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+	};
+	894489C216295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489C516295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 223";
+		rLen = 0;
+		rLoc = 5668;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 5140;
+	};
+	894489C616295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 1957;
+	};
+	894489C716295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489C816295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489C916295BE100FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489D816295E5300FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+	};
+	894489D916295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 47";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 1087;
+	};
+	894489DA16295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894489DB16295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894489DE16295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 221";
+		rLen = 0;
+		rLoc = 5600;
+		rType = 0;
+		vrLen = 1316;
+		vrLoc = 5328;
+	};
+	894489DF16295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	894489E016295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489E116295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489E216295E5F00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489E516295EB900FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+	};
+	894489E616295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894489E916295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */;
+		name = "SMFDropShadowControl.xm: 285";
+		rLen = 0;
+		rLoc = 7550;
+		rType = 0;
+		vrLen = 1674;
+		vrLoc = 6607;
+	};
+	894489EA16295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	894489EB16295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489EC16295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489ED16295EC300FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489EF16295F2A00FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+	};
+	894489F016295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894489F316295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 697";
+		rLen = 0;
+		rLoc = 24573;
+		rType = 0;
+		vrLen = 2663;
+		vrLoc = 22155;
+	};
+	894489F416295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	894489F516295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489F616295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	894489F716295F5200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	894489F816295FA800FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+	};
+	894489F916295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	894489FC16295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1034";
+		rLen = 0;
+		rLoc = 35896;
+		rType = 0;
+		vrLen = 2161;
+		vrLoc = 34875;
+	};
+	894489FD16295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	894489FE16295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	894489FF16295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448A0016295FCA00FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	89448A041629601800FEF401 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+	};
+	89448A051629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */;
+		name = "SMFComplexDropShadowControl.xm: 201";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 3983;
+	};
+	89448A061629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 726";
+		rLen = 17;
+		rLoc = 25335;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	89448A091629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+		name = "PackageDataSource.xm: 835";
+		rLen = 0;
+		rLoc = 23296;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 21986;
+	};
+	89448A0A1629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1034";
+		rLen = 0;
+		rLoc = 35896;
+		rType = 0;
+		vrLen = 2192;
+		vrLoc = 34838;
+	};
+	89448A0B1629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	89448A0C1629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	89448A0D1629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448A0E1629605400FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	89448A0F1629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 726";
+		rLen = 17;
+		rLoc = 25335;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	89448A101629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+		name = "PackageDataSource.xm: 827";
+		rLen = 0;
+		rLoc = 23102;
+		rType = 0;
+		vrLen = 1554;
+		vrLoc = 21986;
+	};
+	89448A111629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1034";
+		rLen = 0;
+		rLoc = 35896;
+		rType = 0;
+		vrLen = 2192;
+		vrLoc = 34838;
+	};
+	89448A121629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	89448A131629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	89448A141629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448A151629606200FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
+	89448A16162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 726";
+		rLen = 17;
+		rLoc = 25335;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1222;
+	};
+	89448A17162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D96212131A4B59007B5BE3 /* PackageDataSource.xm */;
+		name = "PackageDataSource.xm: 448";
+		rLen = 0;
+		rLoc = 12744;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 11357;
+	};
+	89448A18162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */;
+		name = "SMFMoviePreviewController.xm: 1034";
+		rLen = 0;
+		rLoc = 35896;
+		rType = 0;
+		vrLen = 2192;
+		vrLoc = 34838;
+	};
+	89448A19162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B8E1279815B001861D7 /* nitoMediaMenuController.xm */;
+		name = "nitoMediaMenuController.xm: 97";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1881;
+	};
+	89448A1A162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BA51279815B001861D7 /* ntvRssBrowser.xm */;
+		name = "ntvRssBrowser.xm: 19";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 689;
+	};
+	89448A1B162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188BAD1279815B001861D7 /* ntvWeatherViewer.xm */;
+		name = "ntvWeatherViewer.xm: 554";
+		rLen = 0;
+		rLoc = 15647;
+		rType = 0;
+		vrLen = 2670;
+		vrLoc = 10601;
+	};
+	89448A1C162960B600FEF401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89B410971621427A00B54315 /* BRPhotoMediaAsset.h */;
+		name = "BRPhotoMediaAsset.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 0;
+	};
 	896B318D15F19AA20049FA2E /* BRMediaShelfView_SMF.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1311, 750}}";
@@ -5066,9 +7311,9 @@
 	};
 	896B319015F19AA20049FA2E /* SMFAnimation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1223, 1716}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1340, 861}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1794}}";
+			sepNavSelRange = "{171, 14}";
+			sepNavVisRange = "{2838, 1655}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -5082,9 +7327,9 @@
 	};
 	896B319215F19AA20049FA2E /* SMFComplexDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 5655}}";
-			sepNavSelRange = "{8307, 25}";
-			sepNavVisRange = "{7457, 1554}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 5733}}";
+			sepNavSelRange = "{4956, 0}";
+			sepNavVisRange = "{3983, 558}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -5098,41 +7343,41 @@
 	};
 	896B319415F19AA20049FA2E /* SMFComplexProcessDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 1248}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1365}}";
 			sepNavSelRange = "{484, 0}";
-			sepNavVisRange = "{485, 261}";
+			sepNavVisRange = "{0, 965}";
 			sepNavWindowFrame = "{{19, 0}, {1370, 878}}";
 		};
 	};
 	896B319515F19AA20049FA2E /* SMFDropShadowControl.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 403}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 750}}";
 			sepNavSelRange = "{209, 19}";
-			sepNavVisRange = "{0, 413}";
+			sepNavVisRange = "{0, 572}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319615F19AA20049FA2E /* SMFDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 4342}}";
-			sepNavSelRange = "{3645, 16}";
-			sepNavVisRange = "{1560, 1354}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 4264}}";
+			sepNavSelRange = "{7550, 0}";
+			sepNavVisRange = "{6607, 1674}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319715F19AA20049FA2E /* SMFListDropShadowControl.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 1001}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 949}}";
 			sepNavSelRange = "{627, 162}";
-			sepNavVisRange = "{145, 331}";
+			sepNavVisRange = "{0, 1372}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319815F19AA20049FA2E /* SMFListDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 6214}}";
-			sepNavSelRange = "{2186, 15}";
-			sepNavVisRange = "{1424, 375}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 6669}}";
+			sepNavSelRange = "{12019, 22}";
+			sepNavVisRange = "{11012, 1641}";
 			sepNavWindowFrame = "{{29, 0}, {1370, 878}}";
 		};
 	};
@@ -5162,9 +7407,9 @@
 	};
 	896B319C15F19AA20049FA2E /* SMFMoviePreviewController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 14872}}";
-			sepNavSelRange = "{25332, 17}";
-			sepNavVisRange = "{1222, 383}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 14469}}";
+			sepNavSelRange = "{35896, 0}";
+			sepNavVisRange = "{34838, 2192}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -5265,9 +7510,9 @@
 	};
 	896B362615F1CFA20049FA2E /* Extensions.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1090, 4719}}";
-			sepNavSelRange = "{2256, 0}";
-			sepNavVisRange = "{792, 1600}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 5213}}";
+			sepNavSelRange = "{366, 44}";
+			sepNavVisRange = "{0, 2126}";
 			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
 		};
 	};
@@ -5345,17 +7590,17 @@
 	};
 	899A8809143B0157007D23BE /* nitoMoreMenu.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1287}}";
-			sepNavSelRange = "{411, 0}";
-			sepNavVisRange = "{0, 1006}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1339}}";
+			sepNavSelRange = "{500, 0}";
+			sepNavVisRange = "{837, 806}";
 			sepNavWindowFrame = "{{30, 0}, {1370, 878}}";
 		};
 	};
 	89B403D9161FA55A00B54315 /* nitoMenuItem.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 1287}}";
-			sepNavSelRange = "{1773, 0}";
-			sepNavVisRange = "{689, 479}";
+			sepNavIntBoundsRect = "{{0, 0}, {1240, 1326}}";
+			sepNavSelRange = "{1669, 0}";
+			sepNavVisRange = "{1181, 1072}";
 			sepNavWindowFrame = "{{101, 48}, {1299, 803}}";
 		};
 	};
@@ -5456,9 +7701,9 @@
 	};
 	89B410FC1621427B00B54315 /* BRThemeInfo.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1306, 3679}}";
-			sepNavSelRange = "{1151, 12}";
-			sepNavVisRange = "{4, 2327}";
+			sepNavIntBoundsRect = "{{0, 0}, {1306, 3744}}";
+			sepNavSelRange = "{4313, 13}";
+			sepNavVisRange = "{3038, 2512}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};

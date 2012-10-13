@@ -379,9 +379,9 @@ static BOOL _showWaitSpinner = TRUE;
         case kBREventRemoteActionMenu:
             
 			if ([self respondsToSelector:@selector(removeFromParent)])
-				[self removeFromParent];
+				[self removeFromParentAnimated];
             else
-				[self removeFromSuperview];
+				[self removeFromSuperviewAnimated];
 				
 			return YES;
             break;

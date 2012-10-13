@@ -193,8 +193,12 @@
 			<string>queryMenu.xm</string>
 			<key>89447A031626C7A900FEF401</key>
 			<string>ntvUIClasses.xm</string>
+			<key>896B319815F19AA20049FA2E</key>
+			<string>SMFListDropShadowControl.xm</string>
 			<key>896B319C15F19AA20049FA2E</key>
 			<string>SMFMoviePreviewController.xm</string>
+			<key>899A8809143B0157007D23BE</key>
+			<string>nitoMoreMenu.xm</string>
 		</dict>
 		<key>XCBarModuleItems</key>
 		<array>
@@ -205,6 +209,8 @@
 			<string>896B319C15F19AA20049FA2E</string>
 			<string>87188B971279815B001861D7</string>
 			<string>32D96212131A4B59007B5BE3</string>
+			<string>896B319815F19AA20049FA2E</string>
+			<string>899A8809143B0157007D23BE</string>
 		</array>
 	</dict>
 	<key>FirstTimeWindowDisplayed</key>
@@ -225,24 +231,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>894485CD1628EEEB00FEF401</string>
+				<string>89448A071629605400FEF401</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>Makefile</string>
+				<string>PackageDataSource.xm</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>894485CE1628EEEB00FEF401</string>
+						<string>89448A081629605400FEF401</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>Makefile</string>
+						<string>PackageDataSource.xm</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>894485CF1628EEEB00FEF401</string>
+						<string>89448A17162960B600FEF401</string>
 						<key>history</key>
 						<array>
-							<string>894485CB1628EEE200FEF401</string>
+							<string>89448A041629601800FEF401</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -254,35 +260,35 @@
 			<key>Geometry</key>
 			<dict>
 				<key>Frame</key>
-				<string>{{0, 20}, {1365, 774}}</string>
+				<string>{{0, 20}, {1387, 781}}</string>
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>15 58 1365 815 0 0 1440 878 </string>
+				<string>2 56 1387 822 0 0 1440 878 </string>
 			</dict>
 		</dict>
 		<dict>
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>894485B81628EEA100FEF401</string>
+				<string>894489FA16295FCA00FEF401</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>nitoInstallManager.xm</string>
+				<string>SMFMoviePreviewController.xm</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>894485B91628EEA100FEF401</string>
+						<string>894489FB16295FCA00FEF401</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>nitoInstallManager.xm</string>
+						<string>SMFMoviePreviewController.xm</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>894485D01628EEEB00FEF401</string>
+						<string>89448A18162960B600FEF401</string>
 						<key>history</key>
 						<array>
-							<string>894485BA1628EEA100FEF401</string>
+							<string>894489F816295FA800FEF401</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -294,11 +300,51 @@
 			<key>Geometry</key>
 			<dict>
 				<key>Frame</key>
-				<string>{{0, 20}, {1049, 779}}</string>
+				<string>{{0, 20}, {1370, 781}}</string>
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>351 58 1049 820 0 0 1440 878 </string>
+				<string>15 56 1370 822 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>894489611629583200FEF401</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>nitoMediaMenuController.xm</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>894489621629583200FEF401</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>nitoMediaMenuController.xm</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>89448A19162960B600FEF401</string>
+						<key>history</key>
+						<array>
+							<string>8944899D16295A8900FEF401</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1382, 778}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 56 1382 819 0 0 1440 878 </string>
 			</dict>
 		</dict>
 		<dict>
@@ -319,7 +365,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>894485D11628EEEB00FEF401</string>
+						<string>89448A1A162960B600FEF401</string>
 						<key>history</key>
 						<array>
 							<string>894485BE1628EEA100FEF401</string>
@@ -359,7 +405,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>894485D21628EEEB00FEF401</string>
+						<string>89448A1B162960B600FEF401</string>
 						<key>history</key>
 						<array>
 							<string>894485681628107A00FEF401</string>
@@ -399,7 +445,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>894485D31628EEEB00FEF401</string>
+						<string>89448A1C162960B600FEF401</string>
 						<key>history</key>
 						<array>
 							<string>8944848A1627F4F000FEF401</string>
@@ -454,8 +500,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -501,7 +545,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>9</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -539,7 +584,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>89276BDE148D6F5300C30A57</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSObject+AssociatedObjects.m</string>
+								<string>SMFMoviePreviewController.xm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -547,15 +592,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>89276BDF148D6F5300C30A57</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NSObject+AssociatedObjects.m</string>
+										<string>SMFMoviePreviewController.xm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>894485CC1628EEEB00FEF401</string>
+										<string>89448A16162960B600FEF401</string>
 										<key>history</key>
 										<array>
 											<string>89447A261626CE1C00FEF401</string>
-											<string>89447A281626CE1C00FEF401</string>
 											<string>89447AB41626D41B00FEF401</string>
 											<string>89447B1E1626D7E100FEF401</string>
 											<string>89447B1F1626D7E100FEF401</string>
@@ -565,13 +609,11 @@
 											<string>89447BC61626EC1E00FEF401</string>
 											<string>89447BCA1626EC1E00FEF401</string>
 											<string>89447C551626F11600FEF401</string>
-											<string>89447CE71627B53E00FEF401</string>
 											<string>89447D2C1627B74500FEF401</string>
 											<string>89447D4C1627B7EF00FEF401</string>
 											<string>89447E071627BF3B00FEF401</string>
 											<string>89447E371627C1E700FEF401</string>
 											<string>89447E5D1627C39700FEF401</string>
-											<string>894482361627CC7000FEF401</string>
 											<string>894482821627D09800FEF401</string>
 											<string>894482971627D27000FEF401</string>
 											<string>894483341627DF3500FEF401</string>
@@ -587,7 +629,6 @@
 											<string>894484971627F5B600FEF401</string>
 											<string>894484C21627F8F500FEF401</string>
 											<string>894484C31627F8F500FEF401</string>
-											<string>894485431628024B00FEF401</string>
 											<string>894485441628024B00FEF401</string>
 											<string>894485AA1628EEA100FEF401</string>
 											<string>894485AB1628EEA100FEF401</string>
@@ -597,8 +638,12 @@
 											<string>894485AF1628EEA100FEF401</string>
 											<string>894485B01628EEA100FEF401</string>
 											<string>894485B11628EEA100FEF401</string>
+											<string>894486281628F86000FEF401</string>
+											<string>8944895416294F0900FEF401</string>
+											<string>8944896A1629586D00FEF401</string>
+											<string>894489D916295E5F00FEF401</string>
+											<string>89448A051629605400FEF401</string>
 											<string>894485B21628EEA100FEF401</string>
-											<string>894485B31628EEA100FEF401</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -898,9 +943,10 @@
 		<string>8944849A1627F5B600FEF401</string>
 		<string>894485C01628EEA100FEF401</string>
 		<string>894485BC1628EEA100FEF401</string>
-		<string>894485B81628EEA100FEF401</string>
+		<string>894489611629583200FEF401</string>
+		<string>894489FA16295FCA00FEF401</string>
 		<string>/Users/kbradley/Projects/ATV2/nitoTV/nitoTV.xcodeproj</string>
-		<string>894485CD1628EEEB00FEF401</string>
+		<string>89448A071629605400FEF401</string>
 	</array>
 	<key>WindowString</key>
 	<string>18 56 1372 822 0 0 1440 878 </string>

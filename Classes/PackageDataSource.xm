@@ -319,6 +319,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	[consoleController setIsAnimated:TRUE];
 	if (sender != nil)
 	{
+		NSLog(@"sender: %@", sender);
 		[consoleController setSender:sender];
 	}
 		//[consoleController setShadowStyle:0];
@@ -444,7 +445,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	installed = [self packageInstalled:packageId];
 	currentMode = kPKGFavoritesListMode;
 	[self setPackageData:[self packageInfoFromArray:packageArray]];
-	
+	[self setButtons:[self myButtons]];
 	return (self);
 	
 }
@@ -795,15 +796,15 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	[store release];
     return _provider; 
 }
--(NSArray *)buttons
+%new -(NSArray *)myButtons
 {
 	Class bti = objc_getClass("BRThemeInfo");
 	Class brbc = objc_getClass("BRButtonControl");
-    NSMutableArray *buttons = [[NSMutableArray alloc]init];
+    NSMutableArray *theButtons = [[NSMutableArray alloc]init];
     id b = [brbc actionButtonWithImage:[[bti sharedTheme]previewActionImage] 
 													   subtitle:@"Install" 
 														  badge:nil];
-    [buttons addObject:b];
+    [theButtons addObject:b];
     
     
    
@@ -812,7 +813,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		b = [brbc actionButtonWithImage:[[bti sharedTheme]queueActionImage] 
 										  subtitle:@"Queue" 
 											 badge:nil];
-		[buttons addObject:b];
+		[theButtons addObject:b];
 	}
 	
     
@@ -823,15 +824,15 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	{
 		[b setButtonEnabled:FALSE];
 	}
-    [buttons addObject:b];
+    [theButtons addObject:b];
 
 	
 	b = [brbc actionButtonWithImage:[[bti sharedTheme] moreActionImage] 
 									  subtitle:@"More" 
 										 badge:nil];
 	
-    [buttons addObject:b];
-    return [buttons autorelease];
+    [theButtons addObject:b];
+    return [theButtons autorelease];
     
 }
 

@@ -611,10 +611,11 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	id current = nil;
 	while ((current = [controlEnum nextObject]))
 	{
+		NSLog(@"current: %@", current);
 		NSString *currentClass = NSStringFromClass([current class]);
 		if ([currentClass isEqualToString:@"BRBlueGlowSelectionLozengeLayer"])
 		{
-			
+			NSLog(@"we got that blueglue beyotch!");
 			return [self synthesizeMockItemFrom:current];
 			
 		}

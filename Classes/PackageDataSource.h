@@ -32,7 +32,7 @@ enum buttons {
 };
 
 
-@interface PackageDataSource : SMFMoviePreviewController <SMFMoviePreviewControllerDelegate, SMFMoviePreviewControllerDatasource> {
+@interface PackageDataSource : SMFMoviePreviewController <NSMFMoviePreviewControllerDelegate, SMFMoviePreviewControllerDatasource> {
 
 	NSDictionary *packageData;
 	NSString	 *imageURL;

@@ -1,5 +1,5 @@
 //
-//  SMFBaseAsset.h
+//  NSMFBaseAsset.h
 //  SoftwareMenuFramework
 //
 //  Created by Thomas Cool on 2/4/10.
@@ -9,12 +9,12 @@
 #import "Backrow/AppleTV.h"
 
 
-@interface SMFBaseAsset : BRXMLMediaAsset {
+@interface NSMFBaseAsset : BRXMLMediaAsset {
     int padding[64];
     NSMutableDictionary *_meta;
     BRImage *_image;
 }
-+(SMFBaseAsset *)asset;
++(NSMFBaseAsset *)asset;
 -(void)setObject:(id)arg1 forKey:(id)arg2;
 -(void)setTitle:(NSString *)title;
 -(void)setSummary:(NSString *)summary;

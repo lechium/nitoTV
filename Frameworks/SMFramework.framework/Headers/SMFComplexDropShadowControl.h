@@ -7,14 +7,14 @@
 //
 
 #import "Backrow/BackRow.h"
-#import "SMFProgressBarControl.h"
-#import "SMFDropShadowControl.h"
+#import "NSMFProgressBarControl.h"
+#import "NSMFDropShadowControl.h"
 
-@interface SMFComplexDropShadowControl : SMFDropShadowControl {
+@interface NSMFComplexDropShadowControl : NSMFDropShadowControl {
     BRControl *_bg;
     BRScrollingTextBoxControl *_scrolling;
     BRWaitSpinnerControl *_spinner;
-    SMFProgressBarControl *_progress;
+    NSMFProgressBarControl *_progress;
     BRMetadataTitleControl *_titleControl;
     BOOL    _pbShows;
     BOOL    _blocking;
@@ -31,7 +31,7 @@
  */
 @property(copy)NSString *title;
 @property(copy)NSString *subtitle;
-@property(readonly,assign)SMFProgressBarControl *progress;
+@property(readonly,assign)NSMFProgressBarControl *progress;
 @property(readwrite,assign)BOOL blocking;
 @property(readwrite,assign)NSObject *delegate;
 

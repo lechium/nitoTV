@@ -1,5 +1,5 @@
 //
-//  SMFDropShadowControl.h
+//  NSMFDropShadowControl.h
 //  SMFramework
 //
 //  Created by Kevin Bradley on 9/13/11.
@@ -9,7 +9,7 @@
 #import "Backrow/AppleTV.h"
 
 
-@interface SMFDropShadowControl : BRDropShadowControl {
+@interface NSMFDropShadowControl : BRDropShadowControl {
 		
 	BOOL isAnimated;
 	id sender;

@@ -18,7 +18,7 @@ typedef enum _popupPosition{
 /**
  *A Compilation of methods to use for popups and other stuff
  */
-@interface SMFCommonTools : NSObject {
+@interface NSMFCommonTools : NSObject {
 
 }
 ///---
@@ -27,12 +27,12 @@ typedef enum _popupPosition{
 /**
  *@return the shared objectec
  */
-+(SMFCommonTools *)sharedInstance;
++(NSMFCommonTools *)sharedInstance;
 ///---
 ///@name Popups
 ///---
 /**
- *@return an SMFPopupInfo object to show using showPopup
+ *@return an NSMFPopupInfo object to show using showPopup
  *@param array an NSArray with 1-3 NSStrings inside (can be nil)
  *@param image a BRImage (cannot be nil)
  *@note Important: image must not be nil
@@ -41,7 +41,7 @@ typedef enum _popupPosition{
 +(id)popupControlWithLines:(NSArray *)array andImage:(id)image;
 
 /**
- *@returns a SMFPopupInfo to show using showPopup
+ *@returns a NSMFPopupInfo to show using showPopup
  *@param dict a NSDictionary with keys `@"Image"` (BRImage) and `@"Lines"` (NSArray of NSStrings)
  *@see showPopup:
  */

@@ -1,21 +1,21 @@
 //
-//  SMFAnimation.m
+//  NSMFAnimation.m
 //  SMFramework
 //
 //  Created by Kevin Bradley on 9/18/11.
 //  Copyright 2011 nito, LLC. All rights reserved.
 //
 
-#import "SMFAnimation.h"
+#import "NSMFAnimation.h"
 
 #define ZOOM_TO_BOUNDS CGRectMake(0, 0, 108, 108)
 #define ZOOM_TO_POINT CGPointMake(591.5999755859375, 284.39999389648438)
 
 /*
  
- This class kind of a lazy convience "work in progress", the animations are geared solely to the SMFDropShadowControl classes/subclasses
+ This class kind of a lazy convience "work in progress", the animations are geared solely to the NSMFDropShadowControl classes/subclasses
  
- you also need to account for - (void)setZoomInPosition when zooming in and out manually, to see an implementation of these animations take a look at SMFDropShadowControl in
+ you also need to account for - (void)setZoomInPosition when zooming in and out manually, to see an implementation of these animations take a look at NSMFDropShadowControl in
  
  -(void)addToController:(BRController *)ctrl and - (void)removeFromParent
  
@@ -24,13 +24,13 @@
  */
 
 
-@implementation SMFAnimation
+@implementation NSMFAnimation
 
 
 + (CAAnimationGroup *)zoomOutFadedToRect:(CGRect)outRect
 {
 	CAAnimationGroup *outAnimation = [CAAnimationGroup animation];
-	[outAnimation setAnimations:[NSArray arrayWithObjects:[SMFAnimation zoomOutToRect:outRect], [SMFAnimation fadeOutAnimation], nil]];
+	[outAnimation setAnimations:[NSArray arrayWithObjects:[NSMFAnimation zoomOutToRect:outRect], [NSMFAnimation fadeOutAnimation], nil]];
 	outAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
 	outAnimation.fillMode = kCAFillModeForwards; //if you dont set this it reverts to its old mode before removing and looks really stupid.
 	outAnimation.removedOnCompletion = NO;
@@ -41,7 +41,7 @@
 + (CAAnimationGroup *)zoomInFadedToRect:(CGRect)inRect
 {
 	CAAnimationGroup *outAnimation = [CAAnimationGroup animation];
-	[outAnimation setAnimations:[NSArray arrayWithObjects:[SMFAnimation zoomInToRect:inRect], [SMFAnimation fadeInAnimation], nil]];
+	[outAnimation setAnimations:[NSArray arrayWithObjects:[NSMFAnimation zoomInToRect:inRect], [NSMFAnimation fadeInAnimation], nil]];
 	outAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
 	outAnimation.fillMode = kCAFillModeForwards; //if you dont set this it reverts to its old mode before removing and looks really stupid.
 	outAnimation.removedOnCompletion = NO;
@@ -111,7 +111,7 @@
 {		
 	
 	CABasicAnimation *zoomOutAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
-		//[zoomOutAnimation setDelegate:SMFAnimation];
+		//[zoomOutAnimation setDelegate:NSMFAnimation];
 	zoomOutAnimation.repeatCount = 0;
 	zoomOutAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DIdentity];
 	zoomOutAnimation.toValue = [NSValue valueWithCATransform3D:zoomTransform];

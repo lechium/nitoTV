@@ -9,7 +9,7 @@
 
 
 
-@interface nitoInstallManager : nitoMediaMenuController <SMFMoviePreviewControllerDelegate>{
+@interface nitoInstallManager : nitoMediaMenuController <NSMFMoviePreviewControllerDelegate>{
 
 	NSMutableArray		*_versions;
     NSString *          _imageName;

@@ -13,15 +13,15 @@
 #import "SMFControlFactory.h"
 #import "SMFMoviePreviewController.h"
 #import "SMFDefines.h"
-#import "SMFBaseAsset.h"
-#import "SMFListDropShadowControl.h"
-#import "SMFCompatibility.h"
+#import "NSMFBaseAsset.h"
+#import "NSMFListDropShadowControl.h"
+#import "NSMFCompatibility.h"
 
 */
 
-#import "SMFMockMenuItem.h"
+#import "NSMFMockMenuItem.h"
 
-#import "SMFMoviePreviewDelegateDatasource.h"
+#import "NSMFMoviePreviewDelegateDatasource.h"
 #define NOSHELF
 #define BTI objc_getClass("BRThemeInfo")
 
@@ -58,8 +58,8 @@ NSString * const kMoviePreviewControllerNewSelectedControl = @"kMoviePreviewCont
  id						_adap;
  BRCoverArtPreviewControl	*_previewControl;
  NSMutableDictionary        *_info;
- NSObject<SMFMoviePreviewControllerDatasource> *datasource;
- NSObject<SMFMoviePreviewControllerDelegate> *delegate;
+ NSObject<NSMFMoviePreviewControllerDatasource> *datasource;
+ NSObject<NSMFMoviePreviewControllerDelegate> *delegate;
  BRDividerControl			*_div3;
  objc_getClass("BRTextControl")				*_alsoWatched;
  NSMutableArray				*_hideList;
@@ -286,12 +286,12 @@ static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
                               @"(no summary)",kSMFMoviePreviewSummary,
                               [NSArray array],kSMFMoviePreviewHeaders,
                               [NSArray array],kSMFMoviePreviewColumns,
-                              [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[SMFMockMenuItem class]] pathForResource:@"colorAppleTVNameImage" ofType:@"png"]],kSMFMoviePreviewPoster,
+                              [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[NSMFMockMenuItem class]] pathForResource:@"colorAppleTVNameImage" ofType:@"png"]],kSMFMoviePreviewPoster,
                               @"",kSMFMoviePreviewPosterPath,
                               @"pg",kSMFMoviePreviewRating,
                               nil];
 		//NSLog(@"get information %@",[self datasource]);
-    if ([self datasource]!=nil /*&& [[self datasource] conformsToProtocol:@protocol(SMFMoviePreviewControllerDatasource)]*/) {
+    if ([self datasource]!=nil /*&& [[self datasource] conformsToProtocol:@protocol(NSMFMoviePreviewControllerDatasource)]*/) {
 			//NSLog(@"conforms to protocol");
         NSString *t = [[self datasource] title];
         if (t!=nil)  {[d setObject:t forKey:kSMFMoviePreviewTitle];}
@@ -391,7 +391,7 @@ void checkNil(NSObject *ctrl)
                                    masterFrame.size.height*0.843f);
     id _previewControl =[[objc_getClass("BRCoverArtPreviewControl") alloc]init];
 	
-    id a  = [objc_getClass("SMFBaseAsset") asset];
+    id a  = [objc_getClass("NSMFBaseAsset") asset];
     [a setCoverArt:[_info objectForKey:kSMFMoviePreviewPoster]];
     id proxy = [[objc_getClass("BRPhotoImageProxy") alloc] initWithAsset:a];
     [_previewControl setImageProxy:proxy];
@@ -1015,12 +1015,12 @@ void checkNil(NSObject *ctrl)
             return YES;
         }
     }
-	if([[self focusedControl] isKindOfClass:objc_getClass("SMFListDropShadowControl")])
+	if([[self focusedControl] isKindOfClass:objc_getClass("NSMFListDropShadowControl")])
 	{
 		return %orig;
 	}
 	
-		// if ([self delegate] && [[self delegate] conformsToProtocol:@protocol(SMFMoviePreviewControllerDelegate)]) {
+		// if ([self delegate] && [[self delegate] conformsToProtocol:@protocol(NSMFMoviePreviewControllerDelegate)]) {
      if ([self delegate]) {
 	}
 	
@@ -1054,7 +1054,7 @@ void checkNil(NSObject *ctrl)
     if (remoteAction==kBREventRemoteActionPlay && 
         [self delegate]!=nil && 
        (int)[action value]==1 && 
-        [[self delegate] conformsToProtocol:@protocol(SMFMoviePreviewControllerDelegate)])
+        [[self delegate] conformsToProtocol:@protocol(NSMFMoviePreviewControllerDelegate)])
     {
         [[self delegate] controller:self selectedControl:[self focusedControl]];
         return YES;

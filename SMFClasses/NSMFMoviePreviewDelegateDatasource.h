@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 	//#import "Backrow/AppleTV.h"
 
-@protocol SMFMoviePreviewControllerDatasource
+@protocol NSMFMoviePreviewControllerDatasource
 -(NSString *)title;
 -(NSString *)subtitle;
 -(NSString *)summary;
@@ -26,7 +26,7 @@
 @end
 
 	//@class SMFMoviePreviewController;
-@protocol SMFMoviePreviewControllerDelegate
+@protocol NSMFMoviePreviewControllerDelegate
 //If a delegate responds to a method... 
 //it needs to implement the sounds for selection itself
 //See SMFThemeInfo or BRSoundHandler

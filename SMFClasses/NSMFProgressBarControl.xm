@@ -1,5 +1,5 @@
 //
-//  SMFProgressBarControl.m
+//  NSMFProgressBarControl.m
 //  SoftwareMenuFramework
 //
 //  Created by Alan Quatermain on 19/04/07.
@@ -9,8 +9,8 @@
 //  Updated by Thomas 2-2-10 - allows for different aspect Ratios
 
 
-//#import "SMFProgressBarControl.h"
-//@implementation SMFProgressBarControl
+//#import "NSMFProgressBarControl.h"
+//@implementation NSMFProgressBarControl
 
 
 static char const * const kSMFWidgetKey = "progressWidget";
@@ -18,7 +18,7 @@ static float _maxValue = 100.0f;
 static float _minValue = 0.0f;
 
 
-%subclass SMFProgressBarControl : BRControl
+%subclass NSMFProgressBarControl : BRControl
 
 - (id) init
 {

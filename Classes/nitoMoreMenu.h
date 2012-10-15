@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface nitoMoreMenu : SMFListDropShadowControl <SMFListDropShadowDatasource, SMFListDropShadowDelegate> {
+@interface nitoMoreMenu : NSMFListDropShadowControl <SMFListDropShadowDatasource, SMFListDropShadowDelegate> {
 
 }
 

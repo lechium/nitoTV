@@ -13,11 +13,11 @@
 
 @implementation nitoDefaultManager
 
-+(SMFPreferences *)preferences {
-    static SMFPreferences *_preferences = nil;
++(NSMFPreferences *)preferences {
+    static NSMFPreferences *_preferences = nil;
     
     if(!_preferences)
-        _preferences = [[SMFPreferences alloc] initWithPersistentDomainName:NITO_DOMAIN];
+        _preferences = [[NSMFPreferences alloc] initWithPersistentDomainName:NITO_DOMAIN];
     
     return _preferences;
 }

@@ -7,7 +7,7 @@
 //
 
 #import "packageManagement.h"
-#import "../SMFClasses/SMFCommonTools.h"
+#import "../SMFClasses/NSMFCommonTools.h"
 
 /*
 #import "queryMenu.h"
@@ -15,7 +15,7 @@
 #import "nitoInstallManager.h"
 #import "nitoSourceController.h"
 #import "nitoMoreMenu.h"
-#import <SMFramework/SMFComplexProcessDropShadowControl.h>
+#import <SMFramework/NSMFComplexProcessDropShadowControl.h>
 #import <SMFramework/SMFramework.h>
 
 @implementation PackageDataSource
@@ -151,7 +151,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	return NO;
 }
 
-	//SMFComplexProcessDropShadowControl
+	//NSMFComplexProcessDropShadowControl
 
 %new -(void)process:(id)p ended:(NSString *)s
 {
@@ -192,7 +192,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 %new - (void)installQueue:(NSString *)queueFile withSender:(id)sender
 {
 	
-	id consoleController = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper queue %@", queueFile];
 	[consoleController setAp:command];
@@ -208,7 +208,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new - (void)installQueue:(NSString *)queueFile
 {
-	id consoleController = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper queue %@", queueFile];
 	[consoleController setAp:command];
@@ -258,7 +258,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 {
 	NSString *customFile = [removeDict valueForKey:@"Package"];
 	id sender = [removeDict valueForKey:@"Sender"];
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper remove %@", customFile];
 	[consoleController setAp:command];
@@ -283,7 +283,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new - (void)removePackage:(NSString *)customFile
 {
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper remove %@", customFile];
 	[consoleController setAp:command];
@@ -297,7 +297,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 %new - (void)newUberInstaller:(NSString *)customFile
 {	
 	
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
 	[consoleController setAp:command];
@@ -312,7 +312,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 %new - (void)newUberInstaller:(NSString *)customFile withSender:(id)sender
 {	
 	
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
 	[consoleController setAp:command];
@@ -338,7 +338,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 //- (void)showPopupFrom:(id)me withSender:(id)sender
 //{
-//	SMFListDropShadowControl *c = [[SMFListDropShadowControl alloc]init];
+//	NSMFListDropShadowControl *c = [[NSMFListDropShadowControl alloc]init];
 //	[c setCDelegate:me];
 //	[c setSender:sender];
 //	[c setIsAnimated:TRUE];
@@ -348,7 +348,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new - (void)showPopupFrom:(id)me
 {
-	id c = [[objc_getClass("SMFListDropShadowControl") alloc]init];
+	id c = [[objc_getClass("NSMFListDropShadowControl") alloc]init];
 	[c setCDelegate:me];
 	[c setIsAnimated:TRUE];
 	[c setCDatasource:me];
@@ -428,7 +428,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	self = [self init];
 	[[NSFileManager defaultManager] removeItemAtPath:@"/tmp/pkginfo" error:nil];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/apt-cache show %@ 1>/tmp/pkginfo", packageId];
-	//NSArray *packageArray = [[SMFCommonTools sharedInstance] returnForProcess:command];
+	//NSArray *packageArray = [[NSMFCommonTools sharedInstance] returnForProcess:command];
 	system([command UTF8String]);
 	NSArray *packageArray = [self parsedPackageArray];
 
@@ -455,7 +455,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	[[NSFileManager defaultManager] removeItemAtPath:@"/tmp/pkginfo" error:nil];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/apt-cache show %@ 1>/tmp/pkginfo", packageId];
 
-		//NSArray *packageArray = [[SMFCommonTools sharedInstance] returnForProcess:command];
+		//NSArray *packageArray = [[NSMFCommonTools sharedInstance] returnForProcess:command];
 	system([command UTF8String]);
 	NSArray *packageArray = [self parsedPackageArray];
 	
@@ -593,7 +593,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		
 		NSString *imagePath = [[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"package" ofType:@"png" inDirectory:@"Images"];
 		
-		id  asset = [[objc_getClass("SMFPhotoMediaAsset") alloc] init];
+		id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] init];
         [asset setFullURL:imagePath];
         [asset setThumbURL:imagePath];
         [asset setCoverArtURL:imagePath];
@@ -641,7 +641,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			imagePath = [[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"package" ofType:@"png" inDirectory:@"Images"];
 		}
 		
-		id  asset = [[objc_getClass("SMFPhotoMediaAsset") alloc] init];
+		id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] init];
         [asset setFullURL:imagePath];
         [asset setThumbURL:imagePath];
         [asset setCoverArtURL:imagePath];
@@ -672,7 +672,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			imagePath = [[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"package" ofType:@"png" inDirectory:@"Images"];
 		}
 		
-		id  asset = [[objc_getClass("SMFPhotoMediaAsset") alloc] init];
+		id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] init];
         [asset setFullURL:imagePath];
         [asset setThumbURL:imagePath];
         [asset setCoverArtURL:imagePath];
@@ -704,7 +704,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			imagePath = [[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"package" ofType:@"png" inDirectory:@"Images"];
 		}
 			
-		id  asset = [[objc_getClass("SMFPhotoMediaAsset") alloc] init];
+		id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] init];
         [asset setFullURL:imagePath];
         [asset setThumbURL:imagePath];
         [asset setCoverArtURL:imagePath];
@@ -723,8 +723,8 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	id image = [[NitoTheme sharedTheme] packageImage];
 	NSString *installMessage = [NSString stringWithFormat:@"%@ added to queue", thePackage];
 	NSArray *a = [NSArray arrayWithObjects:installMessage,@"Continuing queuing or press 'Install' to execute queue",nil];
-	id popup=[SMFCommonTools popupControlWithLines:a andImage:image];
-	[SMFCommonTools showPopup:popup];
+	id popup=[NSMFCommonTools popupControlWithLines:a andImage:image];
+	[NSMFCommonTools showPopup:popup];
 }
 
 %new - (void)removeQueuePopupWithPackage:(NSString *)thePackage
@@ -732,8 +732,8 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	id image = [[NitoTheme sharedTheme] packageImage];
 	NSString *installMessage = [NSString stringWithFormat:@"%@ un-queued", thePackage];
 	NSArray *a = [NSArray arrayWithObjects:installMessage,@"Continuing queuing or press 'Install' to execute queue",nil];
-	id popup=[SMFCommonTools popupControlWithLines:a andImage:image];
-	[SMFCommonTools showPopup:popup];
+	id popup=[NSMFCommonTools popupControlWithLines:a andImage:image];
+	[NSMFCommonTools showPopup:popup];
 }
 
 %new -(id)providerForShelf //no more brdatastore!! :(

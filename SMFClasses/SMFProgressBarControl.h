@@ -11,7 +11,7 @@
 #import "Backrow/AppleTV.h"
 @class BRProgressBarWidget;
 
-@interface SMFProgressBarControl : BRControl
+@interface NSMFProgressBarControl : BRControl
 {
     BRProgressBarWidget *   _widget;
     float                   _maxValue;

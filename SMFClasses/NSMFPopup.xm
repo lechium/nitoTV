@@ -15,7 +15,7 @@
 	//%end
 
 	//#import "SMFPopup.h"
-%subclass SMFPopupInfo : BRTrackInfoControl
+%subclass NSMFPopupInfo : BRTrackInfoControl
 - (id)_fetchCoverArt
 {
     return [[%c(BRThemeInfo) sharedTheme] appleTVImage];

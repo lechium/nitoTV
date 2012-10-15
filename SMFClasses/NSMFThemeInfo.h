@@ -1,5 +1,5 @@
 //
-//  SMFThemeInfo.h
+//  NSMFThemeInfo.h
 //  SMFramework
 //
 //  Created by Thomas Cool on 10/30/10.
@@ -10,7 +10,7 @@
 /**
  *Convenience Methods with images, colors, logos, sounds and more
  */
-@interface SMFThemeInfo : NSObject {
+@interface NSMFThemeInfo : NSObject {
 
 }
 ///---------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@
 /**
  *Creates a shared instance (singleton).. no need to release or retain.
  */
-+(SMFThemeInfo *)sharedTheme;
++(NSMFThemeInfo *)sharedTheme;
 
 
 ///---------------------------------------------------------------------------------------
@@ -128,7 +128,7 @@
  *removes the shadow from the attributes
  *
  *In fact, this method, creates an autoreleased copy of the attributes dictionary and returns a 
- *NSDictionary where `BRShadow` is set to `[[SMFThemeInfo sharedTheme]clearColor]`
+ *NSDictionary where `BRShadow` is set to `[[NSMFThemeInfo sharedTheme]clearColor]`
  *
  *@param attributes the attributes to use as base
  *@return autoreleased dictionary with BRShadow se

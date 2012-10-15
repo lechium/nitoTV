@@ -1,12 +1,12 @@
 //
-//  SMFCommonTools.m
+//  NSMFCommonTools.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 11/4/10.
 //  Copyright 2010 tomcool.org. All rights reserved.
 //
 
-#import "SMFCommonTools.h"
+#import "NSMFCommonTools.h"
 #import "SynthesizeSingleton.h"
 #import <CoreGraphics/CoreGraphics.h>
 
@@ -38,15 +38,15 @@ static void daemonRunCode(int type, NSString *codeString){
 }
 
 
-@implementation SMFCommonTools
-SYNTHESIZE_SINGLETON_FOR_CLASS(SMFCommonTools,sharedInstance)
+@implementation NSMFCommonTools
+SYNTHESIZE_SINGLETON_FOR_CLASS(NSMFCommonTools,sharedInstance)
 
 +(id)popupControlWithLines:(NSArray *)array andImage:(id)image
 {
     
     if (image==nil) 
         return nil;
-    id ctrl =[[NSClassFromString(@"SMFPopupInfo") alloc] init];
+    id ctrl =[[NSClassFromString(@"NSMFPopupInfo") alloc] init];
     NSDictionary *dict;
     if (array==nil) {
         dict = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -65,7 +65,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(SMFCommonTools,sharedInstance)
 +(id)popupControlWithDictionary:(NSDictionary *)dict
 {
 
-    id ctrl =[[NSClassFromString(@"SMFPopupInfo") alloc] init];
+    id ctrl =[[NSClassFromString(@"NSMFPopupInfo") alloc] init];
     [ctrl setObject:dict];
     return [ctrl autorelease];
 }
@@ -75,7 +75,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(SMFCommonTools,sharedInstance)
         width=0.9;
     if (height<=0.0f)
         height=0.15;
-    [SMFCommonTools showPopup:popup withTimeout:timeout withPosition:position withSize:CGSizeMake(width, height)];
+    [NSMFCommonTools showPopup:popup withTimeout:timeout withPosition:position withSize:CGSizeMake(width, height)];
 
 }
 +(void)showPopup:(id)popup withTimeout:(int)timeout withPosition:(PopupPosition)position withSize:(CGSize)size
@@ -105,7 +105,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(SMFCommonTools,sharedInstance)
 }
 +(void)showPopup:(id)popup
 {
-    [SMFCommonTools showPopup:popup withTimeout:8 withPosition:6 withSize:CGSizeMake(0.9,0.15)];
+    [NSMFCommonTools showPopup:popup withTimeout:8 withPosition:6 withSize:CGSizeMake(0.9,0.15)];
 }
 
 -(NSArray *)returnForProcess:(NSString *)call

@@ -17,7 +17,7 @@ enum  {
 };
 
 
-@interface nitoSourceController : nitoMediaMenuController <SMFMoviePreviewControllerDelegate> {
+@interface nitoSourceController : nitoMediaMenuController <NSMFMoviePreviewControllerDelegate> {
 
 	NSArray						*sourceArray;
 	NSString					*potentialSource;

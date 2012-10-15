@@ -1,15 +1,15 @@
 //
-//  SMFDropShadowControl.m
+//  NSMFDropShadowControl.m
 //  SMFramework
 //
 //  Created by Kevin Bradley on 9/13/11.
 //  Copyright 2011 nito, LLC. All rights reserved.
 //
 
-	//#import "SMFDropShadowControl.h"
+	//#import "NSMFDropShadowControl.h"
 	//#import "SMFDefines.h"
-#import "SMFMockMenuItem.h"
-#import "SMFAnimation.h"
+#import "NSMFMockMenuItem.h"
+#import "NSMFAnimation.h"
 
 #define ZOOM_TO_POINT CGPointMake(591.5999755859375, 284.39999389648438)
 
@@ -25,7 +25,7 @@
  
  i.e.
  
- SMFListDropShadowControl *c = [[SMFListDropShadowControl alloc]init];
+ NSMFListDropShadowControl *c = [[NSMFListDropShadowControl alloc]init];
  
  [c setCDelegate:me]; (me being the controller attached to)
  [c setSender:sender];
@@ -34,7 +34,7 @@
  [c addToController:me];
  
  
- note: there are a lot of repeat functions between here and SMFListDropShadowControl, hopefully at some point that can become a subclass of this as well
+ note: there are a lot of repeat functions between here and NSMFListDropShadowControl, hopefully at some point that can become a subclass of this as well
  and that code can be pruned out.
  
  
@@ -46,9 +46,9 @@ static char const * const kSMFDSCSenderKey = "SMFDSCSender";
 
 static BOOL _isAnimated = TRUE;
 
-%subclass SMFDropShadowControl : BRDropShadowControl
+%subclass NSMFDropShadowControl : BRDropShadowControl
 
-	//@implementation SMFDropShadowControl
+	//@implementation NSMFDropShadowControl
 
 	//@synthesize isAnimated, sender;
 
@@ -130,9 +130,9 @@ static BOOL _isAnimated = TRUE;
 		CAAnimationGroup *zoomOutAnimation = nil;
 		id theSender = [self sender];
 		if (theSender != nil)
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:[theSender bounds]];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:[theSender bounds]];
 		else
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:CGRectZero];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:CGRectZero];
 		
 		[zoomOutAnimation setDelegate:self];
 		[self setZoomOutPosition];
@@ -155,9 +155,9 @@ static BOOL _isAnimated = TRUE;
 		CAAnimationGroup *zoomOutAnimation = nil;
 		id theSender = [self sender];
 		if (theSender != nil)
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:[theSender bounds]];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:[theSender bounds]];
 		else
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:CGRectZero];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:CGRectZero];
 
 		[zoomOutAnimation setDelegate:self];
 		[self setZoomOutPosition];
@@ -185,9 +185,9 @@ static BOOL _isAnimated = TRUE;
 		{
 			[self updateSender]; //fixes the sender to have a proper X value for purposes of zooming in and out
 			
-			zoomInAnimation = [SMFAnimation zoomInFadedToRect:[[self sender] bounds]];
+			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:[[self sender] bounds]];
 		} else {
-			zoomInAnimation = [SMFAnimation zoomInFadedToRect:CGRectZero];
+			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:CGRectZero];
 		}
 		
 		
@@ -279,7 +279,7 @@ static BOOL _isAnimated = TRUE;
 %new - (id)synthesizeMockItemFrom:(id)theSender withX:(float)xValue
 {
 	
-	SMFMockMenuItem *menuItem = [[SMFMockMenuItem alloc] init];
+	NSMFMockMenuItem *menuItem = [[NSMFMockMenuItem alloc] init];
 	CGPoint newPosition = [theSender position];
 		//newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
 	newPosition.x = 948.5;

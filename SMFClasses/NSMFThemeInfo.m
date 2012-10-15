@@ -1,22 +1,22 @@
 //
-//  SMFThemeInfo.m
+//  NSMFThemeInfo.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 10/30/10.
 //  Copyright 2010 tomcool.org. All rights reserved.
 //
 
-#import "SMFThemeInfo.h"
+#import "NSMFThemeInfo.h"
 
 #define BRSH objc_getClass("BRSoundHandler")
 #define BRTI objc_getClass("BRThemeInfo")
 #define BRI objc_getClass("BRImage")
 
 static NSArray * colors=nil;
-@implementation SMFThemeInfo
-static SMFThemeInfo *sharedTheme = nil; 
+@implementation NSMFThemeInfo
+static NSMFThemeInfo *sharedTheme = nil; 
 
-+ (SMFThemeInfo *)sharedTheme 
++ (NSMFThemeInfo *)sharedTheme 
 { 
 
 	@synchronized(self) 

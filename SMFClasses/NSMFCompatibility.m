@@ -1,17 +1,17 @@
 	//
-	//  SMFCompatibility.m
+	//  NSMFCompatibility.m
 	//  SMFramework
 	//
 	//  Created by Thomas Cool on 7/13/11.
 	//  Copyright 2011 tomcool.org. All rights reserved.
 	//
 
-#import "SMFCompatibility.h"
+#import "NSMFCompatibility.h"
 
-@implementation SMFCompatibility
+@implementation NSMFCompatibility
 
 
-SYNTHESIZE_SINGLETON_FOR_CLASS(SMFCompatibility, compat)
+SYNTHESIZE_SINGLETON_FOR_CLASS(NSMFCompatibility, compat)
 -(id)init
 {
     self=[super init];

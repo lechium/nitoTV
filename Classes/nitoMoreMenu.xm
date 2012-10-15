@@ -9,7 +9,7 @@
 	//#import "nitoMoreMenu.h"
 	//#import "nitoInstallManager.h"
 
-%subclass nitoMoreMenu : SMFListDropShadowControl
+%subclass nitoMoreMenu : NSMFListDropShadowControl
 
 	//@implementation nitoMoreMenu
 

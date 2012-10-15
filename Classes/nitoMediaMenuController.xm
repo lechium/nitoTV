@@ -6,7 +6,7 @@
 //  Copyright 2010 nito, LLC. All rights reserved.
 //
 
-	//#import <SMFramework/SMFComplexProcessDropShadowControl.h>
+	//#import <SMFramework/NSMFComplexProcessDropShadowControl.h>
 
 static char const * const kNitoMMCNamesKey = "nMMCNames";
 
@@ -95,7 +95,7 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 		case kBREventRemoteActionMenu:
 			myFocusedControl = [self focusedControl];
 			NSLog(@"myFocusedControl: %@", myFocusedControl);
-			if([myFocusedControl isKindOfClass:objc_getClass("SMFComplexProcessDropShadowControl")])
+			if([myFocusedControl isKindOfClass:objc_getClass("NSMFComplexProcessDropShadowControl")])
 			{
 				if ([self respondsToSelector:@selector(removeFromParent)])
 				{
@@ -111,7 +111,7 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 					
 				return YES;
 			}
-			if ([[self focusedControl] isKindOfClass:objc_getClass("SMFListDropShadowControl")])
+			if ([[self focusedControl] isKindOfClass:objc_getClass("NSMFListDropShadowControl")])
 			{
 				if ([self respondsToSelector:@selector(removeFromParent)])
 					[[self focusedControl] removeFromParentAnimated];

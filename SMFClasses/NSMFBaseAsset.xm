@@ -1,19 +1,19 @@
 //
-//  SMFBaseAsset.m
+//  NSMFBaseAsset.m
 //  SoftwareMenuFramework
 //
 //  Created by Thomas Cool on 2/4/10.
 //  Copyright 2010 Thomas Cool. All rights reserved.
 //
 
-	//#import "SMFBaseAsset.h"
+	//#import "NSMFBaseAsset.h"
 	//#import "SMFMediaPreview.h"
 
 static char const * const kSMFBAMetaKey = "SMFBAMeta";
 static char const * const kSMFBAImageKey = "SMFBAImage";
 
 
-%subclass SMFBaseAsset : BRXMLMediaAsset
+%subclass NSMFBaseAsset : BRXMLMediaAsset
 
 %new - (id)meta {
 	
@@ -36,10 +36,10 @@ static char const * const kSMFBAImageKey = "SMFBAImage";
 	[self associateValue:theImage withKey:(void*)kSMFBAImageKey];
 }
 
-	//@implementation SMFBaseAsset
-%new +(SMFBaseAsset *)asset
+	//@implementation NSMFBaseAsset
+%new +(NSMFBaseAsset *)asset
 {
-    return [[[%c(SMFBaseAsset) alloc ]init] autorelease];
+    return [[[%c(NSMFBaseAsset) alloc ]init] autorelease];
 }
 
 -(id)init

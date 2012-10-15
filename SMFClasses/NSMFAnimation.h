@@ -1,5 +1,5 @@
 //
-//  SMFAnimation.h
+//  NSMFAnimation.h
 //  SMFramework
 //
 //  Created by Kevin Bradley on 9/18/11.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
-@interface SMFAnimation : NSObject {
+@interface NSMFAnimation : NSObject {
 
 }
 

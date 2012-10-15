@@ -1,5 +1,5 @@
 //
-//  SMFPreferences.h
+//  NSMFPreferences.h
 //  SMFramework
 //
 //  Created by Thomas Cool on 12/6/10.
@@ -9,12 +9,12 @@
 
 	//#import "Backrow/AppleTV.h"
 
-@interface SMFPreferences : NSUserDefaults {
+@interface NSMFPreferences : NSUserDefaults {
 	NSString * _applicationID;
 	NSDictionary * _registrationDictionary;
 }
 
 -(id)initWithPersistentDomainName:(NSString *)domainName;
-+(SMFPreferences *)preferences;
++(NSMFPreferences *)preferences;
 @end
 

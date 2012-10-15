@@ -7,7 +7,7 @@
 //
 
 //#import "SMFComplexDropShadowControl.h"
-#import "SMFThemeInfo.h"
+#import "NSMFThemeInfo.h"
 //#import "SMFDefines.h"
 //#import <substrate.h>
 
@@ -36,7 +36,7 @@ static BOOL _showWaitSpinner = TRUE;
 @end
 
 
-%subclass SMFComplexDropShadowControl : SMFDropShadowControl
+%subclass SMFComplexDropShadowControl : NSMFDropShadowControl
 
 /*
 @implementation SMFComplexDropShadowControl
@@ -150,7 +150,7 @@ static BOOL _showWaitSpinner = TRUE;
 }
 
 #define BRC objc_getClass("BRControl")
-#define SMPBC objc_getClass("SMFProgressBarControl")
+#define SMPBC objc_getClass("NSMFProgressBarControl")
 #define BRMDTC objc_getClass("BRMetadataTitleControl")
 #define BRSTBC objc_getClass("BRScrollingTextBoxControl")
 
@@ -179,21 +179,21 @@ static BOOL _showWaitSpinner = TRUE;
 	[_list setSelectionLozengeStyle:0];
 	[_list setAvoidsCursor:TRUE];
 	[_list setDisplaysSelectionWidget:FALSE];
-	NSLog(@"is this where we die?");
+
 	if ([self sixtyPlus])
 	{
-		[[self layer] setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-		[[self layer] setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		[[self layer] setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+		[[self layer] setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
 		[[self layer] setBorderWidth:3.0];
 	} else {
-		[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-		[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+		[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+		[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
 		[self setBorderWidth:3.0];
 	}
 	
-	NSLog(@"yep");
-		//self.backgroundColor=[[SMFThemeInfo sharedTheme]blackColor];
-		//self.borderColor=[[SMFThemeInfo sharedTheme] whiteColor];
+	
+		//self.backgroundColor=[[NSMFThemeInfo sharedTheme]blackColor];
+		//self.borderColor=[[NSMFThemeInfo sharedTheme] whiteColor];
 		//self.borderWidth=3.0;
 	[self setTitle:@"								"];
 	[self setSubtitle:@" "];

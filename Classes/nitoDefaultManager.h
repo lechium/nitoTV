@@ -8,11 +8,11 @@
 
 	//#include <SMFramework/SMFramework.h>
 
-#import "../SMFClasses/SMFPreferences.h"
+#import "../SMFClasses/NSMFPreferences.h"
 
 @interface nitoDefaultManager : NSObject {
 
 }
-+(SMFPreferences *)preferences;
++(NSMFPreferences*)preferences;
 
 @end

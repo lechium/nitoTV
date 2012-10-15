@@ -1,5 +1,5 @@
 //
-//  SMFListDropShadowControl.m
+//  NSMFListDropShadowControl.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 1/21/11.
@@ -9,10 +9,10 @@
 #define ZOOM_TO_POINT CGPointMake(591.5999755859375, 284.39999389648438)
 
 
-#import "SMFThemeInfo.h"
+#import "NSMFThemeInfo.h"
 
-#import "SMFMockMenuItem.h"
-#import "SMFAnimation.h"
+#import "NSMFMockMenuItem.h"
+#import "NSMFAnimation.h"
 
 %subclass ntvListControl : BRListControl
 
@@ -33,14 +33,14 @@ static char const * const kSMFLDSCSenderKey = "SMFLDSCSender";
 
 static BOOL _isAnimated = TRUE;
 
-@interface SMFListDropShadowControl : NSObject
+@interface NSMFListDropShadowControl : NSObject
 
 -(CGRect)rectForSize:(CGSize)s;
 
 @end
 
 
-%subclass SMFListDropShadowControl : BRDropShadowControl
+%subclass NSMFListDropShadowControl : BRDropShadowControl
 /*
  
  sender is a new variable to determine the bounds and position for zoom animations, if it descends from BRMenuItem we synthesize a stub class 
@@ -117,11 +117,11 @@ static BOOL _isAnimated = TRUE;
         
 		if ([self respondsToSelector:@selector(controls)])
 		{
-			[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-			[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+			[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+			[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
 		} else {
-			[[self layer] setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-			[[self layer] setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+			[[self layer] setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+			[[self layer] setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
 		}
 		
 		[self setInhibitsFocusForChildren:TRUE];
@@ -162,9 +162,9 @@ static BOOL _isAnimated = TRUE;
 		{
 			[self updateSender];
 			[self logFrame:[theSender bounds]];
-			zoomInAnimation = [SMFAnimation zoomInFadedToRect:[theSender bounds]];
+			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:[theSender bounds]];
 		} else {
-			zoomInAnimation = [SMFAnimation zoomInFadedToRect:CGRectZero];
+			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:CGRectZero];
 		}
 		
 		[self setZoomInPosition]; //if we dont set this the position goes haywire
@@ -265,9 +265,9 @@ static BOOL _isAnimated = TRUE;
 		theSender = [self sender];
 		CAAnimationGroup *zoomOutAnimation = nil;
 		if (theSender != nil)
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:[theSender bounds]];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:[theSender bounds]];
 		else
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:CGRectZero];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:CGRectZero];
 		
 		[zoomOutAnimation setDelegate:self];
 		[zoomOutAnimation setValue:@"removeFromParent" forKey:@"Name"];
@@ -293,9 +293,9 @@ static BOOL _isAnimated = TRUE;
 		theSender = [self sender];
 		CAAnimationGroup *zoomOutAnimation = nil;
 		if (theSender != nil)
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:[theSender bounds]];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:[theSender bounds]];
 		else
-			zoomOutAnimation = [SMFAnimation zoomOutFadedToRect:CGRectZero];
+			zoomOutAnimation = [NSMFAnimation zoomOutFadedToRect:CGRectZero];
 		
 		[zoomOutAnimation setDelegate:self];
 		[zoomOutAnimation setValue:@"removeFromParent" forKey:@"Name"];
@@ -457,7 +457,7 @@ here are all the functions where i handle what is mentioned at the top (the comm
 %new - (id)synthesizeMockItemFrom:(id)theSender withX:(float)xValue
 {
 	
-	SMFMockMenuItem *menuItem = [[SMFMockMenuItem alloc] init];
+	NSMFMockMenuItem *menuItem = [[NSMFMockMenuItem alloc] init];
 	CGPoint newPosition = [theSender position];
 		//newPosition.x = xValue; //said attitude adjustment, without setting this x variable properly, all hell breaks loose.
 	newPosition.x = 948.5;

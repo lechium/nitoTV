@@ -1,5 +1,5 @@
 //
-//  SMFListDropShadowControl.h
+//  NSMFListDropShadowControl.h
 //  SMFramework
 //
 //  Created by Thomas Cool on 1/21/11.
@@ -27,7 +27,7 @@
 
 
 
-@interface SMFListDropShadowControl : BRDropShadowControl {
+@interface NSMFListDropShadowControl : BRDropShadowControl {
     NSObject<SMFListDropShadowDelegate>  * cDelegate;
     NSObject<SMFListDropShadowDatasource>* cDatasource;
     BRListControl *list;

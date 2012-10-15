@@ -1,18 +1,18 @@
 //
-//  SMFPhotoMediaAsset.m
+//  NSMFPhotoMediaAsset.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 2/15/11.
 //  Copyright 2011 tomcool.org. All rights reserved.
 //
 
-	//#import "SMFPhotoMediaAsset.h"
+	//#import "NSMFPhotoMediaAsset.h"
 
 static char const * const kSMFPMATitleKey = "SMFPMATitle";
 
-%subclass SMFPhotoMediaAsset : BRPhotoMediaAsset
+%subclass NSMFPhotoMediaAsset : BRPhotoMediaAsset
 
-	//@implementation SMFPhotoMediaAsset
+	//@implementation NSMFPhotoMediaAsset
 
 
 %new -(id)initWithPath:(NSString *)path

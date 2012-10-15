@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface nitoInstalledPackageManager : nitoMediaMenuController <SMFMoviePreviewControllerDelegate>  {
+@interface nitoInstalledPackageManager : nitoMediaMenuController <NSMFMoviePreviewControllerDelegate>  {
 
 	NSArray *installedList;
 	id		selectedObject;

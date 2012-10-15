@@ -1,5 +1,5 @@
 //
-//  SMFComplexProcessDropShadowControl.h
+//  NSMFComplexProcessDropShadowControl.h
 //  SMFramework
 //
 //  Created by Thomas Cool on 2/28/11.
@@ -9,7 +9,7 @@
 #import "SMFComplexDropShadowControl.h"
 
 
-@interface SMFComplexProcessDropShadowControl : SMFComplexDropShadowControl {
+@interface NSMFComplexProcessDropShadowControl : SMFComplexDropShadowControl {
     NSString *ap;
     BOOL finished;
     int returnCode;

@@ -23,7 +23,7 @@ enum  {
 -(void)queryMenu:(queryMenu *)q itemSelected:(NSString *)it;
 
 @end
-@interface queryMenu : BRMediaMenuController <SMFMoviePreviewControllerDelegate> {
+@interface queryMenu : BRMediaMenuController <NSMFMoviePreviewControllerDelegate> {
     BRTextEntryControl  * _entryControl;
 	BRImageControl		* _arrowImage;
     NSMutableArray      * _names;

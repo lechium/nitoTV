@@ -1,5 +1,5 @@
 	//
-	//  SMFCompatibility.h
+	//  NSMFCompatibility.h
 	//  SMFramework
 	//
 	//  Created by Thomas Cool on 7/13/11.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SMFCompatibility : NSObject
+@interface NSMFCompatibility : NSObject
 {
     BOOL _usingFourPointTwoPlus;
     BOOL _usingFourPointThreePlus;
@@ -16,7 +16,7 @@
 	BOOL _usingFourPointFourGM;
 	BOOL _usingSixPointOhPlus;
 }
-+(SMFCompatibility *)compat;
++(NSMFCompatibility *)compat;
 -(BOOL)usingFourPointTwoPlus;
 -(BOOL)usingFourPointThreePlus;
 -(BOOL)usingFourPointFourPlus;
@@ -24,4 +24,4 @@
 -(BOOL)usingSixPointOhPlus;
 @end
 
-#define SMF_COMPAT [SMFCompatibility compat]
+#define SMF_COMPAT [NSMFCompatibility compat]

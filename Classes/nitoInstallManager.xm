@@ -12,7 +12,7 @@
 #import "queryMenu.h"
 #import "kbScrollingTextControl.h"
 #import "PackageDataSource.h"
-#import <SMFramework/SMFComplexProcessDropShadowControl.h>
+#import <SMFramework/NSMFComplexProcessDropShadowControl.h>
 
 #import <SMFramework/SMFramework.h>
 #import "nitoMoreMenu.h"
@@ -669,7 +669,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)newUberInstaller:(NSString *)customFile
 {	
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	id thatControl = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id thatControl = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
 	[thatControl setAp:command];
 		//[[self stack] pushController:thatControl];
@@ -799,7 +799,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 {
 	_essentialUpgrade = TRUE;
 	[[self stack] popToControllerOfClass:%c(nitoInstallManager)];
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper queue %@", queueFile];
 	[consoleController setAp:command];
@@ -813,7 +813,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 {
 	_essentialUpgrade = TRUE;
 	[[self stack] popToControllerOfClass:%c(nitoInstallManager)];
-	id consoleController  = [[%c(SMFComplexProcessDropShadowControl) alloc] init];
+	id consoleController  = [[%c(NSMFComplexProcessDropShadowControl) alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = @"/usr/bin/nitoHelper su 1 2";
 	[consoleController setAp:command];
@@ -825,7 +825,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 
 %new - (void)fullUpgradeWithSender:(id)sender
 {
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = @"/usr/bin/nitoHelper upgrade 1 2";
 	[consoleController setAp:command];
@@ -841,7 +841,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	
 	id mockumentary = [self synthesizeMockItem];
 	
-	id consoleController  = [[objc_getClass("SMFComplexProcessDropShadowControl") alloc] init];
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = @"/usr/bin/nitoHelper upgrade 1 2";
 	[consoleController setAp:command];

@@ -1,5 +1,5 @@
 //
-//  SMFPhotoMediaAsset.h
+//  NSMFPhotoMediaAsset.h
 //  SMFramework
 //
 //  Created by Thomas Cool on 2/15/11.
@@ -7,7 +7,7 @@
 //
 #import "Backrow/AppleTV.h"
 
-@interface SMFPhotoMediaAsset : BRPhotoMediaAsset {
+@interface NSMFPhotoMediaAsset : BRPhotoMediaAsset {
     NSString *__title;
 }
 -(NSString *)title;

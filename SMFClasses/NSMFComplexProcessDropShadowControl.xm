@@ -1,12 +1,12 @@
 //
-//  SMFComplexProcessDropShadowControl.m
+//  NSMFComplexProcessDropShadowControl.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 2/28/11.
 //  Copyright 2011 Thomas Cool. All rights reserved.
 //
 
-	//#import "SMFComplexProcessDropShadowControl.h"
+	//#import "NSMFComplexProcessDropShadowControl.h"
 
 @interface NSObject (smfcpdsc)
 -(void)process:(id)p ended:(NSString *)s;
@@ -20,7 +20,7 @@ static BOOL _finished = TRUE;
 static int _returnCode = 0;
 
 
-%subclass SMFComplexProcessDropShadowControl : SMFComplexDropShadowControl
+%subclass NSMFComplexProcessDropShadowControl : SMFComplexDropShadowControl
 
 
 %new - (id)ap {

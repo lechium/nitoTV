@@ -8,7 +8,7 @@
 
 #import "Backrow/AppleTV.h"
 
-@interface SMFPopupInfo : BRTrackInfoControl
+@interface NSMFPopupInfo : BRTrackInfoControl
 
 
 @end

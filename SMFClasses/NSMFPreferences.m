@@ -1,18 +1,18 @@
 //
-//  SMFPreferences.m
+//  NSMFPreferences.m
 //  SMFramework
 //
 //  Created by Thomas Cool on 12/6/10.
 //  Copyright 2010 tomcool.org. All rights reserved.
 //
 
-#import "SMFPreferences.h"
+#import "NSMFPreferences.h"
 
 
-@implementation SMFPreferences
+@implementation NSMFPreferences
 
-+(SMFPreferences *)preferences {
-    static SMFPreferences *_preferences = nil;
++(NSMFPreferences *)preferences {
+    static NSMFPreferences *_preferences = nil;
     
     if(!_preferences)
         _preferences = [[self alloc] initWithPersistentDomainName:@"org.tomcool.SMFramework"];

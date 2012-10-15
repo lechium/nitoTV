@@ -17,11 +17,11 @@ nitoTV_FILES += Classes/nitoRss.m Classes/nitoRssController.xm Classes/ntvRssBro
 nitoTV_FILES += Classes/ntvRSSViewer.xm Classes/nitoSettingsController.xm
 nitoTV_FILES += Classes/nitoInstallManager.xm Classes/queryMenu.xm
 nitoTV_FILES += Classes/kbScrollingTextControl.xm Classes/nitoDefaultManager.m Classes/packageManagement.m 
-nitoTV_FILES += SMFClasses/SMFCompatibility.m Classes/nitoMockMenuItem.m SMFClasses/SMFDropShadowControl.xm
-nitoTV_FILES += SMFClasses/SMFBaseAsset.xm SMFClasses/SMFComplexDropShadowControl.xm SMFClasses/SMFComplexProcessDropShadowControl.xm 
-nitoTV_FILES += SMFClasses/SMFListDropShadowControl.xm SMFClasses/SMFMoviePreviewController.xm 
-nitoTV_FILES += SMFClasses/SMFPhotoMediaAsset.xm SMFClasses/SMFPopup.xm SMFClasses/SMFProgressBarControl.xm SMFClasses/SMFTextDropShadowControl.xm
-nitoTV_FILES += SMFClasses/SMFAnimation.m SMFClasses/SMFCommonTools.m SMFClasses/SMFMockMenuItem.m SMFClasses/SMFPreferences.m SMFClasses/SMFThemeInfo.m Classes/PackageDataSource.xm  Classes/nitoMoreMenu.xm
+nitoTV_FILES += SMFClasses/NSMFCompatibility.m Classes/nitoMockMenuItem.m SMFClasses/NSMFDropShadowControl.xm
+nitoTV_FILES += SMFClasses/NSMFBaseAsset.xm SMFClasses/NSMFComplexDropShadowControl.xm SMFClasses/NSMFComplexProcessDropShadowControl.xm 
+nitoTV_FILES += SMFClasses/NSMFListDropShadowControl.xm SMFClasses/NSMFMoviePreviewController.xm 
+nitoTV_FILES += SMFClasses/NSMFPhotoMediaAsset.xm SMFClasses/NSMFPopup.xm SMFClasses/NSMFProgressBarControl.xm SMFClasses/NSMFTextDropShadowControl.xm
+nitoTV_FILES += SMFClasses/NSMFAnimation.m SMFClasses/NSMFCommonTools.m SMFClasses/NSMFMockMenuItem.m SMFClasses/NSMFPreferences.m SMFClasses/NSMFThemeInfo.m Classes/PackageDataSource.xm  Classes/nitoMoreMenu.xm
 
 nitoTV_INSTALL_PATH = /Applications/Lowtide.app/Appliances
 

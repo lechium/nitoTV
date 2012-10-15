@@ -1,5 +1,5 @@
 //
-//  NSMFMockMenuItem.h
+//  SMFMockMenuItem.h
 //  
 //
 //  Created by Kevin Bradley on 9/17/11.
@@ -20,3 +20,4 @@
 @property(assign) CGRect bounds;
 
 @end
+

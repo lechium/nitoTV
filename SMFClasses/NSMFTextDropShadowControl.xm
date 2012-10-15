@@ -7,7 +7,7 @@
 //
 
 	//#import "SMFTextDropShadowControl.h"
-	#import "SMFThemeInfo.h"
+	#import "NSMFThemeInfo.h"
 	//#import "SMFDefines.h"
 	//#import <substrate.h>
 
@@ -37,7 +37,7 @@ static char const * const kSMFTDSCList = "_list";
 @end
 
 
-%subclass SMFTextDropShadowControl: SMFDropShadowControl
+%subclass SMFTextDropShadowControl: NSMFDropShadowControl
 
 %new -(id)attributedStringForString:(NSString*)s
 {
@@ -84,11 +84,11 @@ static char const * const kSMFTDSCList = "_list";
 
 		// self.text=[NSMutableString stringWithString:@"Hello"];
     [self setText: [NSMutableString stringWithString:@"Hello"]];  
-	[self setBackgroundColor:[[SMFThemeInfo sharedTheme]blackColor]];
-	[self setBorderColor:[[SMFThemeInfo sharedTheme] whiteColor]];
+	[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+	[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
     [self setBorderWidth:3.0];
 	id ic = [[objc_getClass("BRImageControl") alloc] init];
-	[ic setImage:[[SMFThemeInfo sharedTheme]btstackIcon]];
+	[ic setImage:[[NSMFThemeInfo sharedTheme]btstackIcon]];
 	id _scrolling=[[objc_getClass("BRScrollingTextBoxControl") alloc]init];
 	[_scrolling setText:[self attributedStringForString:[self text]]];
     id _list=MSHookIvar<id>(_scrolling, "_list");

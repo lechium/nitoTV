@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #define NOSHELF
 #import "SMFPhotoMethods.h"
-#import "SMFThemeInfo.h"
+#import "NSMFThemeInfo.h"
 #import "Backrow/AppleTV.h"
 #import "SMFMoviePreviewDelegateDatasource.h"
 @class BRControl,BRMediaShelfView;

@@ -7,6 +7,7 @@
 //
 
 	//#import <SMFramework/NSMFComplexProcessDropShadowControl.h>
+#import "packageManagement.h"
 
 static char const * const kNitoMMCNamesKey = "nMMCNames";
 
@@ -82,6 +83,7 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 	
 }
 
+
 - (BOOL)brEventAction:(id)fp8
 {
 	
@@ -103,7 +105,7 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 					
 				} else {
 					
-					NSLog(@"remove from superview animated!");
+					
 					[myFocusedControl removeFromSuperviewAnimated];
 					
 				}
@@ -121,6 +123,9 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 					
 				return YES;
 			}
+			
+		
+			
 			
 			return NO;
 			

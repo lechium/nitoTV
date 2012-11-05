@@ -242,7 +242,7 @@ static BOOL _isAnimated = TRUE;
     return 0;
 }
 
--(void)itemSelected:(long)selected
+%new -(void)itemSelected:(long)selected
 {
 	id theDelegate = [self cDelegate];
     if (theDelegate && [theDelegate respondsToSelector:@selector(popup:itemSelected:)])
@@ -428,10 +428,11 @@ here are all the functions where i handle what is mentioned at the top (the comm
 		id newSender = [self synthesizeMockItem]; //create our stub menu item that has 2 variables total.
 		if (newSender != nil)
 		{
-					NSLog(@"setting new sender to: %@", newSender);
+				//NSLog(@"setting new sender to: %@", newSender);
 			
 			[self setSender:newSender];
-				NSLog(@"sender check: %@", [self sender]);
+			
+				//NSLog(@"sender check: %@", [self sender]);
 		}
 		
 	}

@@ -294,7 +294,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 
 %new - (void)setSelectedObject:(id)theSelectedObject
 {
-	[self associatedValue:theSelectedObject withKey:(void*)kNitoQuerySelectedObjectKey];
+	[self associateValue:theSelectedObject withKey:(void*)kNitoQuerySelectedObjectKey];
 }
 
 	//end ivar - > associated objects
@@ -1033,7 +1033,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	}
 }
  
--(id)itemForRow:(long)row
+%new -(id)itemForRow:(long)row
 {
 	if (row > [[self names] count])
 	{

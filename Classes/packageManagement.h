@@ -52,6 +52,7 @@ deb http://apt.modmyi.com/ stable main
 @interface packageManagement : NSObject {
 
 }
++ (BOOL)ntvSixPointOhPLus;
 + (BOOL)ntvFivePointOnePlus;
 + (NSArray *)defaultDomains;
 + (int)sourceIntegerForRepo:(NSString *)theRepo;

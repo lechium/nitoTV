@@ -19,6 +19,8 @@
 
 */
 
+#import "../Classes/packageManagement.h"
+
 #import "NSMFMockMenuItem.h"
 
 #import "NSMFMoviePreviewDelegateDatasource.h"
@@ -1009,6 +1011,8 @@ void checkNil(NSObject *ctrl)
     if ([[self stack] peekController]!=self)
         return %orig;
     int remoteAction = [action remoteAction];
+
+	
     if (remoteAction==kBREventRemoteActionUp&&(int)[action value]==1) {
         if ([[self focusedControl] isKindOfClass:[objc_getClass("BRButtonControl") class]]) {
             [self toggleLongSummary];

@@ -611,11 +611,11 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	id current = nil;
 	while ((current = [controlEnum nextObject]))
 	{
-		NSLog(@"current: %@", current);
+			//NSLog(@"current: %@", current);
 		NSString *currentClass = NSStringFromClass([current class]);
 		if ([currentClass isEqualToString:@"BRBlueGlowSelectionLozengeLayer"])
 		{
-			NSLog(@"we got that blueglue beyotch!");
+				//NSLog(@"we got that blueglow beyotch!");
 			return [self synthesizeMockItemFrom:current];
 			
 		}
@@ -657,7 +657,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	id controller = [[objc_getClass("PackageDataSource") alloc] initWithPackage:url usingImage:image];
 	[controller setDatasource:controller];
 	[controller setDelegate:self];
-	NSLog(@"controller: %@", controller);
+		//NSLog(@"controller: %@", controller);
 	 [[self stack] pushController:controller];
 	[self setSelectedObject:url];
 		//selectedObject = url;

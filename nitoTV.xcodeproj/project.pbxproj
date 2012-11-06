@@ -203,6 +203,7 @@
 		899A880A143B0157007D23BE /* nitoMoreMenu.xm in Sources */ = {isa = PBXBuildFile; fileRef = 899A8809143B0157007D23BE /* nitoMoreMenu.xm */; };
 		89B403DA161FA55A00B54315 /* nitoMenuItem.xm in Resources */ = {isa = PBXBuildFile; fileRef = 89B403D9161FA55A00B54315 /* nitoMenuItem.xm */; };
 		89B40C831620EDED00B54315 /* NSMFCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B40C821620EDED00B54315 /* NSMFCommonTools.m */; };
+		89C2084216499468001D6F82 /* nSymbols in Resources */ = {isa = PBXBuildFile; fileRef = 89C2084116499468001D6F82 /* nSymbols */; };
 		89C7EBCD142F3AAC009C8FD8 /* ntvSettingsArrayController.xm in Sources */ = {isa = PBXBuildFile; fileRef = 89C7EBCC142F3AAC009C8FD8 /* ntvSettingsArrayController.xm */; };
 /* End PBXBuildFile section */
 
@@ -2551,6 +2552,7 @@
 		89B412CD1621427B00B54315 /* YTAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAccountManager.h; sourceTree = "<group>"; };
 		89B412CE1621427B00B54315 /* YTAuthenticatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAuthenticatorDelegate.h; sourceTree = "<group>"; };
 		89B412CF1621427B00B54315 /* YTUserProfileRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTUserProfileRequestDelegate.h; sourceTree = "<group>"; };
+		89C2084116499468001D6F82 /* nSymbols */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nSymbols; sourceTree = "<group>"; };
 		89C7EBCB142F3AAC009C8FD8 /* ntvSettingsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ntvSettingsArrayController.h; path = Classes/ntvSettingsArrayController.h; sourceTree = "<group>"; };
 		89C7EBCC142F3AAC009C8FD8 /* ntvSettingsArrayController.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ntvSettingsArrayController.xm; path = Classes/ntvSettingsArrayController.xm; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -2577,6 +2579,7 @@
 				875A8427126FFF6D00ECADC2 /* Makefile */,
 				8718960D127AADD6001861D7 /* About.txt */,
 				3226D89B12A9DDE1005E2456 /* untitled */,
+				89C2084116499468001D6F82 /* nSymbols */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				8726D1B3128D113600D84785 /* nitoHelper */,
 				871895B2127A3773001861D7 /* layout */,
@@ -5898,6 +5901,7 @@
 				899A553C15F807D800A4A0EC /* NSMFBaseAsset.xm in Resources */,
 				89B403DA161FA55A00B54315 /* nitoMenuItem.xm in Resources */,
 				89447A041626C7A900FEF401 /* ntvUIClasses.xm in Resources */,
+				89C2084216499468001D6F82 /* nSymbols in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

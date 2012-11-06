@@ -39,7 +39,7 @@ after-nitoTV-stage::
 	mkdir -p $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances; ln -f -s /Applications/Lowtide.app/Appliances/nitoTV.frappliance $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances/
 	$(FAKEROOT) chown -R root:wheel $(FW_STAGING_DIR)
 	$(PREFIX)dsymutil $(NTV_PATH) -o $(BUNDLE_NAME).dSYM
-	cp $(NTV_PATH) $(BUNDLE_NAME)_unstripped.dylib
+	cp $(NTV_PATH) $(BUNDLE_NAME)_unstripped
 	$(PREFIX)strip -x $(NTV_PATH)
 	$(_THEOS_CODESIGN_COMMANDLINE) $(NTV_PATH)
 	

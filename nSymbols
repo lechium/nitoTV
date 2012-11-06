@@ -1,0 +1,42 @@
+#/bin/bash
+
+project=nitoTV
+mBase=~/Projects/ATV2/$project
+usage ()
+{
+    echo " "
+    echo          "usage: nSymbols <address>"
+    echo " "
+    echo          "Symbolicate nitoTV crash lines."
+    echo          "	"
+    echo	  "     "
+    echo          "EXAMPLE"
+    echo          "     "
+    echo          "		3 nitoTV 0x0304d978 0x3018000 + 219512"  
+    echo          "		4 nitoTV 0x0304f588 0x3018000 + 226696"
+    echo          "     "
+	
+	echo          "% nSymbols 0x0304f588 0x3018000"
+	echo ""
+    echo " got symbolicator for nitoTV, base address 0"
+	echo " _ZL68_logos_method\$_ungrouped\$ntvRssBrowser\$initWithArray\$state\$andTitle\$P13ntvRssBrowserP13objc_selectorP7NSArrayiP8NSString (in nitoTV) (ntvRssBrowser.xm:441)"
+	echo ""
+    echo "Input Error: You must a numeric address to symbolicate"
+    echo " "
+  
+}
+
+
+
+
+# if there aren't two arguments display usage and exit
+
+if [ $# != 2 ]; then
+   usage
+   exit
+fi
+
+
+cd $mBase
+atos -o ${project}_unstripped -arch arm -l $2 $1
+

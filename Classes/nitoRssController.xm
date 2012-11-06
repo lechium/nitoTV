@@ -389,7 +389,7 @@ static char const * const kNitoRCParentControllerKey = "nRCParentController";
 		[controller setTextEntryTextFieldLabel:BRLocalizedString(@"Name:", @"the text to the left of the text field while entering a rss location name")];
 		[controller setTextFieldDelegate:self];
 		[controller setInitialTextEntryText:rightString];
-		[[self stack] pushController: controller];
+		[ROOT_STACK pushController: controller];
 		break;
 		
 	
@@ -404,7 +404,7 @@ static char const * const kNitoRCParentControllerKey = "nRCParentController";
 		[controller setTextEntryTextFieldLabel:BRLocalizedString(@"URL:", @"the text to the left of the text field while entering a RSS url")];
 		[controller setTextFieldDelegate:self];
 		[controller setInitialTextEntryText:rightString];
-		[[self stack] pushController: controller];
+		[ROOT_STACK pushController: controller];
 		break;
 		
 		

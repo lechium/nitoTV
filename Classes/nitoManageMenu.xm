@@ -80,7 +80,7 @@
 			break;
 	}
 	
-	[[self stack] pushController:controller];
+	[ROOT_STACK pushController:controller];
 	[controller release];
 }
 

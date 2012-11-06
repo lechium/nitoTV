@@ -7,7 +7,7 @@
 		<key>Digg</key>
 		<dict>
 			<key>location</key>
-			<string>http://feeds.digg.com/digg/popular.rss</string>
+			<string>http://digg.com/rss/topstories.xml</string>
 			<key>name</key>
 			<string>Digg</string>
 		</dict>

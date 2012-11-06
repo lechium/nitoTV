@@ -386,7 +386,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)showProtectedAlert:(NSString *)protectedPackage
 {
 	id result = [[objc_getClass("BRAlertController") alloc] initWithType:0 titled:BRLocalizedString(@"Required Package", @"alert when there is a required / unremovable package") primaryText:[NSString stringWithFormat:BRLocalizedString(@"The Package %@ is required for proper operation of your AppleTV and cannot be removed", @"primary text when there is a required / unremovable package"), protectedPackage] secondaryText:BRLocalizedString(@"Press menu to exit", @"seconday text when there is a required / unremovable package") ];
-	[[self stack] pushController:result];
+	[ROOT_STACK pushController:result];
 	 [result release];
 }
 
@@ -658,7 +658,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[controller setDatasource:controller];
 	[controller setDelegate:self];
 		//NSLog(@"controller: %@", controller);
-	 [[self stack] pushController:controller];
+	 [ROOT_STACK pushController:controller];
 	[self setSelectedObject:url];
 		//selectedObject = url;
 		//[self customInstallAction:url];
@@ -672,7 +672,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	id thatControl = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
 	[thatControl setAp:command];
-		//[[self stack] pushController:thatControl];
+		//[ROOT_STACK pushController:thatControl];
 	[thatControl setTitle:[NSString stringWithFormat:@"Installing %@", customFile]];
 	[thatControl addToController:self];
 	[thatControl release];
@@ -858,7 +858,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)packageSearch
 {
 	id qm = [[objc_getClass("queryMenu") alloc] init];
-	[[self stack] pushController:qm];
+	[ROOT_STACK pushController:qm];
 	[qm release];
 	
 }
@@ -953,7 +953,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[opDi addOptionText:BRLocalizedString(@"Update All", @"Update All")];
 	[opDi setActionSelector:@selector(installOptionSelected:) target:self]; //FIXME: NEED TO UPDATE THIS FOR ESSENTIAL LIST QUEUE!!!!!!!!!!!
 	
-	[[self stack] pushController:opDi];
+	[ROOT_STACK pushController:opDi];
 	[opDi release];
 		//	[opDi autorelease];
 	
@@ -1101,7 +1101,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[opDi addOptionText:BRLocalizedString(@"Delete", @"cancel delete")];
 	[opDi setActionSelector:@selector(deleteOptionSelected:) target:self];
 	
-	[[self stack] pushController:opDi];
+	[ROOT_STACK pushController:opDi];
 	[opDi autorelease];
 	[self setGreenMileFile:packageToRemove];
 		//greenMileFile = packageToRemove;
@@ -1170,7 +1170,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 {
 	id spinControl = [[objc_getClass("BRTextWithSpinnerController") alloc] initWithTitle:nil text:[NSString stringWithFormat:BRLocalizedString(@"removing %@",@"removing %@"),theFile]];
 	//NSLog(@"text string: %@", [text stringValue]);
-	[[self stack] pushController:spinControl];
+	[ROOT_STACK pushController:spinControl];
 	[spinControl release];
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:theFile forKey:@"text"];
 	[NSTimer scheduledTimerWithTimeInterval:1 target: self selector: @selector(removeCustomFinal:) userInfo: userInfo repeats: NO];

@@ -96,7 +96,7 @@ static char const * const kNitoMMCNamesKey = "nMMCNames";
 	{
 		case kBREventRemoteActionMenu:
 			myFocusedControl = [self focusedControl];
-			NSLog(@"myFocusedControl: %@", myFocusedControl);
+				//NSLog(@"myFocusedControl: %@", myFocusedControl);
 			if([myFocusedControl isKindOfClass:objc_getClass("NSMFComplexProcessDropShadowControl")])
 			{
 				if ([self respondsToSelector:@selector(removeFromParent)])

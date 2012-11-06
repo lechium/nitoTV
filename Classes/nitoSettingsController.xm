@@ -404,7 +404,7 @@ enum {
 				//[self uideviceTestTwo];
 			
 			spinControl = [[%c(BRTextWithSpinnerController) alloc] initWithTitle:BRLocalizedString(@"Updating, Please wait...", @"title for Spinner text control while updating nitoTV") text:BRLocalizedString(@"Updating nitoTV, please wait...",@"main text for Spinner text control while updating nitoTV" )];
-			[[self stack] pushController:spinControl];
+			[ROOT_STACK pushController:spinControl];
 			//sleep(1);
 			[NSTimer scheduledTimerWithTimeInterval:.5 target: self selector: @selector(updateNitoTV) userInfo: nil repeats: NO];
 			//[self updateNitoTV];
@@ -429,7 +429,7 @@ enum {
 				//NSLog(@"%@", [[textControls textBox] text]);
 			
 			
-			[[self stack] pushController:controller];
+			[ROOT_STACK pushController:controller];
 			
 			lcd = [NSDictionary dictionaryWithObject:list forKey:@"ListControl"];
 			

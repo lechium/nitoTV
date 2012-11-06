@@ -51,6 +51,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 %new - (void)setCurrentPackageMode:(int)value
 {
 	currentMode = value;
+	[self updateButtons];
 }
 
 %new -(int)currentPackageMode
@@ -421,6 +422,11 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		//packageData = packageInfo;
 	
 	return ( self );
+}
+
+%new - (void)updateButtons
+{
+	[self setButtons:[self myButtons]];
 }
 
 %new - (id)initWithPackage:(NSString *)packageId usingImage:(id)theImage

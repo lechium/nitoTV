@@ -1,5 +1,6 @@
 GO_EASY_ON_ME=1
 FW_DEVICE_IP=testtv.local
+export DEBUG=1
 export SDKVERSION=4.3
 
 
@@ -31,10 +32,16 @@ nitoTV_LDFLAGS =  -all_load -undefined dynamic_lookup -framework UIKit -framewor
 
 include $(FW_MAKEDIR)/bundle.mk
 
+NTV_PATH = $(FW_STAGING_DIR)$(nitoTV_INSTALL_PATH)/$(BUNDLE_NAME).$(nitoTV_BUNDLE_EXTENSION)/$(BUNDLE_NAME)
+	
 
 after-nitoTV-stage:: 
 	mkdir -p $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances; ln -f -s /Applications/Lowtide.app/Appliances/nitoTV.frappliance $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances/
-
-
+	$(FAKEROOT) chown -R root:wheel $(FW_STAGING_DIR)
+	$(PREFIX)dsymutil $(NTV_PATH) -o $(BUNDLE_NAME).dSYM
+	cp $(NTV_PATH) $(BUNDLE_NAME)_unstripped.dylib
+	$(PREFIX)strip -x $(NTV_PATH)
+	$(_THEOS_CODESIGN_COMMANDLINE) $(NTV_PATH)
+	
 after-install::
 	install.exec "killall -9 AppleTV"

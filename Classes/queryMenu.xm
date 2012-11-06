@@ -824,7 +824,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	[controller setDatasource:controller];
 	[controller setDelegate:(NSObject *)self];
 	[controller setCurrentPackageMode:1];
-	[[self stack] pushController:controller];
+	[ROOT_STACK pushController:controller];
 		//[self customInstallAction:item];
 }
 
@@ -834,7 +834,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 {
 	id spinControl = [[objc_getClass("BRTextWithSpinnerController") alloc] initWithTitle:nil text:[NSString stringWithFormat:@"installing %@",packageName]];
 	//NSLog(@"text string: %@", [text stringValue]);
-	[[self stack] pushController:spinControl];
+	[ROOT_STACK pushController:spinControl];
 	[spinControl release];
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:packageName forKey:@"text"];
 	[NSTimer scheduledTimerWithTimeInterval:1 target: self selector: @selector(updateCustomFinal:) userInfo: userInfo repeats: NO];
@@ -1209,7 +1209,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 %new - (void)showProtectedAlert:(NSString *)protectedPackage
 {
 	id result = [[objc_getClass("BRAlertController") alloc] initWithType:0 titled:BRLocalizedString(@"Required Package", @"alert when there is a required / unremovable package") primaryText:[NSString stringWithFormat:BRLocalizedString(@"The package %@ is required for proper operation of your AppleTV and cannot be removed", @"primary text when there is a required / unremovable package"), protectedPackage] secondaryText:BRLocalizedString(@"Press menu to exit", @"seconday text when there is a required / unremovable package") ];
-	[[self stack] pushController:result];
+	[ROOT_STACK pushController:result];
 	[result release];
 }
 

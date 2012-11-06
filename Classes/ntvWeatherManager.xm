@@ -148,7 +148,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 	[weatherController setParentController:self];
 	[weatherController setWeatherKey:currentKey];
 	[weatherController setCurrentRow:theRow];
-	[[self stack] pushController:weatherController];
+	[ROOT_STACK pushController:weatherController];
 	
 	return YES;
 }
@@ -1119,7 +1119,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 {
 	id alertCon = [%c(BRAlertController) alertOfType:0 titled:BRLocalizedString(@"Weather Retrieval Failed", @"alert for when weather retrieve failed") primaryText:BRLocalizedString(@"Weather retrieval failed, possibly a bad or incomplete zip code.", @"primary text for bad zip") secondaryText:BRLocalizedString(@"Popping in 3 Seconds", @"secondary text for bad zip alert")];
 	[alertCon retain];
-	[[self stack] pushController:alertCon];
+	[ROOT_STACK pushController:alertCon];
 	[self performSelector:@selector(popAlert:) withObject:alertCon afterDelay:3.0];
 }
 
@@ -1139,7 +1139,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 		
 		[weatherController autorelease];
 		[weatherController setParentController:self];
-		[[self stack] pushController:weatherController];
+		[ROOT_STACK pushController:weatherController];
 		return;
 	}
 	id currentUnit = [[self units] objectAtIndex:row];
@@ -1160,7 +1160,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 	
 	NSLog(@"viewController: %@", viewController);
 	
-	[[self stack] pushController:viewController];
+	[ROOT_STACK pushController:viewController];
 	[viewController release];
 	
 	

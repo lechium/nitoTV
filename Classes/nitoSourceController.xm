@@ -507,7 +507,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 	[opDi addOptionText:BRLocalizedString(@"Delete", @"cancel delete")];
 	[opDi setActionSelector:@selector(deleteOptionSelected:) target:self];
 	
-	[[self stack] pushController:opDi];
+	[ROOT_STACK pushController:opDi];
 	[opDi autorelease];
 	[self setCurrentRepo:sourceToRemove];
 }
@@ -537,7 +537,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 	NSString *tempFile = @"/private/var/mobile/Library/Preferences/duwmz";
 	[theSource writeToFile:tempFile atomically:YES];
 	id theWaitController = [[objc_getClass("BRTextWithSpinnerController") alloc] initWithTitle:@"Removing Source..." text:@"Removing Source, Please Wait..."];
-	[[self stack] pushController:theWaitController];
+	[ROOT_STACK pushController:theWaitController];
 	[theWaitController release];
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:tempFile forKey:@"Source"];
 	[NSTimer scheduledTimerWithTimeInterval:.1 target: self selector: @selector(finishRemovingSource:) userInfo: userInfo repeats: NO];
@@ -548,7 +548,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 {
 	
 	id theWaitController = [[objc_getClass("BRTextWithSpinnerController") alloc] initWithTitle:@"Restoring Default Source..." text:@"Restoring Default Source..."];
-	[[self stack] pushController:theWaitController];
+	[ROOT_STACK pushController:theWaitController];
 	[theWaitController release];
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:theSource forKey:@"Source"];
 	[NSTimer scheduledTimerWithTimeInterval:.1 target: self selector: @selector(finishRestoringSource:) userInfo: userInfo repeats: NO];
@@ -849,7 +849,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 %new - (void)showProtectedAlert:(NSString *)protectedPackage
 {
 	id result = [[objc_getClass("BRAlertController") alloc] initWithType:0 titled:BRLocalizedString(@"Required Package", @"alert when there is a required / unremovable package") primaryText:[NSString stringWithFormat:BRLocalizedString(@"The Package %@ is required for proper operation of your AppleTV and cannot be removed", @"primary text when there is a required / unremovable package"), protectedPackage] secondaryText:BRLocalizedString(@"Press menu to exit", @"seconday text when there is a required / unremovable package") ];
-	[[self stack] pushController:result];
+	[ROOT_STACK pushController:result];
 	[result release];
 }
 
@@ -885,7 +885,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 			case 0: //restore default
 				
 				controller = [[%c(nitoSourceController) alloc] initWithTitle:BRLocalizedString(@"Restore Default Source", @"Restore Default Source") andSources:nil inMode:kNTVSourceMissingDefaultsMode];
-				[[self stack] pushController:controller];
+				[ROOT_STACK pushController:controller];
 				[controller release];
 				return;
 				
@@ -904,7 +904,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 	
 	
 	[controller setInitialTextEntryText:@"http://"];
-	[[self stack] pushController: controller];
+	[ROOT_STACK pushController: controller];
 	[controller release];
 }
 
@@ -943,7 +943,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 		[pds setDatasource:pds];
 		[pds setDelegate:self];
 		[pds setCurrentPackageMode:kPKGRepoListMode];
-		[[self stack] pushController:pds];
+		[ROOT_STACK pushController:pds];
 		[pds release];
 		return;
 	}
@@ -1053,7 +1053,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 	
 	id packageSourceListController = [[%c(nitoSourceController) alloc] initWithTitle:title andSources:sources inMode:kNTVSourceBrowseMode];
 	[packageSourceListController setCurrentRepo:[self currentRepo]];
-	[[self stack] pushController:packageSourceListController];
+	[ROOT_STACK pushController:packageSourceListController];
 	[packageSourceListController release];
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
@@ -1099,7 +1099,7 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 %new - (void)addSource:(NSString *)theSource
 {
 	id theWaitController = [[objc_getClass("BRTextWithSpinnerController") alloc] initWithTitle:@"Adding Source...." text:@"Adding Source, Please Wait..."];
-	[[self stack] pushController:theWaitController];
+	[ROOT_STACK pushController:theWaitController];
 	[theWaitController release];
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:theSource forKey:@"Source"];
 	[NSTimer scheduledTimerWithTimeInterval:.1 target: self selector: @selector(finishAddingSource:) userInfo: userInfo repeats: NO];

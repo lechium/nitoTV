@@ -63,20 +63,6 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 }
 
 
-/*
- 
-
- id	_parentController;
- NSMutableArray	    	*_locations;
- NSMutableArray         *_locationDicts;
- NSMutableDictionary	*_globalDict;
- int					_listState;
- NSString				*_mainTitle;
- nitoRss			    *currentNitoRss;
- 
- */
-
-
 %new + (NSString *) rootMenuLabel
 {
 	return ( @"nito.rss.root" );
@@ -132,7 +118,7 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 	[rssController setParentController:self];
 	[rssController setRssKey:currentKey];
 	[rssController setCurrentRow:theRow];
-	[[self stack] pushController:rssController];
+	[ROOT_STACK pushController:rssController];
 	return YES;
 	
 }
@@ -181,7 +167,7 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 {
 	id rssController = [[%c(ntvRssBrowser) alloc] initWithArray:inputArray state:1 andTitle:theTitle];
 	//NSLog(@"inputArray: %@", inputArray);
-	[[self stack] pushController:rssController];
+	[ROOT_STACK pushController:rssController];
 	[rssController autorelease];
 }
 
@@ -216,22 +202,22 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 %new - (NSArray *) arrayFromRSSFeed : (NSString *)path
 
 {
-		//NSLog(@"path: %@", path);
-	//NSLog(@"%@ %s", self, _cmd);
-	//NSError *error = nil;
+
+	
 	NSURL *metaURL = [NSURL URLWithString:path];
 	
-		//NSString *theString = [NSString stringWithContentsOfURL:metaURL encoding:NSUTF8StringEncoding error:nil];
+	
 	NSString *theString = [[NSString alloc ] initWithContentsOfURL:metaURL encoding:NSUTF8StringEncoding error:nil];
-		//NSLog(@"theString: %@", theString);
+	
 	APDocument *doc = [APDocument documentWithXMLString:theString];
-		//NSLog(@"doc: %@",[doc prettyXML]);
+	
 	APElement *rootElt = [[[doc rootElement] childElements] objectAtIndex:0];
 	NSMutableArray *fullArray = [[NSMutableArray alloc] init];
-		//APElement *val =[rootElt firstChildElementNamed:@"rss"];
+	
 	APElement *titleElement = [rootElt firstChildElementNamed:@"title"];
+
 	[self setMainTitle:[titleElement value]];
-		// = [titleElement value];
+	
 	NSArray *items = [rootElt childElements:@"item"];
 	
 
@@ -254,9 +240,13 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 				NSMutableString *newString = [[NSMutableString alloc] initWithString:cleanString];
 				[newString replaceOccurrencesOfString:@"amp;" withString:@"" options:nil range:NSMakeRange(0, [newString length])];
 				//newString = [newString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+			
 				[feedDict setObject:newString forKey:@"title"];
 				[newString release];
+					//[newString release];
 				
+				
+					//NSLog(@"newString: %@", newString);
 				
 				//description
 				
@@ -336,7 +326,7 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 	id cons = [[objc_getClass("ntvRSSViewer") alloc] initWithDictionary:inputDict];
 		//NSLog(@"cons: %@", cons);
 	[cons setLabelText:mainTitle];
-	[[self stack] pushController:cons];
+	[ROOT_STACK pushController:cons];
 	[cons release];
 	
 	
@@ -355,6 +345,8 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 		return ( nil );
 	if ([self respondsToSelector:@selector(setUseCenteredLayout:)])
 		[self setUseCenteredLayout:YES];
+	
+
 	
 	
 	[self setListTitle:theTitle];
@@ -437,9 +429,22 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 			for (i = 0; i < (int)[inputArray count]; i++)
 			{
 				currentItem = [inputArray objectAtIndex:i];
-				currentName = [currentItem valueForKey:@"title"];
-				[_names addObject:currentName];
-				[_locations addObject:currentItem];
+				
+					//NSLog(@"currentItem: %@", currentItem);
+				
+				if ([currentItem respondsToSelector:@selector(valueForKey:)])
+				{
+				
+					if ([[currentItem allKeys] containsObject:@"title"])
+					{
+						currentName = [currentItem valueForKey:@"title"];
+						[_names addObject:currentName];
+						[_locations addObject:currentItem];
+					}
+					
+				}
+				
+				
 			}
 			break;
 	}
@@ -613,11 +618,17 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 
 - (void) itemSelected: (long) row
 {
-
+	
 	id theLocation = [[self locations] objectAtIndex:row];
+	
 	id tempObject = nil;
 	id rssController = nil;
-	//NSLog(@"location: %@", theLocation);
+	
+	if ([theLocation isKindOfClass:[NSString class]])
+	{
+		_listState = 0; //this is SUPER ghetto, but it will do for now.
+	}
+	NSLog(@"location: %@ listState: %i", theLocation, _listState);
 	switch (_listState)
 	{
 		case 0: //init
@@ -631,11 +642,12 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 				
 				[rssController autorelease];
 				[rssController setParentController:self];
-				[[self stack] pushController:rssController];
+				[ROOT_STACK pushController:rssController];
 				return;
 			}
 			
 		
+			
 			tempObject = [self arrayFromRSSFeed:theLocation];
 			
 				//NSLog(@"tempObject: %@", tempObject);
@@ -644,16 +656,16 @@ static char const * const kNitoRBCurrentNitoRssKey = "nRBCurrentNitoRss";
 			if (tempObject == nil)
 				return;
 		
-			rssController = [[%c(ntvRssBrowser) alloc] initWithArray:tempObject state:1 andTitle:[self mainTitle]];
-			NSLog(@"rssController: %@", rssController);
-			//NSLog(@"inputArray: %@", inputArray);
-			[[self stack] pushController:rssController];
+			rssController = [[objc_getClass("ntvRssBrowser") alloc] initWithArray:tempObject state:1 andTitle:[self mainTitle]];
+		
+				//NSLog(@"inputArray: %@", inputArray);
+			[ROOT_STACK pushController:rssController];
 			[rssController release];
 			//NSLog(@"connecting to feed: %@", theLocation);
 			break;
 			
 		case 1: // show rss feed
-			//NSLog(@"before show rss item: %@", _mainTitle);
+			
 			[self showRssItem:theLocation withMainTitle:[self listTitle]];
 			break;
 	}

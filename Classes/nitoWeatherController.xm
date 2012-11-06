@@ -383,7 +383,7 @@ static char const * const kNitoWCWeatherKeyKey = "nWCWeatherKey";
 			[controller setTextFieldDelegate:self];
 	
 		[controller setInitialTextEntryText:rightString];
-		[[self stack] pushController: controller];
+		[ROOT_STACK pushController: controller];
 		
 		
 		
@@ -405,7 +405,7 @@ static char const * const kNitoWCWeatherKeyKey = "nWCWeatherKey";
 				[controller setTextFieldDelegate:self];
 			
 		[controller setInitialTextEntryText:rightString];
-		[[self stack] pushController: controller];
+		[ROOT_STACK pushController: controller];
 		
 		
 		break;

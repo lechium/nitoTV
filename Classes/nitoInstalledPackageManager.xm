@@ -143,7 +143,8 @@ static char const * const kNitoIPMSelectedObjectKey = "nIMPSelectedObject"; //do
 	[pds setDatasource:pds];
 	[pds setDelegate:self];
 	[pds setCurrentPackageMode:kPKGInstalledListMode];
-	[[self stack] pushController:pds];
+	[pds updateButtons];
+	[ROOT_STACK pushController:pds];
 	[pds release];
 }
 
@@ -235,7 +236,7 @@ static char const * const kNitoIPMSelectedObjectKey = "nIMPSelectedObject"; //do
 %new - (void)showProtectedAlert:(NSString *)protectedPackage
 {
 	id result = [[objc_getClass("BRAlertController") alloc] initWithType:0 titled:BRLocalizedString(@"Required Package", @"alert when there is a required / unremovable package") primaryText:[NSString stringWithFormat:BRLocalizedString(@"The Package %@ is required for proper operation of your AppleTV and cannot be removed", @"primary text when there is a required / unremovable package"), protectedPackage] secondaryText:BRLocalizedString(@"Press menu to exit", @"seconday text when there is a required / unremovable package") ];
-	[[self stack] pushController:result];
+	[ROOT_STACK pushController:result];
 	[result release];
 }
 

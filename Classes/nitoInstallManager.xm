@@ -236,7 +236,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	_alreadyCheckedUpdate = FALSE;
 	
 	id _queueArray = [[NSMutableArray alloc] init];
-		//[self setQueueArray:_queueArray];
+	[self setQueueArray:_queueArray];
 	id sp = [objc_getClass("BRImage") imageWithPath:settingsPng];
 	[self setListIcon:sp horizontalOffset:0.0 kerningFactor:0.15];
 	
@@ -299,7 +299,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new -(void)controller:(id)c buttonSelectedAtIndex:(int)index
 {
 	
-		NSLog(@"%@ buttonSelectedAtIndex: %i", c, index);
+		//	NSLog(@"%@ buttonSelectedAtIndex: %i", c, index);
 	id selectedButton = [[c buttons] objectAtIndex:index];
 		//NSLog(@"selectedButton: %@", selectedButton);
 		//nitoLogFrame([selectedButton bounds]);
@@ -310,7 +310,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	switch (index) {
 		
 		case kNitoInstallButton: //install
-			
+								 //	NSLog(@"queueArray: %@", [self queueArray]);
 			if ([[self queueArray] count] > 0)
 			{
 				[[self queueArray] addObject:_selectedObject];

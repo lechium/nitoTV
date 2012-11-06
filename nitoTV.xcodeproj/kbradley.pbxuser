@@ -279,6 +279,13 @@
 			89C2081E1648C966001D6F82 /* PBXTextBookmark */ = 89C2081E1648C966001D6F82 /* PBXTextBookmark */;
 			89C2081F1648C966001D6F82 /* PBXTextBookmark */ = 89C2081F1648C966001D6F82 /* PBXTextBookmark */;
 			89C208201648C966001D6F82 /* PBXTextBookmark */ = 89C208201648C966001D6F82 /* PBXTextBookmark */;
+			89C208221648DA84001D6F82 /* PBXTextBookmark */ = 89C208221648DA84001D6F82 /* PBXTextBookmark */;
+			89C208231648DB7C001D6F82 /* PBXTextBookmark */ = 89C208231648DB7C001D6F82 /* PBXTextBookmark */;
+			89C208261648DB7C001D6F82 /* PBXTextBookmark */ = 89C208261648DB7C001D6F82 /* PBXTextBookmark */;
+			89C208271648DC26001D6F82 /* PBXTextBookmark */ = 89C208271648DC26001D6F82 /* PBXTextBookmark */;
+			89C208281648DC26001D6F82 /* PBXTextBookmark */ = 89C208281648DC26001D6F82 /* PBXTextBookmark */;
+			89C208291648DC6E001D6F82 /* PBXTextBookmark */ = 89C208291648DC6E001D6F82 /* PBXTextBookmark */;
+			89C2082A1648DC6E001D6F82 /* PBXTextBookmark */ = 89C2082A1648DC6E001D6F82 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
 		userBuildSettings = {
@@ -384,9 +391,9 @@
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 11401}}";
-			sepNavSelRange = "{1221, 0}";
-			sepNavVisRange = "{944, 1031}";
+			sepNavIntBoundsRect = "{{0, 0}, {2007, 11245}}";
+			sepNavSelRange = "{4196, 12}";
+			sepNavVisRange = "{3613, 1696}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -709,9 +716,9 @@
 	};
 	8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 16289}}";
-			sepNavSelRange = "{329, 0}";
-			sepNavVisRange = "{430, 803}";
+			sepNavIntBoundsRect = "{{0, 0}, {1839, 16185}}";
+			sepNavSelRange = "{8409, 0}";
+			sepNavVisRange = "{8060, 1728}";
 			sepNavWindowFrame = "{{351, 2}, {1049, 876}}";
 		};
 	};
@@ -1839,9 +1846,9 @@
 	};
 	896B362615F1CFA20049FA2E /* Extensions.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1090, 5135}}";
-			sepNavSelRange = "{367, 44}";
-			sepNavVisRange = "{0, 2127}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 5200}}";
+			sepNavSelRange = "{2393, 22}";
+			sepNavVisRange = "{1449, 1162}";
 			sepNavWindowFrame = "{{15, 0}, {1049, 876}}";
 		};
 	};
@@ -3235,6 +3242,73 @@
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 944;
+	};
+	89C208221648DA84001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		rLen = 12;
+		rLoc = 9229;
+		rType = 0;
+	};
+	89C208231648DB7C001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 2650;
+	};
+	89C208261648DB7C001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 313";
+		rLen = 0;
+		rLoc = 8818;
+		rType = 0;
+		vrLen = 1704;
+		vrLoc = 8063;
+	};
+	89C208271648DC26001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 2650;
+	};
+	89C208281648DC26001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 239";
+		rLen = 0;
+		rLoc = 6077;
+		rType = 0;
+		vrLen = 2288;
+		vrLoc = 5233;
+	};
+	89C208291648DC6E001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 2650;
+	};
+	89C2082A1648DC6E001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 302";
+		rLen = 0;
+		rLoc = 8409;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 8060;
 	};
 	89C7EBCB142F3AAC009C8FD8 /* ntvSettingsArrayController.h */ = {
 		uiCtxt = {

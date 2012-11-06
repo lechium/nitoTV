@@ -324,7 +324,7 @@ enum {
 	
 }
 
-- (void)jumpToEnd:(id)scrollBarInfo
+%new - (void)jumpToEnd:(id)scrollBarInfo
 {
 	id theList = [[scrollBarInfo userInfo] valueForKey:@"ListControl"];
 	int theCount = (int)[theList dataCount];

@@ -1,5 +1,6 @@
 GO_EASY_ON_ME=1
-FW_DEVICE_IP=testtv.local
+FW_DEVICE_IP=apple-tv.local
+#FW_DEVICE_IP=testtv.local
 export DEBUG=1
 export SDKVERSION=4.3
 
@@ -9,7 +10,7 @@ include theos/makefiles/aggregate.mk
 
 
 BUNDLE_NAME = nitoTV
-nitoTV_FILES = Classes/nitoTVAppliance.xm Classes/APAttribute.m Classes/APDocument.m Classes/APElement.m Classes/nitoMediaMenuController.xm 
+nitoTV_FILES = Classes/NSObject+AssociatedObjects.m Classes/nitoTVAppliance.xm Classes/APAttribute.m Classes/APDocument.m Classes/APElement.m Classes/nitoMediaMenuController.xm 
 nitoTV_FILES += Classes/ntvMedia.xm Classes/ntvUIClasses.xm Classes/nitoMenuItem.xm Classes/nitoDeadController.xm
 nitoTV_FILES += Classes/ntvMediaPreview.xm Classes/nitoManageMenu.xm Classes/nitoInstalledPackageManager.xm
 nitoTV_FILES += Classes/nitoWeather.m Classes/nitoWeatherController.xm Classes/nitoSourceController.xm

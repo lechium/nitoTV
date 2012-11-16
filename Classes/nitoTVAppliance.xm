@@ -167,9 +167,37 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 - (id)applianceInfo
 {
 	if ([packageManagement ntvFivePointOnePlus])
+	{	
 		return [[[%c(NTVApplianceInfo) alloc] init] autorelease];
-	else
-		return %orig;
+		
+	}
+	else 
+
+		{
+			
+				//NSDictionary *infoDict = [[NSBundle bundleForClass:[MDefaultManager class]] infoDictionary];
+			
+				//	Class cls = objc_getClass("MaintApplianceInfoOld");
+				//NSLog(@"cls: %@", cls);
+				//	return [[[cls alloc] initWithDictionary:infoDict] autorelease];
+			
+				//NSLog(@"orig: %@", %orig);
+			
+			id original = %orig;
+			id info =  MSHookIvar<id>(original, "_info");
+				//	NSLog(@"info: %@", info);
+			id myId = [[[NSBundle bundleForClass:[nitoDefaultManager class]] infoDictionary] objectForKey:(NSString*)kCFBundleIdentifierKey];
+			id myName = [[[NSBundle bundleForClass:[nitoDefaultManager class]] localizedInfoDictionary] objectForKey:(NSString*)kCFBundleNameKey];
+			[info setObject:@"nitoTV" forKey:@"CFBundleName"];
+			[info setObject:myName forKey:@"FRApplianceName"];
+			[info setObject:myId forKey:@"CFBundleIdentifier"];
+			[info setObject:@"/Applications/AppleTV.app/Appliances/nitoTV.frappliance" forKey:@"NSBundleInitialPath"];
+			[info setObject:[NSNumber numberWithInt:0] forKey:@"FRAppliancePreferedOrderValue"];
+			
+			return original;
+		}
+		
+	
 }
 
 

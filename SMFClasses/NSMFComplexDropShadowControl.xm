@@ -211,10 +211,10 @@ static BOOL _showWaitSpinner = TRUE;
     return self;
 }
 
-%new void logFrame(CGRect frame)
-{
-    NSLog(@"{{%f, %f},{%f,%f}}",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
-}
+//%new void logFrame(CGRect frame)
+//{
+//    NSLog(@"{{%f, %f},{%f,%f}}",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+//}
 
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)o change:(NSDictionary *)change context:(void *)context

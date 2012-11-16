@@ -174,7 +174,7 @@ static BOOL _isAnimated = TRUE;
 		[self addAnimation:zoomInAnimation forKey:@"zoomInAnimation"];
 		
 	}
-    if ([ctrl respondsToSelector:@selector(addControl)])
+    if ([ctrl respondsToSelector:@selector(addControl:)])
 		[ctrl addControl:self];
     else 
 		[ctrl addSubview:self];

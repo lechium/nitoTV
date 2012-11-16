@@ -658,7 +658,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[controller setDatasource:controller];
 	[controller setDelegate:self];
 		//NSLog(@"controller: %@", controller);
-	 [ROOT_STACK pushController:controller];
+	[ROOT_STACK pushController:controller];
 	[self setSelectedObject:url];
 		//selectedObject = url;
 		//[self customInstallAction:url];

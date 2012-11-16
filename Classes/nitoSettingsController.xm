@@ -385,6 +385,42 @@ enum {
 //		
 //}
 
+%new - (void)runNitoTVUpgradeWithSender:(id)sender 
+{
+	
+	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
+	[consoleController setDelegate:self];
+	NSString *command = @"/usr/bin/nitoHelper su 1 2";
+	[consoleController setAp:command];
+	[consoleController setSender:sender];
+	[consoleController setTitle:@"Upgrading nitoTV..."];
+	[consoleController setShowsProgressBar:FALSE];
+	[consoleController addToController:self];
+	
+}
+
+%new -(void)process:(id)p ended:(NSString *)s
+{
+	if ([p returnCode] == 0)
+	{
+		[p setTitle:@"Upgrade Finished Successfully!"];
+			//if (_essentialUpgrade == TRUE)
+			//	{
+			NSLog(@"essential upgrade boosh finder.");
+			[p setSubtitle:@"Restarting Lowtide in 3 Seconds"];
+			
+		[NSTimer timerWithTimeInterval:3 target:[%c(BRApplication) sharedApplication] selector:@selector(terminate) userInfo:nil repeats:NO];
+				//[[BRApplication sharedApplication] terminate];
+			return;
+			//	}
+	} else {
+		[p setTitle:@"Upgrade Failed!"];
+	}
+	[p setSubtitle:@"Press Menu to exit"];
+
+	
+}
+
 - (void)itemSelected:(long)selected
 {
 	id spinControl = nil;
@@ -396,6 +432,8 @@ enum {
 	id tb;
 	id list;
 	
+	id row = [[self list] selectedObject];
+	
 	switch (selected) {
 			
 		case kNUpdateNitoTVMenuItem: //update nitoTV
@@ -403,11 +441,12 @@ enum {
 			
 				//[self uideviceTestTwo];
 			
-			spinControl = [[%c(BRTextWithSpinnerController) alloc] initWithTitle:BRLocalizedString(@"Updating, Please wait...", @"title for Spinner text control while updating nitoTV") text:BRLocalizedString(@"Updating nitoTV, please wait...",@"main text for Spinner text control while updating nitoTV" )];
-			[ROOT_STACK pushController:spinControl];
-			//sleep(1);
-			[NSTimer scheduledTimerWithTimeInterval:.5 target: self selector: @selector(updateNitoTV) userInfo: nil repeats: NO];
+				//spinControl = [[%c(BRTextWithSpinnerController) alloc] initWithTitle:BRLocalizedString(@"Updating, Please wait...", @"title for Spinner text control while updating nitoTV") text:BRLocalizedString(@"Updating nitoTV, please wait...",@"main text for Spinner text control while updating nitoTV" )];
+				//[ROOT_STACK pushController:spinControl];
+				//sleep(1);
+				//[NSTimer scheduledTimerWithTimeInterval:.5 target: self selector: @selector(updateNitoTV) userInfo: nil repeats: NO];
 			//[self updateNitoTV];
+			[self runNitoTVUpgradeWithSender:row];
 			break;
 			
 			

@@ -1035,30 +1035,35 @@ void checkNil(NSObject *ctrl)
         [[self delegate] respondsToSelector:@selector(controller:buttonSelectedAtIndex:)]) {
 			//NSLog(@"play and all that shit is true");
         id selectedC = [self focusedControl];
-			NSLog(@"selectedC subtitle: %@", selectedC);
-			//NSLog(@"buttons: %@", [self buttons]);
-        for (int j=0;j<[[self buttons] count];j++) {
 		
-			id subtitle = [[[self buttons] objectAtIndex:j] subtitle];
-			id subtitle2 = [selectedC subtitle];
-			if ([subtitle respondsToSelector:@selector(string)] && [subtitle2 respondsToSelector:@selector(string)])
-			{
-				if ([[[[[self buttons] objectAtIndex:j] subtitle]string] isEqualToString:[[selectedC subtitle]string]])
+		if ([selectedC respondsToSelector:@selector(subtitle)])
+		{
+			NSLog(@"selectedC subtitle: %@", [selectedC subtitle]);
+			for (int j=0;j<[[self buttons] count];j++) {
+				
+				id subtitle = [[[self buttons] objectAtIndex:j] subtitle];
+				id subtitle2 = [selectedC subtitle];
+				if ([subtitle respondsToSelector:@selector(string)] && [subtitle2 respondsToSelector:@selector(string)])
 				{
-					NSLog(@"checking subtitles, not so elegant, but it should work for now");
-					[[self delegate] controller:self buttonSelectedAtIndex:j];
-					return YES;
+					if ([[[[[self buttons] objectAtIndex:j] subtitle]string] isEqualToString:[[selectedC subtitle]string]])
+					{
+						NSLog(@"checking subtitles, not so elegant, but it should work for now");
+						[[self delegate] controller:self buttonSelectedAtIndex:j];
+						return YES;
+					}
 				}
+				
+					// if([[self buttons] objectAtIndex:j]==selectedC)
+					//                [[self delegate] controller:self buttonSelectedAtIndex:j];
 			}
 			
-				// if([[self buttons] objectAtIndex:j]==selectedC)
-//                [[self delegate] controller:self buttonSelectedAtIndex:j];
-     }
+		}
+		
+			//NSLog(@"buttons: %@", [self buttons]);
     }
     if (remoteAction==kBREventRemoteActionPlay && 
         [self delegate]!=nil && 
-       (int)[action value]==1 && 
-        [[self delegate] conformsToProtocol:@protocol(NSMFMoviePreviewControllerDelegate)])
+       (int)[action value]==1)
     {
         [[self delegate] controller:self selectedControl:[self focusedControl]];
         return YES;

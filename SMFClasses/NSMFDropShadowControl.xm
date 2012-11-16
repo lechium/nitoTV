@@ -200,7 +200,7 @@ static BOOL _isAnimated = TRUE;
 	}
 	
 		// [ctrl addControl:self];
-    if ([self respondsToSelector:@selector(addControl)])
+    if ([self respondsToSelector:@selector(addControl:)])
 	{
 		[ctrl addControl:self];
 	} else {

@@ -29,7 +29,7 @@ static char const * const kSMFTDSCAttString = "_att"; //doesnt appear to ever be
 static char const * const kSMFTDSCScrolling = "_scrolling";
 static char const * const kSMFTDSCList = "_list";
 
-@interface SMFTextDropShadowControl : NSObject
+@interface NSMFTextDropShadowControl : NSObject
 
 
 - (id)scrolling;
@@ -37,7 +37,7 @@ static char const * const kSMFTDSCList = "_list";
 @end
 
 
-%subclass SMFTextDropShadowControl: NSMFDropShadowControl
+%subclass NSMFTextDropShadowControl: NSMFDropShadowControl
 
 %new -(id)attributedStringForString:(NSString*)s
 {

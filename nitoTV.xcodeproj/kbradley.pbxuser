@@ -238,6 +238,60 @@
 			89C20F2716562F47001D6F82 /* PBXTextBookmark */ = 89C20F2716562F47001D6F82 /* PBXTextBookmark */;
 			89C20F2816562F47001D6F82 /* PBXTextBookmark */ = 89C20F2816562F47001D6F82 /* PBXTextBookmark */;
 			89C20F2916562F47001D6F82 /* PBXTextBookmark */ = 89C20F2916562F47001D6F82 /* PBXTextBookmark */;
+			89C20F381656E22D001D6F82 /* PBXBookmark */ = 89C20F381656E22D001D6F82 /* PBXBookmark */;
+			89C20F391656E239001D6F82 /* PBXTextBookmark */ = 89C20F391656E239001D6F82 /* PBXTextBookmark */;
+			89C20F3C1656E239001D6F82 /* PBXTextBookmark */ = 89C20F3C1656E239001D6F82 /* PBXTextBookmark */;
+			89C20F3D1656E239001D6F82 /* PBXTextBookmark */ = 89C20F3D1656E239001D6F82 /* PBXTextBookmark */;
+			89C20F3E1656E239001D6F82 /* PBXTextBookmark */ = 89C20F3E1656E239001D6F82 /* PBXTextBookmark */;
+			89C20F3F1656E239001D6F82 /* PBXTextBookmark */ = 89C20F3F1656E239001D6F82 /* PBXTextBookmark */;
+			89C20F401656E239001D6F82 /* PBXTextBookmark */ = 89C20F401656E239001D6F82 /* PBXTextBookmark */;
+			89C20F411656E239001D6F82 /* PBXTextBookmark */ = 89C20F411656E239001D6F82 /* PBXTextBookmark */;
+			89C20F421656E239001D6F82 /* PBXTextBookmark */ = 89C20F421656E239001D6F82 /* PBXTextBookmark */;
+			89C20F441656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F441656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F451656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F451656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F461656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F461656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F471656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F471656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F481656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F481656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F491656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F491656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F4A1656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F4A1656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F4B1656E2BE001D6F82 /* PBXTextBookmark */ = 89C20F4B1656E2BE001D6F82 /* PBXTextBookmark */;
+			89C20F4C1656E395001D6F82 /* PBXTextBookmark */ = 89C20F4C1656E395001D6F82 /* PBXTextBookmark */;
+			89C20F4D1656E395001D6F82 /* PBXTextBookmark */ = 89C20F4D1656E395001D6F82 /* PBXTextBookmark */;
+			89C20F4E1656E395001D6F82 /* PBXTextBookmark */ = 89C20F4E1656E395001D6F82 /* PBXTextBookmark */;
+			89C20F4F1656E395001D6F82 /* PBXTextBookmark */ = 89C20F4F1656E395001D6F82 /* PBXTextBookmark */;
+			89C20F501656E395001D6F82 /* PBXTextBookmark */ = 89C20F501656E395001D6F82 /* PBXTextBookmark */;
+			89C20F511656E395001D6F82 /* PBXTextBookmark */ = 89C20F511656E395001D6F82 /* PBXTextBookmark */;
+			89C20F521656E395001D6F82 /* PBXTextBookmark */ = 89C20F521656E395001D6F82 /* PBXTextBookmark */;
+			89C20F5B16571927001D6F82 /* PBXBookmark */ = 89C20F5B16571927001D6F82 /* PBXBookmark */;
+			89C20F5C16571930001D6F82 /* PBXTextBookmark */ = 89C20F5C16571930001D6F82 /* PBXTextBookmark */;
+			89C20F5D16571930001D6F82 /* PBXTextBookmark */ = 89C20F5D16571930001D6F82 /* PBXTextBookmark */;
+			89C20F5E16571930001D6F82 /* PBXTextBookmark */ = 89C20F5E16571930001D6F82 /* PBXTextBookmark */;
+			89C20F6116571930001D6F82 /* PBXTextBookmark */ = 89C20F6116571930001D6F82 /* PBXTextBookmark */;
+			89C20F6316571930001D6F82 /* PBXTextBookmark */ = 89C20F6316571930001D6F82 /* PBXTextBookmark */;
+			89C20F6416571930001D6F82 /* PBXTextBookmark */ = 89C20F6416571930001D6F82 /* PBXTextBookmark */;
+			89C20F6516571930001D6F82 /* PBXTextBookmark */ = 89C20F6516571930001D6F82 /* PBXTextBookmark */;
+			89C20F6616571930001D6F82 /* PBXTextBookmark */ = 89C20F6616571930001D6F82 /* PBXTextBookmark */;
+			89C20F6716571930001D6F82 /* PBXTextBookmark */ = 89C20F6716571930001D6F82 /* PBXTextBookmark */;
+			89C20F68165719AF001D6F82 /* PBXTextBookmark */ = 89C20F68165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F69165719AF001D6F82 /* PBXTextBookmark */ = 89C20F69165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F6A165719AF001D6F82 /* PBXTextBookmark */ = 89C20F6A165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F6B165719AF001D6F82 /* PBXTextBookmark */ = 89C20F6B165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F6C165719AF001D6F82 /* PBXTextBookmark */ = 89C20F6C165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F6D165719AF001D6F82 /* PBXTextBookmark */ = 89C20F6D165719AF001D6F82 /* PBXTextBookmark */;
+			89C20F7216571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7216571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F7316571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7316571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F7416571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7416571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F7516571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7516571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F7616571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7616571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F7716571A4B001D6F82 /* PBXTextBookmark */ = 89C20F7716571A4B001D6F82 /* PBXTextBookmark */;
+			89C20F8016571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8016571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8116571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8116571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8216571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8216571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8316571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8316571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8416571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8416571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8516571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8516571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8616571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8616571BFB001D6F82 /* PBXTextBookmark */;
+			89C20F8716571BFB001D6F82 /* PBXTextBookmark */ = 89C20F8716571BFB001D6F82 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 89276BB8148D59E500C30A57 /* Source Control */;
 		userBuildSettings = {
@@ -303,10 +357,10 @@
 	};
 	32A6A44D141B71FC009186F7 /* About.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {8405, 1612}}";
-			sepNavSelRange = "{51, 5736}";
-			sepNavVisRange = "{51, 969}";
-			sepNavWindowFrame = "{{15, 0}, {1354, 878}}";
+			sepNavIntBoundsRect = "{{0, 0}, {8405, 1664}}";
+			sepNavSelRange = "{20, 0}";
+			sepNavVisRange = "{0, 3552}";
+			sepNavWindowFrame = "{{15, 0}, {1334, 878}}";
 		};
 	};
 	32A6A46D141B71FC009186F7 /* Info.plist */ = {
@@ -335,17 +389,17 @@
 	};
 	32D96211131A4B59007B5BE3 /* PackageDataSource.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 1352}}";
-			sepNavSelRange = "{719, 14}";
-			sepNavVisRange = "{451, 496}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 1300}}";
+			sepNavSelRange = "{482, 3}";
+			sepNavVisRange = "{0, 1154}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
 	32D96212131A4B59007B5BE3 /* PackageDataSource.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 11258}}";
-			sepNavSelRange = "{196, 0}";
-			sepNavVisRange = "{1257, 237}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 11401}}";
+			sepNavSelRange = "{976, 0}";
+			sepNavVisRange = "{880, 1098}";
 			sepNavWindowFrame = "{{2, 0}, {1387, 878}}";
 		};
 	};
@@ -518,10 +572,10 @@
 	};
 	87188B971279815B001861D7 /* nitoTVAppliance.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {6123, 8866}}";
-			sepNavSelRange = "{2825, 24}";
-			sepNavVisRange = "{19242, 2483}";
-			sepNavWindowFrame = "{{59, -0}, {1334, 878}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1275, 9269}}";
+			sepNavSelRange = "{5530, 0}";
+			sepNavVisRange = "{3594, 1204}";
+			sepNavWindowFrame = "{{60, 0}, {1334, 878}}";
 		};
 	};
 	87188B981279815B001861D7 /* nitoWeather.h */ = {
@@ -937,8 +991,8 @@
 	875A8427126FFF6D00ECADC2 /* Makefile */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1489, 718}}";
-			sepNavSelRange = "{2745, 0}";
-			sepNavVisRange = "{0, 2745}";
+			sepNavSelRange = "{2560, 0}";
+			sepNavVisRange = "{0, 2560}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
@@ -1099,7 +1153,7 @@
 		fRef = 896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */;
 		name = "NSMFComplexDropShadowControl.xm: 201";
 		rLen = 0;
-		rLoc = 4918;
+		rLoc = 4920;
 		rType = 0;
 		vrLen = 457;
 		vrLoc = 4086;
@@ -1109,7 +1163,7 @@
 		fRef = 896B319415F19AA20049FA2E /* NSMFComplexProcessDropShadowControl.xm */;
 		name = "NSMFComplexProcessDropShadowControl.xm: 24";
 		rLen = 0;
-		rLoc = 487;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 253;
 		vrLoc = 411;
@@ -1336,7 +1390,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
 		name = "NSMFMoviePreviewController.xm: 102";
 		rLen = 4;
-		rLoc = 3459;
+		rLoc = 3460;
 		rType = 0;
 		vrLen = 894;
 		vrLoc = 2864;
@@ -1419,9 +1473,9 @@
 	};
 	89447D211627B6EC00FEF401 /* NSMFCompatibility.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 936}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1306, 845}}";
 			sepNavSelRange = "{1, 0}";
-			sepNavVisRange = "{46, 238}";
+			sepNavVisRange = "{0, 1346}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
@@ -1520,7 +1574,7 @@
 		fRef = 32A6A44D141B71FC009186F7 /* About.txt */;
 		name = "About.txt: 4";
 		rLen = 5736;
-		rLoc = 51;
+		rLoc = 222;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 51;
@@ -1600,33 +1654,33 @@
 	};
 	896B319015F19AA20049FA2E /* NSMFAnimation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1729}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1794}}";
 			sepNavSelRange = "{2025, 7}";
-			sepNavVisRange = "{754, 2137}";
+			sepNavVisRange = "{0, 2146}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 5408}}";
-			sepNavSelRange = "{4918, 0}";
-			sepNavVisRange = "{4047, 535}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 5616}}";
+			sepNavSelRange = "{1252, 3}";
+			sepNavVisRange = "{151, 1606}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
 	896B319415F19AA20049FA2E /* NSMFComplexProcessDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1248}}";
-			sepNavSelRange = "{487, 0}";
-			sepNavVisRange = "{732, 1046}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 1339}}";
+			sepNavSelRange = "{460, 0}";
+			sepNavVisRange = "{0, 969}";
 			sepNavWindowFrame = "{{19, 0}, {1370, 878}}";
 		};
 	};
 	896B319615F19AA20049FA2E /* NSMFDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 4316}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 4212}}";
 			sepNavSelRange = "{5311, 0}";
-			sepNavVisRange = "{4316, 1369}";
+			sepNavVisRange = "{732, 1243}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -1656,9 +1710,9 @@
 	};
 	896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 14378}}";
-			sepNavSelRange = "{36918, 0}";
-			sepNavVisRange = "{35654, 2464}";
+			sepNavIntBoundsRect = "{{0, 0}, {1311, 15106}}";
+			sepNavSelRange = "{3403, 25}";
+			sepNavVisRange = "{2106, 1897}";
 			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
 		};
 	};
@@ -1680,25 +1734,25 @@
 	};
 	896B31A115F19AA20049FA2E /* NSMFPreferences.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 286}}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 299}}";
 			sepNavSelRange = "{7, 0}";
-			sepNavVisRange = "{83, 136}";
+			sepNavVisRange = "{0, 288}";
 			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
 	896B31A215F19AA20049FA2E /* NSMFPreferences.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 1625}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1306, 1625}}";
 			sepNavSelRange = "{264, 0}";
-			sepNavVisRange = "{0, 1603}";
-			sepNavWindowFrame = "{{15, 0}, {1370, 878}}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavWindowFrame = "{{15, 2}, {1365, 871}}";
 		};
 	};
 	896B31A415F19AA20049FA2E /* NSMFTextDropShadowControl.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1311, 2106}}";
-			sepNavSelRange = "{2269, 0}";
-			sepNavVisRange = "{50, 1426}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 2093}}";
+			sepNavSelRange = "{288, 3}";
+			sepNavVisRange = "{149, 347}";
 			sepNavWindowFrame = "{{30, 0}, {1370, 878}}";
 		};
 	};
@@ -1891,9 +1945,9 @@
 	};
 	89B40C821620EDED00B54315 /* NSMFCommonTools.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1240, 2106}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1240, 2119}}";
 			sepNavSelRange = "{3583, 0}";
-			sepNavVisRange = "{3, 1606}";
+			sepNavVisRange = "{3732, 1330}";
 			sepNavWindowFrame = "{{61, 28}, {1299, 803}}";
 		};
 	};
@@ -2178,6 +2232,12 @@
 		vrLen = 1222;
 		vrLoc = 26039;
 	};
+	89C20A2E164B745A001D6F82 /* control */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = control;
+		sourceTree = "<group>";
+	};
 	89C20AD01652E6EB001D6F82 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
@@ -2186,7 +2246,7 @@
 		isa = PBXTextBookmark;
 		fRef = 896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */;
 		rLen = 0;
-		rLoc = 5303;
+		rLoc = 5305;
 		rType = 0;
 	};
 	89C20E8E16560B6F001D6F82 /* PBXTextBookmark */ = {
@@ -2224,7 +2284,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
 		name = "NSMFMoviePreviewController.xm: 963";
 		rLen = 9;
-		rLoc = 32925;
+		rLoc = 32930;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 32659;
@@ -2254,7 +2314,7 @@
 		fRef = 896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */;
 		name = "NSMFComplexDropShadowControl.xm: 214";
 		rLen = 143;
-		rLoc = 5303;
+		rLoc = 5305;
 		rType = 0;
 		vrLen = 1763;
 		vrLoc = 4466;
@@ -2558,7 +2618,7 @@
 		fRef = 896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */;
 		name = "NSMFComplexDropShadowControl.xm: 201";
 		rLen = 0;
-		rLoc = 4918;
+		rLoc = 4920;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 4047;
@@ -2628,7 +2688,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
 		name = "NSMFMoviePreviewController.xm: 1038";
 		rLen = 0;
-		rLoc = 36754;
+		rLoc = 36759;
 		rType = 0;
 		vrLen = 2542;
 		vrLoc = 35603;
@@ -2698,7 +2758,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
 		name = "NSMFMoviePreviewController.xm: 1041";
 		rLen = 0;
-		rLoc = 36031;
+		rLoc = 36036;
 		rType = 0;
 		vrLen = 2450;
 		vrLoc = 35603;
@@ -2768,7 +2828,7 @@
 		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
 		name = "NSMFMoviePreviewController.xm: 1066";
 		rLen = 0;
-		rLoc = 36918;
+		rLoc = 36923;
 		rType = 0;
 		vrLen = 2464;
 		vrLoc = 35654;
@@ -2814,6 +2874,542 @@
 		vrLoc = 0;
 	};
 	89C20F2916562F47001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F381656E22D001D6F82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8718960D127AADD6001861D7 /* About.txt */;
+	};
+	89C20F391656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 15";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 496;
+	};
+	89C20F3C1656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A6A44D141B71FC009186F7 /* About.txt */;
+		name = "About.txt: 4";
+		rLen = 5736;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 3978;
+		vrLoc = 0;
+	};
+	89C20F3D1656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F3E1656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 2483;
+		vrLoc = 19242;
+	};
+	89C20F3F1656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 49";
+		rLen = 0;
+		rLoc = 2745;
+		rType = 0;
+		vrLen = 2745;
+		vrLoc = 0;
+	};
+	89C20F401656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F411656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F421656E239001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F441656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 15";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 496;
+	};
+	89C20F451656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 56";
+		rLen = 24;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 2483;
+		vrLoc = 19242;
+	};
+	89C20F461656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 188";
+		rLen = 0;
+		rLoc = 5530;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 4798;
+	};
+	89C20F471656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F481656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 49";
+		rLen = 0;
+		rLoc = 2745;
+		rType = 0;
+		vrLen = 2745;
+		vrLoc = 0;
+	};
+	89C20F491656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F4A1656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F4B1656E2BE001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F4C1656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 15";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 496;
+	};
+	89C20F4D1656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 87188B971279815B001861D7 /* nitoTVAppliance.xm */;
+		name = "nitoTVAppliance.xm: 188";
+		rLen = 0;
+		rLoc = 5530;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 4798;
+	};
+	89C20F4E1656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F4F1656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 49";
+		rLen = 0;
+		rLoc = 2745;
+		rType = 0;
+		vrLen = 2745;
+		vrLoc = 0;
+	};
+	89C20F501656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F511656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F521656E395001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F5B16571927001D6F82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 89C20A2E164B745A001D6F82 /* control */;
+	};
+	89C20F5C16571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
+		name = "nitoInstallManager.xm: 15";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 496;
+	};
+	89C20F5D16571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A115F19AA20049FA2E /* NSMFPreferences.h */;
+		name = "NSMFPreferences.h: 2";
+		rLen = 0;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89C20F5E16571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A115F19AA20049FA2E /* NSMFPreferences.h */;
+		name = "NSMFPreferences.h: 2";
+		rLen = 0;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89C20F6116571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89C20F6216571930001D6F82 /* control */;
+		name = "control: 7";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	89C20F6216571930001D6F82 /* control */ = {
+		isa = PBXFileReference;
+		name = control;
+		path = /Users/kbradley/Projects/ATV2/nitoTV/layout/DEBIAN/control;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 750}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 532}";
+		};
+	};
+	89C20F6316571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F6416571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 48";
+		rLen = 0;
+		rLoc = 2560;
+		rType = 0;
+		vrLen = 2560;
+		vrLoc = 0;
+	};
+	89C20F6516571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F6616571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F6716571930001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F68165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A115F19AA20049FA2E /* NSMFPreferences.h */;
+		name = "NSMFPreferences.h: 2";
+		rLen = 0;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89C20F69165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F6A165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 48";
+		rLen = 0;
+		rLoc = 2560;
+		rType = 0;
+		vrLen = 2560;
+		vrLoc = 0;
+	};
+	89C20F6B165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F6C165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F6D165719AF001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F7216571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A115F19AA20049FA2E /* NSMFPreferences.h */;
+		name = "NSMFPreferences.h: 2";
+		rLen = 0;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89C20F7316571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 1066";
+		rLen = 0;
+		rLoc = 36923;
+		rType = 0;
+		vrLen = 2464;
+		vrLoc = 35654;
+	};
+	89C20F7416571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 48";
+		rLen = 0;
+		rLoc = 2560;
+		rType = 0;
+		vrLen = 2560;
+		vrLoc = 0;
+	};
+	89C20F7516571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F7616571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F7716571A4B001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
+		name = "packageManagement.m: 69";
+		rLen = 28;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 828;
+	};
+	89C20F8016571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A115F19AA20049FA2E /* NSMFPreferences.h */;
+		name = "NSMFPreferences.h: 2";
+		rLen = 0;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89C20F8116571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B319C15F19AA20049FA2E /* NSMFMoviePreviewController.xm */;
+		name = "NSMFMoviePreviewController.xm: 108";
+		rLen = 3;
+		rLoc = 3486;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 3390;
+	};
+	89C20F8216571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A415F19AA20049FA2E /* NSMFTextDropShadowControl.xm */;
+		rLen = 3;
+		rLoc = 288;
+		rType = 0;
+	};
+	89C20F8316571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B31A415F19AA20049FA2E /* NSMFTextDropShadowControl.xm */;
+		name = "NSMFTextDropShadowControl.xm: 16";
+		rLen = 3;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 149;
+	};
+	89C20F8416571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 875A8427126FFF6D00ECADC2 /* Makefile */;
+		name = "Makefile: 48";
+		rLen = 0;
+		rLoc = 2560;
+		rType = 0;
+		vrLen = 2560;
+		vrLoc = 0;
+	};
+	89C20F8516571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */;
+		name = "NSObject+AssociatedObjects.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	89C20F8616571BFB001D6F82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */;
+		name = "NSObject+AssociatedObjects.h: 13";
+		rLen = 41;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	89C20F8716571BFB001D6F82 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 32D975E8131E1044007B5BE3 /* packageManagement.m */;
 		name = "packageManagement.m: 69";

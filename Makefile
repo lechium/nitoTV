@@ -25,7 +25,7 @@ nitoTV_FILES += SMFClasses/NSMFListDropShadowControl.xm SMFClasses/NSMFMoviePrev
 nitoTV_FILES += SMFClasses/NSMFPhotoMediaAsset.xm SMFClasses/NSMFPopup.xm SMFClasses/NSMFProgressBarControl.xm SMFClasses/NSMFTextDropShadowControl.xm
 nitoTV_FILES += SMFClasses/NSMFAnimation.m SMFClasses/NSMFCommonTools.m SMFClasses/NSMFMockMenuItem.m SMFClasses/NSMFPreferences.m SMFClasses/NSMFThemeInfo.m Classes/PackageDataSource.xm  Classes/nitoMoreMenu.xm
 
-nitoTV_INSTALL_PATH = /Applications/Lowtide.app/Appliances
+nitoTV_INSTALL_PATH = /Applications/AppleTV.app/Appliances
 
 nitoTV_BUNDLE_EXTENSION = frappliance
 #nitoTV_CFLAGS += -std=c99 
@@ -37,7 +37,6 @@ NTV_PATH = $(FW_STAGING_DIR)$(nitoTV_INSTALL_PATH)/$(BUNDLE_NAME).$(nitoTV_BUNDL
 	
 
 after-nitoTV-stage:: 
-	mkdir -p $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances; ln -f -s /Applications/Lowtide.app/Appliances/nitoTV.frappliance $(FW_STAGING_DIR)/Applications/AppleTV.app/Appliances/
 	$(FAKEROOT) chown -R root:wheel $(FW_STAGING_DIR)
 	$(PREFIX)dsymutil $(NTV_PATH) -o $(BUNDLE_NAME).dSYM
 	cp $(NTV_PATH) $(BUNDLE_NAME)_unstripped

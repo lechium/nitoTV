@@ -20,7 +20,7 @@ static BOOL _finished = TRUE;
 static int _returnCode = 0;
 
 
-%subclass NSMFComplexProcessDropShadowControl : SMFComplexDropShadowControl
+%subclass NSMFComplexProcessDropShadowControl : NSMFComplexDropShadowControl
 
 
 %new - (id)ap {

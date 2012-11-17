@@ -29,14 +29,14 @@ static BOOL _pbShows = TRUE;
 static BOOL _blocking = FALSE;
 static BOOL _showWaitSpinner = TRUE;
 
-@interface SMFComplexDropShadowControl : NSObject
+@interface NSMFComplexDropShadowControl : NSObject
 
 - (id)scrolling;
 - (CGRect)frame;
 @end
 
 
-%subclass SMFComplexDropShadowControl : NSMFDropShadowControl
+%subclass NSMFComplexDropShadowControl : NSMFDropShadowControl
 
 /*
 @implementation SMFComplexDropShadowControl

@@ -1,5 +1,9 @@
-nitoTV version 0.8.3 AppleTV2,1 
+nitoTV version 0.8.4 AppleTV2,1 
 March 29th, 2012
+
+0.8.4
+
+Added support for 6.0, changed the nitoTV updater to use the progress based controller rather than the spinning indicator, added some more metadata to menu items.
 
 0.8.3 
 

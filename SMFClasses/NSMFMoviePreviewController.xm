@@ -97,7 +97,7 @@ static char const * const kSMFMPCHideListKey = "SMFMPCHideList";
 static char const * const kSMFMPCProviderKey = "SMFMPCProvider";
 static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
 
-@interface SMFMoviePreviewController : NSObject
+@interface NSMFMoviePreviewController : NSObject
 
 -(BOOL)isSixPointOhPlus;
 
@@ -105,7 +105,7 @@ static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
 
 
 
-%subclass SMFMoviePreviewController : BRController
+%subclass NSMFMoviePreviewController : BRController
 
 %new -(id)metadataTitleControl {
 	
@@ -501,7 +501,7 @@ void checkNil(NSObject *ctrl)
     for(int counter=0;counter<[headers count];counter++)
     {
         id head = [[objc_getClass("BRTextControl") alloc]init];
-        [head setText:[headers objectAtIndex:counter] withAttributes:[%c(SMFMoviePreviewController) columnHeaderAttributes] ];
+        [head setText:[headers objectAtIndex:counter] withAttributes:[%c(NSMFMoviePreviewController) columnHeaderAttributes] ];
         CGRect headFrame;
         headFrame.size=[head renderedSize];
         if (headFrame.size.width>(masterFrame.size.width*increment*0.95f))
@@ -550,7 +550,7 @@ void checkNil(NSObject *ctrl)
                     else if([[objects objectAtIndex:i] isKindOfClass:[NSString class]])
                     {
                         ctrl = [[objc_getClass("BRTextControl") alloc]init];
-                        [ctrl setText:[objects objectAtIndex:i] withAttributes:[%c(SMFMoviePreviewController) columnLabelAttributes]];
+                        [ctrl setText:[objects objectAtIndex:i] withAttributes:[%c(NSMFMoviePreviewController) columnLabelAttributes]];
                         r.size=[ctrl renderedSize];
                         r.origin.y=tempY-r.size.height;
                         if (r.size.width+r.origin.x>maxX) {
@@ -603,7 +603,7 @@ void checkNil(NSObject *ctrl)
                 CGRect objFrame=CGRectMake(0.0, 0.0, 0.0, 0.0);
                 if ([[current objectAtIndex:objcount] isKindOfClass:[NSString class]]) {
                     obj = [[objc_getClass("BRTextControl") alloc] init];
-                    [(id )obj setText:[current objectAtIndex:objcount] withAttributes:[%c(SMFMoviePreviewController) columnLabelAttributes]];
+                    [(id )obj setText:[current objectAtIndex:objcount] withAttributes:[%c(NSMFMoviePreviewController) columnLabelAttributes]];
                     objFrame.size=[(id )obj renderedSize];
                     if (objFrame.size.width>(masterFrame.size.width*increment*0.95f))
                         objFrame.size.width=(masterFrame.size.width*increment*0.95f);

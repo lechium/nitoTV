@@ -36,7 +36,7 @@ static char const * const kNitoPKGImageURLKey = "nPKGImageURL";
 static char const * const kNitoPKGRawCoverArtKey = "nPKGRawCoverArt";
 static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
-%subclass PackageDataSource : SMFMoviePreviewController
+%subclass PackageDataSource : NSMFMoviePreviewController
 
 %new - (void)setListActionMode:(int)value
 {

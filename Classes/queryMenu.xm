@@ -723,7 +723,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	
 }
 
-- (void) textDidEndEditing: (id) sender
+%new - (void) textDidEndEditing: (id) sender
 {
 	id _entryControl = [self entryControl];
     if ([[sender stringValue] isEqualToString:[self latestQuery]])

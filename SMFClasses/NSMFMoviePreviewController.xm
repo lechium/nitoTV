@@ -839,6 +839,18 @@ void checkNil(NSObject *ctrl)
 	return (TRUE);
 }
 
+/*
+ 
+ 
+ try making a box control instead?
+ 
+ @"<BRBoxControl: 0x12812a70> Recently Watched"
+ cy# [boxControl frame]
+ {origin:{x:0,y:35.999992370605469},size:{width:1280,height:208.80000305175781}}
+ 
+ 
+ */
+
 %new -(void)reloadShelf
 {
 	NSLog(@"reloadShelf");
@@ -847,7 +859,7 @@ void checkNil(NSObject *ctrl)
 	if (is60)
 	{
 		NSLog(@"is 6.0+, return!");
-		return;
+			//return;
 		
 	}
 		
@@ -868,16 +880,46 @@ void checkNil(NSObject *ctrl)
         [_shelfControl setColumnCount:8];
         [_shelfControl setCentered:NO];
         [_shelfControl setHorizontalGap:23];
+		
+		
+		CGRect gframe=CGRectMake(masterFrame.size.width*0.00, 
+								 masterFrame.origin.y+masterFrame.size.height*0.04f, 
+								 masterFrame.size.width*1.f,
+								 masterFrame.size.height*0.24f);
+		[_shelfControl setFrame:gframe];
+			// [self addControl:_shelfControl];
+		if (!is60)[self addControl:_shelfControl];
+		else [self addSubview:_shelfControl];
+		
+		
+		[self setAdap:_adap];
+		[self setShelfControl:_shelfControl];
+		[self setProvider:_provider];
+		return;
+		
     }
     else
     {
         _shelfControl=[[objc_getClass("BRMediaShelfView") alloc]init];
         [_shelfControl setCentered:YES];
         if ([self provider]!=nil) {
-				// [_provider release];
-				//_provider=nil;
+				
+			
+			
 			[self setProvider:_provider];
 		}
+		
+		
+		CGRect gframe=CGRectMake(masterFrame.size.width*0.00, 
+								 masterFrame.origin.y+masterFrame.size.height*0.04f, 
+								 masterFrame.size.width*1.f,
+								 masterFrame.size.height*0.24f);
+		[_shelfControl setFrame:gframe];
+			// [self addControl:_shelfControl];
+		if (!is60)[self addControl:_shelfControl];
+		else [self addSubview:_shelfControl];
+		
+		
         _provider=[[self getProviderForShelf] retain];
         _adap = [[NSClassFromString(@"BRProviderDataSourceAdapter") alloc] init];
         [_adap setProviders:[NSArray arrayWithObject:_provider]];
@@ -891,42 +933,43 @@ void checkNil(NSObject *ctrl)
         [_shelfControl setCentered:NO];
         [_shelfControl setDataSource:_adap];
         [_shelfControl setDelegate:_adap];
-        //[adap autorelease];
-        [_shelfControl reloadData];
+       
+		[_shelfControl reloadData];
         
         [_shelfControl setColumnCount:8];
         [_shelfControl setHorizontalGap:33];
         [_shelfControl setReadyToDisplay];
         [_shelfControl layoutSubcontrols];
         [_shelfControl loadWithCompletionBlock:nil];
-        //[_shelfControl scrollingCompleted];
         
+		
         
         
         
         
         
     }
-    //    [_shelfControl setCoverflowMargin:.021746988594532013];
-    CGRect gframe=CGRectMake(masterFrame.size.width*0.00, 
-                             masterFrame.origin.y+masterFrame.size.height*0.04f, 
-                             masterFrame.size.width*1.f,
-                             masterFrame.size.height*0.24f);
-    [_shelfControl setFrame:gframe];
-		// [self addControl:_shelfControl];
-	if (!is60)[self addControl:_shelfControl];
-	else [self addSubview:_shelfControl];
-    
+  
 	
     [self setAdap:_adap];
 	[self setShelfControl:_shelfControl];
 	[self setProvider:_provider];
     
 }
+//
+//- (void)layoutSubcontrols
+//{
+//	%orig;
+//	[self reload];
+//	[self reloadShelf];
+//}
+
 -(void)wasPushed
 {
-    [self reload];
-    [self reloadShelf];
+	%orig;
+		    [self reload];
+		[self reloadShelf];
+	
 }
 -(void)controlWasActivated
 {

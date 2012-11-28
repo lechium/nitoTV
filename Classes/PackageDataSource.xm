@@ -24,6 +24,18 @@
 @synthesize packageData, imageURL, rawCoverArt, provider, installed, currentMode, listActionMode;
 */
 
+%subclass NSMFPhotoMediaCollection: BRPhotoMediaCollection
+
+-(id)imageProxy                 {return [objc_getClass("BRPhotoImageProxy") imageProxyWithAsset:[self keyAsset]];}
+-(BOOL)isLocal                  {return YES;}
+-(id)description                {return [NSString stringWithFormat:@"NSMFPhotoMediaCollection: %@;", [self mediaAssets]];}
+-(unsigned int)hash             {return 10;}
+-(int)count                     {return [[self mediaAssets]count];}
+-(id)provider                   {return [objc_getClass("BRImageProxyProvider") providerWithAssets:[self mediaAssets]];}
+-(id)archivableCollectionInfo   {return @"200";}
+-(id)collectionID               {return @"200";}
+
+%end
 
 
 static int currentMode;
@@ -720,7 +732,6 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			[asset release];
 	}
 	
-
 	return [assetArray autorelease];
 }
 
@@ -745,25 +756,15 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 %new -(id)providerForShelf //no more brdatastore!! :(
 {
 	
-	Class brds = objc_getClass("BRDataStore");
-	if (brds == nil)
-	{
-		NSLog(@"no more BRDataStore :(, returning nil at providerForShelf");
-		return nil;
-	}
-	id photoType = [objc_getClass("BRMediaType") photo];
-    NSSet *_set = [NSSet setWithObject:photoType];
-    NSPredicate *_pred = [NSPredicate predicateWithFormat:@"mediaType == %@",photoType];
-    id store = [[brds alloc] initWithEntityName:@"Hello" predicate:_pred mediaTypes:_set];
 	NSArray *assets = nil;
 	switch (currentMode) {
-	
+			
 		case kPKGFavoritesListMode:
 			
 			assets = [self favoriteDataStore];
 			
 			break;
-	
+			
 		case kPKGRepoListMode:
 			
 			assets = [self repoDataStore];
@@ -781,13 +782,36 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			assets = [self installedDataStore];
 			
 			break;
-		
+			
 		default:
 			assets = nil;
 				//assets = [SMFPhotoMethods mediaAssetsForPath:[[NSBundle bundleForClass:[self class]]pathForResource:@"Posters" ofType:@""]];
 			break;
-	
+			
 	}
+	 id tcControlFactory = [objc_getClass("BRPosterControlFactory") factory];
+	
+		//Class brds = objc_getClass("BRDataStore");
+	Class brds = nil;
+	if (brds == nil)
+	{
+		
+		NSLog(@"no more BRDataStore :(, returning nil at providerForShelf");
+			
+		if (assets == nil) return nil;
+		id collection = [objc_getClass("PackageDataSource") photoCollectionForAssets:assets withName:@"PackageDataStores"];
+			//	NSLog(@"collection: %@", collection);
+		id _provider = [objc_getClass("BRPhotoProviderForCollection") providerForCollection:collection controlFactory:tcControlFactory];
+			//	NSLog(@"provider: %@", _provider);
+		 [self setProvider:_provider];
+		return _provider; 
+			//return nil;
+	}
+	id photoType = [objc_getClass("BRMediaType") photo];
+    NSSet *_set = [NSSet setWithObject:photoType];
+    NSPredicate *_pred = [NSPredicate predicateWithFormat:@"mediaType == %@",photoType];
+    id store = [[brds alloc] initWithEntityName:@"Hello" predicate:_pred mediaTypes:_set];
+	
 	
 	
  
@@ -796,12 +820,67 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
     }
     
     
-    id tcControlFactory = [objc_getClass("BRPosterControlFactory") factory];
+   
     id _provider    = [objc_getClass("BRPhotoDataStoreProvider") providerWithDataStore:store controlFactory:tcControlFactory];
     [self setProvider:_provider];
 	[store release];
     return _provider; 
 }
+
+%new +(id)photoCollectionForAssets:(NSArray *)assets withName:(NSString *)theName
+{
+    id collection = [[objc_getClass("NSMFPhotoMediaCollection") alloc]init];
+    [collection setMediaAssets:assets];
+    if([assets count]>0)
+        [collection setKeyAssetID:[[assets objectAtIndex:0] assetID]];
+    [collection setCollectionName:theName];
+    [collection setCollectionType:[objc_getClass("BRMediaCollectionType") iPhotoSlideshow]];
+    return [collection autorelease];
+}
+
+%new +(id)photoCollectionForPath:(NSString *)path
+{
+    NSArray *assets = [objc_getClass("PackageDataSource") mediaAssetsForPath:path];
+    id collection = [[objc_getClass("NSMFPhotoMediaCollection") alloc]init];
+    [collection setMediaAssets:assets];
+    if([assets count]>0)
+        [collection setKeyAssetID:[[assets objectAtIndex:0] assetID]];
+    [collection setCollectionName:[path lastPathComponent]];
+    [collection setCollectionType:[objc_getClass("BRMediaCollectionType") iPhotoSlideshow]];
+    return [collection autorelease];
+}
+
+%new +(NSArray *)mediaAssetsForPath:(id)path
+{
+	NSArray *coverArtExtention=[NSArray arrayWithObjects:
+                       @"jpg",
+                       @"jpeg",
+                       @"tif",
+                       @"tiff",
+                       @"png",
+                       @"gif",
+                       nil];
+    
+    NSArray *contents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:nil];
+	long i, count = [contents count];	
+	NSMutableArray *assets =[NSMutableArray array];
+	for ( i = 0; i < count; i++ )
+	{
+		NSString *idStr = [contents objectAtIndex:i];
+		if([coverArtExtention containsObject:[[idStr pathExtension] lowercaseString]])
+		{
+			id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] initWithPath:[path stringByAppendingPathComponent:idStr]];
+	
+			[asset setTitle:[idStr stringByDeletingPathExtension]];
+			
+			[assets addObject:asset];
+            [asset release];
+		}
+	}
+	return assets;
+}
+
+
 %new -(NSArray *)myButtons
 {
 	Class bti = objc_getClass("BRThemeInfo");

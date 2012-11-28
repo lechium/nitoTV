@@ -299,7 +299,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new -(void)controller:(id)c buttonSelectedAtIndex:(int)index
 {
 	
-		//	NSLog(@"%@ buttonSelectedAtIndex: %i", c, index);
+		NSLog(@"%@ buttonSelectedAtIndex: %i", c, index);
 	id selectedButton = [[c buttons] objectAtIndex:index];
 		//NSLog(@"selectedButton: %@", selectedButton);
 		//nitoLogFrame([selectedButton bounds]);
@@ -395,7 +395,25 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 {
 	if ([ctrl respondsToSelector:@selector(selectedControl)])
 	{
-		id data = [[c provider] data];
+		
+		id provider = [c provider];
+		id data = nil;
+		
+		if ([provider respondsToSelector:@selector(data)])
+		{
+			data = [provider data];
+		} else if ([provider respondsToSelector:@selector(_data)])
+		{
+			data = [provider _data];
+			
+				//	NSLog(@"whats this data got?: %@", data	);
+			
+		} else {
+			
+			NSLog(@"WHERES OUR DATA AT?!?!! BAIL!!!: %@ ", provider);
+			return;
+		}
+		
 		id selectedControl = [ctrl selectedControl]; //BRPosterControl
 		int focusedIndex = (int)[[ctrl focusedIndexPath] indexAtPosition:1]; //FIXME: okay so we need to fix this cuz we cant categorize!! 
 		id myAsset = [data objectAtIndex:focusedIndex];

@@ -930,16 +930,27 @@ void checkNil(NSObject *ctrl)
             [_shelfControl setColumnCount:8];
         }
         
-        [_shelfControl setCentered:NO];
+		if ([_shelfControl respondsToSelector:@selector(setAntialiasCoverflowPosters:)])
+			[_shelfControl setAntialiasCoverflowPosters:0];
+        
+		if ([_shelfControl respondsToSelector:@selector(_updateSublayerTransform)])
+			[_shelfControl _updateSublayerTransform];
+		
+		[_shelfControl setCentered:NO];
+		[_shelfControl setAcceptsFocus:TRUE];
+		[_shelfControl setScrollable:TRUE];
         [_shelfControl setDataSource:_adap];
         [_shelfControl setDelegate:_adap];
        
 		[_shelfControl reloadData];
+		if ([_shelfControl respondsToSelector:@selector(visibleScrollRectChanged)])
+			[_shelfControl visibleScrollRectChanged];
         
-        [_shelfControl setColumnCount:8];
+		[_shelfControl setColumnCount:8];
         [_shelfControl setHorizontalGap:33];
         [_shelfControl setReadyToDisplay];
         [_shelfControl layoutSubcontrols];
+		[_shelfControl _layoutShelfContents];
         [_shelfControl loadWithCompletionBlock:nil];
         
 		

@@ -1,5 +1,5 @@
 nitoTV version 0.8.4 AppleTV2,1 
-March 29th, 2012
+December 19th, 2012
 
 0.8.4
 

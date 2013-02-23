@@ -156,11 +156,12 @@ static BOOL _showWaitSpinner = TRUE;
 
 %new -(BOOL)sixtyPlus
 {
-	if ([self respondsToSelector:@selector(controls)])
-	{
-		return (FALSE);
-	}
-	return (TRUE);
+	return CPLUSPLUS_SUCKS[%c(packageManagement) ntvSixPointOhPLus];
+	//if ([self respondsToSelector:@selector(controls)])
+//	{
+//		return (FALSE);
+//	}
+//	return (TRUE);
 }
 
 -(id)init
@@ -182,13 +183,14 @@ static BOOL _showWaitSpinner = TRUE;
 
 	if ([self sixtyPlus])
 	{
-		[[self layer] setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
-		[[self layer] setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
-		[[self layer] setBorderWidth:3.0];
+		NSLog(@"60 plus");
+			[[self layer] setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+			[[self layer] setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
+			[[self layer] setBorderWidth:3.0];
 	} else {
-		[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
-		[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
-		[self setBorderWidth:3.0];
+			[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+			[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
+			[self setBorderWidth:3.0];
 	}
 	
 	

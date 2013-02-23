@@ -873,8 +873,18 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 {
 	if (missingDefaults == TRUE)
 	{
-		int alertResult = [objc_getClass("BROptionAlertControl") postAlertWithTitle:BRLocalizedString(@"Choose source type", @"Choose source type") primaryText:BRLocalizedString(@"Default source(s) are missing, would you like to add a new one or restore a default?", @"Default source(s) are missing, would you like to add a new one or restore a default?") secondaryText:nil firstButton:BRLocalizedString(@"Restore Default", @"Restore Default") secondButton:BRLocalizedString(@"Add New", @"Add New") thirdButton:nil defaultFocus:0];
 		
+		int alertResult = 0;
+		Class broac = %c(BROptionAlertControl);
+		
+		if ([broac respondsToSelector:@selector(postAlertWithTitle:primaryText:secondaryText:firstButton:secondButton:thirdButton:defaultFocus:)])
+		{
+			alertResult = (int)[objc_getClass("BROptionAlertControl") postAlertWithTitle:BRLocalizedString(@"Choose source type", @"Choose source type") primaryText:BRLocalizedString(@"Default source(s) are missing, would you like to add a new one or restore a default?", @"Default source(s) are missing, would you like to add a new one or restore a default?") secondaryText:nil firstButton:BRLocalizedString(@"Restore Default", @"Restore Default") secondButton:BRLocalizedString(@"Add New", @"Add New") thirdButton:nil defaultFocus:0];
+		
+		} else {
+			
+			alertResult = (int)[objc_getClass("BROptionAlertControl") postAlertWithTitleAndCancel:BRLocalizedString(@"Choose source type", @"Choose source type") primaryText:BRLocalizedString(@"Default source(s) are missing, would you like to add a new one or restore a default?", @"Default source(s) are missing, would you like to add a new one or restore a default?") secondaryText:nil firstButton:BRLocalizedString(@"Restore Default", @"Restore Default") secondButton:BRLocalizedString(@"Add New", @"Add New") thirdButton:nil defaultFocus:0 identifier:@"" cancelIndex:0 allowAutoDismiss:NO autoDismissIndex:0];
+		}
 		id controller = nil;
 		
 		

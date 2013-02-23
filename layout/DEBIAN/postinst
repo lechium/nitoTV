@@ -3,6 +3,8 @@ FILE2=/var/mobile/Media/Photos/seas0nTV.png
 FILE3=/var/mobile/Media/Photos/spicon.png
 FILE4=/Library/MobileSubstrate/DynamicLibraries/apocalypsePony
 FILE4FULL=$FILE4.dylib
+FILE5=/var/mobile/Library/Preferences/spicon.png
+
 
 if [ -f $FILE2 ];
 then
@@ -21,6 +23,14 @@ then
    echo "File $FILE3 exists. removing..."
    rm $FILE4*
 fi
+
+if [ -f $FILE5 ];
+then
+   echo "File $FILE5 exists. removing..."
+   rm $FILE5
+fi
+
+
 
 # remove ultra snow repo, it is useless on appletv
 

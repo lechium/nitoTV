@@ -238,7 +238,7 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 	
 		//
 	[%c(nitoTVAppliance) updateAwkwardRepo];
-	[%c(nitoTVAppliance) addNitoRepo];
+		//[%c(nitoTVAppliance) addNitoRepo];
 	[%c(nitoTVAppliance) addXBMCRepo];
 	[%c(nitoTVAppliance) fixFourPointThree];
 		//[nitoTVAppliance fix44Betas];

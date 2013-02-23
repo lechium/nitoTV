@@ -251,8 +251,19 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		primaryInfo = [NSString stringWithFormat:BRLocalizedString(@"The following packages depend upon %@, do you wish to delete all of them?",@"primary text for the alert on removing packages"), packageToRemove];
 		
 	}
-	int alertResult = (int)[objc_getClass("BROptionAlertControl") postAlertWithTitle:theTitle primaryText:primaryInfo secondaryText:secondaryString firstButton:BRLocalizedString(@"Cancel", @"Cancel") secondButton:BRLocalizedString(@"Delete", @"Delete") thirdButton:nil defaultFocus:0];
 	
+	int alertResult = 0;
+	Class broac = %c(BROptionAlertControl);
+	
+	if ([broac respondsToSelector:@selector(postAlertWithTitle:primaryText:secondaryText:firstButton:secondButton:thirdButton:defaultFocus:)])
+	{
+		alertResult = (int)[objc_getClass("BROptionAlertControl") postAlertWithTitle:theTitle primaryText:primaryInfo secondaryText:secondaryString firstButton:BRLocalizedString(@"Cancel", @"Cancel") secondButton:BRLocalizedString(@"Delete", @"Delete") thirdButton:nil defaultFocus:0];
+	
+	} else {
+			
+		alertResult = (int)[objc_getClass("BROptionAlertControl") postAlertWithTitleAndCancel:theTitle primaryText:primaryInfo secondaryText:secondaryString firstButton:BRLocalizedString(@"Cancel", @"Cancel") secondButton:BRLocalizedString(@"Delete", @"Delete") thirdButton:nil defaultFocus:0 identifier:@"" cancelIndex:0 allowAutoDismiss:NO autoDismissIndex:0];
+		
+	}
 	
 	
 		//NSLog(@"showUpdateDialog result: %i", alertResult);

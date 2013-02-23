@@ -443,13 +443,13 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	{
 		f.origin = CGPointMake(110, 70.0f);
 	}
-    if ([_entryControl tabControl] != nil)
-	{
-		if ([self is60Plus])
-			[[_entryControl tabControl] removeFromSuperview];
-		else 
-		    [[_entryControl tabControl] removeFromParent];
-	}
+   // if ([_entryControl tabControl] != nil)
+//	{
+//		if ([self is60Plus])
+//			[[_entryControl tabControl] removeFromSuperview];
+//		else 
+//		    [[_entryControl tabControl] removeFromParent];
+//	}
 
 	[_entryControl setFrame:f];
 		//	NSLog(@"entryControlFrame: %@", NSStringFromCGRect(f));

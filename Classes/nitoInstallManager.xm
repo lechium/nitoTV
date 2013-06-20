@@ -22,7 +22,7 @@
 #import "nitoMockMenuItem.h"
 #import "packageManagement.h"
 
-
+#define MYSELF %c(nitoInstallManager)
 #define kNitoWebURL @"http://nitosoft.com/ATV2/install/payloads.plist"
 
 static BOOL _essentialUpgrade = FALSE;
@@ -207,15 +207,46 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	return 0;
 }
 
+%new + (BOOL) hasFavoritesCache
+{
+	return ([FM fileExistsAtPath:[MYSELF favoritesCache]]);
+}
+
+%new + (NSString *)favoritesCache
+{
+	return [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Preferences/Favorites.plist"];
+}
+
 %new + (NSArray *)nitoPackageArray
 {
 	NSURL *theUrl = [[NSURL alloc]initWithString:kNitoWebURL];
-	NSArray *initialArray = [[NSArray alloc] initWithContentsOfURL:[theUrl autorelease]];
+	NSArray *initialArray = nil;
+	
+	if ([PM _shouldCheckUpdate])
+	{
+		initialArray = [[NSArray alloc] initWithContentsOfURL:[theUrl autorelease]];
+		[initialArray writeToFile:[MYSELF favoritesCache] atomically:YES];
+		 
+	} else {
+	
+		if ([MYSELF hasFavoritesCache])
+		{
+			initialArray = [[NSArray alloc] initWithContentsOfFile:[MYSELF favoritesCache]];
+		} else {
+			
+			initialArray = [[NSArray alloc] initWithContentsOfURL:[theUrl autorelease]];
+			[initialArray writeToFile:[MYSELF favoritesCache] atomically:YES];
+		}
+		
+		
+	}
+	
+	
 		//	NSLog(@"initialArray: %@", initialArray);
 	NSMutableArray *newArray = [[NSMutableArray alloc] init];
 	for (id currentObject in initialArray)
 	{
-		if ([%c(nitoInstallManager) versionSafe:currentObject] == 0)
+		if ([MYSELF versionSafe:currentObject] == 0)
 		{
 			[newArray addObject:currentObject];
 		}
@@ -244,7 +275,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 		//{
 		//NSLog(@"interwebz are available!");
 		
-		[_updateArray addObjectsFromArray:[%c(nitoInstallManager) nitoPackageArray]];
+		[_updateArray addObjectsFromArray:[MYSELF nitoPackageArray]];
 		NSDictionary *packageSearchDict = [NSDictionary dictionaryWithObjectsAndKeys:@"Search for Packages", @"name", @"Search for debian packages on the Cydia and awkwardTV repositories", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
 		[_updateArray addObject:packageSearchDict];
 		NSDictionary *updateAll = [NSDictionary dictionaryWithObjectsAndKeys:@"Update All", @"name", @"runs apt-get -y -u dist-upgrade", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
@@ -293,7 +324,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 		//if (internetAvailable == YES)
 		//	{
 		
-		[_updateArray addObjectsFromArray:[%c(nitoInstallManager) nitoPackageArray]];
+		[_updateArray addObjectsFromArray:[MYSELF nitoPackageArray]];
 		//NSLog(@"_updateArray: %@", _updateArray);
 			//	updateArray = [[NSArray alloc] initWithContentsOfURL:[[NSURL alloc]initWithString:kNitoWebURL]];
 		NSDictionary *packageSearchDict = [NSDictionary dictionaryWithObjectsAndKeys:@"Search for Packages", @"name", @"Search for debian packages on the Cydia and awkwardTV repositories", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
@@ -859,7 +890,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)runEssentialUpgrade:(NSString *)queueFile
 {
 	_essentialUpgrade = TRUE;
-	[[self stack] popToControllerOfClass:%c(nitoInstallManager)];
+	[[self stack] popToControllerOfClass:MYSELF];
 	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper queue %@", queueFile];
@@ -873,7 +904,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)runNitoTVUpgrade //deprecated, already!!
 {
 	_essentialUpgrade = TRUE;
-	[[self stack] popToControllerOfClass:%c(nitoInstallManager)];
+	[[self stack] popToControllerOfClass:MYSELF];
 	id consoleController  = [[%c(NSMFComplexProcessDropShadowControl) alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = @"/usr/bin/nitoHelper su 1 2";

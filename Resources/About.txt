@@ -1,5 +1,9 @@
-nitoTV version 0.8.4 AppleTV2,1 
-December 19th, 2012
+nitoTV version 0.8.5 AppleTV2,1 
+June 20th, 2012
+
+0.8.5 
+
+Implemented caching for favorites, greatly improves the responsiveness and lightens the load on the nitosoft.com server, fixed right action button menu for the favorites list.
 
 0.8.4
 

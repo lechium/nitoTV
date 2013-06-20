@@ -1231,7 +1231,7 @@
 		fRef = 8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */;
 		name = "nitoInstallManager.m: 1085";
 		rLen = 0;
-		rLoc = 23378;
+		rLoc = 24086;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 29662;
@@ -2104,18 +2104,18 @@
 	};
 	32D975E7131E1044007B5BE3 /* packageManagement.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1474, 1072}}";
-			sepNavSelRange = "{1284, 0}";
-			sepNavVisRange = "{239, 1803}";
-			sepNavWindowFrame = "{{889, 540}, {1533, 878}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 1872}}";
+			sepNavSelRange = "{1384, 0}";
+			sepNavVisRange = "{239, 2663}";
+			sepNavWindowFrame = "{{34, 9}, {1143, 1399}}";
 		};
 	};
 	32D975E8131E1044007B5BE3 /* packageManagement.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1474, 22640}}";
-			sepNavSelRange = "{12442, 25}";
-			sepNavVisRange = "{12190, 1318}";
-			sepNavWindowFrame = "{{351, 124}, {1533, 934}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 23712}}";
+			sepNavSelRange = "{11890, 18}";
+			sepNavVisRange = "{10765, 2107}";
+			sepNavWindowFrame = "{{46, 538}, {1050, 880}}";
 		};
 	};
 	32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */ = {
@@ -2558,9 +2558,9 @@
 	};
 	8726BE23128BD3FD00D84785 /* nitoInstallManager.xm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1313, 20448}}";
-			sepNavSelRange = "{30325, 19}";
-			sepNavVisRange = "{30244, 205}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 22064}}";
+			sepNavSelRange = "{5466, 2}";
+			sepNavVisRange = "{4420, 2334}";
 			sepNavWindowFrame = "{{744, 540}, {1553, 878}}";
 		};
 	};
@@ -3057,6 +3057,45 @@
 			sepNavSelRange = "{1106, 25}";
 			sepNavVisRange = "{0, 1053}";
 			sepNavWindowFrame = "{{916, 14}, {1300, 1335}}";
+		};
+	};
+	896B319215F19AA20049FA2E /* NSMFComplexDropShadowControl.xm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 6992}}";
+			sepNavSelRange = "{3679, 193}";
+			sepNavVisRange = "{3511, 391}";
+		};
+	};
+	896B319815F19AA20049FA2E /* NSMFListDropShadowControl.xm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 8896}}";
+			sepNavSelRange = "{2366, 15}";
+			sepNavVisRange = "{1665, 1630}";
+			sepNavWindowFrame = "{{84, 32}, {1242, 1318}}";
+		};
+	};
+	896B362615F1CFA20049FA2E /* Extensions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 6096}}";
+			sepNavSelRange = "{1011, 15}";
+			sepNavVisRange = "{1566, 1020}";
+			sepNavWindowFrame = "{{517, 540}, {1555, 878}}";
+		};
+	};
+	896B376815F1D5750049FA2E /* NSMFThemeInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 3072}}";
+			sepNavSelRange = "{2193, 24}";
+			sepNavVisRange = "{165, 2376}";
+			sepNavWindowFrame = "{{38, 74}, {1242, 1318}}";
+		};
+	};
+	899A8809143B0157007D23BE /* nitoMoreMenu.xm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 1632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+			sepNavWindowFrame = "{{61, 53}, {1242, 1318}}";
 		};
 	};
 }

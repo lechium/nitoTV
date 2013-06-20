@@ -224,6 +224,48 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	return [newArray autorelease];
 }
 
+%new - (void)createLayout
+{
+	LogSelf;
+	NSString *settingsPng = [[NSBundle bundleForClass:[packageManagement class]] pathForResource:@"packagemaker" ofType:@"png" inDirectory:@"Images"];
+	id sp = [objc_getClass("BRImage") imageWithPath:settingsPng];
+	[self setListIcon:sp horizontalOffset:0.0 kerningFactor:0.15];
+	
+	id _queueArray = [[NSMutableArray alloc] init];
+	[self setQueueArray:_queueArray];
+	
+	id _updateArray = [[NSMutableArray alloc] init];
+	
+		//BOOL internetAvailable = [(BRIPConfiguration *)objc_getClass("BRIPConfiguration") internetAvailable];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showUpdateDialog:) name:@"CheckForUpdate" object:nil];
+	
+		//if ([objc_getClass("packageManagement") internetAvailable] == YES)
+		//{
+		//NSLog(@"interwebz are available!");
+		
+		[_updateArray addObjectsFromArray:[%c(nitoInstallManager) nitoPackageArray]];
+		NSDictionary *packageSearchDict = [NSDictionary dictionaryWithObjectsAndKeys:@"Search for Packages", @"name", @"Search for debian packages on the Cydia and awkwardTV repositories", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
+		[_updateArray addObject:packageSearchDict];
+		NSDictionary *updateAll = [NSDictionary dictionaryWithObjectsAndKeys:@"Update All", @"name", @"runs apt-get -y -u dist-upgrade", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
+		[_updateArray addObject:updateAll];
+		
+		//} else {
+		
+		//	NSDictionary *noInternet = [NSDictionary dictionaryWithObjectsAndKeys:@"Internet unavailable", @"name", @"Search for debian packages on the Cydia and awkwardTV repositories", @"description", @"url", @"com.package.search", @"1.0", @"version", nil];
+		//	[_updateArray addObject:noInternet];
+			//id alertCon = [self _internetNotAvailable];
+//				//		[alertCon retain];
+//			return alertCon;
+//}
+	
+	[self setUpdateArray:_updateArray];
+	
+	[[self list] setDatasource:self];
+	[[self list] addDividerAtIndex:0 withLabel:BRLocalizedString(@"Featured", @"Featured menu item divider in software section")];
+	[[self list] addDividerAtIndex:[_updateArray count]-2 withLabel:BRLocalizedString(@"Options", @"Options menu item divider in software section")];
+}
+
 
 - (id)initWithTitle:(NSString *)theTitle
 
@@ -231,16 +273,17 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	LogSelf;
 	self = %orig;
 	[self setLabel:@"com.nito.installation"];
-	NSString *settingsPng = [[NSBundle bundleForClass:[packageManagement class]] pathForResource:@"packagemaker" ofType:@"png" inDirectory:@"Images"];
+
 	_essentialUpgrade = FALSE;
 	_alreadyCheckedUpdate = FALSE;
 	
-	id _queueArray = [[NSMutableArray alloc] init];
-	[self setQueueArray:_queueArray];
+	/*
 	id sp = [objc_getClass("BRImage") imageWithPath:settingsPng];
 	[self setListIcon:sp horizontalOffset:0.0 kerningFactor:0.15];
 	
-		//id _versions = [[NSMutableArray alloc] init];
+	id _queueArray = [[NSMutableArray alloc] init];
+	[self setQueueArray:_queueArray];
+	
 	id _updateArray = [[NSMutableArray alloc] init];
 	
 		//BOOL internetAvailable = [(BRIPConfiguration *)objc_getClass("BRIPConfiguration") internetAvailable];
@@ -275,7 +318,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[[self list] addDividerAtIndex:0 withLabel:BRLocalizedString(@"Featured", @"Featured menu item divider in software section")];
 	[[self list] addDividerAtIndex:[_updateArray count]-2 withLabel:BRLocalizedString(@"Options", @"Options menu item divider in software section")];
 	
-	
+	*/
 	return (self);
 	
 }
@@ -1016,10 +1059,16 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	[[self list] reload];
 }
 
+- (void)wasPushed
+{
+	LogSelf;
+	[self createLayout];
+	%orig;
+}
 
 - (void)controlWasActivated
 {
-		//LogSelf;
+	LogSelf;
 	
 	if (_alreadyCheckedUpdate == TRUE)
 	{
@@ -1032,17 +1081,14 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	
 		[NSThread detachNewThreadSelector:@selector(checkForUpdate) toTarget:PM	withObject:nil];
 	_alreadyCheckedUpdate = TRUE;
-//	if ([PM checkForUpdate] != nil)
-//	{
-//		self._alreadyCheckedUpdate = TRUE;
-//			NSLog(@"showing updating dialog!!!");
-//			//[[NSNotificationCenter defaultCenter] postNotificationName:@"CheckForUpdate" object:nil userInfo:nil];
-//			[self performSelectorOnMainThread:@selector(showEssentialUpdateDialog) withObject:nil waitUntilDone:NO];
-//			//[self performSelector:@selector(showUpdateDialog) withObject:nil afterDelay:5];
-//			//[NSTimer timerWithTimeInterval:1 target:self selector:@selector(showUpdateDialog) userInfo:nil repeats:NO];
-//	}
 
 	%orig;
+	
+	if (![self respondsToSelector:@selector(wasPushed)])
+	{
+		NSLog(@"it doesnt respond to wasPushed, this may be frivolous and i may be mistaken");
+		[self createLayout];
+	}
 	
 
 }

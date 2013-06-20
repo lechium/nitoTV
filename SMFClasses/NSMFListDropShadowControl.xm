@@ -106,6 +106,16 @@ static BOOL _isAnimated = TRUE;
 
 #define BRLC objc_getClass("ntvListControl")
 
+%new -(BOOL)sixtyPlus
+{
+	return CPLUSPLUS_SUCKS[%c(packageManagement) ntvSixPointOhPLus];
+		//if ([self respondsToSelector:@selector(controls)])
+		//	{
+		//		return (FALSE);
+		//	}
+		//	return (TRUE);
+}
+
  -(id)init
 {
     self =%orig;
@@ -115,8 +125,9 @@ static BOOL _isAnimated = TRUE;
         [theList setDatasource:self];
         _isAnimated = FALSE; 
         
-		if ([self respondsToSelector:@selector(controls)])
+		if ([self sixtyPlus] == FALSE)
 		{
+			NSLog(@"we in here, i forget what to check :(");
 			[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
 			[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
 		} else {

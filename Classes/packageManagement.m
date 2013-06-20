@@ -375,6 +375,11 @@ enum {
 
 	//us.scw.afctwoadd
 
++ (BOOL)internetAvailable
+{
+	return [objc_getClass("BRIPConfiguration") internetAvailable];
+}
+
 - (void)checkForUpdate //change update check to look for a typedef int rather than bool, then we can say 0 == update nitotv 1 = update essential 2 = both -1 = none?
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];

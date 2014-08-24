@@ -6,6 +6,8 @@
 //  Copyright 2008 nito llc. All rights reserved.
 //
 
+#import "packageManagement.h"
+
 
 #define TEXT_LEADING 5.0f
 #define ICON_TOP_OFFSET 1.85f //higher numbers = lower
@@ -241,7 +243,7 @@ static char const * const kNItoWVWeatherDictionaryKey = "nWVWeatherDictionary";
 	//NSLog(@"pictureString: %@", pictureString);
 	
 	//id myImage = [BRImage imageWithPath:pictureString];
-	id myImage = [objc_getClass("BRImage") imageWithURL:[NSURL URLWithString:pictureString]];
+	id myImage = [packageManagement _imageWithURL:[NSURL URLWithString:pictureString]];
 	return myImage;
 }
 
@@ -382,7 +384,7 @@ static char const * const kNItoWVWeatherDictionaryKey = "nWVWeatherDictionary";
 	
 	//NSLog(@"pictureString: %@", pictureString);
 	
-	id myImage = [objc_getClass("BRImage") imageWithURL:[NSURL URLWithString:pictureString]];
+	id myImage = [packageManagement _imageWithURL:[NSURL URLWithString:pictureString]];
 	return myImage;
 }
 

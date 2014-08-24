@@ -9,11 +9,23 @@
 	//#import "NSMFBaseAsset.h"
 	//#import "SMFMediaPreview.h"
 
+#import "../Classes/packageManagement.h"
+
 static char const * const kSMFBAMetaKey = "SMFBAMeta";
 static char const * const kSMFBAImageKey = "SMFBAImage";
-
+static char const * const kSMFBAImageURLKey = "SMFBAImageURL";
 
 %subclass NSMFBaseAsset : BRXMLMediaAsset
+
+%new - (id)coverArtURL
+{
+    return [self associatedValueForKey:(void*)kSMFBAMetaKey];
+}
+
+%new - (id)setCoverArtURL:(id)value
+{
+    [self associateValue:value withKey:(void*)kSMFBAImageURLKey];
+}
 
 %new - (id)meta {
 	
@@ -96,11 +108,14 @@ static char const * const kSMFBAImageKey = "SMFBAImage";
 
 %new -(void)setCoverArtPath:(NSString *)path
 {
+    NSLog(@"setCoverArtPath: %@", path);
+    [self setCoverArtURL:[NSURL URLWithString:path]];
     if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
 			// [_image release];
 			// _image=[[objc_getClass("BRImage") imageWithPath:path] retain];
-		[self setImage:[objc_getClass("BRImage") imageWithPath:path]];
-	}
+		//[self setImage:[objc_getClass("BRImage") imageWithPath:path]];
+        [self setImage:[packageManagement _imageWithPath:path]];
+    }
 
 }
 %new -(NSDictionary *)orderedDictionary

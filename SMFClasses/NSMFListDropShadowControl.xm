@@ -188,9 +188,9 @@ static BOOL _isAnimated = TRUE;
     if ([ctrl respondsToSelector:@selector(addControl:)])
 		[ctrl addControl:self];
     else 
-		[ctrl addSubview:self];
+		[ctrl addSubview:(UIView *)self];
 	
-	[ctrl setFocusedControl:self];
+	[ctrl setFocusedControl:(BRControl *)self];
     [ctrl _setFocus:self];
 }
 -(void)controlWasActivated
@@ -400,7 +400,7 @@ static BOOL _isAnimated = TRUE;
 	CABasicAnimation *pos = [CABasicAnimation animationWithKeyPath:@"position"];
 	if ([self sender] != nil)
 	{
-		pos.fromValue = [NSValue valueWithCGPoint:[[self sender] position]];
+		pos.fromValue = [NSValue valueWithCGPoint:[(UIView *)[self sender] position]];
 	} else {
 		pos.fromValue = [NSValue valueWithCGPoint:ZOOM_TO_POINT]; //
 	}
@@ -416,7 +416,7 @@ static BOOL _isAnimated = TRUE;
 	pos.fromValue = [NSValue valueWithCGPoint:CGPointMake(640.0, 360.0)];
 	if ([self sender] != nil)
 	{
-		pos.toValue = [NSValue valueWithCGPoint:[[self sender] position]];
+		pos.toValue = [NSValue valueWithCGPoint:[(UIView *)[self sender] position]];
 	} else {
 		pos.toValue = [NSValue valueWithCGPoint:ZOOM_TO_POINT];
 	}

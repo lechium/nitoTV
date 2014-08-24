@@ -228,6 +228,46 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>89C60B731793315000E7C6FB</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>packageManagement.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>89C60B741793315000E7C6FB</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>packageManagement.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>899D7A951877BFED00D6320F</string>
+						<key>history</key>
+						<array>
+							<string>899D7A941877BFED00D6320F</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1382, 831}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 4 1382 872 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>89C3FD8B16C7241100228B88</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>nitoInstallManager.xm</string>
@@ -242,10 +282,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>891E5B021774F3870089BFD7</string>
+						<string>899D7A961877BFED00D6320F</string>
 						<key>history</key>
 						<array>
-							<string>891E58A21774A4F50089BFD7</string>
+							<string>89C60B771793315000E7C6FB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -282,10 +322,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>891E5B031774F3870089BFD7</string>
+						<string>899D7A971877BFED00D6320F</string>
 						<key>history</key>
 						<array>
-							<string>891E58A31774A4F50089BFD7</string>
+							<string>89C60B781793315000E7C6FB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -322,10 +362,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>891E5B041774F3870089BFD7</string>
+						<string>899D7A981877BFED00D6320F</string>
 						<key>history</key>
 						<array>
-							<string>891E58A41774A4F50089BFD7</string>
+							<string>89C60B791793315000E7C6FB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -403,7 +443,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>378</real>
+								<real>393</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -419,21 +459,22 @@
 								<string>896B318515F19A4C0049FA2E</string>
 								<string>89C210F01658251C001D6F82</string>
 								<string>89C210ED165824F6001D6F82</string>
+								<string>87188BFD12798343001861D7</string>
+								<string>87188BFC1279832F001861D7</string>
 								<string>87188BF5127982C9001861D7</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>21</integer>
-									<integer>13</integer>
+									<integer>44</integer>
+									<integer>36</integer>
 									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {378, 741}}</string>
+							<string>{{0, 234}, {393, 741}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -447,7 +488,7 @@
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>378</real>
+							<real>393</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>6 56 1372 822 0 0 1440 878 </string>
@@ -478,7 +519,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>891E5AFE1774F3870089BFD7</string>
+										<string>899D7A901877BFED00D6320F</string>
 										<key>history</key>
 										<array>
 											<string>89447A261626CE1C00FEF401</string>
@@ -586,10 +627,8 @@
 											<string>891E589F1774A4F50089BFD7</string>
 											<string>891E5AF71774F3870089BFD7</string>
 											<string>891E5AF81774F3870089BFD7</string>
-											<string>891E5AF91774F3870089BFD7</string>
-											<string>891E5AFB1774F3870089BFD7</string>
 											<string>891E5AFD1774F3870089BFD7</string>
-											<string>89C20E9016560B6F001D6F82</string>
+											<string>89C60B6F1793315000E7C6FB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -603,18 +642,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {972, 645}}</string>
+								<string>{{0, 0}, {972, 631}}</string>
 								<key>RubberWindowFrame</key>
 								<string>6 56 1372 822 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>645pt</string>
+							<string>631pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>110pt</string>
+							<string>123pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -628,7 +667,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {972, 83}}</string>
+										<string>{{10, 27}, {972, 96}}</string>
 										<key>RubberWindowFrame</key>
 										<string>6 56 1372 822 0 0 1440 878 </string>
 									</dict>
@@ -712,11 +751,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>891E5AFF1774F3870089BFD7</string>
+				<string>899D7A911877BFED00D6320F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>891E5B001774F3870089BFD7</string>
+				<string>899D7A921877BFED00D6320F</string>
 				<string>89276BDE148D6F5300C30A57</string>
-				<string>891E5B011774F3870089BFD7</string>
+				<string>899D7A931877BFED00D6320F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -890,6 +929,7 @@
 		<string>89A8133316844FBE001CA11A</string>
 		<string>89C3FD8B16C7241100228B88</string>
 		<string>/Users/kbradley/Projects/ATV2/nitoTV/nitoTV.xcodeproj</string>
+		<string>89C60B731793315000E7C6FB</string>
 	</array>
 	<key>WindowString</key>
 	<string>6 56 1372 822 0 0 1440 878 </string>

@@ -12,6 +12,7 @@
 
 	//#import "ntvRSSViewer.h"
 #import "APDocument.h"
+#import "packageManagement.h"
 
 /*
  
@@ -267,9 +268,12 @@ static char const * const kNitoRVPageTwoStringKey = "nRVPageTwoString";
 	id _previousPageImage = [[%c(BRImageControl) alloc] init];
 	
 	
-	id nextPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"NextPage" ofType:@"png"]];
-	id previousPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"PreviousPage" ofType:@"png"]];
+    id nextPageIcon = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"NextPage" ofType:@"png"]];
+    
+	//id nextPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"NextPage" ofType:@"png"]];
+	//id previousPageIcon = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"PreviousPage" ofType:@"png"]];
 	
+    id previousPageIcon = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"PreviousPage" ofType:@"png"]];
 	
 	if ([self respondsToSelector:@selector(controls)])
 	{

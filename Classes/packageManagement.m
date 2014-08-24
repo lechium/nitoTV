@@ -7,6 +7,7 @@
 	//
 
 #import "packageManagement.h"
+#import "Reachability.h"
 
 	//http://appldnld.apple.com/
 
@@ -28,6 +29,38 @@ enum {
 };
 
 @implementation packageManagement
+
++ (id)_imageWithURL:(NSURL *)urlPath
+{
+    Class imageClass = objc_getClass("BRImage");
+    if (imageClass == nil) //5.4bx+
+    {
+        imageClass = objc_getClass("ATVImage");
+    }
+    
+    if (imageClass == nil)
+    {
+        NSLog(@"the whole world is exploding, no BRImage OR ATVImage, how is this possible???");
+        return nil;
+    }
+    return [imageClass imageWithURL:urlPath];
+}
+
++ (id)_imageWithPath:(NSString *)imagePath
+{
+    Class imageClass = objc_getClass("BRImage");
+    if (imageClass == nil) //5.4bx+
+    {
+        imageClass = objc_getClass("ATVImage");
+    }
+    
+    if (imageClass == nil)
+    {
+        NSLog(@"the whole world is exploding, no BRImage OR ATVImage, how is this possible???");
+        return nil;
+    }
+    return [imageClass imageWithPath:imagePath];
+}
 
 + (NSString *)properVersion
 {
@@ -377,8 +410,31 @@ enum {
 
 + (BOOL)internetAvailable
 {
-	return [objc_getClass("BRIPConfiguration") internetAvailable];
+	NetworkStatus netStatus = [[Reachability reachabilityForInternetConnection] currentReachabilityStatus];
+	switch (netStatus) {
+			
+		case NotReachable:
+			//NSLog(@"NotReachable");
+			return NO;
+			break;
+			
+		case ReachableViaWiFi:
+			//NSLog(@"ReachableViaWiFi");
+			return YES;
+			break;
+			
+			
+		case ReachableViaWWAN:
+			//NSLog(@"ReachableViaWWAN");
+			return YES;
+			break;
+	}
+	return NO;
 }
+//+ (BOOL)internetAvailable
+//{
+//	return [objc_getClass("BRIPConfiguration") internetAvailable];
+//}
 
 - (void)checkForUpdate //change update check to look for a typedef int rather than bool, then we can say 0 == update nitotv 1 = update essential 2 = both -1 = none?
 {
@@ -391,7 +447,8 @@ enum {
 		return;
 	}
 	
-	BOOL internetAvailable = [objc_getClass("BRIPConfiguration") internetAvailable];
+    BOOL internetAvailable = [packageManagement internetAvailable];
+	//BOOL internetAvailable = [objc_getClass("BRIPConfiguration") internetAvailable];
 	if (internetAvailable == TRUE)
 	{
 		NSArray *updateArray = [packageManagement basicEssentialUpdatesAvailable];
@@ -769,12 +826,16 @@ enum {
 + (NSString *)domainFromRepoObject:(NSString *)repoObject
 {
 		//LogSelf;
-		//NSLog(@"repoObject: %@", repoObject);
+    if ([repoObject length] == 0)return nil;
 	NSArray *sourceObjectArray = [repoObject componentsSeparatedByString:@" "];
 	NSString *url = [sourceObjectArray objectAtIndex:1];
-	NSString *urlClean = [url substringFromIndex:7];
-	NSArray *secondArray = [urlClean componentsSeparatedByString:@"/"];
-	return [secondArray objectAtIndex:0];
+    if ([url length] > 7)
+    {
+        NSString *urlClean = [url substringFromIndex:7];
+        NSArray *secondArray = [urlClean componentsSeparatedByString:@"/"];
+        return [secondArray objectAtIndex:0];
+    }
+    return nil;
 }
 
 + (NSArray *)sourcesFromFile:(NSString *)theSourceFile
@@ -786,9 +847,13 @@ enum {
 	id currentSource = nil;
 	while (currentSource = [sourceEnum nextObject])
 	{
-		
-		[finalArray addObject:[packageManagement domainFromRepoObject:currentSource]];
-	}
+        NSString *theObject = [packageManagement domainFromRepoObject:currentSource];
+        if (theObject != nil)
+        {
+            if (![finalArray containsObject:theObject])
+                [finalArray addObject:theObject];
+        }
+    }
 	
 	return [finalArray autorelease];
 }

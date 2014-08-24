@@ -1,5 +1,5 @@
 
-
+#import "packageManagement.h"
 
 %subclass ntvMedia : BRXMLMediaAsset
 
@@ -32,7 +32,8 @@ static char const * const ntvMediaMetaKey = "nMediaMeta";
 		//[self setVersion:[dict valueForKey:@"version"]];
 	[self setImagePath:[dict valueForKey:@"imageUrl"]];
 	NSURL *imageURL = [NSURL URLWithString:[dict valueForKey:@"imageUrl"]];
-	[self setCoverArt:[%c(BRImage) imageWithURL:imageURL]];
+	[self setCoverArt:[packageManagement _imageWithURL:imageURL]];
+    //[self setCoverArt:[%c(BRImage) imageWithURL:imageURL]];
 	
 	return self;
 }
@@ -106,7 +107,9 @@ static char const * const ntvMediaMetaKey = "nMediaMeta";
 {
     if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
 			// [_image release];
-        [self setImage:[%c(BRImage) imageWithPath:path]];
+        [self setImage:[packageManagement _imageWithPath:path]];
+        
+        // [self setImage:[%c(BRImage) imageWithPath:path]];
 			//_image=[[BRImage imageWithPath:path] retain];
     }
 	
@@ -157,7 +160,8 @@ static char const * const ntvMediaMetaKey = "nMediaMeta";
 
 %new +(id)notFoundImage
 {
-    return [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"ApplianceIcon" ofType:@"png"]] ;
+    return [packageManagement _imageWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"ApplianceIcon" ofType:@"png"]];
+   // return [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"ApplianceIcon" ofType:@"png"]] ;
 }
 
 

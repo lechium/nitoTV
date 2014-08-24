@@ -10,4 +10,4 @@ Maintainer: nito
 Author: nito
 Description: New and improved installer including package queues, weather, RSS, featured packages, revamped search, package deletion, automatically checks for essential updates now too!
 Section: Utilities
-Depends: beigelist(>=2.2.5-10), mobilesubstrate, cydia(>=1.1.1), com.nito.tssagent(>=1.3-2), com.firecore.freemem-watcher
+Depends: beigelist(>=2.2.5-10), mobilesubstrate, cydia(>=1.1.1), com.nito.tssagent(>=1.3-2), com.firecore.freemem-watcher, syslogd

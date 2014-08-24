@@ -259,7 +259,8 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 {
 	LogSelf;
 	NSString *settingsPng = [[NSBundle bundleForClass:[packageManagement class]] pathForResource:@"packagemaker" ofType:@"png" inDirectory:@"Images"];
-	id sp = [objc_getClass("BRImage") imageWithPath:settingsPng];
+	id sp = [packageManagement _imageWithPath:settingsPng];
+    //id sp = [objc_getClass("BRImage") imageWithPath:settingsPng];
 	[self setListIcon:sp horizontalOffset:0.0 kerningFactor:0.15];
 	
 	id _queueArray = [[NSMutableArray alloc] init];
@@ -548,8 +549,8 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	if ([[[_updateArray objectAtIndex:item] allKeys] containsObject:@"description"])
 		description = [[_updateArray objectAtIndex:item] valueForKey:@"description"];
 		if (currentURL != nil)
-		{	[currentAsset setCoverArt:[objc_getClass("BRImage") imageWithURL:[NSURL URLWithString:currentURL]]];
-			
+		{	//[currentAsset setCoverArt:[objc_getClass("BRImage") imageWithURL:[NSURL URLWithString:currentURL]]];
+			[currentAsset setCoverArt:[packageManagement _imageWithURL:[NSURL URLWithString:currentURL]]];
 		} else
 		{
 			[currentAsset setCoverArt:[[NitoTheme sharedTheme] packageImage]];
@@ -761,8 +762,9 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 %new - (void)newUberInstaller:(NSString *)customFile
 {	
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    NSLog(@"customFile: %@", customFile);
 	id thatControl = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
-	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
+	NSString *command = [NSString stringWithFormat:@"/nitoHelper install %@ 2", customFile];
 	[thatControl setAp:command];
 		//[ROOT_STACK pushController:thatControl];
 	[thatControl setTitle:[NSString stringWithFormat:@"Installing %@", customFile]];

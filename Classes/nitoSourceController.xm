@@ -16,6 +16,12 @@
 #import "nitoMoreMenu.h"
 */
 
+//crashing here
+/*
+ 
+ Aug 24 15:12:39 Apple-TV AppleTV[2387]: *** Terminating app due to uncaught exception 'NSRangeException', reason: '*** -[__NSCFString substringFromIndex:]: Index 7 out of bounds; string length 2'
+ *** First throw call stack:
+ */
 
 enum  {
 	

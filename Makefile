@@ -1,6 +1,6 @@
 GO_EASY_ON_ME=1
-#FW_DEVICE_IP=apple-tv.local
-FW_DEVICE_IP=testtv.local
+FW_DEVICE_IP=apple-tv.local
+#FW_DEVICE_IP=testtv.local
 export DEBUG=1
 export SDKVERSION=4.3
 
@@ -17,7 +17,7 @@ nitoTV_FILES += Classes/nitoWeather.m Classes/nitoWeatherController.xm Classes/n
 nitoTV_FILES += Classes/ntvWeatherManager.xm Classes/ntvWeatherViewer.xm Classes/NitoTheme.m 
 nitoTV_FILES += Classes/nitoRss.m Classes/nitoRssController.xm Classes/ntvRssBrowser.xm 
 nitoTV_FILES += Classes/ntvRSSViewer.xm Classes/nitoSettingsController.xm
-nitoTV_FILES += Classes/nitoInstallManager.xm Classes/queryMenu.xm
+nitoTV_FILES += Classes/nitoInstallManager.xm Classes/queryMenu.xm Classes/Reachability.m
 nitoTV_FILES += Classes/kbScrollingTextControl.xm Classes/nitoDefaultManager.m Classes/packageManagement.m 
 nitoTV_FILES += SMFClasses/NSMFCompatibility.m Classes/nitoMockMenuItem.m SMFClasses/NSMFDropShadowControl.xm
 nitoTV_FILES += SMFClasses/NSMFBaseAsset.xm SMFClasses/NSMFComplexDropShadowControl.xm SMFClasses/NSMFComplexProcessDropShadowControl.xm 
@@ -29,7 +29,7 @@ nitoTV_INSTALL_PATH = /Applications/AppleTV.app/Appliances
 
 nitoTV_BUNDLE_EXTENSION = frappliance
 #nitoTV_CFLAGS += -std=c99 
-nitoTV_LDFLAGS =  -all_load -undefined dynamic_lookup -framework UIKit -framework ImageIO -FFrameworks -lz -lsubstrate -framework CoreGraphics
+nitoTV_LDFLAGS =  -all_load -undefined dynamic_lookup -framework UIKit -framework ImageIO -FFrameworks -lz -lsubstrate -framework CoreGraphics -framework Foundation -framework SystemConfiguration -framework CoreFoundation
 
 include $(FW_MAKEDIR)/bundle.mk
 

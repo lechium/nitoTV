@@ -3,6 +3,7 @@
 #import <math.h>
 #import "nitoWeather.h"
 #import "APXML.h"
+#import "packageManagement.h"
 
 #define DEGREE_UNICODE @"\u00B0"
 
@@ -356,7 +357,9 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 	//NSLog(@"pictureString: %@", pictureString);
 	
 	//BRImage *myImage = [BRImage imageWithPath:pictureString];
-	id myImage = [%c(BRImage) imageWithURL:[NSURL URLWithString:pictureString]];
+	id myImage = [packageManagement _imageWithURL:[NSURL URLWithString:pictureString]];
+	
+    //id myImage = [%c(BRImage) imageWithURL:[NSURL URLWithString:pictureString]];
 	return myImage;
 }
 
@@ -497,7 +500,9 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 	
 	//NSLog(@"pictureString: %@", pictureString);
 	
-	id myImage = [%c(BRImage) imageWithURL:[NSURL URLWithString:pictureString]];
+	id myImage = [packageManagement _imageWithURL:[NSURL URLWithString:pictureString]];
+    
+    //id myImage = [%c(BRImage) imageWithURL:[NSURL URLWithString:pictureString]];
 	return myImage;
 }
 
@@ -751,7 +756,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 	
 	
 	[self setLocations:_locations];
-	[self setUnits:_units];
+	[self setUnits:(NSString *)_units];
 	[self setNames:_names];
 	[self setLocationDicts:_locationDicts];
 	[self setGlobalDict:_globalDict];

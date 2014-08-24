@@ -53,6 +53,8 @@ deb http://apt.modmyi.com/ stable main
 
 }
 + (BOOL)internetAvailable;
++ (id)_imageWithPath:(NSString *)imagePath;
++ (id)_imageWithURL:(NSURL *)urlPath;
 + (BOOL)ntvSixPointOhPLus;
 + (BOOL)ntvFivePointOnePlus;
 + (NSArray *)defaultDomains;

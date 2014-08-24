@@ -288,14 +288,14 @@ static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
                               @"(no summary)",kSMFMoviePreviewSummary,
                               [NSArray array],kSMFMoviePreviewHeaders,
                               [NSArray array],kSMFMoviePreviewColumns,
-                              [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[NSMFMockMenuItem class]] pathForResource:@"colorAppleTVNameImage" ofType:@"png"]],kSMFMoviePreviewPoster,
+                              [packageManagement _imageWithPath:[[NSBundle bundleForClass:[NSMFMockMenuItem class]] pathForResource:@"colorAppleTVNameImage" ofType:@"png"]],kSMFMoviePreviewPoster,
                               @"",kSMFMoviePreviewPosterPath,
                               @"pg",kSMFMoviePreviewRating,
                               nil];
 		//NSLog(@"get information %@",[self datasource]);
     if ([self datasource]!=nil /*&& [[self datasource] conformsToProtocol:@protocol(NSMFMoviePreviewControllerDatasource)]*/) {
 			//NSLog(@"conforms to protocol");
-        NSString *t = [[self datasource] title];
+        NSString *t = (NSString*)[[self datasource] title];
         if (t!=nil)  {[d setObject:t forKey:kSMFMoviePreviewTitle];}
         t = [[self datasource] subtitle];
         if (t!=nil)  {[d setObject:t forKey:kSMFMoviePreviewSubtitle];}         
@@ -334,7 +334,7 @@ void checkNil(NSObject *ctrl)
 
 %new -(void)reload
 {
-	
+	NSLog(@"reload");
     Class __BRProxyManager=NSClassFromString(@"BRProxyManager");
     
 	BOOL is60 = FALSE;
@@ -381,7 +381,7 @@ void checkNil(NSObject *ctrl)
 	[self setInfo:_info];
 	
 	_summaryToggled=NO;
-    
+    NSLog(@"before preview control");
     
 	/*
      *  The Poster
@@ -402,6 +402,8 @@ void checkNil(NSObject *ctrl)
     [_previewControl setFrame:imageFrame];
 	[self setPreviewControl:_previewControl];
 	
+       NSLog(@"after preview control");
+    
 	if (!is60)[self addControl:_previewControl];
     else [self addSubview:_previewControl];
     /*
@@ -576,6 +578,24 @@ void checkNil(NSObject *ctrl)
                         r.origin.y=tempY-r.size.height;
                         [self logFrame:r];
                         
+                    }else if([[objects objectAtIndex:i] isKindOfClass:objc_getClass("ATVImage")])
+                    {
+                        ctrl = [[objc_getClass("BRImageControl") alloc]init];
+                        [ctrl setImage:[objects objectAtIndex:i]];
+                        float ar = (float)[ctrl aspectRatio];
+                        r.size=[ctrl pixelBounds];
+                        r.size.height=22.f;
+                        r.size.width=r.size.height*ar;
+                        if (r.size.width+r.origin.x>maxX)
+                        {
+                            float rescaleFactor=r.size.width/(maxX-r.origin.x);
+                            r.size.width=r.size.width*rescaleFactor;
+                            r.size.height=r.size.height*rescaleFactor;
+                            ctrl=nil;
+                        }
+                        r.origin.y=tempY-r.size.height;
+                        [self logFrame:r];
+                        
                     }
                     if (maxY<r.size.height)
                         maxY=r.size.height;
@@ -616,6 +636,21 @@ void checkNil(NSObject *ctrl)
                         objFrame.size.width=(masterFrame.size.width*increment*0.95f);
                 }
                 else if([[current objectAtIndex:objcount] isKindOfClass:objc_getClass("BRImage")])
+                {
+                    obj = [[objc_getClass("BRImageControl") alloc]init];
+                    [obj setImage:[current objectAtIndex:objcount]];
+                    objFrame.size=[obj pixelBounds];
+                    float ar = (float)[obj aspectRatio];
+                    objFrame.size.height=24.f;
+                    objFrame.size.width=objFrame.size.height*ar;
+                    if (objFrame.size.width>(masterFrame.size.width*increment*0.95f))
+                    {
+                        float rescaleFactor=objFrame.size.width/(masterFrame.size.width*increment*0.95f);
+                        objFrame.size.width=objFrame.size.width*rescaleFactor;
+                        objFrame.size.height=objFrame.size.height*rescaleFactor;
+                    }
+                    
+                } else if([[current objectAtIndex:objcount] isKindOfClass:objc_getClass("ATVImage")])
                 {
                     obj = [[objc_getClass("BRImageControl") alloc]init];
                     [obj setImage:[current objectAtIndex:objcount]];
@@ -747,7 +782,7 @@ void checkNil(NSObject *ctrl)
 				[self setPreviousArrowImageControl:_previousArrowImageControl];
 				
 				if (!is60)[self addControl:_previousArrowImageControl];
-				else [self addSubview:_previousArrowImageControl];
+				else [self addSubview:(UIView*)_previousArrowImageControl];
 			}
 		}
 		if ([[self delegate] respondsToSelector:@selector(controllerCanSwitchToNext:)]) {
@@ -773,7 +808,7 @@ void checkNil(NSObject *ctrl)
 				[self setNextArrowImageControl:_nextArrowImageControl];
 				
 				if (!is60)[self addControl:_nextArrowImageControl];
-				else [self addSubview:_nextArrowImageControl];
+				else [self addSubview:(UIView*)_nextArrowImageControl];
 			}
 		}
 	}
@@ -1021,7 +1056,7 @@ void checkNil(NSObject *ctrl)
 	ntvImageControl *_previousArrowImageControl = [self previousArrowImageControl];
 	_previousArrowTurnedOn = YES; //used to retain arrow state if view is reloaded
 	if (_previousArrowImageControl) {
-		id arrowImageON = [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_ON" ofType:@"png"]];
+		id arrowImageON = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_ON" ofType:@"png"]];
 		[_previousArrowImageControl setImage:arrowImageON];
 		[_previousArrowImageControl setNeedsLayout];
 	}
@@ -1031,7 +1066,7 @@ void checkNil(NSObject *ctrl)
 	id _previousArrowImageControl = [self previousArrowImageControl];
 	_previousArrowTurnedOn = NO; //used to retain arrow state if view is reloaded
 	if (_previousArrowImageControl) {
-		id arrowImageOFF = [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_OFF" ofType:@"png"]];
+		id arrowImageOFF = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_OFF" ofType:@"png"]];
 		[_previousArrowImageControl setImage:arrowImageOFF];
 		[_previousArrowImageControl setNeedsLayout];
 	}
@@ -1041,7 +1076,7 @@ void checkNil(NSObject *ctrl)
 	id _nextArrowImageControl = [self nextArrowImageControl];
 	_nextArrowTurnedOn = YES; //used to retain arrow state if view is reloaded
 	if (_nextArrowImageControl) {
-		id arrowImageON = [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_ON" ofType:@"png"]];
+		id arrowImageON = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_ON" ofType:@"png"]];
 		[_nextArrowImageControl setImage:arrowImageON];
 		[_nextArrowImageControl setNeedsLayout];
 	}
@@ -1051,7 +1086,7 @@ void checkNil(NSObject *ctrl)
 	id _nextArrowImageControl = [self nextArrowImageControl];
 	_nextArrowTurnedOn = NO; //used to retain arrow state if view is reloaded
 	if (_nextArrowImageControl) {
-		id arrowImageOFF = [objc_getClass("BRImage") imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_OFF" ofType:@"png"]];
+		id arrowImageOFF = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[BTI class]]pathForResource:@"Arrow_OFF" ofType:@"png"]];
 		[_nextArrowImageControl setImage:arrowImageOFF];
 		[_nextArrowImageControl setNeedsLayout];
 	}

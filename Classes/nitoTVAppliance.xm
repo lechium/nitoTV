@@ -123,8 +123,10 @@
 	//NSLog(@"shelf: %@", [topShelf shelf]);
 	//return topShelf;
 	id imageControl = [topShelf productImage];
-	id gpImage = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"nitoTV" ofType:@"png"]];
-	if ([imageControl respondsToSelector:@selector(setImage:)])
+	//id gpImage = [%c(BRImage) imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"nitoTV" ofType:@"png"]];
+	id gpImage = [packageManagement _imageWithPath:[[NSBundle bundleForClass:[NitoTheme class]] pathForResource:@"nitoTV" ofType:@"png"]];
+    
+    if ([imageControl respondsToSelector:@selector(setImage:)])
 	{
 		[imageControl setImage:gpImage];
 	}
@@ -604,8 +606,8 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 {
 	
 	//NSLog(@"selecteCategoryWithIdentifier: %@", ident);
-	BOOL internetAvailable = (BOOL)(long)(void *)[%c(BRIPConfiguration) internetAvailable];
-	
+	//BOOL internetAvailable = (BOOL)(long)(void *)[%c(BRIPConfiguration) internetAvailable];
+	BOOL internetAvailable = [packageManagement internetAvailable];
 	
 	id menuController = nil;
 	

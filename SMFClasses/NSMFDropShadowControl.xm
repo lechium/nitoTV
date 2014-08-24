@@ -185,7 +185,7 @@ static BOOL _isAnimated = TRUE;
 		{
 			[self updateSender]; //fixes the sender to have a proper X value for purposes of zooming in and out
 			
-			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:[[self sender] bounds]];
+			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:[(UIView *)[self sender] bounds]];
 		} else {
 			zoomInAnimation = [NSMFAnimation zoomInFadedToRect:CGRectZero];
 		}
@@ -204,9 +204,9 @@ static BOOL _isAnimated = TRUE;
 	{
 		[ctrl addControl:self];
 	} else {
-		[ctrl addSubview:self];
+		[ctrl addSubview:(UIView *)self];
 	}
-	[ctrl setFocusedControl:self]; //FIXME: now private ivar GRRR
+	[ctrl setFocusedControl:(BRControl *)self]; //FIXME: now private ivar GRRR
 		//[ctrl _setControlFocused:TRUE];
 	[ctrl _setFocus:self];
 }

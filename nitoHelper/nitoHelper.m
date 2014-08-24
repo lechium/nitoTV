@@ -16,7 +16,9 @@
 
 int main (int argc, const char * argv[]) {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-	setuid(0);
+    NSLog(@"SCIENCE");
+	setuid( 0 );
+    setgid( 0 );
 	int i;
 	for (i = 1; i < (argc - 1); i+= 2){
 		

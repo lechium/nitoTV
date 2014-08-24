@@ -320,7 +320,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new - (void)newUberInstaller:(NSString *)customFile
 {	
-	
+	NSLog(@"customFile: %@", customFile);
 	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
@@ -335,7 +335,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new - (void)newUberInstaller:(NSString *)customFile withSender:(id)sender
 {	
-	
+	NSLog(@"customFile: %@", customFile);
 	id consoleController  = [[objc_getClass("NSMFComplexProcessDropShadowControl") alloc] init];
 	[consoleController setDelegate:self];
 	NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper install %@ 2", customFile];
@@ -494,7 +494,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		{
 			[self setRawCoverArt:theImage];
 		} else {
-			[self setImageURLLtheImage];
+			[self setImageURL:theImage];
 		}
 	}
 	
@@ -601,7 +601,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	}
 	if ([self imageURL] != nil)
 	{
-		return [objc_getClass("BRImage") imageWithURL:[NSURL URLWithString:[self imageURL]]];
+		return [packageManagement _imageWithURL:[NSURL URLWithString:[self imageURL]]];
 	}
 
     return [[NitoTheme sharedTheme] packageImage];

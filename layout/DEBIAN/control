@@ -4,7 +4,7 @@ Package: com.nito.nitotv
 Provides: com.nito.gs
 Conflicts: com.nito.gs(<=0.1-4)
 Replaces: com.nito.gs(<=0.1-4)
-Version: 0.8.5
+Version: 0.8.6
 Website: nitosoft.com
 Maintainer: nito
 Author: nito

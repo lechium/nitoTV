@@ -172,7 +172,8 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 
 - (int)dpkgPackage:(NSString *)packagePath
 {
-	NSString *installString = [NSString stringWithFormat:@"/usr/bin/dpkg -i 2>&1", packagePath];
+	NSString *installString = [NSString stringWithFormat:@"/usr/bin/dpkg -i %@ 2>&1", packagePath];
+   // NSLog(@"%@", installString);
 	int sysReturn = system([installString UTF8String]);
 
 	

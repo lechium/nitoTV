@@ -1,5 +1,9 @@
-nitoTV version 0.8.5 AppleTV2,1 
-June 20th, 2012
+nitoTV version 0.8.6 AppleTV2,1
+January 10th, 2012
+
+0.8.6 
+
+Updated for 7.x support, 7.x JB will probably not be released until untether happens. This was mainly to fix the issue with XBMC changing its name to Kodi. Couldn't add it to favorites unless the repo URL/package got updated as well.
 
 0.8.5 
 

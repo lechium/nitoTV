@@ -26,7 +26,7 @@ int main (int argc, const char * argv[]) {
 		NSString *option = [NSString stringWithUTF8String:argv[i]];
 		NSString *value = [NSString stringWithUTF8String:argv[i+1]];
 		
-	
+        NSLog(@"path: %@ option: %@ value: %@", path, option, value);
 		
 		if ([option isEqualToString:@"reboot"])
 		{

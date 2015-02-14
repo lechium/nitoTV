@@ -10,37 +10,37 @@
 	<string>nitoTV</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>551851D8-4FF2-4759-B105-D9D39C08475F</key>
-		<string>ssh://github.com/lechium/nitoTV.git</string>
-		<key>6D585FA1-4337-41D1-9563-FDA56F653450</key>
-		<string>ssh://github.com/lechium/appletv-private-headers.git</string>
-		<key>A29289EA-56CB-45B6-9A5B-C04D6DCC0031</key>
+		<key>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</key>
+		<string>github.com:lechium/appletv-private-headers.git</string>
+		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
+		<string>github.com:lechium/nitoTV.git</string>
+		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
 		<string>https://github.com/DHowett/theos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>nitoTV.xcodeproj/project.xcworkspace</string>
+	<string>nitoTV.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>551851D8-4FF2-4759-B105-D9D39C08475F</key>
-		<string>../..</string>
-		<key>6D585FA1-4337-41D1-9563-FDA56F653450</key>
+		<key>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</key>
 		<string>../../../appletv-private-headers</string>
-		<key>A29289EA-56CB-45B6-9A5B-C04D6DCC0031</key>
-		<string>../../theos</string>
+		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
+		<string>../..</string>
+		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
+		<string>../..theos/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/lechium/nitoTV.git</string>
+	<string>github.com:lechium/nitoTV.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>551851D8-4FF2-4759-B105-D9D39C08475F</string>
+	<string>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6D585FA1-4337-41D1-9563-FDA56F653450</string>
+			<string>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</string>
 			<key>IDESourceControlWCCName</key>
 			<string>appletv-private-headers</string>
 		</dict>
@@ -48,7 +48,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>551851D8-4FF2-4759-B105-D9D39C08475F</string>
+			<string>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>nitoTV</string>
 		</dict>
@@ -56,7 +56,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A29289EA-56CB-45B6-9A5B-C04D6DCC0031</string>
+			<string>E2811579280C8FC45DBD8A3EB086096BA7A2E580</string>
 			<key>IDESourceControlWCCName</key>
 			<string>theos</string>
 		</dict>

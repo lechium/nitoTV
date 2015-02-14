@@ -146,7 +146,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 
 - (void)layoutSubcontrols
 {
-	if ([[self parent] is50])
+    if ([[self parent] is50])
 	{
 			//fix layout first, not sure if this is necessary, to change, seems to work better fixed first here.
 		[self removeStupidPlayPause];
@@ -422,6 +422,11 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 		entryStyle = 5; //{origin:{x:109,y:48},size:{width:400,height:534}}
 
 	}
+    
+    if ([self is60Plus])
+    {
+        entryStyle = 6;
+    }
 	
 	
 	id _entryControl=[[objc_getClass("ntvTextEntryControl") alloc] initWithTextEntryStyle:entryStyle]; //change to 4 for 4.4- but still need change some other shit too- not switching from keyboard over.

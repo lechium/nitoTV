@@ -428,7 +428,26 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 		NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper dpkg %@", filePath];
 		int sysReturn = system([command UTF8String]);
 		NSLog(@"dpkg install finished with: %i", sysReturn);
-	}
+
+	} else {
+        
+        //make sure its the kodi repo
+        NSString *fileContents = [NSString stringWithContentsOfFile:xbmcRepo];
+        if ([fileContents rangeOfString:@"kodi"].location == NSNotFound)
+        {
+            NSLog(@"need to update xbmc repo!");
+            NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper dpkg %@", filePath];
+         //   NSLog(@"command: %@", command);
+            
+            int sysReturn = system([command UTF8String]);
+            NSLog(@"dpkg install finished with: %i", sysReturn);
+
+        }
+        
+    }
+    
+    
+    
 }
 
 %new + (void)updateAwkwardRepo

@@ -63,7 +63,10 @@ static BOOL centered = FALSE;
 %new +(id)ntvDownloadMenuItem
 {
 	id object = [[NSClassFromString(@"nitoMenuItem") alloc] init];
-    if ([%c(packageManagement) ntvSixPointOhPLus])
+   if ([%c(packageManagement) ntvSevenPointOhPLus])
+   {
+       [object addAccessoryOfType:9];
+   } else if ([%c(packageManagement) ntvSixPointOhPLus])
     {
         [object addAccessoryOfType:8];
     } else {

@@ -71,6 +71,34 @@ enum {
 	return nil;	
 }
 
++ (BOOL)ntvSevenPointOhPLus
+{
+	
+	NSString *versionNumber = [packageManagement properVersion];
+	NSString *baseline = @"7.0";
+	NSComparisonResult theResult = [versionNumber compare:baseline options:NSNumericSearch];
+    //NSLog(@"properVersion: %@", versionNumber);
+    //NSLog(@"theversion: %@  installed version %@", theVersion, installedVersion);
+	if ( theResult == NSOrderedDescending )
+	{
+        //	NSLog(@"%@ is greater than %@", versionNumber, baseline);
+		
+		return YES;
+		
+	} else if ( theResult == NSOrderedAscending ){
+		
+        //NSLog(@"%@ is greater than %@", baseline, versionNumber);
+		return NO;
+		
+	} else if ( theResult == NSOrderedSame ) {
+		
+        //		NSLog(@"%@ is equal to %@", versionNumber, baseline);
+		return YES;
+	}
+	
+	return NO;
+}
+
 + (BOOL)ntvSixPointOhPLus
 {
 	

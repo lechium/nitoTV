@@ -106,6 +106,16 @@ static BOOL _isAnimated = TRUE;
 
 #define BRLC objc_getClass("ntvListControl")
 
+%new -(BOOL)seventyPlus
+{
+	return CPLUSPLUS_SUCKS[%c(packageManagement) ntvSevenPointOhPLus];
+    //if ([self respondsToSelector:@selector(controls)])
+    //	{
+    //		return (FALSE);
+    //	}
+    //	return (TRUE);
+}
+
 %new -(BOOL)sixtyPlus
 {
 	return CPLUSPLUS_SUCKS[%c(packageManagement) ntvSixPointOhPLus];
@@ -160,7 +170,10 @@ static BOOL _isAnimated = TRUE;
 %new -(void)addToController:(id)ctrl
 {
     CGRect f = [self rectForSize:CGSizeMake(528., 154.)];
-	
+    
+   
+    //{{376.000000, 230.000000}
+    NSLog(@"addToController");
 	[self logFrame:f];
 	
     [self setFrame:f];
@@ -348,6 +361,10 @@ static BOOL _isAnimated = TRUE;
 
 %new -(CGRect)rectForSize:(CGSize)s
 {
+    if ([self seventyPlus])
+    {
+        return CGRectMake(376, 230, 528, 260);
+    }
     CGRect r;
     r.size.width=s.width;
     id a = [%c(SMFMenuItem) menuItem];
@@ -357,12 +374,22 @@ static BOOL _isAnimated = TRUE;
     if (it>6)
         it=6;
     r.size.height=52.+52.*it;
-    CGSize windowSize = [objc_getClass("ntvWindow") maxBounds];
+        
+    Class nw = objc_getClass("ntvWindow");
+        CGSize windowSize;
+        
+    if ([nw respondsToSelector:@selector(maxBounds)])
+    {
+        windowSize = [objc_getClass("ntvWindow") maxBounds];
+        
+    } else {
+        windowSize = CGSizeMake(1080,720);
+    }
     r.origin.y=(windowSize.height-r.size.height)/2.0f;
     r.origin.x=(windowSize.width-r.size.width)/2.0f;
 		
-			//NSLog(@"window size");
-			//[self logSize:windowSize];
+			NSLog(@"window size");
+			[self logSize:windowSize];
 	
 		
     return r;

@@ -81,6 +81,7 @@ static BOOL _nextArrowTurnedOn = TRUE;
 static BOOL _previousArrowTurnedOn;
 static BOOL _usingShelfView = TRUE;
 
+static char const * const kSMFMPCBoxControlKey = "SMFMPCBoxControl";
 static char const * const kSMFMPCMetaTitleControlKey = "SMFMPCMetaTitleControl";
 static char const * const kSMFMPCSummaryControlKey = "SMFMPCSummaryControl";
 static char const * const kSMFMPCButtonsKey = "SMFMPCButtons";
@@ -106,6 +107,16 @@ static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
 
 
 %subclass NSMFMoviePreviewController : BRController
+
+%new -(void)setBoxControl:(id)theBoxControl {
+    
+    [self associateValue:theBoxControl withKey:(void*)kSMFMPCBoxControlKey];
+}
+
+%new -(id)boxControl {
+    
+    return [self associatedValueForKey:(void*)kSMFMPCBoxControlKey];
+}
 
 %new -(id)metadataTitleControl {
 	
@@ -866,12 +877,7 @@ void checkNil(NSObject *ctrl)
 
 %new -(BOOL)isSixPointOhPlus
 {
-	if ([self respondsToSelector:@selector(controls)])
-	{
-		return (FALSE);
-	}
-	
-	return (TRUE);
+    return ([%c(packageManagement) ntvSixPointOhPLus]);
 }
 
 /*
@@ -899,6 +905,7 @@ void checkNil(NSObject *ctrl)
 	}
 		
 	id _shelfControl = nil;
+    id _boxControl = nil;
 	BRDataStoreProvider *_provider = nil;
 	id _adap = nil;
     if ([self _shelfControl]!=nil) {
@@ -935,7 +942,14 @@ void checkNil(NSObject *ctrl)
     }
     else
     {
-        _shelfControl=[[objc_getClass("BRMediaShelfView") alloc]init];
+       // _boxControl = [[objc_getClass("BRBoxControl") alloc] init];
+        
+       
+        if (!is60)
+            _shelfControl=[[objc_getClass("BRMediaShelfView") alloc]init];
+        else
+            _shelfControl=[[objc_getClass("ntvMediaShelfView") alloc]init];
+            
         [_shelfControl setCentered:YES];
         if ([self provider]!=nil) {
 				
@@ -949,9 +963,17 @@ void checkNil(NSObject *ctrl)
 								 masterFrame.origin.y+masterFrame.size.height*0.04f, 
 								 masterFrame.size.width*1.f,
 								 masterFrame.size.height*0.24f);
+        
+        
+        
 		[_shelfControl setFrame:gframe];
 			// [self addControl:_shelfControl];
-		if (!is60)[self addControl:_shelfControl];
+	
+     //   [_boxControl setFrame:gframe];
+        
+       // [_boxControl setContent:_shelfControl];
+        
+        if (!is60)[self addControl:_shelfControl];
 		else [self addSubview:_shelfControl];
 		
 		

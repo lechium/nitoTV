@@ -1,6 +1,6 @@
 GO_EASY_ON_ME=1
 #FW_DEVICE_IP=apple-tv.local
-FW_DEVICE_IP=192.168.0.24
+FW_DEVICE_IP=ttv.local
 export DEBUG=1
 export SDKVERSION=4.3
 
@@ -24,6 +24,7 @@ nitoTV_FILES += SMFClasses/NSMFBaseAsset.xm SMFClasses/NSMFComplexDropShadowCont
 nitoTV_FILES += SMFClasses/NSMFListDropShadowControl.xm SMFClasses/NSMFMoviePreviewController.xm 
 nitoTV_FILES += SMFClasses/NSMFPhotoMediaAsset.xm SMFClasses/NSMFPopup.xm SMFClasses/NSMFProgressBarControl.xm SMFClasses/NSMFTextDropShadowControl.xm
 nitoTV_FILES += SMFClasses/NSMFAnimation.m SMFClasses/NSMFCommonTools.m SMFClasses/NSMFMockMenuItem.m SMFClasses/NSMFPreferences.m SMFClasses/NSMFThemeInfo.m Classes/PackageDataSource.xm  Classes/nitoMoreMenu.xm
+nitoTV_FILES += Classes/ntvMediaShelfView.xm
 
 nitoTV_INSTALL_PATH = /Applications/AppleTV.app/Appliances
 

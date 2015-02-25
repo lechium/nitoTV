@@ -734,7 +734,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 		}
 			
 		id  asset = [[objc_getClass("NSMFPhotoMediaAsset") alloc] init];
-        [asset setFullURL:imagePath];
+       [asset setFullURL:imagePath];
         [asset setThumbURL:imagePath];
         [asset setCoverArtURL:imagePath];
         [asset setIsLocal:isLocal];
@@ -802,8 +802,10 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	}
 	 id tcControlFactory = [objc_getClass("BRPosterControlFactory") factory];
 	
-		//Class brds = objc_getClass("BRDataStore");
-	Class brds = nil;
+    [tcControlFactory setDefaultImage:[[objc_getClass("BRThemeInfo") sharedTheme]appleTVImage]];
+    
+    Class brds = objc_getClass("BRDataStore");
+	//Class brds = nil;
 	if (brds == nil)
 	{
 		
@@ -822,10 +824,6 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
     NSSet *_set = [NSSet setWithObject:photoType];
     NSPredicate *_pred = [NSPredicate predicateWithFormat:@"mediaType == %@",photoType];
     id store = [[brds alloc] initWithEntityName:@"Hello" predicate:_pred mediaTypes:_set];
-	
-	
-	
- 
     for (id a in assets) {
         [store addObject:a];
     }

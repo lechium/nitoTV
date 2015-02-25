@@ -47,6 +47,7 @@
 		32A6A64B141C263E009186F7 /* com.nito.deb in Resources */ = {isa = PBXBuildFile; fileRef = 32A6A44E141B71FC009186F7 /* com.nito.deb */; };
 		32A6A64C141C263E009186F7 /* org.xbmc.deb in Resources */ = {isa = PBXBuildFile; fileRef = 32A6A471141B71FC009186F7 /* org.xbmc.deb */; };
 		32E4FA6F1429AF5B004B6EA2 /* nitoSourceController.xm in Sources */ = {isa = PBXBuildFile; fileRef = 32E4FA6E1429AF5B004B6EA2 /* nitoSourceController.xm */; };
+		891B0BC51A9E72C000F5AFFF /* ntvMediaShelfView.xm in Resources */ = {isa = PBXBuildFile; fileRef = 891B0BC41A9E72C000F5AFFF /* ntvMediaShelfView.xm */; };
 		892226C91592ED1C000C2098 /* nitoDeadController.xm in Sources */ = {isa = PBXBuildFile; fileRef = 892226C81592ED1C000C2098 /* nitoDeadController.xm */; };
 		8924AD6C142C9996004FF49C /* nitoInstalledPackageManager.xm in Sources */ = {isa = PBXBuildFile; fileRef = 8924AD6B142C9996004FF49C /* nitoInstalledPackageManager.xm */; };
 		8924ADC1142C9F8D004FF49C /* nitoManageMenu.xm in Sources */ = {isa = PBXBuildFile; fileRef = 8924ADC0142C9F8D004FF49C /* nitoManageMenu.xm */; };
@@ -856,6 +857,7 @@
 		874194E712867FAD000F7910 /* VideoPlaybackSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackSnippets.m; sourceTree = "<group>"; };
 		875A8425126FFF6500ECADC2 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		875A8427126FFF6D00ECADC2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		891B0BC41A9E72C000F5AFFF /* ntvMediaShelfView.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ntvMediaShelfView.xm; path = Classes/ntvMediaShelfView.xm; sourceTree = "<group>"; };
 		892226C71592ED1C000C2098 /* nitoDeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nitoDeadController.h; path = Classes/nitoDeadController.h; sourceTree = "<group>"; };
 		892226C81592ED1C000C2098 /* nitoDeadController.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nitoDeadController.xm; path = Classes/nitoDeadController.xm; sourceTree = "<group>"; };
 		8924AD6A142C9996004FF49C /* nitoInstalledPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nitoInstalledPackageManager.h; path = Classes/nitoInstalledPackageManager.h; sourceTree = "<group>"; };
@@ -3683,6 +3685,7 @@
 				87188B871279815B001861D7 /* APElement.h */,
 				87188B881279815B001861D7 /* APElement.m */,
 				87188B891279815B001861D7 /* APXML.h */,
+				891B0BC41A9E72C000F5AFFF /* ntvMediaShelfView.xm */,
 			);
 			name = "Meta+Previews";
 			sourceTree = "<group>";
@@ -7679,6 +7682,8 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "nitoTV" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -7719,6 +7724,7 @@
 				32A6A49D141B71FD009186F7 /* weather.plist in Resources */,
 				32A6A581141B7ADF009186F7 /* Localizable.strings in Resources */,
 				32A6A5B0141B7B14009186F7 /* Images in Resources */,
+				891B0BC51A9E72C000F5AFFF /* ntvMediaShelfView.xm in Resources */,
 				32A6A5F3141B7BBC009186F7 /* InfoPlist.strings in Resources */,
 				898CDF8E150A1604001EB85B /* AppIcon.png in Resources */,
 				896B31A715F19AA20049FA2E /* NSMFComplexDropShadowControl.xm in Resources */,

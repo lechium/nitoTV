@@ -365,7 +365,7 @@ void checkNil(NSObject *ctrl)
 		
 	id myControls = nil;
 	
-	if ([self respondsToSelector:@selector(controls)])
+	if ([self isSixPointOhPlus])
 	{
 		myControls = [self controls];
 		is60 = FALSE;

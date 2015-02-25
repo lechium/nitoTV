@@ -21,7 +21,7 @@
     %log;
     %orig; //theres still some stuff we dun' wanna figure out, let them do the dimmness and angled science for the coverflow science
     
-    
+    //return;
     //	NSRange flatRange = [[self valueForKey:@"_flatRange"] rangeValue];
     NSRange flatRange = MSHookIvar<NSRange>(self, "_flatRange");
     id cellz = [self valueForKey:@"_cells"];

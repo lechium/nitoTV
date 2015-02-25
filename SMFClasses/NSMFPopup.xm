@@ -23,21 +23,22 @@
 - (void)_updateTrackInfo
 {
 	
-	BOOL pre60 = [self respondsToSelector:@selector(controls)];
+	BOOL is60 = CPLUSPLUS_SUCKS([%c(packageManagement) ntvSixPointOhPLus]);
 	
 	
     id l = nil;
 	
-	if (pre60) l = MSHookIvar<id>(self, "_layer");
+	if (!is60) l = MSHookIvar<id>(self, "_layer");
 		else l = MSHookIvar<id>(self, "_trackInfoLayer");
 
 
+            NSLog(@"l: %@", l);
 	
 	
     id obj=[self object];
     if(obj!=nil && [obj isKindOfClass:[NSDictionary class]])
     {
-			//NSLog(@"obj: %@",obj);
+			NSLog(@"obj: %@",obj);
         if([obj objectForKey:@"Image"])
         {
 	

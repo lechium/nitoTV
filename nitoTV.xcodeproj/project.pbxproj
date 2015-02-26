@@ -3603,6 +3603,7 @@
 				893DC91516600ACD003C39DF /* ntvDetailViewController.xm */,
 				896B322F15F1CDAE0049FA2E /* NSObject+AssociatedObjects.h */,
 				896B323015F1CDAE0049FA2E /* NSObject+AssociatedObjects.m */,
+				891B0BC41A9E72C000F5AFFF /* ntvMediaShelfView.xm */,
 				896B318515F19A4C0049FA2E /* SMF Classes */,
 				87188BFD12798343001861D7 /* Downloads and Installs */,
 				87188BFC1279832F001861D7 /* Settings */,
@@ -3685,7 +3686,6 @@
 				87188B871279815B001861D7 /* APElement.h */,
 				87188B881279815B001861D7 /* APElement.m */,
 				87188B891279815B001861D7 /* APXML.h */,
-				891B0BC41A9E72C000F5AFFF /* ntvMediaShelfView.xm */,
 			);
 			name = "Meta+Previews";
 			sourceTree = "<group>";

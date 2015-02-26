@@ -800,6 +800,9 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			break;
 			
 	}
+    
+    NSLog(@"assetCount: %i", [assets count]);
+    
 	 id tcControlFactory = [objc_getClass("BRPosterControlFactory") factory];
 	
     [tcControlFactory setDefaultImage:[[objc_getClass("BRThemeInfo") sharedTheme]appleTVImage]];

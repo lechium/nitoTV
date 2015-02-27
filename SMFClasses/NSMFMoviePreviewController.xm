@@ -97,6 +97,7 @@ static char const * const kSMFMPCAlsoWatchedKey = "SMFMPCAlsoWatched";
 static char const * const kSMFMPCHideListKey = "SMFMPCHideList";
 static char const * const kSMFMPCProviderKey = "SMFMPCProvider";
 static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
+static char const * const kSMFMPCCursorControlKey = "SMFMPCCursorControl";
 
 @interface NSMFMoviePreviewController : NSObject
 
@@ -108,14 +109,14 @@ static char const * const kSMFMPCPreviewControlKey = "SMFMPCPreviewControl";
 
 %subclass NSMFMoviePreviewController : BRController
 
-%new -(void)setBoxControl:(id)theBoxControl {
+%new -(void)setCursoControl:(id)theCursorControl {
     
-    [self associateValue:theBoxControl withKey:(void*)kSMFMPCBoxControlKey];
+    [self associateValue:theCursorControl withKey:(void*)kSMFMPCCursorControlKey];
 }
 
-%new -(id)boxControl {
+%new -(id)cursorControl {
     
-    return [self associatedValueForKey:(void*)kSMFMPCBoxControlKey];
+    return [self associatedValueForKey:(void*)kSMFMPCCursorControlKey];
 }
 
 %new -(id)metadataTitleControl {
@@ -857,18 +858,18 @@ void checkNil(NSObject *ctrl)
     
     
     
-    id cursor = [[[objc_getClass("BRCursorControl") alloc] init] autorelease];
+    //id cursor = [[[objc_getClass("BRCursorControl") alloc] init] autorelease];
    
 	[self setSummaryControl:_summaryControl];
 	
    if(!is60)
    {
-	   [self addControl:cursor];
+//	   [self addControl:cursor];
 	   [self addControl:_summaryControl];
 
    } else {
 	
-	   [self addSubview:cursor];
+	//   [self addSubview:cursor];
 	   [self addSubview:_summaryControl];
 	   
    }
@@ -1010,11 +1011,7 @@ void checkNil(NSObject *ctrl)
 		[_shelfControl _layoutShelfContents];
         [_shelfControl loadWithCompletionBlock:nil];
         
-		
-        
-        
-        
-        
+	    
         
     }
   
@@ -1023,6 +1020,33 @@ void checkNil(NSObject *ctrl)
 	[self setShelfControl:_shelfControl];
 	[self setProvider:_provider];
     
+    id cc = [self cursorControl];
+    
+    
+    
+    id cursor = [[[objc_getClass("BRCursorControl") alloc] init] autorelease];
+    
+    if(!is60)
+    {
+        if (cc !=nil) {
+            
+            [cc removeFromParent];
+        }
+           [self addControl:cursor];
+           [self setCursoControl:cursor];
+        //[self addControl:_summaryControl];
+        
+    } else {
+        
+        if (cc !=nil) {
+            
+            [cc removeFromSuperview];
+        }
+           [self addSubview:cursor];
+           [self setCursoControl:cursor];
+        //[self addSubview:_summaryControl];
+        
+    }
 }
 //
 //- (void)layoutSubcontrols

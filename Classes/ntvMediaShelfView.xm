@@ -78,6 +78,29 @@
             
             break;
             
+       default:
+            
+            currentCell = 2;
+            theCell = [cellz objectAtIndex:0];
+            theFrame = [theCell frame];
+            theBounds = [theCell bounds];
+            
+            theFrame.size.width = 17;
+            theFrame.origin.x = 38;
+            theBounds.origin.x = 0;
+            theBounds.size.width = 99;
+            [theCell setFrame:theFrame];
+            [theCell setBounds:theBounds];
+            
+            theCell = [cellz objectAtIndex:1];
+            theFrame.origin.x = 88;
+            
+            [theCell setFrame:theFrame];
+            
+            [theCell setBounds:theBounds];
+            
+            break;
+        /*
         case 3:
             
             theCell = [cellz objectAtIndex:0];
@@ -134,7 +157,7 @@
             
             break;
             
-            
+           */
             
     }
     
@@ -298,6 +321,16 @@
     }
    // NSLog(@"cells after _layoutShelfContents: %@", cellz);
     
+}
+
+- (BOOL)autoresizesSubviews
+{
+    return FALSE;
+}
+
+- (BOOL)translatesAutoresizingMaskIntoConstraints
+{
+    return FALSE;
 }
 
 %end

@@ -1,6 +1,6 @@
 GO_EASY_ON_ME=1
-#FW_DEVICE_IP=apple-tv.local
-FW_DEVICE_IP=ttv.local
+FW_DEVICE_IP=apple-tv.local
+#FW_DEVICE_IP=ttv.local
 export DEBUG=1
 export SDKVERSION=4.3
 

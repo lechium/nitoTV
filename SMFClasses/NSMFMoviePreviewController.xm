@@ -366,7 +366,7 @@ void checkNil(NSObject *ctrl)
 		
 	id myControls = nil;
 	
-	if ([self isSixPointOhPlus])
+	if (![self isSixPointOhPlus])
 	{
 		myControls = [self controls];
 		is60 = FALSE;
@@ -858,20 +858,22 @@ void checkNil(NSObject *ctrl)
     
     
     
-    //id cursor = [[[objc_getClass("BRCursorControl") alloc] init] autorelease];
-   
+    id cursor = [[[objc_getClass("BRCursorControl") alloc] init] autorelease];
+    [self setCursoControl:cursor];
 	[self setSummaryControl:_summaryControl];
 	
    if(!is60)
    {
-//	   [self addControl:cursor];
-	   [self addControl:_summaryControl];
+	   [self addControl:cursor];
+    
+       [self addControl:_summaryControl];
+    
 
    } else {
 	
-	//   [self addSubview:cursor];
+	   [self addSubview:cursor];
 	   [self addSubview:_summaryControl];
-	   
+       [self bringSubviewToFront:cursor];
    }
    
 }
@@ -1044,6 +1046,7 @@ void checkNil(NSObject *ctrl)
         }
            [self addSubview:cursor];
            [self setCursoControl:cursor];
+            [self bringSubviewToFront:cursor];
         //[self addSubview:_summaryControl];
         
     }

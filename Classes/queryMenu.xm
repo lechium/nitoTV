@@ -1066,8 +1066,9 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	//[result setText:[[self names] objectAtIndex:row] withAttributes:[[objc_getClass("BRThemeInfo") sharedTheme] menuItemTextAttributes]];
 	return	[result autorelease];
 }
+*/
 
-- (BOOL)packageInstalled:(NSString *)currentPackage
+%new - (BOOL)packageInstalled:(NSString *)currentPackage
 {
 	NSDictionary *packageList = [self parsedPackageList];
 	if ([packageList objectForKey:currentPackage] != nil)
@@ -1082,7 +1083,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 	
 	return NO;
 }
-*/
+
 
 
 %new - (NSDictionary *)parsedPackageList
@@ -1155,7 +1156,9 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 				if ([self canRemove:_selectedObject])
 				{
 					[c setListActionMode:KPackageRemoveMode];
-					[c removePackage:_selectedObject withSender:selectedButton];
+					NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:_selectedObject, @"Package", selectedButton, @"Sender", nil];
+					[[NSNotificationCenter defaultCenter] postNotificationName:@"RemoveDialog" object:nil userInfo:userInfo];
+                    //[c removePackage:_selectedObject withSender:selectedButton];
 				} else {
 						//[[self stack] popController];
 					[self showProtectedAlert:_selectedObject];

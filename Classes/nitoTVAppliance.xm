@@ -226,6 +226,7 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 
 		//	NSLog(@"ALERT: mobilesubstrate DEPENDANTS: %@", depends);
 	[%c(nitoTVAppliance) installFiles];
+    [packageManagement updatePackageList];
 		
 }
 

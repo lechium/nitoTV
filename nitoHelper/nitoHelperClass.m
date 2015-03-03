@@ -175,7 +175,7 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 	NSString *installString = [NSString stringWithFormat:@"/usr/bin/dpkg -i %@ 2>&1", packagePath];
    // NSLog(@"%@", installString);
 	int sysReturn = system([installString UTF8String]);
-
+    return sysReturn;
 	
 }
 
@@ -192,20 +192,27 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 - (int)installPackage:(NSString *)packageId
 {
 	[nitoHelperClass aptUpdate];
-	NSString *installString = [NSString stringWithFormat:@"/usr/bin/apt-get install -y --force-yes %@ 2>&1", packageId];
+    [self configure];
+    
+    NSString *installString = [NSString stringWithFormat:@"/usr/bin/apt-get install -y --force-yes %@ 2>&1", packageId];
 	int sysReturn = system([installString UTF8String]);
-		//NSLog(@"install %@ returned with %i", installString, sysReturn);
+    [self configure];
+    
+    //NSLog(@"install %@ returned with %i", installString, sysReturn);
 	
 	return sysReturn;
 }
 
 - (int)removePackage:(NSString *)packageId
 {
-	
+    [self configure];
+    
 	NSString *removeString = [NSString stringWithFormat:@"/usr/bin/apt-get -y --force-yes remove %@ 2>&1", packageId];
 	int sysReturn = system([removeString UTF8String]);
 		//NSLog(@"remove %@ returned with %i", installString, sysReturn);
-	return sysReturn;
+    [self configure];
+    
+    return sysReturn;
 	
 }
 

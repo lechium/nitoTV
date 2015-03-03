@@ -20,7 +20,7 @@
      
      */
     
-    %log;
+   // %log;
     %orig; //theres still some stuff we dun' wanna figure out, let them do the dimmness and angled science for the coverflow science
     
     NSRange flatRange = MSHookIvar<NSRange>(self, "_flatRange");
@@ -101,10 +101,8 @@
     
     int i = 0;
     int overFlowCount = 0;
-    int flatCount = cellCount - currentCell;
     for (i = currentCell; i < cellCount; i++ )
     {
-      //  if (i > cellCount) return;
         id cell = [cellz objectAtIndex:i];
         CGRect frame = [cell frame];
         CGRect bounds = [cell bounds];

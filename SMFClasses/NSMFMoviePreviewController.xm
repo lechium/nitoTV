@@ -346,7 +346,6 @@ void checkNil(NSObject *ctrl)
 
 %new -(void)reload
 {
-	NSLog(@"reload");
     Class __BRProxyManager=NSClassFromString(@"BRProxyManager");
     
 	BOOL is60 = FALSE;
@@ -393,7 +392,6 @@ void checkNil(NSObject *ctrl)
 	[self setInfo:_info];
 	
 	_summaryToggled=NO;
-    NSLog(@"before preview control");
     
 	/*
      *  The Poster
@@ -414,15 +412,12 @@ void checkNil(NSObject *ctrl)
     [_previewControl setFrame:imageFrame];
 	[self setPreviewControl:_previewControl];
 	
-       NSLog(@"after preview control");
-    
-	if (!is60)[self addControl:_previewControl];
+  	if (!is60)[self addControl:_previewControl];
     else [self addSubview:_previewControl];
     /*
      *  The Title
      */
-		// NSLog(@"1");
-    //checkNil(_metadataTitleControl);
+	//checkNil(_metadataTitleControl);
     id _metadataTitleControl=[[objc_getClass("BRMetadataTitleControl") alloc]init];
     [_metadataTitleControl setTitle:[_info objectForKey:kSMFMoviePreviewTitle]];
     [_metadataTitleControl setTitleSubtext:[_info objectForKey:kSMFMoviePreviewSubtitle]];
@@ -502,8 +497,6 @@ void checkNil(NSObject *ctrl)
 	[_hideList addObject:div2];
     [div2 release];
     
-		//NSLog(@"2");
-	
     /*
      *  Headers for information
      */
@@ -694,8 +687,7 @@ void checkNil(NSObject *ctrl)
             
         } //dont with objects in kSMFMoviePreviewColumns
     }
-		//NSLog(@"buttons");
-    //checkNil(_buttons);
+	//checkNil(_buttons);
 	
 	[self setHideList:_hideList];
 	
@@ -824,7 +816,6 @@ void checkNil(NSObject *ctrl)
 			}
 		}
 	}
-		//NSLog(@"end buttons");
 	
 	id moviesControl =[[objc_getClass("BRTextControl") alloc] init];
     NSString *title=@"";
@@ -897,8 +888,6 @@ void checkNil(NSObject *ctrl)
 
 %new -(void)reloadShelf
 {
-	NSLog(@"reloadShelf");
-
 	BOOL is60 = [self isSixPointOhPlus];
 	if (is60)
 	{

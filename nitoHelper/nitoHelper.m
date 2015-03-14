@@ -149,6 +149,11 @@ int main (int argc, const char * argv[]) {
 			int termStatus = [nitoHelperClass fixRepo];
 			[pool release];
 			return termStatus;	
+		}else if ([option isEqualToString:@"sourceFix"])
+		{
+			int termStatus = [nitoHelperClass fixSourcesFolder];
+			[pool release];
+			return termStatus;
 		}
 		
 		

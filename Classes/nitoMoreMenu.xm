@@ -32,7 +32,7 @@
 
 %new - (NSArray *)popupItems
 {
-	return [NSArray arrayWithObjects:@"fix dependencies", @"dpkg configure", @"APT autoremove", @"Restart Lowtide", nil];
+	return [NSArray arrayWithObjects:@"fix dependencies", @"dpkg configure", @"APT autoremove", @"Restart Lowtide", @"Fix sources folder", nil];
 }
 
 - (BOOL)popupRowSelectable:(long)row
@@ -81,12 +81,18 @@
 			[[%c(BRApplication) sharedApplication] terminate];
 			
 			break;
+            
+        case 4: //fix sources folder
+            
+            
+            [%c(nitoInstallManager) fixSourceFolder];
+            break;
 	}
 }
 
 %new - (long)popupItemCount
 {
-	return 4;
+	return 5;
 }
 
 %new - (id)popupItemForRow:(long)row

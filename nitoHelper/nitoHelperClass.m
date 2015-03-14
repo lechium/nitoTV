@@ -129,6 +129,53 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 	return sysReturn;
 }
 
+
++ (int)fixSourcesFolder
+{
+    NSLog(@"fixing source folder!");
+    NSString *path = @"/etc/apt/sources.list.d";
+    NSArray *sourcesArray = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:nil];
+    for (NSString *item in sourcesArray)
+    {
+        BOOL fileValid = TRUE;
+        NSString *fullPath = [path stringByAppendingPathComponent:item];
+        if ([[NSFileManager defaultManager] fileExistsAtPath:fullPath])
+        {
+            NSString *sourcesString = [NSString stringWithContentsOfFile:fullPath encoding:NSASCIIStringEncoding error:nil];
+            
+            NSArray *lineArray = [sourcesString componentsSeparatedByString:@"\n"];
+            NSMutableArray *modifiedArray = [lineArray mutableCopy];
+            for (NSString *line in lineArray)
+            {
+                if ([line length] > 3)
+                {
+                    NSString *firstThree = [line substringToIndex:3];
+                    if ([firstThree rangeOfString:@"deb"].location == NSNotFound )
+                    {
+                        if ([firstThree rangeOfString:@"#"].location == NSNotFound)
+                        {
+                            fileValid = false;
+                            NSLog(@"removing invalid line %@ from %@", line, item);
+                            [modifiedArray removeObject:line];
+                        }
+                    }
+                }
+            }
+            if (fileValid == false)
+            {
+                NSLog(@"re-writing file: %@", item);
+                NSString *newString = [modifiedArray componentsJoinedByString:@"\n"];
+                [newString writeToFile:fullPath atomically:TRUE encoding:NSASCIIStringEncoding error:nil];
+                [modifiedArray release];
+                modifiedArray = nil;
+                //make sure to release and nullify modifiedArray here
+            }
+            
+        }
+    }
+    return 0;
+}
+
 + (int)fixDepends
 {
 	int sysReturn = system("/usr/bin/apt-get -f install -y --force-yes 1>/tmp/aptoutput 2>/tmp/aptoutput");
@@ -182,7 +229,9 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 + (int)updateSelf
 {
 	[nitoHelperClass aptUpdate];
-	NSString *installString = @"/usr/bin/apt-get install -y --force-yes com.nito.nitotv 2>&1";
+    [self fixDepends];
+    [self configure];
+    NSString *installString = @"/usr/bin/apt-get install -y --force-yes com.nito.nitotv 2>&1";
 	int sysReturn = system([installString UTF8String]);
 		//NSLog(@"updateSelf %@ returned with %i", installString, sysReturn);
 	
@@ -192,6 +241,7 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 - (int)installPackage:(NSString *)packageId
 {
 	[nitoHelperClass aptUpdate];
+    [self fixDepends];
     [self configure];
     
     NSString *installString = [NSString stringWithFormat:@"/usr/bin/apt-get install -y --force-yes %@ 2>&1", packageId];
@@ -206,8 +256,8 @@ static NSString *aptCache = @"/usr/bin/apt-cache";
 - (int)removePackage:(NSString *)packageId
 {
     [self configure];
-    
-	NSString *removeString = [NSString stringWithFormat:@"/usr/bin/apt-get -y --force-yes remove %@ 2>&1", packageId];
+    [self fixDepends];
+   NSString *removeString = [NSString stringWithFormat:@"/usr/bin/apt-get -y --force-yes remove %@ 2>&1", packageId];
 	int sysReturn = system([removeString UTF8String]);
 		//NSLog(@"remove %@ returned with %i", installString, sysReturn);
     [self configure];

@@ -337,10 +337,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 
 %new -(BOOL)is60Plus
 {
-	if ([self respondsToSelector:@selector(controls)])
-		return (FALSE);
-	
-	return (TRUE);
+	return [%c(packageManagement) ntvSixPointOhPLus];
 }
 
 %new -(void)_hideEditor
@@ -758,7 +755,7 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 }
 
 - (id)focusedControlForEvent:(id)event focusPoint:(CGPoint *)point {
-		//NSLog(@"%@ %s", self, _cmd);
+		NSLog(@"%@ %s", self, _cmd);
 
 	switch ((int)[event remoteAction]) {
 			
@@ -795,26 +792,32 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 
 %new -(void)controller:(id)c selectedControl:(id)ctrl
 {
-
-		//NSLog(@"here: %@", ctrl);
-	
-	
-	if ([ctrl respondsToSelector:@selector(selectedControl)])
-	{
-		id data = [[c provider] data];
-		
-		id selectedControl = [ctrl selectedControl];
-			//int focusedIndex = [ctrl focusedIndex]; //FIXME: not going to work!!
-		int focusedIndex = [[ctrl focusedIndexPath] indexAtPosition:1];
-		id myAsset = [data objectAtIndex:focusedIndex];
-		NSString *packageName = [[selectedControl title] string];
-		id theImage = [myAsset coverArt];
-		[self setSelectedObject:packageName];
-			//selectedObject = packageName;
-		[c updatePackageData:packageName usingImage:theImage];
-	}
-	
-	
+    id provider = [c provider];
+    id data = nil;
+    
+    if ([provider respondsToSelector:@selector(data)])
+    {
+        data = [provider data];
+    } else if ([provider respondsToSelector:@selector(_data)])
+    {
+        data = [provider _data];
+        
+        //	NSLog(@"whats this data got?: %@", data	);
+        
+    } else {
+        
+        NSLog(@"WHERES OUR DATA AT?!?!! BAIL!!!: %@ ", provider);
+        return;
+    }
+    
+    id selectedControl = [ctrl selectedControl]; //BRPosterControl
+    int focusedIndex = (int)[[ctrl focusedIndexPath] indexAtPosition:1]; //FIXME: okay so we need to fix this cuz we cant categorize!!
+    id myAsset = [data objectAtIndex:focusedIndex];
+    NSString *packageName = [[selectedControl title] string];
+    id theImage = [myAsset coverArt];
+    [self setSelectedObject:packageName];
+    [c updatePackageData:packageName usingImage:theImage];
+    
 }
 
 
@@ -941,13 +944,42 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 
 -(BOOL)brEventAction:(id)action
 {
+    BOOL orig = TRUE;
+    BOOL rightEdge = FALSE;
+    if ([[self entryControl] respondsToSelector:@selector(focusIsAtRightEdge)])
+    {
+        if ([[self entryControl] focusIsAtRightEdge])
+            rightEdge = TRUE;
+    }
 	//NSLog(@"%@ %s", self, _cmd);
 	int value = (int)[action value];
-	if (editorShowing == YES)
+    
+     
+     //original
+     
+    if (editorShowing == YES)
 	{
-			return %orig;
+        return %orig;
 		
 	}
+    
+    /*
+	if (editorShowing == YES)
+	{
+        if (rightEdge != true)
+        {
+			return %orig;
+		} else {
+            
+            if ( (int)[action remoteAction] != kBREventRemoteActionRight && (int)[action remoteAction] != kBREventRemoteActionSwipeRight  )
+            {
+                return %orig;
+            }
+            
+            
+        }
+	}
+     */
 	int itemCount = (int)[[[self list] datasource] itemCount];
 	int theValue = (int)[action value];	
 	switch ((int)[action remoteAction]) {
@@ -985,10 +1017,39 @@ static char const * const kNitoQuerySelectedObjectKey = "nQuerySelectedObject";
 				return YES;
 			}
 			%orig;
-			
-			
 			break;
 			
+//        case kBREventRemoteActionRight:
+//        case kBREventRemoteActionSwipeRight:
+//            
+//            if ([[self entryControl] respondsToSelector:@selector(focusIsAtRightEdge)])
+//            {
+//                
+//                if ([[self entryControl] focusIsAtRightEdge])
+//                {
+//                    [self changeFocus];
+//                    return YES;
+//                }
+//                
+//            } else {
+//                
+//               orig = %orig;
+//                
+//                if ([[self entryControl] respondsToSelector:@selector(focusIsAtRightEdge)])
+//                {
+//                    if ([[self entryControl] focusIsAtRightEdge])
+//                    {
+//                        [self setEdged:TRUE];
+//                    }
+//                    
+//                }
+//                
+//                return orig;
+//                
+//            }
+//            
+//            break;
+            
 		default:
 			return %orig;
 			break;

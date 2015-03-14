@@ -18,6 +18,8 @@ static char const * const kSMFCPDSCApKey = "SMFCPDSCAp";
 
 static BOOL _finished = TRUE;
 static int _returnCode = 0;
+static BOOL _requiresSourceFix = FALSE;
+static BOOL _requiresDependFix = FALSE;
 
 
 %subclass NSMFComplexProcessDropShadowControl : NSMFComplexDropShadowControl
@@ -52,6 +54,16 @@ static int _returnCode = 0;
     %orig;
 }
 
+%new - (BOOL)requiresDependencyFix
+{
+    return _requiresDependFix;
+}
+
+%new - (BOOL)sourceFixRequired
+{
+    return _requiresSourceFix;
+}
+
 %new -(int)returnCode {
 	
 	return _returnCode;
@@ -74,7 +86,19 @@ static int _returnCode = 0;
         while (fgets(line, sizeof line, fp))
         {
             NSString *s = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];
-//            NSLog(@"s: %@",s);
+            NSLog(@"s: %@",s);
+            
+            if ([s rangeOfString:@"is not known on line"].location != NSNotFound)
+            {
+                NSLog(@"found line, source fix required!!");
+                _requiresSourceFix = TRUE;
+            }
+            
+            if ([s rangeOfString:@"dependency problems - leaving unconfigured"].location != NSNotFound)
+            {
+                _requiresDependFix = TRUE;
+            }
+            
             [self performSelectorOnMainThread:@selector(appendToText:) withObject:[s stringByAppendingString:@"\n"] waitUntilDone:YES];
         }
     }
@@ -82,9 +106,29 @@ static int _returnCode = 0;
     _returnCode = pclose(fp);
     _finished =YES;
     
+    if (_requiresSourceFix == TRUE)
+    {
+        [self performSelectorOnMainThread:@selector(appendToText:) withObject:@"Attempting to automatically repair source folder, please try again!" waitUntilDone:YES];
+        _returnCode = -1;
+    }
+    
+    if (_requiresDependFix == TRUE)
+    {
+        [self performSelectorOnMainThread:@selector(appendToText:) withObject:@"### Attempting to automatically repair missing dependencies ###" waitUntilDone:YES];
+        _returnCode = -1;
+    }
+    
+    if (_requiresSourceFix == TRUE)
+    {
+        [self performSelectorOnMainThread:@selector(appendToText:) withObject:@"### Attempting to automatically repair source folder, please try again! ###" waitUntilDone:YES];
+        _returnCode = -1;
+    }
 
 	if ([[self delegate] respondsToSelector:@selector(process:ended:)]) {
+        NSLog(@"%@ responds!", [self delegate]);
         [[self delegate] process:self ended:[self ap]];
+    } else {
+        NSLog(@"delegate doesnt respond!!: %@", [self delegate]);
     }
 		
 	

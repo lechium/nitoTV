@@ -10,6 +10,5 @@ include theos/makefiles/common.mk
 include theos/makefiles/tool.mk
 
 after-nitoHelper-stage::
-	$(FAKEROOT) chmod 6755 $(FW_STAGING_DIR)/usr/bin/nitoHelper
 	$(FAKEROOT) cp $(FW_STAGING_DIR)/usr/bin/nitoHelper ../layout/usr/bin/nitoHelper
 	$(FAKEROOT) chmod 6755 ../layout/usr/bin/nitoHelper

@@ -852,7 +852,7 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 		NSString *returnString = [NSString stringWithContentsOfFile:@"/tmp/aptoutput" encoding:NSUTF8StringEncoding error:nil];
 		NSLog(@"failure return: -%@-", returnString);
 		
-		if ([returnString isEqualToString:@"dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. "])
+		if ([returnString rangeOfString:@"dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem."].location != NSNotFound)
 		{
 			NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper configure 1 2"];
 			int configReturn = system([command UTF8String]);
@@ -866,9 +866,32 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 	
 }
 
+%new + (void)fixSourceFolder
+{
+    NSLog(@"running source fix");
+    NSString *command = [NSString stringWithFormat:@"/usr/bin/nitoHelper sourceFix 1 2"];
+    int configReturn = system([command UTF8String]);
+    NSLog(@"fix sources returned with status %i", configReturn);
+}
 
 %new -(void)process:(id)p ended:(NSString *)s
 {
+    BOOL fixReq = CPLUSPLUS_SUCKS[p sourceFixRequired];
+    
+    if (fixReq == TRUE)
+    {
+        NSLog(@"fix required!!");
+        [%c(nitoInstallManager) fixSourceFolder];
+    }
+    
+    BOOL fixDepend = CPLUSPLUS_SUCKS[p requiresDependencyFix];
+    if (fixDepend == TRUE)
+    {
+        NSLog(@"depend fix required!!");
+        [%c(nitoInstallManager) fixDepends];
+    }
+    
+    
 		if ([p returnCode] == 0)
 		{
 			[p setTitle:@"Upgrade Finished Successfully!"];
@@ -882,6 +905,9 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 				return;
 			}
 		} else {
+            
+            
+            
 			[p setTitle:@"Upgrade Failed!"];
 		}
 	[p setSubtitle:@"Press Menu to exit"];

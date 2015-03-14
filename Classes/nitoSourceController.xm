@@ -781,27 +781,32 @@ static char const * const kNitoSourceMissingDomainsKey = "nSourceMissingDomains"
 
 %new -(void)controller:(id)c selectedControl:(id)ctrl
 {
-
-	if ([ctrl respondsToSelector:@selector(selectedControl)])
-	{
-		id data = [[c provider] data];
-		
-		id selectedControl = [ctrl selectedControl];
-		int focusedIndex = [[ctrl focusedIndexPath] indexAtPosition:1];
-		id myAsset = [data objectAtIndex:focusedIndex];
-		
-			//NSLog(@"selectedControl of type %@ selected", [selectedControl class]);
-		
-		NSString *packageName = [[selectedControl title] string];
-		id theImage = [myAsset coverArt];
-			//	NSLog(@"selectedControl: %@ packageName: %@ index: %i", selectedControl, packageName, focusedIndex);
-		[self setSelectedObject:packageName];
-	
-		[c updatePackageData:packageName usingImage:theImage];
-		
-	}
-	
-	
+    id provider = [c provider];
+    id data = nil;
+    
+    if ([provider respondsToSelector:@selector(data)])
+    {
+        data = [provider data];
+    } else if ([provider respondsToSelector:@selector(_data)])
+    {
+        data = [provider _data];
+        
+        //	NSLog(@"whats this data got?: %@", data	);
+        
+    } else {
+        
+        NSLog(@"WHERES OUR DATA AT?!?!! BAIL!!!: %@ ", provider);
+        return;
+    }
+    
+    id selectedControl = [ctrl selectedControl]; //BRPosterControl
+    int focusedIndex = (int)[[ctrl focusedIndexPath] indexAtPosition:1]; //FIXME: okay so we need to fix this cuz we cant categorize!!
+    id myAsset = [data objectAtIndex:focusedIndex];
+    NSString *packageName = [[selectedControl title] string];
+    id theImage = [myAsset coverArt];
+    [self setSelectedObject:packageName];
+    [c updatePackageData:packageName usingImage:theImage];
+    
 }
 
 %new -(void)controller:(id)c buttonSelectedAtIndex:(int)index

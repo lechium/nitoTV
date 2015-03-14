@@ -171,6 +171,21 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	id installCon = [[[self stack] controllersOfClass:%c(nitoInstallManager)] objectAtIndex:0];
 	[packageManagement updatePackageList];
 	[[installCon list] reload];
+   
+    BOOL fixDepend = CPLUSPLUS_SUCKS[p requiresDependencyFix];
+    if (fixDepend == TRUE)
+    {
+        NSLog(@"depend fix required!!");
+        [%c(nitoInstallManager) fixDepends];
+    }
+    
+    BOOL fixReq = CPLUSPLUS_SUCKS[p sourceFixRequired];
+    if (fixReq == TRUE)
+    {
+        NSLog(@"fix required!!");
+        [%c(nitoInstallManager) fixSourceFolder];
+    }
+    
 		//NSLog(@"process: %@ ended: %@ returnStatus: %i", p, s, [p returnCode]); 
 	switch ((int)listActionMode) {
 
@@ -800,9 +815,7 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 			break;
 			
 	}
-    
-    NSLog(@"assetCount: %i", [assets count]);
-    
+
 	 id tcControlFactory = [objc_getClass("BRPosterControlFactory") factory];
 	
     [tcControlFactory setDefaultImage:[[objc_getClass("BRThemeInfo") sharedTheme]appleTVImage]];
@@ -811,9 +824,6 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	//Class brds = nil;
 	if (brds == nil)
 	{
-		
-		NSLog(@"no more BRDataStore :(, returning nil at providerForShelf");
-			
 		if (assets == nil) return nil;
 		id collection = [objc_getClass("PackageDataSource") photoCollectionForAssets:assets withName:@"PackageDataStores"];
 			//	NSLog(@"collection: %@", collection);
@@ -935,7 +945,6 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 
 %new -(void)controller:(id)c selectedControl:(id)ctrl
 {
-			NSLog(@"here: %@", ctrl);
 	if ([ctrl respondsToSelector:@selector(subtitle)])
 	{
 			NSLog(@"button subtitle: %@", [[ctrl subtitle]string]);

@@ -401,6 +401,20 @@ enum {
 
 %new -(void)process:(id)p ended:(NSString *)s
 {
+    BOOL fixReq = CPLUSPLUS_SUCKS[p sourceFixRequired];
+    if (fixReq == TRUE)
+    {
+        NSLog(@"source fix required!!");
+        [%c(nitoInstallManager) fixSourceFolder];
+    }
+    
+    BOOL fixDepend = CPLUSPLUS_SUCKS[p requiresDependencyFix];
+    if (fixDepend == TRUE)
+    {
+        NSLog(@"depend fix required!!");
+        [%c(nitoInstallManager) fixDepends];
+    }
+    
 	if ([p returnCode] == 0)
 	{
 		[p setTitle:@"Upgrade Finished Successfully!"];

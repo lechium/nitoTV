@@ -368,6 +368,13 @@ static char const * const kNitoPKGProviderKey = "nPKGProvider";
 	
 }
 
+%new - (void)showTestSciance
+{
+    id c = [[objc_getClass("NSMFTextDropShadowControl") alloc] init];
+	[c addToController:self];
+	[c release];
+}
+
 %new - (void)showPopupFrom:(id)me withSender:(id)sender
 {
 	id c = [[objc_getClass("nitoMoreMenu") alloc] initWithSender:sender addedTo:me];

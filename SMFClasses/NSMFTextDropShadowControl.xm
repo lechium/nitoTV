@@ -78,17 +78,35 @@ static char const * const kSMFTDSCList = "_list";
 	[self associateValue:theList withKey:(void*)kSMFTDSCList];
 }
 
+%new -(BOOL)sixtyPlus
+{
+	return CPLUSPLUS_SUCKS[%c(packageManagement) ntvSixPointOhPLus];
+}
+
 -(id)init
 {
     self=%orig;
 
 		// self.text=[NSMutableString stringWithString:@"Hello"];
     [self setText: [NSMutableString stringWithString:@"Hello"]];  
-	[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
-	[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
-    [self setBorderWidth:3.0];
+	
+    if ([self sixtyPlus])
+	{
+		NSLog(@"60 plus");
+        [[self layer] setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+        [[self layer] setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
+        [[self layer] setBorderWidth:3.0];
+	} else {
+        [self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+        [self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
+        [self setBorderWidth:3.0];
+	}
+    
+    //[self setBackgroundColor:[[NSMFThemeInfo sharedTheme]blackColor]];
+	//[self setBorderColor:[[NSMFThemeInfo sharedTheme] whiteColor]];
+    //[self setBorderWidth:3.0];
 	id ic = [[objc_getClass("BRImageControl") alloc] init];
-	[ic setImage:[[NSMFThemeInfo sharedTheme]btstackIcon]];
+	[ic setImage:[[NitoTheme sharedTheme]packageImage]];
 	id _scrolling=[[objc_getClass("BRScrollingTextBoxControl") alloc]init];
 	[_scrolling setText:[self attributedStringForString:[self text]]];
     id _list=MSHookIvar<id>(_scrolling, "_list");

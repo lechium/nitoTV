@@ -449,13 +449,17 @@ static char const * const kNitoInstallEssentialArrayKey = "nInstallEssentialArra
 			
 				//NSLog(@"more: %@", selectedObject);
 				//[c showPopupFrom:c];
-			[c showPopupFrom:c withSender:selectedButton];
+			//[self tryScience:c];
+            [c showPopupFrom:c withSender:selectedButton];
 			break;
 	}
 	
 }
 
-
+%new - (void)tryScience:(id)c
+{
+    [c showTestSciance];
+}
 
 
 %new - (void)showProtectedAlert:(NSString *)protectedPackage

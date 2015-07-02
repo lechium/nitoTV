@@ -1,0 +1,8 @@
+
+%subclass nitoPopupDialog : NSMFTextDropShadowControl
+
+
+
+
+
+%end

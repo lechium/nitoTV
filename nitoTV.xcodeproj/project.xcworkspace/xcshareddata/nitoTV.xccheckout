@@ -10,27 +10,23 @@
 	<string>nitoTV</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1D800706696D5C3B08AD0F9180B48EAFA11F9311</key>
-		<string>github.com:firecore/Seas0nPass.git</string>
-		<key>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</key>
-		<string>github.com:lechium/appletv-private-headers.git</string>
 		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
 		<string>github.com:lechium/nitoTV.git</string>
 		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
 		<string>https://github.com/DHowett/theos.git</string>
+		<key>F71C7C21D81B7DE951ABCE96C462B970917359D6</key>
+		<string>github.com:lechium/maintenance6.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>nitoTV.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1D800706696D5C3B08AD0F9180B48EAFA11F9311</key>
-		<string>../../../Seas0nPass</string>
-		<key>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</key>
-		<string>../../../appletv-private-headers</string>
 		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
 		<string>../..</string>
 		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
-		<string>../..theos</string>
+		<string>../..theos/</string>
+		<key>F71C7C21D81B7DE951ABCE96C462B970917359D6</key>
+		<string>../../../git/maintenance6</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:lechium/nitoTV.git</string>
@@ -44,9 +40,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A1DA5BBF60BC5CF52C04CC1B62FFC9B9F63BFC83</string>
+			<string>F71C7C21D81B7DE951ABCE96C462B970917359D6</string>
 			<key>IDESourceControlWCCName</key>
-			<string>appletv-private-headers</string>
+			<string>maintenance6</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -62,15 +58,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>E2811579280C8FC45DBD8A3EB086096BA7A2E580</string>
 			<key>IDESourceControlWCCName</key>
-			<string>nitoTVtheos</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1D800706696D5C3B08AD0F9180B48EAFA11F9311</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Seas0nPass</string>
+			<string>theos</string>
 		</dict>
 	</array>
 </dict>

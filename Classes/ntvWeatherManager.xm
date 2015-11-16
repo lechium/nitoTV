@@ -1011,7 +1011,7 @@ static char const * const kNitoWMCurrentNitoWeatherKey = "nWMCurrentNitoWeather"
 
 */
 
-#define XMLATSTR(dict,element,key)    [(dict) setObject:[(element) valueForAttributeNamed:(key)]forKey:(key)]
+#define XMLATSTR(dict,element,key)          [(dict) setObject:[(element) valueForAttributeNamed:(key)]forKey:(key)]
 #define XMLATSTRK(dict,element,key,keyt)    [(dict) setObject:[(element) valueForAttributeNamed:(key)] forKey:(keyt)]
 
 

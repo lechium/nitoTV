@@ -237,7 +237,7 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 
 %new + (void)installFiles
 {
-	
+  //  LOG_SELF;
 	
 		//
 	[%c(nitoTVAppliance) updateAwkwardRepo];
@@ -336,11 +336,26 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 	}
 }
 
+%new + (void)startMonitoringNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hookNotifications:) name:nil object:nil];
+}
+
+%new + (void)stopWatchingNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 %new + (void)hookNotifications:(NSNotification *)n
 {
 	//NSLog(@"%@", n);
 	id object = [n object];
 	NSString *name = [n name];
+    NSDictionary *userInfo = [n userInfo];
+    if ([name isEqualToString:@"BRUserActionNotification"])
+    {
+     //   NSLog(@"BRUserActionNotification: %@", [n userInfo]);
+    }
 	if ([name isEqualToString:@"BRRemotePromptUpdateNotification"])
 	{
 		NSLog(@"N %@:", n);
@@ -366,7 +381,22 @@ static char const * const ntvApplianceCategoriesKey = "nApplianceCategories";
 			}
 			
 		//LogIt(@"NOTIFICATION: name: %@", name);
-	}
+	} else if (userInfo != nil)
+    {
+        if (![[%c(nitoTVAppliance) otherBlackList] containsObject:name])
+            
+        {
+            
+            //NSLog(@"NOTIFICATION_HOOK: %@ class: %@ superclass: %@", name, objectName, objectSuperName);
+            NSString *notifcationLog = [NSString stringWithFormat:@"NOTIFICATION: name: %@ userInfo: %@", name, userInfo ];
+            NSLog(@"%@", notifcationLog);
+            //printf ("%s", [notifcationLog cString]);
+            //LogIt(notifcationLog);
+            //NSLog(@"superclass name: %@", objectSuperName);
+            //NSLog(@"class name: %@", objectName);
+            
+        }
+    }
 }
 
 %new + (void)fix44Betas

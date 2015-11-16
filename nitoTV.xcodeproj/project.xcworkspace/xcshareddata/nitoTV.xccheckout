@@ -10,8 +10,12 @@
 	<string>nitoTV</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1D800706696D5C3B08AD0F9180B48EAFA11F9311</key>
+		<string>github.com:firecore/Seas0nPass.git</string>
 		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
 		<string>github.com:lechium/nitoTV.git</string>
+		<key>DA519E9679E348C492FB873E46495D33CFD9B63A</key>
+		<string>github.com:lechium/firetube.git</string>
 		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
 		<string>https://github.com/DHowett/theos.git</string>
 		<key>F71C7C21D81B7DE951ABCE96C462B970917359D6</key>
@@ -21,10 +25,14 @@
 	<string>nitoTV.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>1D800706696D5C3B08AD0F9180B48EAFA11F9311</key>
+		<string>../../../Seas0nPass</string>
 		<key>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</key>
 		<string>../..</string>
+		<key>DA519E9679E348C492FB873E46495D33CFD9B63A</key>
+		<string>../../../firetube</string>
 		<key>E2811579280C8FC45DBD8A3EB086096BA7A2E580</key>
-		<string>../..theos/</string>
+		<string>../..theos</string>
 		<key>F71C7C21D81B7DE951ABCE96C462B970917359D6</key>
 		<string>../../../git/maintenance6</string>
 	</dict>
@@ -36,6 +44,14 @@
 	<string>D3ECBA18B92267C2C04E0DB65159DDCFFFA8D37A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA519E9679E348C492FB873E46495D33CFD9B63A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>firetube</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -58,7 +74,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>E2811579280C8FC45DBD8A3EB086096BA7A2E580</string>
 			<key>IDESourceControlWCCName</key>
-			<string>theos</string>
+			<string>nitoTVtheos</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D800706696D5C3B08AD0F9180B48EAFA11F9311</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Seas0nPass</string>
 		</dict>
 	</array>
 </dict>

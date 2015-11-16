@@ -384,7 +384,11 @@ static char const * const kNitoRCParentControllerKey = "nRCParentController";
 		
 		_kbType = ntvRssNameKBType;
 		
-		controller = [[%c(BRTextEntryController) alloc] init];
+		controller = [[objc_getClass("BRTextEntryController") alloc] init];
+        if (controller == nil)
+        {
+            controller = [[objc_getClass("BRTextEntryController") alloc] initWithTextEntryStyle:2];
+        }
 		[controller setTitle:BRLocalizedString(@"Enter RSS location name", @"title of textentry controller for entering rss location name")];
 		[controller setTextEntryTextFieldLabel:BRLocalizedString(@"Name:", @"the text to the left of the text field while entering a rss location name")];
 		[controller setTextFieldDelegate:self];
@@ -399,7 +403,11 @@ static char const * const kNitoRCParentControllerKey = "nRCParentController";
 	
 		
 		_kbType = ntvRssLocationKBType;
-		controller = [[%c(BRTextEntryController) alloc] init];
+		controller = [[objc_getClass("BRTextEntryController") alloc] init];
+        if (controller == nil)
+        {
+            controller = [[objc_getClass("BRTextEntryController") alloc] initWithTextEntryStyle:2];
+        }
 		[controller setTitle:BRLocalizedString(@"Enter RSS feed URL", @"title of textentry controller for entering RSS url")];
 		[controller setTextEntryTextFieldLabel:BRLocalizedString(@"URL:", @"the text to the left of the text field while entering a RSS url")];
 		[controller setTextFieldDelegate:self];

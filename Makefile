@@ -1,12 +1,14 @@
 GO_EASY_ON_ME=1
-FW_DEVICE_IP=apple-tv.local
+#FW_DEVICE_IP=apple-tv.local
+TARGET = iphone
 #FW_DEVICE_IP=ttv.local
 export DEBUG=1
 export SDKVERSION=4.3
+export TARGET=iphone
+target=iphone:4.3:4.3
 
-
-include theos/makefiles/common.mk
-include theos/makefiles/aggregate.mk
+include $(THEOS)/makefiles/common.mk
+include $(THEOS)/makefiles/aggregate.mk
 
 
 BUNDLE_NAME = nitoTV
